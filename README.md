@@ -1,11 +1,25 @@
 # FAUC-1537-1918
 
-## **[PT]**  O ficheiro dos alunos da Universidade de Coimbra (1537-1907): uma abordagem de ciência de dados aberta
+## **[PT]**  
+### O ficheiro dos alunos da Universidade de Coimbra (1537-1907): uma abordagem de ciência de dados aberta
 
-## **[EN]** The student records of the University of Coimbra (1537-1907): an Open Data Science approach
+## **[EN]** 
+### The student records of the University of Coimbra (1537-1907): an Open Data Science approach
+
 
 
 How to quote:
+
+**[EN]**
+
+    Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.
+
+
+**[PT]**
+
+    CARVALHO, Joaquim - FAUC-1537-1918 [Em linha] [Consult. 11 mai. 2022]. 
+    Disponível em WWW:<URL:https://github.com/joaquimrcarvalho/fauc1537-1919>.
+
 
 ## Source collections included in this repository
 
