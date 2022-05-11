@@ -1,0 +1,17 @@
+# CORRIGIR Data final
+Id: 169434
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/M/004236
+
+Nome        : Luís Martins
+Data inicial: 1538
+Data final  : 1552
+Filiação: Brás Martins
+
+Naturalidade: Cabeça de Vide
+Faculdade:Cânones
+
+Matrícula(s): 1538
+03.01.1540
+
+Provas: 03.08.1539
+Provou Ouvir uma lição em Cânones 1551-1552

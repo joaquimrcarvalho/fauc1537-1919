@@ -1,0 +1,16 @@
+python-dotenv~=0.18.0
+mysql-connector-python~=8.0.25
+SQLAlchemy~=1.4.23
+attrdict~=2.0.1
+ipython-sql
+ipywidgets
+pyparsing~=2.4.7
+click
+typer
+python-box
+pytest~=6.2.4
+timelink
+pandas
+matplotlib
+networkx
+py-markdown-table

@@ -1,0 +1,3 @@
+# Database
+
+This directory will contain exports from the original alumni catalog, sqlite databases, errata, etc...

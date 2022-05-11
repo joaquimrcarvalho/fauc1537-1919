@@ -1,0 +1,20 @@
+# CORRIGIR na nota do nome o colégio será de "S. Tomás"
+
+Id: 216868
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/S/001744
+
+Nome        : José de Santa Helena (padre frei religioso do colégio de São Tomás)
+Data inicial: 1731-10-01
+Data final  : 1736-10-01
+Filiação:
+Naturalidade:
+Faculdade: Teologia
+
+Matrícula(s): 01.10.1731
+01.10.1732
+01.10.1733
+01.10.1734
+01.10.1735
+01.10.1736 (ordinário)
+
+Instituta:

@@ -1,0 +1,24 @@
+# CORRIGIR Nota ao nome
+
+Id: 254460
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/L/005107
+
+Nome        : Xavier Luís, vide Silva
+Data inicial: 1701-10-01
+Data final  : 1707-06-28
+Filiação: Manuel Luís
+Naturalidade: Coimbra
+Faculdade: Medicina
+
+Matrícula(s): 01.10.1702
+01.10.1703
+01.10.1704
+01.10.1705
+08.10.1706
+
+Instituta: 01.10.1701
+
+1ª tentativa 14.06.1706
+2ª tentativa 19.07.1706
+Formatura 06.06.1707
+Aprovação 28.06.1707

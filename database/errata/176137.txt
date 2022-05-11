@@ -1,0 +1,14 @@
+# CORRIGIR gralha na faculdade Medecina
+Id: 176137
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/O/000980
+
+Nome        : Luís de Oliveira
+Data inicial: 1683-10-01
+Data final  : 1683-10-01
+Filiação:
+Naturalidade: Tancos
+Faculdade: Medicina
+
+Matrícula(s): 01.10.1683
+
+Instituta:

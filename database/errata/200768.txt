@@ -1,0 +1,12 @@
+# CORRIGIR Faculdade
+Id: 200768
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/M/006151
+
+Nome        : Joaquim Elias de Sousa e Melo
+Data inicial: 1808-11-24
+Data final  : 1808-11-24
+Filiação:
+Naturalidade: Funchal
+Faculdade: Matemática
+
+Matrícula(s): 24.11.1808 (obrigado)

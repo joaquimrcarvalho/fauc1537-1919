@@ -1,0 +1,28 @@
+# CORRIGIR retirar "Grau de doutor"
+Id: 159940
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/F/006961
+
+Nome        : Simão Martins da Fonseca
+Data inicial: 1640-11-10
+Data final  : 1640-11-10
+Filiação:
+Naturalidade: Vila Pouca do Campo
+Faculdade: Teologia
+
+Matrícula(s): 10.11.1640
+
+Instituta
+
+Bacharel
+Repetição
+Formatura
+Aprovação
+Suficiência
+Repetição
+Licenciado
+Mestre
+Graduação
+Mestre
+Grau de doutor
+Aprovação
+Doutor

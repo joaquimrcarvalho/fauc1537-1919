@@ -1,0 +1,29 @@
+            Id: 252365
+            Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/F/001807
+
+            Nome        : João Fernandes, vide Quaresma
+            Data inicial: 1558-10-01
+            Data final  : 1570-03-02
+            Filiação:
+            Naturalidade: Serpa
+            Faculdade:
+
+            Matrícula(s):
+#            Instituta:
+#            1 curso de Artes 01.10.1558 a 30.06.1559
+            Artes: 01.10.1558 a 30.06.1559
+            Instituta: 01.10.1559 até 27.07.1560
+            Leis: 01.10.1560 a 31.05.1561
+#            Medicina 01.10.1564 até 31.05.1565; 28.10.1566 at+e 15.07.1567; 01.10.1568 até 14.06.1569
+            Medicina: 01.10.1564 até 31.05.1565; 28.10.1566 até 15.07.1567; 01.10.1568 até 14.06.1569
+
+            Graus:
+#            Aprovação para Licenciado em Artes 22.05.15666
+            Aprovação para Licenciado em Artes 22.05.1566
+            Bacharel em Artes 26.02.1564
+            Licenciado em Artes 26.02.1566
+            Licenciado em Artes 09.06.1566 Aprovado Nenime Discrepante
+            1.ª tentativa 20.05.1568
+            2ª tentativa 03.03.1569
+            Formatura 08.06.1569
+            Aprovação em Medicina 02.03.1570

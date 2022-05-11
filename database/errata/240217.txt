@@ -1,0 +1,19 @@
+# CORRIGIR Data final
+Id: 240217
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/F/000021
+
+Nome        : António Fagundes (padre)
+Data inicial: 1540-09-30
+Data final  : 1551
+Filiação:
+Naturalidade: Rubiães (Viana do Castelo)
+Faculdade: Cânones
+
+Matrícula(s): 30.09.1540
+
+
+
+Instituta:
+
+Quatro cursos em Cânones, 19.07.1550
+Provou um curso de Residência em 1551

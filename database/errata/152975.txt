@@ -1,0 +1,20 @@
+# CORRIGIR falta de pontução no campo de matrícula(s)
+Id: 152975
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/R/005128
+
+Nome        : António Ribeiro
+Data inicial: 1672-10-01
+Data final  : 1679-05-24
+Filiação: Gonçalo Gonçalves
+Naturalidade: Guimarães
+Faculdade: Cânones
+Matrícula(s): 1673.10.15
+1675.10.01
+1675.10.01
+1676.10.14
+1677.10.15
+1678.10.15
+
+Instituto: 1672.10.01
+Bacharel 1678.07.18
+Formatura 1679.05.24

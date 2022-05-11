@@ -1,0 +1,21 @@
+# CORRIGIR Data final em função da última data do registo
+Id: 185263
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/B/003035
+
+Nome        : Francisco Rodrigues Belo (frei da Ordem de Santiago, colegial das Ordens Militares)
+Data inicial: 1641-07-20
+Data final  : 1641-07-30
+Filiação:
+Naturalidade:
+Faculdade: Teologia
+
+Matrícula(s):
+
+Instituta:
+
+Incorporação em todos os Atos em Teologia até o 2º princípio 20.07.1641 - Atos e Graus 32, fl. 15v., caderno 2º
+Incorporação de Bacharel e Licenciado em Artes 20.07.1641 - Atos e Graus 32, fl. 17v., caderno 2º
+Incorporação de Bcharel em Cânones 20.07.1641 - Atos e Graus 32, fl. 59, caderno 2º
+Formatura 24.07.1641
+4º princípio 24.07.1641
+Formatura 30.07.1641

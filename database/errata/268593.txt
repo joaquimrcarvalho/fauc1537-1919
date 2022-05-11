@@ -1,0 +1,17 @@
+# CORRIGIR: Data de segunda formatura
+Id: 268593
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/A/000009
+
+Nome        : José Inácio Correia Manuel de Aboim (colegial dos Militares)
+Data inicial: 1738-07-29
+Data final  : 1739-05-14
+Filiação:
+Naturalidade: Aboim
+Faculdade: Cânones
+
+Exames: Bacharel: 29.07.1738
+Formatura: 19.04.1739
+# Assumido 1738 em vez de 1873
+Formatura 05.07.1738 Aprovado Nemine Discrepante, Atos n.º 26, fl. 175
+
+Outras informações:

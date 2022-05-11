@@ -1,0 +1,14 @@
+# CORRIGIR na nota do nome o colégio será de "S. Tomás"
+Id: 182693
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/M/001667
+
+Nome        : Bernardo de São José Magalhães (padre frei religioso do colégio de São Tomás)
+Data inicial: 1741-10-01
+Data final  : 1741-10-01
+Filiação:
+Naturalidade:
+Faculdade: Teologia
+
+Matrícula(s): 01.10.1741 (ordinário)
+
+Instituta:

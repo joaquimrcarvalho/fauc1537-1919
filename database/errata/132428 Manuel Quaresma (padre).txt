@@ -1,0 +1,15 @@
+# CORRIGIR Faculdade
+Id: 132428
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/Q/000374
+
+Nome        : Manuel Quaresma (padre)
+Data inicial: 1651-10-08
+Data final  : 1653-10-22
+Filiação:
+
+Naturalidade: Ansião
+Faculdade: Cânones
+
+Matrícula(s):08.10.1651
+19.10.1652
+22.10.1653

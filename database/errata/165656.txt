@@ -1,0 +1,14 @@
+# CORRIGIR Faculdade
+Id: 165656
+Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/E/000350
+
+Nome        : Diogo da Esperança
+Data inicial: 1625-11-15
+Data final  : 1626-10-17
+Filiação:
+Naturalidade: Cerdeira
+Faculdade: Cânones
+
+Matrícula(s): 17.10.1626
+
+Instituta: 15.11.1625

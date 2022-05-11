@@ -1,0 +1,15 @@
+.DS_Store
+.vscode/settings.json
+__pycache__
+database/auc/
+database/sqlite3
+notebooks/__pycache__
+notebooks/venv
+notebooks/ucalumni/tests/db
+notebooks/ucalumni/tests/sources/
+notebooks/ucalumni/tests/web
+.db_status
+.python-version
+
+package-lock.json
+extras/toponimia/toponima-militar.csv
