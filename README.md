@@ -4,17 +4,11 @@
 **[PT]**  
 ## O ficheiro dos alunos da Universidade de Coimbra (1537-1919): uma abordagem de ciência de dados aberta
 
-Informações sobre os Alunos da Universidade de Coimbra entre 1557 e 1919, com base no catálogo
-disponível em  http://pesquisa.auc.uc.pt/details?id=264605
 
 ----
 
 **[EN]** 
 ## The student records of the University of Coimbra (1537-1919): an Open Data Science approach
-
-
-Information about the students of the University of Coimbra, extracted from the
-online catalogue at:  http://pesquisa.auc.uc.pt/details?id=264605
 
 ------
 **[PT]**
@@ -32,6 +26,25 @@ How to quote:
     Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.
 
 ---
+**[PT]**
+## O que contém este repositório
+
+Este repositório contém software e ficheiros de dados relacionados com o catálogo
+dos estudantes da Universidade de Coimbra, de 1537 a 1919, também conhecido como "Índice dos Alunos da
+Universidade de Coimbra",disponível em linha em http://pesquisa.auc.uc.pt/details?id=264605.
+
+A informação do catálogo foi tratada com o objetivo de extrair atributos específicos dos estudantes e do seu percurso académico, o que permite efectuar vários tipos de índices, contagens e processamentos estatísticos. Atualmente é possível extrair, com graus variáveis de cobertura e precisão, informações dos estudantes relativas a ano de entrada, último ano presente nos registos, origem geográfica, filiação, título pessoal, ordem religiosa, colégio, faculdade, matrículas, graus e exames. Para cada tipo de informação é possível obter listagens de nomes com várias combinações de variáveis. 
+
+Tipo de conteúdos
+
+* _pacote_ Python [ucalumni](notebooks/ucalumni/) capaz de processar uma cópia do catálogo online e extrair vários atributos relacionados com os estudantes a partir dos campos de texto semi-estruturado.
+* Um conjunto de [notebooks](notebooks) que fornecem controlo de qualidade, estratégias exploratórias e geração 
+de tabelas e outras informações derivadas.
+* Várias [inferências](inferences/README.md) sob a forma de listas de estudantes com atributos específicos derivados de _interpretações_ da informação original. Por exemplo, [Ordens Religiosas](inferences/name-notes/religious-orders.csv)
+* Conjuntos de dados auxiliares para controlo de qualidade, tratamento de referências cruzadas e normalização.
+
+---
+
 **[EN]**
 ## What is in this repository
 
@@ -39,21 +52,35 @@ This repository  contains software and data files related to the catalogue
 of the students of the University of Coimbra, from 1537 to 1919, also known as "Índice dos Alunos da
 Universidade de Coimbra",available online at http://pesquisa.auc.uc.pt/details?id=264605 .
 
-Main contentes
+The catalog information has been processed with the aim of extracting information about specific variables of the students and their academic path, which allows various types of indexes, counts and statistical processing to be carried out. Currently it is possible to extract, with varying degrees of coverage and accuracy, information regarding year of entry, last year present in the records, geographical origin, family, personal titles, religious order, college, faculty, enrollments, degrees , exams. For each type of information it is possible to obtain lists of names with various combinations of variables.
 
-* Python package that can process a copy of the of the online catalog and extract various attributes related to the students.
-* A set of Jupyter notebooks that provide quality control, exploratory strategies and generation 
-of tables and other derived information.
-* Various listings of students with specific attributes derived from the _interpretations_ of the original information.
+Content types
+
+* Python package [ucalumni](notebooks/ucalumni/) that can process a copy of the of the online catalog and extract various attributes related to the students.
+* A set of [notebooks](notebooks) that provide quality control, exploratory strategies and generation 
+of tables and other derived inferred from the the original.
+* Various [inferences](inferences/README.md) in the form of listings of students, statistical information and visualizations. For instance, [Ordens Religiosas](inferences/name-notes/religious-orders.csv)
 * Auxiliary datasets for quality control, treatment of cross-references and normalization.
-
-
   
+---
+**[PT]** 
+
+## Como contribuir
+
+Se considerar este projecto útil e desejar contribuir, existem diversas formas de o fazeer:
+
+* Melhorar a documentação, traduzir para outras línguas
+* Assinalar erros nos algoritmos de inferência: muitos erros só podem ser detectados por pessoas que conhecem bem a história de estudantes específicos.
+* Assinalar erros na informação do catálogo original.
+
+---
+**[EN]** 
+## How to contribute
 
 
 ## License
 
-_Each data file is copyright of the person or persons that produced it and are is covered by the Creative Commons 
+_Each data file is copyright of the person or persons that produced it and is licensed under the Creative Commons 
 Attribution-NonCommmercial-ShareAlike 4.0 International_  [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Unless specified otherwise attribution should be __Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.__ 
