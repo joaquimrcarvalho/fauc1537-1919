@@ -1,8 +1,8 @@
-# FAUC-1537-1918
+# FAUC-1537-1919
 
 ![Intake](./notebooks/images/intake.png)
 **[PT]**  
-## O ficheiro dos alunos da Universidade de Coimbra (1537-1907): uma abordagem de ciência de dados aberta
+## O ficheiro dos alunos da Universidade de Coimbra (1537-1919): uma abordagem de ciência de dados aberta
 
 Informações sobre os Alunos da Universidade de Coimbra entre 1557 e 1919, com base no catálogo
 disponível em  http://pesquisa.auc.uc.pt/details?id=264605
@@ -10,7 +10,7 @@ disponível em  http://pesquisa.auc.uc.pt/details?id=264605
 ----
 
 **[EN]** 
-## The student records of the University of Coimbra (1537-1907): an Open Data Science approach
+## The student records of the University of Coimbra (1537-1919): an Open Data Science approach
 
 
 Information about the students of the University of Coimbra, extracted from the
@@ -21,7 +21,7 @@ online catalogue at:  http://pesquisa.auc.uc.pt/details?id=264605
 
 Como citar:
 
-    CARVALHO, Joaquim - FAUC-1537-1918 [Em linha] [Consult. 11 mai. 2022]. 
+    CARVALHO, Joaquim - FAUC-1537-1919 [Em linha] [Consult. 11 mai. 2022]. 
     Disponível em WWW:<URL:https://github.com/joaquimrcarvalho/fauc1537-1919>.
 
 ---
