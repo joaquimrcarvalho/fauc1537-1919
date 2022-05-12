@@ -1,7 +1,7 @@
 ---
 name: Gralha em registo
 about: Erros fáceis de corrigir em registos
-title: Gralha no registo https://pesquisa.auc.uc.pt/details?id=220198
+title: Gralha no registo. <URL>
 labels: ''
 assignees: ''
 
@@ -18,7 +18,7 @@ https://pesquisa.auc.uc.pt/details?id=220198
 ** Copie o conteúdo central, desde "Código de referência" até "Data de publicação" **
 
 Exº
-
+---
 Código de referência
 PT/AUC/ELU/UC-AUC/B/001-001/S/003510
 Tipo de título
@@ -46,8 +46,8 @@ Data de publicação
 
 ** Reproduza o registo com o erro corrigido **
 Introduza uma linha começada por # com um comentário sobre a alteração
-
-
+Exº
+---
 Nível de descrição
  Documento simples   Documento simples
 Código de referência
@@ -75,10 +75,10 @@ Bacharel 21.07.1687
 Formatura 17.02.1688
 Data de publicação
 14/05/2021 11:52:41
-
+--
 ** Coloque o url do registo no título para mais fácil correção **
 
-
+Não se esqueça de colocar o URL do registo no título
 
 
 Copie o código de referência do registo
