@@ -42,7 +42,7 @@ Tipo de conteúdos
 * _pacote_ Python [ucalumni](notebooks/ucalumni/) capaz de processar uma cópia do catálogo online e extrair vários atributos relacionados com os estudantes a partir dos campos de texto semi-estruturado.
 * Um conjunto de [notebooks](notebooks) que fornecem controlo de qualidade, estratégias exploratórias e geração 
 de tabelas e outras informações derivadas.
-* Várias [inferências](inferences/README.md) sob a forma de listas de estudantes com atributos específicos derivados de _interpretações_ da informação original. Por exemplo, [Ordens Religiosas](inferences/name-notes/religious-orders.csv)
+* Várias [inferências](inferences) sob a forma de listas de estudantes com atributos específicos derivados de _interpretações_ da informação original. Por exemplo, [Ordens Religiosas](inferences/name-notes/religious-orders.csv)
 * Conjuntos de dados auxiliares para controlo de qualidade, tratamento de referências cruzadas e normalização.
 
 ---
