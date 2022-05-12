@@ -73,6 +73,9 @@ Se considerar este projecto útil e desejar contribuir, existem diversas formas 
 * Validar o resultado dos algoritmos de inferência.
 * Assinalar erros na informação do catálogo original.
 
+ Para reportar erros e outros problema veja [Reportar um problema](https://docs.github.com/pt/issues/tracking-your-work-with-issues/creating-an-issue) 
+ (versão portuguesa disponível) e use os formulários disponíveis.
+
 ---
 
 ## How to contribute
@@ -83,6 +86,10 @@ If you consider this project useful and wish to help, there are several ways to 
 * Help validating the algorithmic inferences.
 * Report errors in the original records.
 
+To report errors look at
+[Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) 
+and use the predefined templates.
+
 ## Licença
 
 _Os **ficheiros de dados e blocos de notas Jupyter** são disponibilizados nos termos da licença Creative Commons Attribution-NonCommmercial-ShareAlike 4.0 International
@@ -91,7 +98,7 @@ _Os **ficheiros de dados e blocos de notas Jupyter** são disponibilizados nos t
 Salvo indicação em contrário a atribuição deve ser: CARVALHO, Joaquim - FAUC-1537-1919 [Em linha]. 
         Disponível em WWW:<URL:https://github.com/joaquimrcarvalho/fauc1537-1919>. 
 
- _O **software** é disponibilizado nos termos da [MIT License](https://opensource.org/licenses/MIT)._
+ _O **software** (ficheiros ".py") é disponibilizado nos termos da [MIT License](https://opensource.org/licenses/MIT)._
 
 ---
 ## License 
@@ -102,6 +109,6 @@ _**Data files and Jupyter notebooks** are licensed under the_ Creative Commons A
 
 Unless specified otherwise attribution should be __Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.__ 
 
- _The **software** is distributed under the [MIT License](https://opensource.org/licenses/MIT)._
+ _The **software** (files ".py" )is distributed under the [MIT License](https://opensource.org/licenses/MIT)._
 
 
