@@ -188,10 +188,6 @@ def get_nfuncs_view(db: TimelinkDB=None):
     
     """
 
-
-
-
-
 def get_person(id:str=None, sql_echo:bool=False)-> Person:
     """
     Fetch a person from the database
@@ -205,5 +201,3 @@ def pperson(id:str):
     """Prints a person in kleio notation"""
     print(get_person(id=id).to_kleio())
 
-
-print("Timelink utilities for Jupyter notebooks loaded!")

@@ -10,7 +10,7 @@
 #                               more_funcs=['pn','mn','ppn','mpn','pmn','mmn'],....)
 
 from distutils.log import warn
-from sqlalchemy import MetaData, engine, Table,select, not_, func
+from sqlalchemy import MetaData, engine, Table,select, not_, func, and_, desc
 import pandas as pd
 from matplotlib import cm, colors
 from IPython.display import display
@@ -212,10 +212,16 @@ def group_attributes(group: list,
 
 def attribute_values(attr_type,
                      db: TimelinkDB = None,
+                     dates_in = None,
                      sql_echo =False):
     """Return the vocabulary of an attribute
     The returned dataframe has a row for each unique value 
-    a 'count' with the number of different entities
+    a 'count' with the number of different entities, and 
+    the the first and last date for that row
+
+    To filter by dates: dates_in = (from_date,to_date) with dates in
+    format yyyy-mm-dd
+
     """
     
     
@@ -228,17 +234,38 @@ def attribute_values(attr_type,
         raise(Exception("must call get_mhk_db(conn_string) to set up a database connection before or specify previously openned database with db="))
 
     attr_table = get_attribute_table(db=dbsystem)
-    stmt = select(attr_table.c.the_value.label('value'),
-                  func.count(attr_table.c.entity.distinct()).label('count')).\
-                 where(attr_table.c.the_type == attr_type).\
-            group_by("the_value").order_by("the_value")
+
+    if dates_in is not None:
+        first_date, last_date = dates_in
+        stmt = select(
+                    attr_table.c.the_value.label('value'),
+                    func.count(attr_table.c.entity.distinct()).label('count'),
+                    func.min(attr_table.c.the_date).label('date_min'),
+                    func.max(attr_table.c.the_date).label('date_max'),
+                    ).\
+                    where(
+                        and_(
+                            attr_table.c.the_type == attr_type,
+                            attr_table.c.the_date > first_date,
+                            attr_table.c.the_date < last_date
+                            )).\
+                group_by("the_value").order_by(desc("count"))     
+    else:
+        stmt = select(
+                    attr_table.c.the_value.label('value'),
+                    func.count(attr_table.c.entity.distinct()).label('count'),
+                    func.min(attr_table.c.the_date).label('date_min'),
+                    func.max(attr_table.c.the_date).label('date_max'),
+                    ).\
+                    where(attr_table.c.the_type == attr_type).\
+                group_by("the_value").order_by(desc("count"))
 
     if sql_echo:
         print(stmt)
 
     with Session(bind=dbsystem.get_engine()) as session:
         records = session.execute(stmt)
-        df =  pd.DataFrame.from_records(records,index=['value'],columns=['value','count'])
+        df =  pd.DataFrame.from_records(records,index=['value'],columns=['value','count','date_in','date_max'])
     
     return df
 
@@ -311,7 +338,7 @@ def styler_row_colors(df,category='id', columns=None, cmap_name='Pastel2'):
 
 
 def display_group_attributes(ids, 
-                             header_cols= None, 
+                             header_cols= [], 
                              sort_header = None,
                              table_cols=['date','id','type','value','attr_obs'],
                              sort_attributes = None,
