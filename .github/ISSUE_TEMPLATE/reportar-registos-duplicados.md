@@ -2,7 +2,7 @@
 name: Reportar registos duplicados
 about: Mesmo estudante com mais do que um registo
 title: Duplicados URL1 URL2
-labels: ''
+labels: Registos duplicados
 assignees: ''
 
 ---
