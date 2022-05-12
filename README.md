@@ -64,7 +64,7 @@ of tables and other derived inferred from the the original. Example: [Students -
 * Various [inferences](inferences/README.md) in the form of listings of students, statistical information and visualizations. For instance, [Ordens Religiosas](inferences/name-notes/religious-orders.csv)
 * Auxiliary datasets for quality control, treatment of cross-references and normalization.
   
----
+
 ## Como contribuir
 
 Se considerar este projecto útil e desejar contribuir, existem diversas formas de o fazer:
