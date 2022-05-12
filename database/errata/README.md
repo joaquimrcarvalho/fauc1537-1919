@@ -1,6 +1,5 @@
+**[PT]** Portuguese only
 # Errata
-
-## _Directory with corrections to the original catalog_
 ## Pasta com correcções à informação do catálogo
 
 
