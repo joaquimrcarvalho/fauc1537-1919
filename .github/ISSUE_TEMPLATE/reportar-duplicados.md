@@ -1,8 +1,8 @@
 ---
 name: Reportar duplicados
 about: Mesmo estudante com mais do que um registo
-title: ''
-labels: ''
+title: 'Duplicados: URL1 URL2'
+labels: Registos duplicados
 assignees: ''
 
 ---
@@ -12,30 +12,10 @@ assignees: ''
 URL 1:
 URL 2: 
 
+**Justificação**
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. As informações pessoais são semelhantes?
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+2. A informação académica é duplicada ou complementar?
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+3. Referências adicionais que podem ajudar a resolver a questão
