@@ -249,7 +249,7 @@ class Nota:
 def get_aluno_from_db(id :str)-> Type["Aluno"]:
     """ Get a aluno record from database by id
     
-    Returnsoriginal information of a 'aluno' record from
+    Returns original information of a 'aluno' record from
     a Timelink/MHK database.
 
     The following attributes are set:
@@ -297,6 +297,20 @@ def get_aluno_from_db(id :str)-> Type["Aluno"]:
         aluno.scope_content = str(obs).replace('"""', "")  # it includes the bio_hist
         aluno.obs = f'# DB LOAD\n{case.obs}'
     return(aluno)
+
+
+def get_and_process_aluno(id)-> Type["Aluno"]:
+    """
+    Fetch the FA original information of
+    a student and extract the information
+    using current algorithm
+
+    Does not take into account the "errata"
+
+    """
+    aluno = get_aluno_from_db(id)
+    aluno.process()
+    return aluno
 
 @dataclass
 class Aluno:
