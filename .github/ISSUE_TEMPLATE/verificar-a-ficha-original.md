@@ -1,11 +1,18 @@
 ---
 name: Verificar a ficha original
 about: Falha na cópia da informação da ficha original
-title: Verificar registo https://pesquisa.auc.uc.pt/details?id=140341 data truncada
+title: Verificar registo <URL>
 labels: ''
 assignees: ''
 
 ---
+
+Este formulário serve para registar problemas que 
+poderão ser resolvidos consultando a ficha original
+no catálogo manual.
+
+Para simples gralhas, que não necessitam de verificação
+use o formulário "Gralha em registo"
 
 **Identificação do registo**
 
@@ -13,24 +20,16 @@ assignees: ''
 2. Anote o url do registo na linha abaixo
 
 URL: 
-https://pesquisa.auc.uc.pt/details?id=140341
+https://pesquisa.auc.uc.pt/details?id=220198
 
-Francisco Xavier Abelha
-PT/AUC/ELU/UC-AUC/B/001-001/A/000005
+** Problema **
 
-** Conteúdo atual **
+Copie a parte do registo que tem o problema (não é necessário copiar toda a informação)
 
-> Atual:
+**  O que necessita de ser verificado **
 
-Instituta: 01.10.1729
-Bacharel: 15.05.1735
-Formatura: 16.07.17 
+Indique o conteúdo que necessita de ser verificado.
 
-
-> O que necessita de ser verificado
-
-Instituta: 01.10.1729
-Bacharel: 15.05.1735
-Formatura: 16.07.17  <-- data de formatura
+Se for apenas uma gralha use antes o formulário próprio para gralhas.
 
  ** Não se esqueça de colocar o URL do registo no título **
