@@ -1,17 +1,20 @@
 # FAUC-1537-1919
 
+**[PT]** Português
+
+---
+
+**[EN]** English
+
 ![Intake](./notebooks/images/intake.png)
-**[PT]**  
+
 ## O ficheiro dos alunos da Universidade de Coimbra (1537-1919): uma abordagem de ciência de dados aberta
 
 
 ----
 
-**[EN]** 
 ## The student records of the University of Coimbra (1537-1919): an Open Data Science approach
 
-------
-**[PT]**
 
 Como citar:
 
@@ -19,14 +22,13 @@ Como citar:
     Disponível em WWW:<URL:https://github.com/joaquimrcarvalho/fauc1537-1919>.
 
 ---
-**[EN]**
 
 How to quote:
 
     Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.
 
----
-**[PT]**
+
+
 ## O que contém este repositório
 
 Este repositório contém software e ficheiros de dados relacionados com o catálogo
@@ -45,7 +47,7 @@ de tabelas e outras informações derivadas.
 
 ---
 
-**[EN]**
+
 ## What is in this repository
 
 This repository  contains software and data files related to the catalogue
@@ -63,28 +65,43 @@ of tables and other derived inferred from the the original.
 * Auxiliary datasets for quality control, treatment of cross-references and normalization.
   
 ---
-**[PT]** 
-
 ## Como contribuir
 
-Se considerar este projecto útil e desejar contribuir, existem diversas formas de o fazeer:
+Se considerar este projecto útil e desejar contribuir, existem diversas formas de o fazer:
 
-* Melhorar a documentação, traduzir para outras línguas
-* Assinalar erros nos algoritmos de inferência: muitos erros só podem ser detectados por pessoas que conhecem bem a história de estudantes específicos.
+* Melhorar a documentação, incluindo tradução.
+* Validar o resultado dos algoritmos de inferência.
 * Assinalar erros na informação do catálogo original.
 
 ---
-**[EN]** 
+
 ## How to contribute
 
+If you consider this project useful and wish to help, there are several ways to contribute:
 
-## License
+* Improve the documentation, including translation.
+* Help validating the algorithmic inferences.
+* Report errors in the original records.
 
-_Each data file is copyright of the person or persons that produced it and is licensed under the Creative Commons 
-Attribution-NonCommmercial-ShareAlike 4.0 International_  [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## Licença
+
+_Os **ficheiros de dados e blocos de notas Jupyter** são disponibilizados nos termos da licença Creative Commons Attribution-NonCommmercial-ShareAlike 4.0 International
+ [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)_
+
+Salvo indicação em contrário a atribuição deve ser: CARVALHO, Joaquim - FAUC-1537-1919 [Em linha]. 
+        Disponível em WWW:<URL:https://github.com/joaquimrcarvalho/fauc1537-1919>. 
+
+ _O **software** é disponibilizado nos termos da [MIT License](https://opensource.org/licenses/MIT)._
+
+---
+## License 
+
+_**Data files and Jupyter notebooks** are licensed under the_ Creative Commons Attribution-NonCommmercial-ShareAlike 4.0 International  [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
 
 Unless specified otherwise attribution should be __Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.__ 
 
-The original software contained in the repository is distributed under a MIT license that includes usage for commercial purposes. 
+ _The **software** is distributed under the [MIT License](https://opensource.org/licenses/MIT)._
 
 
