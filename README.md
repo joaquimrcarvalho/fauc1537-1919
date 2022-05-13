@@ -37,7 +37,7 @@ Universidade de Coimbra",disponível em linha em http://pesquisa.auc.uc.pt/detai
 
 A informação do catálogo foi tratada com o objetivo de extrair atributos específicos dos estudantes e do seu percurso académico, o que permite efectuar vários tipos de índices, contagens e processamentos estatísticos. Atualmente é possível extrair, com graus variáveis de cobertura e precisão, informações dos estudantes relativas a ano de entrada, último ano presente nos registos, origem geográfica, filiação, título pessoal, ordem religiosa, colégio, faculdade, matrículas, graus e exames. Para cada tipo de informação é possível obter listagens de nomes com várias combinações de variáveis. 
 
-Este repositório é independente do Arquivo da Universidade de Coimbra e os seus conteúdos são da responsabilidade do seu autor.
+_Este repositório é independente do Arquivo da Universidade de Coimbra e os seus conteúdos são da exclusiva responsabilidade do autor._
 
 Tipo de conteúdos
 
@@ -58,7 +58,7 @@ Universidade de Coimbra",available online at http://pesquisa.auc.uc.pt/details?i
 
 The catalog information has been processed with the aim of extracting information about specific variables of the students and their academic path, which allows various types of indexes, counts and statistical processing to be carried out. Currently it is possible to extract, with varying degrees of coverage and accuracy, information regarding year of entry, last year present in the records, geographical origin, family, personal titles, religious order, college, faculty, enrollments, degrees , exams. For each type of information it is possible to obtain lists of names with various combinations of variables.
 
-This site is independent of the Archives of the University of Coimbra and its contents are the sole responsibility of the author.
+_This site is independent of the Archives of the University of Coimbra and its contents are the sole responsibility of the author._
 
 Content types
 
