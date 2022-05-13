@@ -1,6 +1,7 @@
 python-dotenv~=0.18.0
 mysql-connector-python~=8.0.25
 SQLAlchemy~=1.4.23
+sqlalchemy-utils
 attrdict~=2.0.1
 ipython-sql
 ipywidgets
