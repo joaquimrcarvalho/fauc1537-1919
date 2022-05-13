@@ -9,12 +9,14 @@ Utilities and shared variables for using timelink inside notebooks
 (c) Joaquim Carvalho, MIT LICENSE
 
 """
+import logging
 import datetime
 import socket
 from pathlib import Path
 
-from sqlalchemy import MetaData, Table, engine
+from sqlalchemy import MetaData, Table, engine, select, inspect
 from sqlalchemy.orm import declarative_base, sessionmaker
+from sqlalchemy_utils import create_view
 
 from timelink.mhk.utilities import get_dbnames, get_connection_string, get_engine
 from timelink.mhk.models import base  # noqa
@@ -27,6 +29,56 @@ current_time = datetime.datetime.now()
 current_machine = socket.gethostname()
 sqlite_databases = [f.stem for f in list(Path('../database/sqlite3/').rglob('*.db'))]
 mhk_databases = get_dbnames()
+
+
+def get_db(db_spec, **extra_args):
+    """ get a TimelinkDB instance of the FAUC db
+    
+    db_spec can be a connection string or a tuple.
+    if a tuple:
+        ('mhk','mhkl_db_name') or
+        ('sqlite','db_file')
+    """
+    if type(db_spec) is str:
+        db = "string"
+        name = db_spec
+    else:
+        try:
+            db,name = db_spec
+        except Exception:
+            logging.exception("Database specification must either be a string of a tuple (db,name)")
+
+    if db == 'mhk':
+        tlink_db = get_mhk_db(name, **extra_args)
+    elif db == 'sqlite':
+        tlink_db =get_sqlite_db(name, **extra_args)
+    elif db == 'string':
+        con_string = name
+        conf.TIMELINK_CONNSTRING = con_string # share it with other modules
+        tlink_db =TimelinkDB(con_string,**extra_args)
+        conf.TIMELINK_DBSYSTEM = db # share it
+        conf.Session.configure(bind=db.get_engine())
+    else:
+        logging.error(f"Unrecognized database specification. Type: {db} name: {name}")
+        return None
+
+    return tlink_db
+    
+
+
+def get_sqlite_db(db_name,**extra_args):
+    """ Create a connection to a Timelink/Sqlite database
+    
+    Assumes the database is in the directory ../database/sqlite3/
+
+    """
+    connection_string = f"sqlite:///../database/sqlite3/{db_name}?check_same_thread=False"
+    conf.TIMELINK_CONNSTRING = connection_string # share it with other modules
+    db = TimelinkDB(connection_string,**extra_args)
+    conf.TIMELINK_DBSYSTEM = db # share it
+    conf.Session.configure(bind=db.get_engine())
+    return db
+
 
 def get_mhk_db(db_name,**extra_args) -> TimelinkDB: 
     """ Create a connection to a Timelink/MHK database
@@ -80,11 +132,49 @@ def get_nattribute_table(db: TimelinkDB=None):
     if conf.TIMELINK_NATTRIBUTES is None:
         eng: engine = dbsystem.get_engine()
         metadata: MetaData = dbsystem.get_metadata()
-        attr=Table('nattributes', metadata, autoload_with=eng)
+        insp = inspect(eng)
+        if 'nattributes' in insp.get_view_names() or :
+            attr = Table('nattributes', metadata, autoload_with=eng)
+        else:
+            attr = create_nattribute_view(dbsystem)
         conf.TIMELINK_NATTRIBUTES = attr
     else:
         attr = conf.TIMELINK_NATTRIBUTES   
     return attr   
+
+
+def create_nattribute_view(db: TimelinkDB):
+    """ Creates the nattribute_view
+    
+    For usage in databases not created by MHK
+    In the future to migrato timelink-py
+
+    """
+    if db is not None:
+        dbsystem = db
+    elif conf.TIMELINK_DBSYSTEM is not None:
+        dbsystem = conf.TIMELINK_DBSYSTEM
+    else:
+        raise(Exception("must specify database with db="))   
+    eng: engine = dbsystem.get_engine()
+    meta: MetaData = MetaData()
+    attr = Table('attributes', meta, autoload_with=eng)
+    pers=Table('persons', meta, autoload_with=eng)
+    nattributes = select([pers.c.id.label('id'),
+                          pers.c.name,
+                          pers.c.sex,
+                          pers.c.obs.label('pobs'),
+                          attr.c.the_type,
+                          attr.c.the_value,
+                          attr.c.the_date,
+                          attr.c.obs.label('aobs')
+                          ]).where(attr.c.entity == pers.c.id)
+    nav = create_view('nattributes',nattributes,meta)
+    nav.create(eng)
+    # meta.create_all(engine,tables=['nattributes'])
+    nattr = Table('nattributes', meta, autoload_with=eng)
+    return nattr
+
 
 
 def get_attribute_table(db: TimelinkDB=None):
