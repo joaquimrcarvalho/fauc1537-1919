@@ -2,7 +2,7 @@
 name: Verificar a ficha original
 about: Falha na cópia da informação da ficha original
 title: Verificar registo <URL>
-labels: ''
+labels: Verificar ficha
 assignees: ''
 
 ---
