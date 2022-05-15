@@ -2,7 +2,7 @@
 name: Gralha em registo
 about: Erros fáceis de corrigir em registos
 title: Gralha no registo. <URL>
-labels: ''
+labels: gralha, Typo in record
 assignees: ''
 
 ---
