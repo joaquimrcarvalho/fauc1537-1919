@@ -212,15 +212,17 @@ def group_attributes(group: list,
 
 def attribute_values(attr_type,
                      db: TimelinkDB = None,
-                     dates_in = None,
+                     dates_between = None,
                      sql_echo =False):
     """Return the vocabulary of an attribute
     The returned dataframe has a row for each unique value 
     a 'count' with the number of different entities, and 
     the the first and last date for that row
 
-    To filter by dates: dates_in = (from_date,to_date) with dates in
-    format yyyy-mm-dd
+    To filter by dates: dates_in = (from_date,to_date) 
+    with dates in format yyyy-mm-dd 
+    will return attributes with 
+    from_date < date < to_date
 
     """
     
@@ -235,8 +237,8 @@ def attribute_values(attr_type,
 
     attr_table = get_attribute_table(db=dbsystem)
 
-    if dates_in is not None:
-        first_date, last_date = dates_in
+    if dates_between is not None:
+        first_date, last_date = dates_between
         stmt = select(
                     attr_table.c.the_value.label('value'),
                     func.count(attr_table.c.entity.distinct()).label('count'),
