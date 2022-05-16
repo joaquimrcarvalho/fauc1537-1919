@@ -190,6 +190,20 @@ pnomes = [  'Abel','Abílio','Acácio','Acúrcio','Adão',
             'Vicente','Virgílio','Viriato','Vital','Vitor',
             'Vitoriano','Vitorino','Xavier','Zeferino',]
 
+
+def get_extractors():
+    """ Ensure that extractors were loaded
+
+    This is just a place holder to allow
+    for
+
+        from ucalumni.extractor import get_extractors()
+
+    The result is irrelevant the import does what is necessary
+    
+    """
+    return Aluno.extractors
+
 def extract_name_note_vid(aluno: Aluno):
     """
     Extract notes and remission in names.
@@ -1113,8 +1127,9 @@ def extract_exames(aluno: Aluno):
                     else:
                         ambito = ""
 
-                    ambito = ambito + nota.valor[0 : nota.data.start].strip(
-                        "., "
+                    ambito = ambito+" "+ nota.valor[0 : nota.data.start]
+                    ambito = ambito.strip(
+                        ".,: "
                     )  # check  pre date
             try:
                 data = nota.data
