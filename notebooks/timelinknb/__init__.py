@@ -14,14 +14,13 @@ import datetime
 import socket
 from pathlib import Path
 
-from sqlalchemy import MetaData, Table, engine, select, inspect
-from sqlalchemy.orm import declarative_base, sessionmaker
-from sqlalchemy_utils import create_view
+from sqlalchemy import MetaData, Table, engine, inspect, text
 
 from timelink.mhk.utilities import get_dbnames, get_connection_string, get_engine
 from timelink.mhk.models import base  # noqa
 from timelink.mhk.models.person import Person
 from timelink.mhk.models.db import TimelinkDB
+
 import timelinknb.config as conf
 from timelinknb.config import Session
 
@@ -106,23 +105,24 @@ def get_nattribute_table(db: TimelinkDB=None):
     This views joins the talbe "persons" and the table "attributes" providing attribute
     values with person names and sex.
 
-
-            create view nattributes as
-            select `p`.`id`        AS `id`,
-                `p`.`name`      AS `name`,
-                `p`.`sex`       AS `sex`,
-                `a`.`the_type`  AS `the_type`,
-                `a`.`the_value` AS `the_value`,
-                `a`.`the_date`  AS `the_date`,
-                `p`.`obs`       AS `pobs`,
-                `a`.`obs`       AS `aobs`
-            from `attributes` `a`
-                join `persons` `p`
-            where (`a`.`entity` = `p`.`id`);
-
-
     The column id contains the id of the person/object, not of the attribute
     """
+
+    # TODO View creation should go to timelink-py
+    nattribute_sql = """
+        CREATE VIEW nattributes AS
+                    SELECT p.id        AS id,
+                        p.name      AS name,
+                        p.sex       AS sex,
+                        a.the_type  AS the_type,
+                        a.the_value AS the_value,
+                        a.the_date  AS the_date,
+                        p.obs       AS pobs,
+                        a.obs       AS aobs
+                    FROM attributes a
+                        JOIN persons p
+                    WHERE (a.entity = p.id)
+        """
     if db is not None:
         dbsystem = db
     elif conf.TIMELINK_DBSYSTEM is not None:
@@ -133,47 +133,18 @@ def get_nattribute_table(db: TimelinkDB=None):
         eng: engine = dbsystem.get_engine()
         metadata: MetaData = dbsystem.get_metadata()
         insp = inspect(eng)
-        if 'nattributes' in insp.get_view_names() or :
-            attr = Table('nattributes', metadata, autoload_with=eng)
+        if 'nattributes' in insp.get_view_names() or \
+            'nattributes' in insp.get_table_names():
+            pass
         else:
-            attr = create_nattribute_view(dbsystem)
+            with eng.connect() as con:
+                con.execute(text(nattribute_sql))
+
+        attr = Table('nattributes', metadata, autoload_with=eng)
         conf.TIMELINK_NATTRIBUTES = attr
     else:
         attr = conf.TIMELINK_NATTRIBUTES   
     return attr   
-
-
-def create_nattribute_view(db: TimelinkDB):
-    """ Creates the nattribute_view
-    
-    For usage in databases not created by MHK
-    In the future to migrato timelink-py
-
-    """
-    if db is not None:
-        dbsystem = db
-    elif conf.TIMELINK_DBSYSTEM is not None:
-        dbsystem = conf.TIMELINK_DBSYSTEM
-    else:
-        raise(Exception("must specify database with db="))   
-    eng: engine = dbsystem.get_engine()
-    meta: MetaData = MetaData()
-    attr = Table('attributes', meta, autoload_with=eng)
-    pers=Table('persons', meta, autoload_with=eng)
-    nattributes = select([pers.c.id.label('id'),
-                          pers.c.name,
-                          pers.c.sex,
-                          pers.c.obs.label('pobs'),
-                          attr.c.the_type,
-                          attr.c.the_value,
-                          attr.c.the_date,
-                          attr.c.obs.label('aobs')
-                          ]).where(attr.c.entity == pers.c.id)
-    nav = create_view('nattributes',nattributes,meta)
-    nav.create(eng)
-    # meta.create_all(engine,tables=['nattributes'])
-    nattr = Table('nattributes', meta, autoload_with=eng)
-    return nattr
 
 
 
@@ -246,19 +217,21 @@ def get_nfuncs_view(db: TimelinkDB=None):
 
     Returns a sqlalchemy table linked to the nfuncs view of MHK databases
 
-        create view nfuncs as
-            select `r`.`origin`    AS `id`,
-                `p`.`name`      AS `name`,
-                `r`.`the_value` AS `func`,
-                `a`.`id`        AS `id_act`,
-                `a`.`the_type`  AS `act_type`,
-                `a`.`the_date`  AS `act_date`
-            from `ucalumni`.`relations` `r`
-                    `persons` `p`
-                    join `acts` `a`
-            where ((`r`.`the_type` = 'function-in-act') and
-                (`r`.`destination` = `a`.`id`) and (`r`.`origin` = `p`.`id`));
 
+
+    """
+
+    nfuncs_sql = """
+        CREATE VIEW nfuncs AS
+            SELECT
+                r.origin    AS id,
+                p.name,
+                r.the_value AS func,
+                a.id        AS id_act,
+                a.the_type  AS act_type,
+                a.the_date  AS act_date
+            FROM relations r, persons p, acts a
+            WHERE r.the_type = 'function-in-act' AND r.destination = a.id AND r.origin = p.id;
     """
     if db is not None:
         dbsystem = db
@@ -269,7 +242,15 @@ def get_nfuncs_view(db: TimelinkDB=None):
     if conf.TIMELINK_NFUNCS is None:
         eng: engine = dbsystem.get_engine()
         metadata: MetaData = dbsystem.get_metadata()
-        nfuncs=Table('nfuncs', metadata, autoload_with=eng)
+        insp = inspect(eng)
+        if 'nfuncs' in insp.get_view_names() or \
+            'nfuncs' in insp.get_table_names():
+            pass
+        else:
+            with eng.connect() as con:
+                con.execute(text(nfuncs_sql))
+
+        nfuncs = Table('nfuncs', metadata, autoload_with=eng)
         conf.TIMELINK_NFUNCS = nfuncs
     else:
         nfuncs = conf.TIMELINK_NFUNCS  
