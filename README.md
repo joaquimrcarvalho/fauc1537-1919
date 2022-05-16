@@ -108,7 +108,7 @@ Se considerar este projecto útil e desejar contribuir, existem diversas formas 
 * Assinalar erros na informação do catálogo original.
 
  Para reportar erros e outros problema veja [Reportar um problema](https://docs.github.com/pt/issues/tracking-your-work-with-issues/creating-an-issue) 
- (versão portuguesa disponível) e use os formulários disponíveis.
+ (versão portuguesa disponível) e use os formulários disponíveis em https://github.com/joaquimrcarvalho/fauc1537-1919/issues.
 
 ---
 
@@ -122,7 +122,7 @@ If you consider this project useful and wish to help, there are several ways to 
 
 To report errors look at
 [Creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) 
-and use the predefined templates.
+and use the predefined templates at https://github.com/joaquimrcarvalho/fauc1537-1919/issues.
 
 ## Licença
 
