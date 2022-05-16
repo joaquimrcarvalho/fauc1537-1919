@@ -14,6 +14,7 @@ from markdownTable import markdownTable
 
 from timelink.mhk.models import base # this setups the orm models
 from timelink.mhk.models.base import Person
+from timelink.mhk.models.db import TimelinkDB
 
 from ucalumni.config import Session
 from ucalumni.grammar import DATELINE, DateUtility
@@ -246,7 +247,7 @@ class Nota:
         return f"{self.numero:02d} [{self.processed}] {self.seccao} : {self.campo} : {self.data.value} : {self.valor} | obs: {self.obs}"
 
 
-def get_aluno_from_db(id :str)-> Type["Aluno"]:
+def get_aluno_from_db(id :str, db :TimelinkDB=None)-> Type["Aluno"]:
     """ Get a aluno record from database by id
     
     Returns original information of a 'aluno' record from
@@ -276,6 +277,8 @@ def get_aluno_from_db(id :str)-> Type["Aluno"]:
         See  https://docs.sqlalchemy.org/en/14/orm/session_basics.html
 
     """
+    if db is not None:
+        Session.configure(bind=db.get_engine())
     with Session() as session:
         case = session.get(Person, id)
         obs = case.obs
@@ -299,7 +302,7 @@ def get_aluno_from_db(id :str)-> Type["Aluno"]:
     return(aluno)
 
 
-def get_and_process_aluno(id)-> Type["Aluno"]:
+def get_and_process_aluno(id, db: TimelinkDB=None)-> Type["Aluno"]:
     """
     Fetch the FA original information of
     a student and extract the information
@@ -308,7 +311,7 @@ def get_and_process_aluno(id)-> Type["Aluno"]:
     Does not take into account the "errata"
 
     """
-    aluno = get_aluno_from_db(id)
+    aluno = get_aluno_from_db(id, db)
     aluno.process()
     return aluno
 
@@ -476,7 +479,8 @@ class Aluno:
 
         """
         if Aluno.errata is None:
-            warning("calling check_errata without calling Aluno.collect_errata(path) first")
+            # not sure about this, complexifies too much
+            #  warning("calling check_errata without calling Aluno.collect_errata(path) first")
             return
         if self.id in Aluno.errata.keys():
             (file_name, file_path,rel ,abs ) = Aluno.errata[self.id]
@@ -513,7 +517,7 @@ class Aluno:
         """
         # print("Number of extractors: ",len(self.extractors))
         if len(self.extractors) == 0:
-            raise TypeError("Aluno.extract is being called but not extractors were added. Must import ucalumni.extractors module after uc.alumni.alunoi")
+            raise TypeError("Aluno.extract is being called but not extractors were added. Must import ucalumni.extractors module after uc.alumni.aluno")
         for extractor in self.extractors:
             extractor(self)
 
@@ -566,22 +570,29 @@ class Aluno:
             [print(f'{str(nota.numero).zfill(2)} {nota.seccao:12} {nota.campo:24} {nota.valor:12} {nota.data.value:20} {nota.obs}') for nota in self.notas]
    
     def __str__(self):
-        r = f'id:{self.id} {self.nome}\n'\
-            +f' Data inicial:{self.unit_date_inicial}\n'\
-            +f' Data final: {self.unit_date_final}\n'\
-            +f' Codigo de referência: {self.codref}\n'
+        r = f"# {self.id} {self.nome}\n\n"
+        r = r + f'## Original\n{self.obs}\n'
+        if self.erratum_diff is not None and self.erratum_diff > '':
+            r = r+f'\n### Erratum:\n.....................\n{self.erratum_diff}\n......................\n'
+
+        if len(self.extractors) == 0:
+            return r
+
+            
+        r = r + "## Inferences:\n"
+        r = r + f'* id:{self.id}\n'
+        r = r + f'* Nome: {self.nome}\n'\
+            +f'* Data inicial:{str(self.unit_date_inicial)}\n'\
+            +f'* Data final: {str(self.unit_date_final)}\n'\
+            +f'* Codigo de referência: {self.codref}\n'
 
         if self.vide is not None:
-            r = r + f'\nVide: {self.vide}'
-            r = r + f'\nTipo de Vide: {self.vide_type}'
-            r = r + f'\nNome destino vide: {self.vide_target}'
+            r = r + f'\n* Vide {self.vide}'
+            r = r + f'\n* Tipo de vide {self.vide_type}'
+            r = r + f'\n* Nome destino vide {self.vide_target}'
         if self.colegio is not None:
-            r = f'{r} Colégio: {self.colegio}\n'
+            r = f'{r}* Colégio {self.colegio}\n'
 
-
-        r = r+f'\n=====================\n{self.obs}\n=====================\n'
-        if self.erratum_diff is not None and self.erratum_diff > '':
-            r = r+f'\nErratum:\n.....................\n{self.erratum_diff}\n......................\n'
 
         mkdtable: list = []
 
@@ -597,12 +608,21 @@ class Aluno:
                 'valor': nota.valor,
                 'obs': nota.obs})
         table = markdown_table(mkdtable)
-        r = r + '\nNotas (campos extraídos do registo):\n' + table
+        r = r + '\n### Notas (campos extraídos do registo):\n' + table
         # Faculdade
         if self.faculdade is not None:
-            r = r + f'\nFaculdade: {self.faculdade_problem_obs}\n'
             for fac,data,obs in self.faculdade:
-                r = r + f'    {fac} {data} {obs}\n'
+                r = r + f'### Faculdade{fac} {data} {obs}\n'
+            r = r + f'* Faculdade problema:{self.faculdade_problem} ({self.faculdade_problem_obs})\n'
+            fac_org = self.faculdade_original
+            if fac_org is not None and fac_org > '':
+                r = r + f'* Faculdade original: {self.faculdade_original}\n'
+
+        if self.instituta is not None:
+            for inst in self.instituta:
+                r = r + f'### Instituta {inst.data} {inst.obs}\n'
+            
+
         # Matrículas
         mkdtable.clear()
         matricula: Matricula
@@ -614,7 +634,7 @@ class Aluno:
                 'data':matricula.data,
                 'obs':matricula.obs})
         table = markdown_table(mkdtable)        
-        r = r + '\nMatrículas:\n' + table
+        r = r + '\n### Matrículas:\n' + table
 
         # Exames
         mkdtable.clear()
@@ -626,7 +646,7 @@ class Aluno:
                 'data':exame.data,
                 'obs':exame.obs})
         table = markdown_table(mkdtable)        
-        r = r + '\nExames:\n' + table
+        r = r + '\n### Exames:\n' + table
 
         # Graus
         mkdtable.clear()
@@ -637,7 +657,7 @@ class Aluno:
                 'data':grau.data,
                 'obs':grau.obs})
         table = markdown_table(mkdtable)        
-        r = r + '\nGraus:\n' + table
+        r = r + '\n### Graus:\n' + table
 
         return r + '\n'
 
