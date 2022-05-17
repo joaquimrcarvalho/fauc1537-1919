@@ -10,7 +10,7 @@ The notation was created by Manfred Thaller, as part of the _Kleio historical da
 
 The _Timelink-Kleio translator_ implements a subset of the `Kleio` notation designed for the `Timelink` database system. 
 
-_Timelink_ provides a set of data models for handling person-oriented information collected in historical documents. It main advantages are handling time varying personal attributes, representation of interpersonal relations and reversible identification of people in different sources.
+_Timelink_ provides a set of data models for handling person-oriented information collected in historical documents. Its main advantages are handling time varying personal attributes, representation of interpersonal relations and reversible identification of people in different sources.
 
 
 This is how a (portuguese) baptism looks like in _Timelink_ `Kleio` notation:
@@ -42,7 +42,7 @@ This is how a (portuguese) baptism looks like in _Timelink_ `Kleio` notation:
 Text files implementing the Timelink Kleio notation can be translated by
 the _Timelink_ `kleio-server` and imported into the _Timelink_ relational database. 
 
-Translation is _intelligent_ in the sense that it operates a _normalization_ of the source information, infering information from the context, and so greatly reducing the overhead of producing normalized data. 
+Translation is _intelligent_ in the sense that it operates a _normalization_ of the source information, inferring information from the context, and so greatly reducing the overhead of producing normalized data. 
 
 See also
 * [Timelink data models](README_timelink_db.md)
