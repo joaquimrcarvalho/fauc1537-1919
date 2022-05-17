@@ -1,36 +1,19 @@
 # Notebooks
 
-This folder contains Jupyter notebooks that interact with the MHK/Timelink database to process data in forms not available using the web interface.
+This folder contains Jupyter notebooks that interact with the FAUC database.
 
-To be able to run notebooks you need to install the Python VSCode extension and a Python interpreter on the current machine.
+In order to use the notebooks you need to install VSCode, the Python interpreter and support libraries.
 
-## Install the Python extension and the Python interpreter
+1. Install VSCode from https://code.visualstudio.com/download
+2. Install the Python VSCode extension from  https://marketplace.visualstudio.com/items?itemName=ms-python.python
+3. After restarting VS Code and set up your environment as instructed in step 2 install the support libraries:
+    * Open a terminal in the  menu `Terminal` -> `New terminal`
+    * Type ``pip install -r notebooks/requirements.txt``
 
-To install the Python extension check https://marketplace.visualstudio.com/items?itemName=ms-python.python
+You will also need a copy of the FAUC test database. 
 
-## Install aditional packages for timelink-mhk interaction
+See the notebook [Database setup](000-database-setup.ipynb)
+or go to https://github.com/joaquimrcarvalho/fauc1537-1919/releases
 
-In addition to the base instalation of Python, some specific packages are needed
-to interact with ``timelink-mhk``. The packages handle sql queries, reading MHK
-configuration files, and various auxiliary functions.
+If you have problems leave a message at https://github.com/joaquimrcarvalho/fauc1537-1919/discussions/categories/q-a
 
-To install the required packages open the terminal in VSCode: Command+j or menu `Terminal` -> `New terminal`
-
-Type 
-    ``pip install -r notebooks/requirements.txt``
-
-
-# Optional packages
-
-Data analysis with Pandas
-
-    ``pip install pandas``
-
-
-## References
-
-* https://pypi.org/project/ipython-sql/
-* https://pypi.org/project/python-dotenv/
-* https://pypi.org/project/mysql-connector-python/
-* https://pandas.pydata.org
-* https://ipywidgets.readthedocs.io/en/latest/index.html
