@@ -16,7 +16,7 @@ from pathlib import Path
 
 from sqlalchemy import MetaData, Table, engine, inspect, text
 
-from timelink.mhk.utilities import get_dbnames, get_connection_string, get_engine
+from timelink.mhk.utilities import get_connection_string
 from timelink.mhk.models import base  # noqa
 from timelink.mhk.models.person import Person
 from timelink.mhk.models.db import TimelinkDB
@@ -27,7 +27,8 @@ from timelinknb.config import Session
 current_time = datetime.datetime.now()
 current_machine = socket.gethostname()
 sqlite_databases = [f.stem for f in list(Path('../database/sqlite3/').rglob('*.db'))]
-mhk_databases = get_dbnames()
+mhk_databases = []
+
 
 
 def get_db(db_spec, **extra_args):
