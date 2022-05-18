@@ -13,3 +13,6 @@ notebooks/ucalumni/tests/web
 
 package-lock.json
 extras/toponimia/toponima-militar.csv
+notebooks/apicache-py3/
+notebooks/pywikibot.lwp
+notebooks/throttle.ctrl
