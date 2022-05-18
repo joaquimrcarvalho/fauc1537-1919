@@ -1,0 +1,21 @@
+SELECT DISTINCT ?item ?bnp_id ?itemLabel ?countryLabel ?birthDateLabel ?birthPlace ?birthPlaceLabel ?deathDateLabel ?deathPlace ?deathPlaceLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "pt". }
+  {
+    SELECT DISTINCT ?item ?bnp_id ?country ?birthDate ?birthPlace ?deathDate ?deathPlace WHERE {
+      ?item p:P69 ?statement0.
+      ?statement0 (ps:P69/(wdt:P279*)) wd:Q368643.
+      ?item p:P569 ?statement_1.
+      OPTIONAL { ?item p:P570/psv:P570/wikibase:timeValue ?deathDate.}
+      OPTIONAL { ?item p:P27/ps:P27 ?country.}
+      OPTIONAL { ?item p:P19/ps:P19 ?birthPlace.}
+      OPTIONAL { ?item p:P20/ps:P20 ?deathPlace.}
+      OPTIONAL { ?item p:P1005/ps:P1005 ?bnp_id.}
+      ?statement_1 psv:P569 ?statementValue_1.
+      ?statementValue_1 wikibase:timePrecision ?precision_1.
+      FILTER(?precision_1 >= 11 )
+      ?statementValue_1 wikibase:timeValue ?birthDate.
+      FILTER(?birthDate< "+1900-01-01T00:00:00Z"^^xsd:dateTime)
+    }
+    LIMIT 1000
+  }
+}
