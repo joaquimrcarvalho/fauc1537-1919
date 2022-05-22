@@ -25,6 +25,8 @@ def attribute_to_df(the_type,
                           column_name=None, 
                           the_value=None,
                           person_info=True,
+                          dates_in=None,
+                          name_like=None,
                           filter_by=None,
                           more_cols=None,
                           db: TimelinkDB=None,
@@ -36,6 +38,8 @@ def attribute_to_df(the_type,
         column_name : a name for column receiving the attribute type, string
         the_value   : if present, limit to this value, can be SQL wildcard, string
         person_info : if True add name and sex of person, otherwise just id
+        dates_in    : (after,before) if present only between those dates (exclusive)
+        name_like   : name must match pattern (will set person_info = True),
         filter_by   : list of ids, limit to these
         more_cols   : add more attributes if available
         db          : A TimelinkDB object
@@ -64,6 +68,11 @@ def attribute_to_df(the_type,
         column_name = the_type
     date_column_name = f'{column_name}.date'
     obs_column_name = f'{column_name}.obs'
+
+    if name_like is not None:
+        if person_info is not None and not person_info:
+            raise(ValueError("To filter by name requires person_info=True."))
+        person_info = True
 
     if person_info:  # to fetch person info we need nattributes view
         attr = get_nattribute_table(db=dbsystem)
@@ -95,6 +104,19 @@ def attribute_to_df(the_type,
     # filter by id list
     if filter_by is not None:
         stmt = stmt.where(id_col.in_(filter_by))
+
+    # filter by date
+    if dates_in is not None:
+        after_date, before_date = dates_in
+
+        stmt = stmt.where(
+            attr.c.the_date > after_date,
+            attr.c.the_date < before_date)
+
+    # filter by name
+    if name_like is not None:
+        stmt = stmt.where(attr.c.name.like(name_like))
+
 
     stmt = stmt.order_by(attr.c.the_date)
 
