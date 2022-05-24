@@ -607,21 +607,21 @@
 	<xsl:template name="clearNSx">
 		<xsl:param name="content" />
 		<xsl:choose>
-			<xsl:when test="contains($content,'&amp;lt;')">
-				<xsl:value-of select="translate(substring-before($content,'&amp;lt;'),'&gt;','')" />
-				<xsl:variable name="next" select="substring-after($content,'&amp;lt;')" />
+			<xsl:when test="contains($content,'&lt;')">
+				<xsl:value-of select="translate(substring-before($content,'&lt;'),'&gt;','')" />
+				<xsl:variable name="next" select="substring-after($content,'&lt;')" />
 				<xsl:choose>
 					<xsl:when test="contains($next,'&gt;')">
 						<xsl:choose>
 							<xsl:when
 								test="contains($next,'=') and string-length(substring-before($next,'=')) &lt; string-length(substring-before($next,'&gt;'))">
-								<xsl:value-of select="translate(substring-before($next,'='),'&amp;lt;','')"/>
+								<xsl:value-of select="translate(substring-before($next,'='),'&lt;','')"/>
 								<xsl:call-template name="clearNSx">
 									<xsl:with-param name="content" select="substring-after($next,'&gt;')"/>
 								</xsl:call-template>
 							</xsl:when>
 							<xsl:otherwise>
-								<xsl:value-of select="translate(substring-before($next,'&gt;'),'&amp;lt;','')" />
+								<xsl:value-of select="translate(substring-before($next,'&gt;'),'&lt;','')" />
 								<xsl:call-template name="clearNSx">
 									<xsl:with-param name="content" select="substring-after($next,'&gt;')" />
 								</xsl:call-template>
