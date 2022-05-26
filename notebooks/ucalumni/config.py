@@ -11,10 +11,8 @@ sqlite_test_db = "sqlite:///notebooks/ucalumni/tests/db/ucalumni.db?check_same_t
 
 # Main db name in Mysql
 mhk_db_name = 'ucalumni'
-mysql_main_db = get_connection_string(mhk_db_name)
 
 # this is where the notebooks will come for a db
-
 default_db = ('sqlite','fauc.db')
 
 # To share a Session do, in each module:
