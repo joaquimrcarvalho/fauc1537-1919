@@ -22,8 +22,8 @@ import timelinknb.config as conf
 
 
 def attribute_to_df(the_type,
-                          column_name=None, 
                           the_value=None,
+                          column_name=None, 
                           person_info=True,
                           dates_in=None,
                           name_like=None,
@@ -36,7 +36,8 @@ def attribute_to_df(the_type,
     Args:
         the_type    : type of attribute, can have SQL wildcards, string
         column_name : a name for column receiving the attribute type, string
-        the_value   : if present, limit to this value, can be SQL wildcard, string
+        the_value   : if present, limit to this value, can be SQL wildcard, 
+                       string or list of strings
         person_info : if True add name and sex of person, otherwise just id
         dates_in    : (after,before) if present only between those dates (exclusive)
         name_like   : name must match pattern (will set person_info = True),
@@ -99,7 +100,12 @@ def attribute_to_df(the_type,
 
     # Filter by value
     if the_value is not None:
-        stmt = stmt.where(attr.c.the_value.like(the_value))
+        if type(the_value) is list:
+            stmt = stmt.where(attr.c.the_value.in_(the_value))
+        elif type(the_value) is str:    
+            stmt = stmt.where(attr.c.the_value.like(the_value))
+        else:
+            raise ValueError("the_value must be either a string or a list of strings")
 
     # filter by id list
     if filter_by is not None:
