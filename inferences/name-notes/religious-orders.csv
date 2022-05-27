@@ -575,7 +575,7 @@ id,name,ordem-religiosa,uc-entrada,uc-saida,faculdade,titulo,colegio,naturalidad
 164960,José de Santa Rita Durão,Ordem de Santo Agostinho,1754-10-01,1756-12-24,Teologia,frei,,,,,frei eremita de Santo Agostinho
 217200,José de Santa Teresa,Ordem de Santo Agostinho,1753-10-01,1757-10-01,Teologia,frei,,,,,frei religioso de São Agostinho
 238787,José de Sousa,Ordem de Santo Agostinho,1767-10-01,1767-10-01,Teologia,frei,,,,,frei eremita de Santo Agostinho
-242401,José de Sousa Família,Ordem de Santo Agostinho,1817-10-07,1817-10-07,Matemática,frei,,São Miguel de Argirais,,,frei religioso Agostinho Reformado
+242401,José de Sousa Família,Ordem de Santo Agostinho,1817-10-07,1817-10-07,Matemática,frei,,São  Miguel de Argirais,,,frei religioso Agostinho Reformado
 295894,José de São Francisco,Ordem de Santo Agostinho,1741-05-19,1741-05-19,Teologia,frei,,,,sim,"padre, frei, religioso de Santo Agostinho"
 218332,José de São Jacinto,Ordem de Santo Agostinho,1726-10-01,1726-10-01,Teologia,frei,,,,,frei religioso de Santo Agostinho
 168044,José do Nascimento,Ordem de Santo Agostinho,1740-10-01,1757-10-01,Teologia,frei,,,,,frei religioso de Santo Agostinho
@@ -782,7 +782,7 @@ id,name,ordem-religiosa,uc-entrada,uc-saida,faculdade,titulo,colegio,naturalidad
 218933,Bernardo de Santo Tomás,Ordem de Santo Agostinho (Graça),1713-10-01,1722-10-01,Teologia,frei,,,,sim,padre frei religioso de Nossa Senhora da Graça
 198915,Bernardo de Távora,Ordem de Santo Agostinho (Graça),1687-10-01,1698-03-19,Teologia,frei,,,,,frei religioso de Nossa Senhora da Graça
 281891,Bernardo do Espírito Santo Brochado,Ordem de Santo Agostinho (Graça),1741-10-17,1741-10-28,Teologia,frei,Colégio da Graça,,,sim,padre frei religioso do Colégio da Graça
-129960,Caetano da Câmara,Ordem de Santo Agostinho (Graça),1743-10-01,1749-10-01,Teologia,frei,,,,,frei religioso de Nossa Senhora da Graça
+129960,Caetano da Câmara,Ordem de Santo Agostinho (Graça),1743-10-01,1749-10-01,Teologia,frei,,,,,frei religioso de Nossa Senhora  da Graça
 192265,Caetano de Jesus,Ordem de Santo Agostinho (Graça),1719-10-01,1722-10-01,Teologia,frei,,,,sim,padre frei religiosos de Nossa Senhora da Graça
 182698,Caetano de Magalhães,Ordem de Santo Agostinho (Graça),1712-10-01,1719-10-22,Teologia,frei,,,,sim,padre frei religioso de Nossa Senhora da Graça
 218545,Caetano de São José,Ordem de Santo Agostinho (Graça),1734-10-01,1741-05-26,Teologia,frei,Colégio da Graça,,,sim,"padre, frei, religioso do Colégio da Graça de Santo Agostinho"
@@ -1015,7 +1015,7 @@ id,name,ordem-religiosa,uc-entrada,uc-saida,faculdade,titulo,colegio,naturalidad
 215400,António de Viana,Ordem de São Bento,1630-07-16,1640-05-15,Teologia,frei,,,,,frei de São Bento
 135325,António do Desterro,Ordem de São Bento,1716-10-01,1724-04-06,Teologia,frei,,,,sim,padre frei monge de São Bento
 167946,António do Nascimento,Ordem de São Bento,1746-10-01,1747-10-01,Teologia,frei,,,,,frei religioso de São Bento
-241117,António do Pilar,Ordem de São Bento,1785-10-27,1791-07-24,Teologia,frei,,São Bartolomeu,Jerónimo Dias de Castro,,frei religioso de São Bento
+241117,António do Pilar,Ordem de São Bento,1785-10-27,1791-07-24,Teologia,frei,,São  Bartolomeu,Jerónimo Dias de Castro,,frei religioso de São Bento
 229659,António do Rosário,Ordem de São Bento,1717-10-01,1725-10-30,Teologia,frei,,,,sim,padre frei religioso de São Bento
 146691,António dos Anjos,Ordem de São Bento,1720-10-01,1720-10-01,Teologia,frei,,,,sim,padre frei religioso de S. Bento
 170562,Bartolomeu dos Martires,Ordem de São Bento,1665-10-15,1665-10-15,Teologia,frei,,,,,frei religioso de São Bento
@@ -2138,7 +2138,7 @@ id,name,ordem-religiosa,uc-entrada,uc-saida,faculdade,titulo,colegio,naturalidad
 165938,João do Espírito Santo Saldanha,Ordem de São Francisco,1786-10-31,1790-10-31,Filosofia,frei,,Madrid,,,frei religioso da 3ª Ordem de São Francisco
 241134,João do Pilar,Ordem de São Francisco,1743-10-01,1744-10-30,Teologia,frei,,,,sim,padre frei religioso de São Francisco da Pronvíncia de Portugal
 131051,Leandro de Campos,Ordem de São Francisco,1748-10-01,1755-10-01,Teologia,frei,,,,,frei da Ordem de São Francisco
-279446,Lourenço Justiniano,Ordem de São Francisco,1786-10-31,1791-07-13,Teologia,frei,,Peso da Régua,Diogo Osório Cardoso,,"frei Religioso da Ordem dos Mínimos, de São Francisco de Paula"
+279446,Lourenço Justiniano,Ordem de São Francisco,1786-10-31,1791-07-13,Teologia,frei,,Peso da Régua,Diogo Osório Cardoso,,"frei Religioso da Ordem dos Mínimos,  de São Francisco de Paula"
 145251,Lucas Alyendi,Ordem de São Francisco,1575-03-17,1575-03-17,Teologia,frei,,,,,frei da Ordem de São Francisco
 133273,Luís Antonio Rabelo,Ordem de São Francisco,1802-10-15,1802-10-16,Matemática,frei,,Lisboa,,,frei da 3ª Ordem de São Francisco
 216992,Luís António de Santa Maria da Graça,Ordem de São Francisco,1793-10-31,1799-06-18,Teologia,frei,,Arrifana de Santa Maria,José Gomes Leite de Oliveira,sim,padre frei religioso de São Francisco da Província de Portugal
@@ -2408,6 +2408,7 @@ id,name,ordem-religiosa,uc-entrada,uc-saida,faculdade,titulo,colegio,naturalidad
 183216,Luís da Mãe de Deus,Ordem de São João Evangelista,1664-10-01,1669-06-14,Teologia,,,Lisboa,,sim,padre da Ordem de São João Evangelista
 192471,Luís das Chagas,Ordem de São João Evangelista,1632-05-14,1633-05-08,Teologia,frei,,,,sim,padre frei dos Loios
 217708,Luís de Santo António,Ordem de São João Evangelista,1703-10-01,1710-10-12,Teologia,,,,,sim,padre religioso da Ordem de São João Evangelista
+150020,Manuel Batista,Ordem de São João Evangelista,1564-10-01,1568-06-21,Teologia,,Colégio de S.João Evangelista,,,sim,padre do colégio dos Lóios
 165378,Manuel da Encarnação,Ordem de São João Evangelista,1698-10-30,1698-10-30,Teologia,frei,,,,sim,padre frei religioso da Ordem de São João Evangelista
 183219,Manuel da Mãe de Deus,Ordem de São João Evangelista,1664-10-01,1676-05-10,Teologia,,,Porto,,sim,padre religioso de São João Evangelista
 217457,Manuel de Santiago,Ordem de São João Evangelista,1683-10-01,1689-10-04,Teologia,,,,,sim,padre religioso de São João Evangelista

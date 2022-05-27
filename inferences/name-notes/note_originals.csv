@@ -12,7 +12,7 @@ padre frei religioso de São Bento,68,1660-12-17,1751-10-01
 frei religioso de São Bernardo,66,1658-07-17,1796-10-21
 frei religioso de São Bento,66,1664-10-01,1792-10-29
 padre frei monge de São Bento,58,1716-10-01,1760-10-01
-frei religioso de Nossa Senhora da Graça,56,1670-00-00,1763-10-01
+frei religioso de Nossa Senhora da Graça,55,1670-00-00,1763-10-01
 frei religioso da Ordem de Cristo,53,1671-10-01,1784-10-30
 padre frei religioso de São Domingos,52,1698-10-01,1763-05-12
 frei religioso de São Domingos,50,1699-10-01,1790-10-06
@@ -47,35 +47,35 @@ familiar de São Pedro,20,1616-10-06,1715-07-10
 frei religioso de São Francisco da Província de Portuga,20,1740-10-01,1769-10-01
 frei religioso de São Francisco da Província de Portugal,19,1728-10-01,1769-10-01
 "D., cónego regular de Santo Agostinho",18,1746-04-18,1803-10-21
-frei eremita Descalço de Santo Agostinho,18,1743-10-01,1770-10-01
 colegial de São Pedro,18,1554-00-00,1652-12-08
+frei eremita Descalço de Santo Agostinho,18,1743-10-01,1770-10-01
 colegial de São Paulo,17,1550-00-00,1685-04-30
 frei da Ordem de São Bento,17,1564-10-01,1801-10-31
 padre frei religioso da Ordem de São Bento,17,1588-05-11,1710-10-01
 padre frei religioso da Ordem de São Domingos,17,1563-10-01,1710-10-01
 frei monge de S. Bernardo,16,1744-10-01,1792-10-31
-frei religioso de Santo Agostinho Descalço,15,1752-10-01,1795-10-06
 frei da Ordem de Cristo,15,1563-10-01,1815-10-16
+frei religioso de Santo Agostinho Descalço,15,1752-10-01,1795-10-06
 frei da Ordem de São Bernardo,15,1571-10-01,1801-10-20
-cónego de São João Evangelista,14,1725-10-01,1781-00-00
 frei colegial dos Militares,14,1664-08-03,1727-07-23
-cónego,13,1643-10-19,1761-10-01
-padre frei da Ordem de São Bernardo,13,1573-10-01,1712-06-30
+cónego de São João Evangelista,14,1725-10-01,1781-00-00
 frei religioso da 3ª Ordem da Penitência,13,1734-10-01,1827-10-19
+padre frei da Ordem de São Bernardo,13,1573-10-01,1712-06-30
 frei da Ordem dos Pregadores,13,1759-10-01,1827-10-17
+cónego,13,1643-10-19,1761-10-01
 frei eremita Calçado de Santo Agostinho,12,1779-12-11,1827-10-29
-frei monge Beneditino,12,1765-10-01,1822-10-12
 padre frei do colégio dos padres de São Pedro,12,1632-00-00,1644-02-26
+frei monge Beneditino,12,1765-10-01,1822-10-12
 padre frei religioso de Santo Agostinho,11,1688-10-01,1760-10-01
-frei religioso de São Francisco de Portugal,11,1742-10-01,1795-10-06
 padre frei religioso da Graça,11,1670-10-01,1699-10-01
+frei da Ordem de São Domingos,11,1541-10-20,1803-10-31
 frei religioso Carmelita Calçado,11,1781-10-30,1793-10-04
 padre frei religioso do Carmo,11,1659-04-02,1723-10-01
-frei da Ordem de São Domingos,11,1541-10-20,1803-10-31
+frei religioso de São Francisco de Portugal,11,1742-10-01,1795-10-06
 frei Carmelita Calçado,10,1784-10-19,1829-10-31
-frei de São João de Deus,10,1794-10-10,1799-10-14
 padre frei religioso da Ordem da Trindade,10,1688-10-01,1709-10-01
 frei eremita de São Paulo,10,1752-10-01,1826-10-07
+frei de São João de Deus,10,1794-10-10,1799-10-14
 cónego da Congregação do Evangelista,10,1758-10-01,1770-10-01
 frei religioso Agostinho Descalço,10,1734-12-15,1757-10-01
 frei da Ordem de São João de Deus,10,1794-10-08,1804-10-09
@@ -150,392 +150,392 @@ padre frei da Ordem da Trindade,4,1551-10-00,1709-10-01
 padre frei da Ordem de Cristo,4,1692-10-01,1726-10-01
 padre frei religioso de Cristo,4,1664-10-01,1726-10-01
 ?,4,1646-10-26,1678-10-01
+colegial do colégio de São Pedro,4,1567-10-01,1572-10-01
 colégio de São Pedro,4,1559-11-01,1641-10-17
-porcionista de São Pedro,4,1619-12-03,1693-10-01
 "padre, frei monge de São Bento",4,1758-10-01,1758-11-09
 "padre, frei, monge de São Bento",4,1744-04-12,1754-07-03
-colegial do colégio de São Pedro,4,1567-10-01,1572-10-01
-padre frei religioso da Ordem de Cristo de Tomar,3,1701-10-01,1721-10-01
-presbítero secular,3,1818-10-31,1819-10-27
-porcionista do colégio de São Pedro,3,1700-01-01,1704-02-11
-padre frei religioso da Ordem de S. Domingos,3,1700-10-01,1709-10-01
-colegial das Ordens Militares,3,1615-10-13,1815-10-20
-colegial do colégio Militar,3,1735-10-28,1744-06-13
-padre frei religioso de S. Domingos,3,1709-10-01,1716-10-01
-frei religioso da Ordem de São Bernardo,3,1685-10-15,1735-10-01
-padre frei religioso de S. Jerónimo,3,1678-10-15,1725-10-01
-padre frei religioso de São Paulo,3,1670-10-01,1758-10-01
-padre frei religioso de São Pedro,3,1670-00-00,1673-10-01
-cónego do Evangelista,3,1724-10-01,1766-10-01
-padre frei religioso do colégio da Graça,3,1741-10-01,1759-10-01
-frei da 3ª Ordem de São Francisco,3,1747-10-01,1802-10-15
-frei religioso da Ordem de São Bento,3,1696-10-01,1752-10-01
-padre frei dos Agostinhos Descalços,3,1741-10-01,1744-10-01
-frei colegial das Ordens Militares,3,1652-05-29,1660-05-29
-frei religioso da Terceira Ordem,3,1724-10-01,1753-10-01
-padre da Congregação de São João Evangelista,3,1557-07-30,1557-07-30
-monge de São Jerónimo,3,1776-10-17,1815-10-31
-tesoureiro da capela,3,1557-10-03,1585-10-02
-frei religioso dos Agostinhos Descalços,3,1738-01-12,1751-10-01
-frei religioso do colégio do Carmo,3,1740-10-01,1746-10-01
-frei religioso do colégio de São Tomás,3,1732-10-01,1741-10-01
-frei religioso de São Pedro,3,1670-00-00,1686-10-01
-"D., cónego, porcionista do Colégio Real São Paulo",3,1752-02-26,1752-02-26
-padre frei da Ordem de Santo Agostinho,3,1541-11-29,1597-03-15
-padre frei da Ordem do Carmo,3,1562-10-01,1570-10-11
-"D., porcionista do Colégio Real de São Paulo, cónego",3,1744-06-10,1744-06-10
+porcionista de São Pedro,4,1619-12-03,1693-10-01
 padre frei da Trindade,3,1613-05-15,1716-10-01
-frei religioso de S. Domingos,3,1741-10-01,1784-10-31
-frei religioso de S. Bento,3,1665-01-29,1680-10-28
 padre frei de São Jerónimo,3,1645-10-21,1739-10-01
 frei religioso de Nossa Senhora do Carmo do Brasil,3,1664-10-01,1742-10-01
-frei religioso de Cristo,3,1666-10-01,1677-10-15
+frei religioso de S. Bento,3,1665-01-29,1680-10-28
+frei religioso de S. Domingos,3,1741-10-01,1784-10-31
+padre frei religioso do colégio da Graça,3,1741-10-01,1759-10-01
+frei da 3ª Ordem de São Francisco,3,1747-10-01,1802-10-15
+frei religioso da Terceira Ordem,3,1724-10-01,1753-10-01
+"D., porcionista do Colégio Real de São Paulo, cónego",3,1744-06-10,1744-06-10
+padre frei da Ordem do Carmo,3,1562-10-01,1570-10-11
 frei colegial do Colégio dos Militares,3,1732-02-14,1734-05-22
+frei colegial das Ordens Militares,3,1652-05-29,1660-05-29
+padre frei da Ordem de Santo Agostinho,3,1541-11-29,1597-03-15
+frei religioso de Cristo,3,1666-10-01,1677-10-15
+frei religioso da Ordem de São Bernardo,3,1685-10-15,1735-10-01
+padre frei dos Agostinhos Descalços,3,1741-10-01,1744-10-01
+frei religioso de São Pedro,3,1670-00-00,1686-10-01
+padre frei religioso de São Pedro,3,1670-00-00,1673-10-01
+frei religioso da Ordem de São Bento,3,1696-10-01,1752-10-01
+presbítero secular,3,1818-10-31,1819-10-27
+padre frei religioso de São Paulo,3,1670-10-01,1758-10-01
+porcionista do colégio de São Pedro,3,1700-01-01,1704-02-11
+padre frei religioso da Ordem de S. Domingos,3,1700-10-01,1709-10-01
 padre da Ordem de São João Evangelista,3,1664-10-01,1701-07-15
-cónego regular de Santo Agostinho,3,1718-01-19,1825-05-26
-"padre, cónego de São João Evangelista",3,1734-10-01,1755-10-01
+padre frei religioso de S. Jerónimo,3,1678-10-15,1725-10-01
+padre frei religioso de S. Domingos,3,1709-10-01,1716-10-01
+colegial das Ordens Militares,3,1615-10-13,1815-10-20
+colegial do colégio Militar,3,1735-10-28,1744-06-13
+"D., cónego, porcionista do Colégio Real São Paulo",3,1752-02-26,1752-02-26
+padre frei religioso da Ordem de Cristo de Tomar,3,1701-10-01,1721-10-01
+cónego do Evangelista,3,1724-10-01,1766-10-01
+padre da Congregação de São João Evangelista,3,1557-07-30,1557-07-30
+frei religioso dos Agostinhos Descalços,3,1738-01-12,1751-10-01
+frei religioso do colégio do Carmo,3,1740-10-01,1746-10-01
 familiar dos militares,3,1657-10-19,1716-07-03
+frei religioso do colégio de São Tomás,3,1732-10-01,1741-10-01
+familiar do colégio dos Militares,3,1717-10-01,1731-01-07
+"padre, cónego de São João Evangelista",3,1734-10-01,1755-10-01
+doutor,3,1543-02-30,1910-08-05
+monge de São Jerónimo,3,1776-10-17,1815-10-31
 das Ordens Militares,3,1629-07-10,1649-06-02
 padre religioso de S. João Evangelista,3,1664-07-07,1687-10-01
-familiar do colégio dos Militares,3,1717-10-01,1731-01-07
-doutor,3,1543-02-30,1910-08-05
-frei monge de São Paulo 1º eremita,2,1752-10-01,1752-10-01
+cónego regular de Santo Agostinho,3,1718-01-19,1825-05-26
+tesoureiro da capela,3,1557-10-03,1585-10-02
 frei monge do colégio de São Bernardo,2,1726-10-01,1726-10-01
+porcionista do Colégio de São Pedro,2,1723-11-13,1730-10-01
+porcionista do Colégio Real de São Paulo,2,1729-06-21,1730-10-01
+frei religioso da Ordem 3ª de São Pedro,2,1729-10-01,1730-10-01
+lente em Artes,2,1541-05-08,1549-12-15
+padre frei religioso Agostinho Descalço,2,1759-10-01,1759-10-01
+Presbitero Secular,2,1817-11-12,1818-10-29
+padre frei religioso da Ordem de Nossa Senhora de Graça,2,1699-10-01,1743-10-01
+padre frei religioso da Ordem de S. Bento,2,1696-10-01,1710-10-01
+padre frei Colégio dos Padres de São Pedro,2,1632-00-00,1632-00-00
+padre frei religioso da Ordem de S. Bernardo,2,1693-10-01,1702-10-01
+frei padre da Ordem do Carmo,2,1554-07-00,1566-06-10
+padre e frei religioso de São Bernardo,2,1699-10-01,1722-10-01
+porcionista do colégio Real de São Paulo,2,1689-12-21,1690-10-01
+"padre, frei,monge de São Bento",2,1740-03-29,1740-03-29
+frei monge de são Bento,2,1752-10-01,1752-10-01
+frei monge de São Paulo 1º eremita,2,1752-10-01,1752-10-01
+padre frei religioso de Cristo Tomar,2,1666-10-01,1669-10-01
+padre da Congregação do Evangelista,2,1762-10-01,1765-10-01
+colegial do Colégio dos Militares,2,1734-02-16,1735-10-01
+frei eremita Calçado,2,1801-10-08,1819-10-16
+colegial do Colégio Militar,2,1741-10-29,1742-07-24
+padre frei religioso da Ordem de Tomar,2,1692-10-01,1697-10-01
 padre frei religioso da Ordem de São Jerónimo,2,1672-10-01,1699-10-01
-frei Agostinho Descalço,2,1761-10-01,1795-10-06
 frei lente de prima de Teologia de São Domingos,2,1635-04-04,1635-04-04
+padre cónego Evangelista,2,1718-10-01,1723-10-01
 frei monge Benedectino,2,1812-10-31,1812-10-31
 frei monge Cisterciense,2,1780-11-03,1780-11-03
 frei monge da Ordem de São Bento do Mosteiro de Sanfins,2,1554-03-06,1554-03-06
-"D., frei, pupilo no Real Mosteiro de Santa Cruz",2,1737-04-13,1737-04-13
-"D., marquês",2,1852-10-13,1852-10-13
-frei monge de são Bento,2,1752-10-01,1752-10-01
-padre frei religioso da Ordem de Tomar,2,1692-10-01,1697-10-01
 frei monge de São Bento do Brasil,2,1786-10-03,1786-10-03
 frei monge de São Bernando,2,1749-10-01,1749-10-01
+padre Loio,2,1592-10-06,1592-10-06
 bispo de Angra,2,1582-03-03,1612-10-15
-"padre, frei,monge de São Bento",2,1740-03-29,1740-03-29
-padre frei da Ordem de Nossa Senhora da Graça,2,1620-04-04,1654-06-23
-"D., cónego regular do Mosteiro de Santa Cruz",2,1737-01-07,1737-01-07
-padre frei da Ordem de Cristo de Tomar,2,1596-03-12,1720-10-01
-"D., padre, cónego regular do Mosteiro de Santa Cruz",2,1737-01-07,1737-01-07
-padre frei colegial dos Militares,2,1673-11-04,1705-05-29
-colegial do colégio dos Militares,2,1744-12-15,1749-12-19
-padre religioso de São João,2,1671-10-01,1676-11-22
-padre frei religioso de Cristo Tomar,2,1666-10-01,1669-10-01
+frei religioso da Ordem de Nossa Senhora do Carmo,2,1600-02-21,1765-10-01
+padre frei monge de São Bernanrdo,2,1735-10-01,1735-10-01
+padre frei da Ordem da Santíssima Trindade,2,1613-05-15,1624-07-15
+"frei, religioso Agostinho Reformado",2,1807-06-03,1821-10-30
+padre frei da Ordem dos Pregadores,2,1707-10-01,1764-10-01
 "D., cónego da Sacrossanta Basílica Patriarcal",2,1744-05-20,1744-05-20
 "D., cónego da igreja patriarcal",2,1776-10-12,1776-10-12
-"D., cónego de Santa Cruz",2,1543-12-21,1543-12-21
-"D., cónego na Santa Basilica Patriacal",2,1737-10-01,1737-10-01
-padre frei da Ordem da Santíssima Trindade,2,1613-05-15,1624-07-15
-"D., cónego regrante de Santo Agostinho",2,1806-10-01,1806-10-01
-"D., cónego regular da Congregação Reformada de Santo Agostinho",2,1755-07-21,1755-07-21
-frei eremita Calçado,2,1801-10-08,1819-10-16
-frei religioso de São Tomar,2,1678-10-15,1752-10-01
-"D., cónego regular de Santa Cruz",2,1792-06-01,1792-06-01
-colegial do Colégio Militar,2,1741-10-29,1742-07-24
-"D., padre",2,1737-04-29,1776-10-31
-frei padre da Ordem do Carmo,2,1554-07-00,1566-06-10
-"padre, frei Monge de São Bernardo",2,1766-05-27,1766-05-27
-frei religioso de Santo Agostinho Calçado,2,1789-10-26,1789-10-30
-frei religioso de Santíssima Trindade,2,1748-10-01,1748-10-01
-frei religioso da Ordem 3ª de São Pedro,2,1729-10-01,1730-10-01
-Presbitero Secular,2,1817-11-12,1818-10-29
-"padre, frei",2,1754-10-01,1768-01-22
-padre frei monge de São Bernanrdo,2,1735-10-01,1735-10-01
-frei religioso de Santo Agostinho do colégio da Graça,2,1750-10-01,1753-10-01
-frei religioso da Ordem de Nossa Senhora do Carmo,2,1600-02-21,1765-10-01
-frei religioso da Ordem de São Francisco,2,1571-10-01,1755-10-01
-"D., cónego da Igreja Patriarcal",2,1775-10-00,1775-10-00
-Frei Monge de São Bento,2,1786-06-07,1786-06-07
-cónego na Sé de Lisboa Oriental,2,1733-10-01,1739-05-25
-frei religioso de S. Francisco,2,1744-10-30,1761-10-01
-Freire Monge de São Jerónimo,2,1783-05-16,1783-05-16
-frei religioso de Agostinho Descalço,2,1734-10-01,1758-10-01
-familiar do Colégio de São Paulo,2,1726-11-05,1731-10-01
-padre frei de monge de São Jerónimo,2,1730-10-01,1730-10-01
-padre frei religioso Agostinho Descalço,2,1759-10-01,1759-10-01
-frei religioso de São Agostinho,2,1752-10-01,1753-10-01
-porcionista do colégio Real de São Paulo,2,1689-12-21,1690-10-01
-padre frei de Nossa Senhora da Graça,2,1631-11-20,1759-10-01
-padre frei religioso da Ordem de S. Bernardo,2,1693-10-01,1702-10-01
-padre frei religioso da Ordem de S. Bento,2,1696-10-01,1710-10-01
-religioso de São João,2,1678-10-15,1690-10-01
-padre frei religioso da Ordem de Nossa Senhora de Graça,2,1699-10-01,1743-10-01
-"D., porcionista de S. Paulo",2,1676-06-09,1676-06-09
 "D., porcionista de São Paulo",2,1685-10-01,1685-10-01
-padre religioso de São Domingos,2,1723-10-01,1739-10-01
-padre frei da Ordem dos Pregadores,2,1707-10-01,1764-10-01
-padre religioso de São Bernardo,2,1702-10-01,1707-10-01
+"D., porcionista de S. Paulo",2,1676-06-09,1676-06-09
+religioso de São João,2,1678-10-15,1690-10-01
+"D., cónego de Santa Cruz",2,1543-12-21,1543-12-21
+"D., padre, cónego regular do Mosteiro de Santa Cruz",2,1737-01-07,1737-01-07
+"D., cónego na Santa Basilica Patriacal",2,1737-10-01,1737-10-01
+"D., padre",2,1737-04-29,1776-10-31
+"D., marquês",2,1852-10-13,1852-10-13
+"D., cónego regrante de Santo Agostinho",2,1806-10-01,1806-10-01
+"D., frei, pupilo no Real Mosteiro de Santa Cruz",2,1737-04-13,1737-04-13
+"D., cónego regular da Congregação Reformada de Santo Agostinho",2,1755-07-21,1755-07-21
+padre frei da Ordem de Nossa Senhora da Graça,2,1620-04-04,1654-06-23
+padre frei da Ordem de Cristo de Tomar,2,1596-03-12,1720-10-01
+"D., cónego regular do Mosteiro de Santa Cruz",2,1737-01-07,1737-01-07
+frei religioso de São Tomar,2,1678-10-15,1752-10-01
 frei religioso de São Francisco da Província das Ilhas,2,1766-10-01,1767-10-01
 "D., porcionista no Colégio de São Pedro",2,1733-07-11,1733-07-11
-padre religioso de Santo Agostinho,2,1663-06-22,1744-10-01
-porcionista do Colégio Real de São Paulo,2,1729-06-21,1730-10-01
-porcionista do Colégio de São Pedro,2,1723-11-13,1730-10-01
-"D., sobrinho do Marquês de Vila Real",2,1540-00-00,1540-00-00
-frei religioso eremita Descalço de Santo Agostinho,2,1753-10-01,1756-10-30
-cónego secular de S. João Evangelista,2,1797-10-13,1821-11-13
-colegial dos militares,2,1663-07-10,1743-06-29
-padre frei religioso de Tomar da Ordem de Cristo,2,1664-03-14,1679-10-15
-padre frei religioso de São Francisco de Portugal,2,1742-10-01,1747-10-01
-padre e frei religioso de São Bernardo,2,1699-10-01,1722-10-01
-"padre, frei religioso da Trindade, frei religioso da Ordem de São Domingos",2,1688-10-01,1688-10-01
-lente em Artes,2,1541-05-08,1549-12-15
-"padre, frei religioso da Ordem de Cristo",2,1726-10-01,1736-12-30
-"padre, frei monge de São Jerónimo",2,1751-07-07,1751-07-07
-frei da Ordem de Santo António,2,1601-10-01,1602-10-11
-frei da Ordem de Santo Agostinho Descalço,2,1797-10-09,1805-10-15
-religioso do colégio do Evangelista,2,1722-10-01,1722-10-01
-cónego da Santa Basílica Patriarcal,2,1738-10-01,1744-02-11
-frei da Ordem de S. João de Deus,2,1798-10-03,1798-10-31
-frei da Ordem de S. Francisco,2,1562-03-06,1763-10-01
-padre frei religioso de São Francisco da Pronvíncia de Portugal,2,1743-10-01,1746-10-30
-frei da Ordem de S. Bernardo,2,1573-06-27,1574-10-01
-cónego da Sé de Lisboa Oriental,2,1710-10-01,1739-05-12
-cónego de S. João Evangelista,2,1748-10-01,1789-10-27
-padre Loio,2,1592-10-06,1592-10-06
-padre cónego Evangelista,2,1718-10-01,1723-10-01
-padre frei religioso do colégio de São Tomás,2,1731-10-01,1741-10-01
-frei da 3ª Ordem,2,1797-10-09,1797-10-09
-da Companhia de Jesus,2,1557-02-20,1557-02-20
-padre da Congregação do Evangelista,2,1762-10-01,1765-10-01
-"padre mestre, frei, lente de Matemática",2,1625-02-03,1625-02-03
-"padre frei, colégio dos padres de São Pedro",2,1632-00-00,1632-00-00
-padre frei religioso de São Francisco da Província dos Algarves,2,1747-10-01,1749-10-01
-frei da Ordem de Santo Agostinho Calçado,2,1797-10-13,1804-10-08
-colegial do Colégio dos Militares,2,1734-02-16,1735-10-01
-"frei, colegial de Nossa Senhora da Graça",2,1780-05-30,1780-05-30
-"frei, religioso Agostinho Reformado",2,1807-06-03,1821-10-30
-colégio de São João,2,1571-10-01,1575-10-01
-cónego e frei,2,1659-10-17,1659-10-17
-frei Colegial dos Militares,2,1719-06-05,1737-07-06
 "frei, colegial dos Militares",2,1685-12-01,1712-07-09
-frei da Província do Algarve,2,1572-10-01,1576-10-01
-padre frei religioso de Santo Agostinho de Nossa Senhora da Graça,2,1706-10-01,1722-10-01
+"D., sobrinho do Marquês de Vila Real",2,1540-00-00,1540-00-00
+"D., cónego regular de Santa Cruz",2,1792-06-01,1792-06-01
+frei religioso da Ordem de São Francisco,2,1571-10-01,1755-10-01
+religioso do colégio do Evangelista,2,1722-10-01,1722-10-01
+Freire Monge de São Jerónimo,2,1783-05-16,1783-05-16
+frei religioso de Agostinho Descalço,2,1734-10-01,1758-10-01
+"D., cónego da Igreja Patriarcal",2,1775-10-00,1775-10-00
+padre frei de monge de São Jerónimo,2,1730-10-01,1730-10-01
+frei religioso eremita Descalço de Santo Agostinho,2,1753-10-01,1756-10-30
+padre frei colegial dos Militares,2,1673-11-04,1705-05-29
+frei religioso de S. Francisco,2,1744-10-30,1761-10-01
+Frei Monge de São Bento,2,1786-06-07,1786-06-07
+frei religioso de Santo Agostinho Calçado,2,1789-10-26,1789-10-30
+frei religioso de Santo Agostinho do colégio da Graça,2,1750-10-01,1753-10-01
+frei religioso de Santíssima Trindade,2,1748-10-01,1748-10-01
+colegial do colégio dos Militares,2,1744-12-15,1749-12-19
+frei religioso de São Agostinho,2,1752-10-01,1753-10-01
+padre frei de Nossa Senhora da Graça,2,1631-11-20,1759-10-01
+"frei, colegial de Nossa Senhora da Graça",2,1780-05-30,1780-05-30
+cónego secular de S. João Evangelista,2,1797-10-13,1821-11-13
+cónego e frei,2,1659-10-17,1659-10-17
+padre frei religioso de São Francisco de Portugal,2,1742-10-01,1747-10-01
+frei da Ordem de Santo Agostinho Calçado,2,1797-10-13,1804-10-08
+colégio de São João,2,1571-10-01,1575-10-01
+"padre, frei religioso da Ordem de Cristo",2,1726-10-01,1736-12-30
+frei da 3ª Ordem,2,1797-10-09,1797-10-09
 "padre, frei, monge de São Bernardo",2,1758-12-02,1758-12-02
-padre frei Colégio dos Padres de São Pedro,2,1632-00-00,1632-00-00
+frei da Ordem de S. João de Deus,2,1798-10-03,1798-10-31
+"padre mestre, frei, lente de Matemática",2,1625-02-03,1625-02-03
+cónego da Santa Basílica Patriarcal,2,1738-10-01,1744-02-11
+padre frei religioso de Santo Agostinho de Nossa Senhora da Graça,2,1706-10-01,1722-10-01
+padre religioso de São Domingos,2,1723-10-01,1739-10-01
+"padre, frei monge de São Jerónimo",2,1751-07-07,1751-07-07
+frei da Província do Algarve,2,1572-10-01,1576-10-01
+frei da Ordem de Santo António,2,1601-10-01,1602-10-11
+"padre frei, colégio dos padres de São Pedro",2,1632-00-00,1632-00-00
+padre religioso de São Bernardo,2,1702-10-01,1707-10-01
+frei da Ordem de Santo Agostinho Descalço,2,1797-10-09,1805-10-15
+padre frei religioso de São Francisco da Província dos Algarves,2,1747-10-01,1749-10-01
 padre frei religioso de São Francisco,2,1682-10-01,1758-10-01
-padre e frei da Ordem de Santo Agostinho,1,1605-02-11,1605-02-11
+padre religioso de Santo Agostinho,2,1663-06-22,1744-10-01
+padre frei religioso de Tomar da Ordem de Cristo,2,1664-03-14,1679-10-15
+padre frei religioso de São Francisco da Pronvíncia de Portugal,2,1743-10-01,1746-10-30
+padre frei religioso do colégio de São Tomás,2,1731-10-01,1741-10-01
+"padre, frei",2,1754-10-01,1768-01-22
+frei Agostinho Descalço,2,1761-10-01,1795-10-06
+colegial dos militares,2,1663-07-10,1743-06-29
+"padre, frei Monge de São Bernardo",2,1766-05-27,1766-05-27
+familiar do Colégio de São Paulo,2,1726-11-05,1731-10-01
+cónego de S. João Evangelista,2,1748-10-01,1789-10-27
+padre religioso de São João,2,1671-10-01,1676-11-22
+frei Colegial dos Militares,2,1719-06-05,1737-07-06
+"padre, frei religioso da Trindade, frei religioso da Ordem de São Domingos",2,1688-10-01,1688-10-01
+da Companhia de Jesus,2,1557-02-20,1557-02-20
+frei da Ordem de S. Bernardo,2,1573-06-27,1574-10-01
+cónego na Sé de Lisboa Oriental,2,1733-10-01,1739-05-25
+frei da Ordem de S. Francisco,2,1562-03-06,1763-10-01
+cónego da Sé de Lisboa Oriental,2,1710-10-01,1739-05-12
+padre religioso da Ordem de São Bernardo,1,1684-10-01,1684-10-01
+padre frei da Ordem de Nossa Senhora da Graça de Santo Agostinho,1,1560-10-01,1560-10-01
+religioso do colégio de São João Evangelista,1,1597-10-13,1597-10-13
+padre religioso da Ordem de S. João Evangelista,1,1702-10-01,1702-10-01
+padre religioso da Graça,1,1670-10-01,1670-10-01
+padre monge de S. Bernardo,1,1757-10-01,1757-10-01
+padre religioso da 3ª Ordem de São Francisco,1,1736-10-01,1736-10-01
+padre monge de São Jerónimo,1,1752-10-01,1752-10-01
+padre monge de São Bento,1,1737-10-01,1737-10-01
+padre monge de São Bernardo,1,1742-10-01,1742-10-01
+padre frei religioso de Nossa Senhora da Graça de Santo Agostinho,1,1723-10-01,1723-10-01
+padre frei da Ordem de S. Francisco da Província do Algarve,1,1576-10-01,1576-10-01
+padre frei religioso do colégio de São Bernardo,1,1664-10-01,1664-10-01
+padre frei religioso do Colégio da Graça,1,1741-10-17,1741-10-17
+religioso de Santo Agostinho Descalço,1,1790-10-27,1790-10-27
+religioso de Santo Loio,1,1593-02-06,1593-02-06
+religioso de São Evangelista,1,1597-10-10,1597-10-10
+padre frei religioso do colégio da Santíssima Trindade,1,1722-12-05,1722-12-05
+padre frei de Noss Senhora da Graça,1,1725-10-01,1725-10-01
+religioso de São Francisco da Província de Portugal,1,1763-10-01,1763-10-01
+padre frei religioso do colégio de Nossa Senhora de Graça,1,1725-10-01,1725-10-01
+religioso de São Francisco da Província dos Algarves,1,1767-10-01,1767-10-01
+padre frei religioso do colégio de São Bento,1,1720-10-01,1720-10-01
+padre frei da Ordem dos Pregadores de São Domingos,1,1698-04-08,1698-04-08
+padre mestre religioso de São João Evangelista,1,1658-03-29,1658-03-29
+padre frei religioso do colégio do Carmo,1,1742-02-10,1742-02-10
+padre frei religioso dso Pregadores de São Domingos,1,1705-10-01,1705-10-01
+padre frei religioso eremita de Santo Agostinho,1,1754-10-01,1754-10-01
+padre frei da Ordem de Tomar,1,1697-10-01,1697-10-01
+"padre, frei de São Francisco da Penitência",1,1722-10-01,1722-10-01
+religioso de São Jerónimo,1,1736-10-01,1736-10-01
+padre frei religioso eremita descalço de Santa Rita,1,1760-10-06,1760-10-06
+padre frei da Ordem da Graça,1,1699-10-01,1699-10-01
+padre frei reliioso de S. Bento,1,1700-10-01,1700-10-01
+padre mestre frei de Nossa Senhora do Carmo,1,1661-02-15,1661-02-15
+padre frei religiosos de Nossa Senhora da Graça,1,1719-10-01,1719-10-01
+padre frei colegial das Ordens Militares,1,1623-07-20,1623-07-20
+padre religioso da Ordem de São João Evangelista,1,1703-10-01,1703-10-01
 padre e frei da Ordem de Cristo,1,1580-03-13,1580-03-13
-padre frei de Santo Agostinho Descalço,1,1745-11-12,1745-11-12
+padre e frei religioso da Santíssima Trindade,1,1732-10-01,1732-10-01
+padre e frei do Carmo,1,1606-01-13,1606-01-13
+padre e frei de Santo Agostinho Descalço,1,1744-10-01,1744-10-01
+padre e frei das Ordens Militares,1,1631-06-09,1631-06-09
+padre religioso de São Francisco da Província dos Algarves,1,1742-10-01,1742-10-01
+padre e frei da Ordem do Carmo,1,1619-12-01,1619-12-01
+padre e frei da Ordem de São Domingos,1,1705-06-01,1705-06-01
+vide João Vieira de Azevedo,1,1742-00-05,1742-00-05
+padre e frei da Ordem de São Bento,1,1590-05-06,1590-05-06
+padre e frei da Ordem de Santo Agostinho,1,1605-02-11,1605-02-11
+padre religioso de São Francisco dos Algarves,1,1731-10-01,1731-10-01
+padre e frei Agostinho Calçado,1,1808-11-29,1808-11-29
+padre frei da 3ª Ordem de São Francisco,1,1743-11-04,1743-11-04
 padre dos Loios,1,1636-01-11,1636-01-11
 padre do colégio dos Lóios,1,1564-10-01,1564-10-01
-religioso de Santo Agostinho Calçado,1,1787-10-06,1787-10-06
-vide Pereira,1,1766-06-11,1766-06-11
-religioso de Santo Agostinho Descalço,1,1790-10-27,1790-10-27
-padre frei da 3ª Ordem de São Francisco,1,1743-11-04,1743-11-04
-padre frei de Santo Agostinho do colégio da Graça,1,1744-10-01,1744-10-01
 padre do Mosteiro de Santa Cruz,1,1576-00-00,1576-00-00
-padre e frei Agostinho Calçado,1,1808-11-29,1808-11-29
-padre de São João Evangelista,1,1638-12-17,1638-12-17
-"religioso de S. Bernardo, padre mestre",1,1660-02-25,1660-02-25
+vide Pereira,1,1766-06-11,1766-06-11
 padre de São Mateus de Lisboa,1,1575-11-06,1575-11-06
-religioso da Santíssima Trindade,1,1754-10-01,1754-10-01
-padre frei colégio de São Bernardo,1,1664-10-01,1664-10-01
-"padre, cónego evangelista",1,1738-10-01,1738-10-01
-padre das Ordens Militantes,1,1637-07-24,1637-07-24
-padre frei colegial das Ordens Militares,1,1623-07-20,1623-07-20
-padre frei Religiosos de São Francisco,1,1714-11-15,1714-11-15
-visconde de Azurara,1,1820-11-11,1820-11-11
-padre frei de São Francisco dos Algarves,1,1742-10-01,1742-10-01
-padre frei de São Francisco da Província dos Algarves,1,1742-10-01,1742-10-01
-padre frei de São Francisco da Província do Alentejo,1,1742-10-01,1742-10-01
-padre frei de São Francisco da Província de Portugal,1,1745-10-01,1745-10-01
-religioso da Trindade,1,1599-01-19,1599-01-19
-religioso das Ordens Militares,1,1655-11-17,1655-11-17
-religioso de Nossa Senhora do Carmo,1,1698-04-08,1698-04-08
+padre de São João Evangelista,1,1638-12-17,1638-12-17
 padre de Santo Cruz,1,1652-11-10,1652-11-10
 vide Queixada,1,1614-10-22,1614-10-22
-religioso de São Evangelista,1,1597-10-10,1597-10-10
-religioso de Santo Loio,1,1593-02-06,1593-02-06
-padre frei da Ordem de Nossa Senhora da Graça de Santo Agostinho,1,1560-10-01,1560-10-01
-padre e frei da Ordem de São Bento,1,1590-05-06,1590-05-06
-padre franciscano,1,1759-10-01,1759-10-01
-padre e frei religioso de Santo Agostinho,1,1711-01-23,1711-01-23
-vide João Pedro de Aquim e Sousa,1,1823-06-17,1823-06-17
-padre frei Ordem do Carmo,1,1614-06-16,1614-06-16
-padre religioso de São Francisco dos Algarves,1,1731-10-01,1731-10-01
-padre frei Ordem de Santo António,1,1601-11-23,1601-11-23
-padre e frei religioso de São Domingos,1,1716-10-01,1716-10-01
-padre eremita Descalço de Santo Agostinho,1,1770-10-01,1770-10-01
-padre frei Ordem de Santo Agostinho,1,1588-01-29,1588-01-29
-padre frei Religiosos de São Bernardo,1,1717-10-01,1717-10-01
-padre religioso de São Francisco da Província de Portugal,1,1749-12-15,1749-12-15
+visconde de Azurara,1,1820-11-11,1820-11-11
+padre das Ordens Militantes,1,1637-07-24,1637-07-24
 "padre, cónego Evangelista",1,1758-10-02,1758-10-02
-padre frei da Ordem de S. Francisco da Província do Algarve,1,1576-10-01,1576-10-01
-religioso do colégio de São João Evangelista,1,1597-10-13,1597-10-13
-padre frei Agostinho Descalço,1,1738-11-16,1738-11-16
-padre frei Carmelita Calçado,1,1769-03-15,1769-03-15
-padre religioso de São Francisco da Província dos Algarves,1,1742-10-01,1742-10-01
 padre e frei religioso de Nossa Senhora da Graça,1,1711-01-23,1711-01-23
-padre e frei religioso da Santíssima Trindade,1,1732-10-01,1732-10-01
-padre frei Religios da Santíssima Trindade,1,1732-10-01,1732-10-01
-padre e frei do Carmo,1,1606-01-13,1606-01-13
-religioso de São Francisco da Província de Portugal,1,1763-10-01,1763-10-01
-padre e frei da Ordem de São Domingos,1,1705-06-01,1705-06-01
-religioso de São Francisco da Província dos Algarves,1,1767-10-01,1767-10-01
-padre frei de Noss Senhora da Graça,1,1725-10-01,1725-10-01
-religioso do convento de S. Francisco da Ponte,1,1746-10-27,1746-10-27
-vide João Vieira de Azevedo,1,1742-00-05,1742-00-05
-padre frei da Ordem dos Pregadores de São Domingos,1,1698-04-08,1698-04-08
+vide João Pedro de Aquim e Sousa,1,1823-06-17,1823-06-17
+padre religioso de São Francisco da Província de Portugal,1,1749-12-15,1749-12-15
+padre e frei religioso de Santo Agostinho,1,1711-01-23,1711-01-23
+padre religioso da Santíssima Trindade,1,1754-10-01,1754-10-01
+padre religioso da Trindade,1,1576-10-01,1576-10-01
+padre frei colégio de São Bernardo,1,1664-10-01,1664-10-01
+padre religioso de S. João,1,1685-10-01,1685-10-01
+"padre, frei do Colégio de Santa Rita",1,1763-02-12,1763-02-12
+"padre, da Ordem dos Militares",1,1613-10-13,1613-10-13
+padre frei Religiosos de São Francisco,1,1714-11-15,1714-11-15
+padre frei Religiosos de São Bernardo,1,1717-10-01,1717-10-01
+padre religioso de Santa Cruz,1,1615-04-01,1615-04-01
 "padre, cónego secular de São João Evangelista",1,1765-10-01,1765-10-01
-padre e frei da Ordem do Carmo,1,1619-12-01,1619-12-01
-padre e frei das Ordens Militares,1,1631-06-09,1631-06-09
-padre frei da Ordem de Tomar,1,1697-10-01,1697-10-01
+padre frei Religios da Santíssima Trindade,1,1732-10-01,1732-10-01
+religioso do convento de S. Francisco da Ponte,1,1746-10-27,1746-10-27
 sacerdote em Serapicos,1,1605-03-09,1605-03-09
 também conhecido como: Álvaro da Costa Araújo Azevedo e Vasconcelos,1,1849-06-04,1849-06-04
-religioso de São Jerónimo,1,1736-10-01,1736-10-01
-padre e frei de Santo Agostinho Descalço,1,1744-10-01,1744-10-01
-padre frei da Ordem da Graça,1,1699-10-01,1699-10-01
-padre mestre religioso de São João Evangelista,1,1658-03-29,1658-03-29
-padre religioso de Santa Cruz,1,1615-04-01,1615-04-01
-padre frei religioso de Santo Agostinho Descalço,1,1750-10-01,1750-10-01
-"padre, frei religioso de Santo Agostinho",1,1741-05-17,1741-05-17
-padre frei religioso de São José,1,1692-10-01,1692-10-01
-"padre, frei religioso de Santo Agostinho do Colégio da Graça",1,1762-10-01,1762-10-01
-"padre, frei religioso de São Francisco da província de Portugal",1,1743-10-17,1743-10-17
-padre frei religioso de São Francisco da Província do Alentejo,1,1744-10-30,1744-10-30
-"padre, frei religioso do Colégio do Carmo",1,1734-03-18,1734-03-18
-padre frei religioso de São Domingues,1,1703-11-01,1703-11-01
-"padre, frei, eremita Descalço de Santo Agostinho",1,1757-10-01,1757-10-01
-"padre, frei, eremita de Santo Agostinho",1,1760-10-01,1760-10-01
-"padre, frei, eremita de Santo Inácio",1,1758-10-13,1758-10-13
-padre da Ordem do Evangelho,1,1537-03-07,1537-03-07
-padre frei religioso de Santíssima Trindade,1,1717-10-01,1717-10-01
-"padre, frei, monde de São Bernardo",1,1759-04-27,1759-04-27
-padre religioso da Ordem de São Bernardo,1,1684-10-01,1684-10-01
-"padre, frei, religioso da Província de Portugal",1,1770-06-25,1770-06-25
-padre religioso da Ordem de São João Evangelista,1,1703-10-01,1703-10-01
-"padre, frei, religioso Agostinho Descalço",1,1751-11-16,1751-11-16
-padre frei religioso de Ordem de São Bernardo,1,1704-05-24,1704-05-24
-padre frei religioso de NossaSenhora da Graça,1,1709-10-01,1709-10-01
-"padre, frei, religioso da 3.ª Ordem da Penitência",1,1780-11-13,1780-11-13
-padre frei religioso de Nossa Senhora de Graça,1,1719-10-01,1719-10-01
-padre frei religioso de Nossa Senhora da Graça dos Eremitas de Santa Cruz,1,1728-10-01,1728-10-01
-padre frei religioso de Nossa Senhora da Graça dos Agostinhos,1,1723-10-26,1723-10-26
-padre frei religioso de Nossa Senhora da Graça de Santo Agostinho?,1,1724-10-01,1724-10-01
-padre frei religioso de Nossa Senhora da Graça de Santo Agostinho,1,1723-10-01,1723-10-01
-padre religioso da Santíssima Trindade,1,1754-10-01,1754-10-01
-padre frei religioso de Nossa Senhora da Graça da Ordem dos Eremitas de Santo Agostinho,1,1728-10-01,1728-10-01
-"padre, frei, religioso da Graça Eremita de Santo Agostinho",1,1762-01-16,1762-01-16
-padre frei religioso de São João Evangelista,1,1683-10-01,1683-10-01
-padre frei religioso de São João Evangelista no colégio de Coimbra,1,1673-06-07,1673-06-07
-padre religioso da Ordem de S. João Evangelista,1,1702-10-01,1702-10-01
-padre frei religioso de São Paulo Primeiro eremita,1,1758-10-01,1758-10-01
-padre frei reliioso de S. Bento,1,1700-10-01,1700-10-01
-padre frei religiosos de Nossa Senhora da Graça,1,1719-10-01,1719-10-01
-padre monge de S. Bernardo,1,1757-10-01,1757-10-01
-padre frei religioso eremita descalço de Santa Rita,1,1760-10-06,1760-10-06
-"padre, frei de São Francisco da Penitência",1,1722-10-01,1722-10-01
-padre frei religioso eremita de Santo Agostinho,1,1754-10-01,1754-10-01
-padre frei religioso dso Pregadores de São Domingos,1,1705-10-01,1705-10-01
-padre monge de São Bento,1,1737-10-01,1737-10-01
-padre frei religioso do colégio do Carmo,1,1742-02-10,1742-02-10
-padre frei religioso do colégio de São Bernardo,1,1664-10-01,1664-10-01
-padre frei religioso do colégio de São Bento,1,1720-10-01,1720-10-01
-padre frei religioso do colégio de Nossa Senhora de Graça,1,1725-10-01,1725-10-01
-padre frei religioso do colégio da Santíssima Trindade,1,1722-12-05,1722-12-05
-padre monge de São Bernardo,1,1742-10-01,1742-10-01
-padre frei religioso do Colégio da Graça,1,1741-10-17,1741-10-17
-padre monge de São Jerónimo,1,1752-10-01,1752-10-01
-"padre, frei do Colégio de Santa Rita",1,1763-02-12,1763-02-12
+padre frei Ordem do Carmo,1,1614-06-16,1614-06-16
+"padre, cónego evangelista",1,1738-10-01,1738-10-01
+padre frei Ordem de Santo António,1,1601-11-23,1601-11-23
+padre frei Ordem de Santo Agostinho,1,1588-01-29,1588-01-29
+padre frei Carmelita Calçado,1,1769-03-15,1769-03-15
+padre frei Agostinho Descalço,1,1738-11-16,1738-11-16
+padre franciscano,1,1759-10-01,1759-10-01
+padre eremita Descalço de Santo Agostinho,1,1770-10-01,1770-10-01
+padre e frei religioso de São Domingos,1,1716-10-01,1716-10-01
+religioso de Santo Agostinho Calçado,1,1787-10-06,1787-10-06
+padre frei de São Francisco da Província do Alentejo,1,1742-10-01,1742-10-01
 "padre, frei eremita Calçado de Santo Agostinho",1,1764-10-01,1764-10-01
-"padre, frei eremita Descalço de Santo Agostinho",1,1763-10-01,1763-10-01
-"padre frei religioso de Tomar, Ordem de Cristo",1,1706-11-01,1706-11-01
-"padre, frei eremita calçado de Santo Agostinho",1,1786-10-14,1786-10-14
-padre frei religioso de São Tomás ou de São Domingos?,1,1718-10-01,1718-10-01
-padre frei religioso de São Tomás,1,1729-10-01,1729-10-01
-padre religioso da 3ª Ordem de São Francisco,1,1736-10-01,1736-10-01
-padre religioso da Graça,1,1670-10-01,1670-10-01
-"padre, frei religioso da 3ª Ordem de São Francisco",1,1741-10-01,1741-10-01
-padre frei religioso de São Paulo eremita,1,1749-10-01,1749-10-01
-"padre, frei, religioso da Ordem de São Francisco",1,1755-06-03,1755-06-03
-padre frei religioso de Agostinho Descalço,1,1741-10-01,1741-10-01
-religioso da Ordem dos cónegos regulares de Santa Cruz,1,1661-06-21,1661-06-21
-prior de Miranda,1,1607-01-27,1607-01-27
-padre frei religioso da Ordem Nossa São do Carmo,1,1705-10-01,1705-10-01
-padre frei religioso da Ordem 3ª de São Francisco,1,1731-06-25,1731-06-25
-porcionista do Colégio de S. Pedro,1,1652-12-08,1652-12-08
-porcionista do colégio Militar,1,1657-05-24,1657-05-24
-padre frei religioso da 3ª Ordem de S. Pedro,1,1731-10-01,1731-10-01
-padre frei religioso da 3ª Ordem de S. Francisco,1,1728-10-01,1728-10-01
-padre frei religioso da 3ª Ordem de S Francisco,1,1731-12-12,1731-12-12
-padre frei religioso da 3ª Ordem da Penitência,1,1734-10-10,1734-10-10
-padre mestre frei de Nossa Senhora do Carmo,1,1661-02-15,1661-02-15
-padre frei religioso Descalço de Santo Agostinho,1,1734-10-01,1734-10-01
-presbítero do hábito de São Pedro,1,1758-04-07,1758-04-07
-padre frei religioso,1,1723-10-21,1723-10-21
-padre frei prior do Mosteiro de Benfica?,1,1542-01-31,1542-01-31
-prior de São Bartolomeu,1,1594-04-21,1594-04-21
-"padre, frei, religioso da Terceira Ordem",1,1725-10-01,1725-10-01
-promotor do Santo Ofício da Inquisição,1,1663-01-26,1663-01-26
-"padre, da Ordem dos Militares",1,1613-10-13,1613-10-13
-padre frei dos Loios,1,1632-05-14,1632-05-14
-reitor do colégio das Ciências Naturais,1,1798-10-01,1798-10-01
-padre frei do colégio de São Bernardo,1,1664-10-01,1664-10-01
-religioso da 3ª Ordem de São Francisco,1,1760-10-01,1760-10-01
-religioso da Ordem de São Bento,1,1703-05-14,1703-05-14
-religioso da Ordem de São João Evangelista,1,1706-10-26,1706-10-26
-padre frei do colégio de Cristo,1,1564-10-01,1564-10-01
-padre frei do colégio da Trindade,1,1578-06-30,1578-06-30
-padre frei de religioso de São Bernardo,1,1709-10-01,1709-10-01
-religioso da Ordem do Carmo,1,1573-10-01,1573-10-01
-padre frei de São Tomas,1,1712-10-01,1712-10-01
-porcionista do Colégio Real,1,1716-10-01,1716-10-01
-padre frei religioso da Ordem Terceira de São Francisco,1,1751-05-11,1751-05-11
-padre religioso de S. João,1,1685-10-01,1685-10-01
-padre frei religioso da Ordem da Santíssima Trindade,1,1657-06-21,1657-06-21
-padre religioso da Trindade,1,1576-10-01,1576-10-01
-padre frei religioso dae São Bernardo,1,1662-06-20,1662-06-20
-padre frei religioso da Terceira Ordem de São Francisco,1,1728-10-01,1728-10-01
-"padre, frei, religioso de Nossa Senhora do Monte do Carmo",1,1740-05-13,1740-05-13
-padre frei religioso da Santíssima Santa Trindade,1,1732-10-01,1732-10-01
-"padre, frei, religioso de Santo Agostinho",1,1741-05-19,1741-05-19
-padre frei religioso da Oredem de Cristo,1,1716-10-01,1716-10-01
-padre frei religioso da Ordem dos Pregadores,1,1707-10-01,1707-10-01
-padre frei religioso da Ordem do Carmo,1,1695-10-01,1695-10-01
-"padre, frei, religioso de Santo Agostinho Descalço",1,1751-10-01,1751-10-01
-padre frei religioso da Ordem de São João Evangelista,1,1698-10-30,1698-10-30
-"padre, frei, religioso de São Domingos",1,1719-10-01,1719-10-01
-"padre, frei, religioso de São Domingos da Ordem dos Pregadores",1,1756-04-06,1756-04-06
-"padre, frei, religioso de São Francisco da Província de Portugal",1,1742-10-01,1742-10-01
+padre frei religioso de Santo Agostinho Descalço,1,1750-10-01,1750-10-01
+"padre, frei, monde de São Bernardo",1,1759-04-27,1759-04-27
 "padre, frei, religioso de São Francisco de Portugal",1,1736-10-01,1736-10-01
 "padre, frei, religioso do Colégio da Graça de Santo Agostinho",1,1734-10-01,1734-10-01
 "padre, frei, religioso do Colégio de Nossa Senhora da Graça",1,1734-10-01,1734-10-01
 "padre, frei, religioso, Eremita no Colégio de Santa Rita",1,1762-06-03,1762-06-03
+padre frei religioso de Santíssima Trindade,1,1717-10-01,1717-10-01
+"padre, frei, eremita de Santo Inácio",1,1758-10-13,1758-10-13
+"padre, frei, eremita de Santo Agostinho",1,1760-10-01,1760-10-01
+"padre, frei, eremita Descalço de Santo Agostinho",1,1757-10-01,1757-10-01
+padre frei religioso de São Domingues,1,1703-11-01,1703-11-01
 "padre, lente de prima em Leis",1,1734-10-01,1734-10-01
 padre frei religioso da Ordem de Santo Agostinho,1,1744-10-01,1744-10-01
+"padre, frei religioso do Colégio do Carmo",1,1734-03-18,1734-03-18
+padre frei religioso de São Francisco da Província do Alentejo,1,1744-10-30,1744-10-30
 padre frei religioso da Ordem de Nossa Senhora do Carmo,1,1719-10-01,1719-10-01
+"padre, frei religioso de São Francisco da província de Portugal",1,1743-10-17,1743-10-17
 "padre, prior de São João do Rio",1,1611-10-06,1611-10-06
 "padre, cónego da Sé de Lamego",1,1623-10-30,1623-10-30
 "padre, religioso de São Francisco da província de Portugal",1,1754-10-08,1754-10-08
 "padre, vigário de Poiares",1,1621-01-07,1621-01-07
 padre. frei Santo Agostinho,1,1743-10-01,1743-10-01
 porcionista de São Paulo ou São Pedro,1,1679-04-10,1679-04-10
+padre frei religioso da Ordem da Santíssima Trindade,1,1657-06-21,1657-06-21
+"padre, frei, religioso de São Francisco da Província de Portugal",1,1742-10-01,1742-10-01
+"padre, frei, religioso de São Domingos da Ordem dos Pregadores",1,1756-04-06,1756-04-06
+padre frei de Santo Agostinho Descalço,1,1745-11-12,1745-11-12
+"padre, frei, religioso Agostinho Descalço",1,1751-11-16,1751-11-16
+padre frei religioso de Nossa Senhora da Graça dos Agostinhos,1,1723-10-26,1723-10-26
+padre frei religioso de Nossa Senhora da Graça da Ordem dos Eremitas de Santo Agostinho,1,1728-10-01,1728-10-01
+"padre, frei, religioso da Graça Eremita de Santo Agostinho",1,1762-01-16,1762-01-16
+padre frei religioso de Nossa Senhora da Graça dos Eremitas de Santa Cruz,1,1728-10-01,1728-10-01
+"padre, frei, religioso da Ordem de São Francisco",1,1755-06-03,1755-06-03
+"padre, frei, religioso da Província de Portugal",1,1770-06-25,1770-06-25
+padre frei religioso de Agostinho Descalço,1,1741-10-01,1741-10-01
+"padre, frei, religioso da Terceira Ordem",1,1725-10-01,1725-10-01
+padre frei religioso dae São Bernardo,1,1662-06-20,1662-06-20
+padre frei religioso de Nossa Senhora de Graça,1,1719-10-01,1719-10-01
+padre frei religioso da Terceira Ordem de São Francisco,1,1728-10-01,1728-10-01
+"padre, frei, religioso de Nossa Senhora do Monte do Carmo",1,1740-05-13,1740-05-13
+padre frei religioso da Santíssima Santa Trindade,1,1732-10-01,1732-10-01
+"padre, frei, religioso da 3.ª Ordem da Penitência",1,1780-11-13,1780-11-13
+"padre, frei, religioso de Santo Agostinho",1,1741-05-19,1741-05-19
+padre frei religioso da Oredem de Cristo,1,1716-10-01,1716-10-01
+padre frei religioso de NossaSenhora da Graça,1,1709-10-01,1709-10-01
+padre frei religioso da Ordem dos Pregadores,1,1707-10-01,1707-10-01
+padre frei religioso da Ordem do Carmo,1,1695-10-01,1695-10-01
+"padre, frei, religioso de Santo Agostinho Descalço",1,1751-10-01,1751-10-01
+padre frei religioso de Ordem de São Bernardo,1,1704-05-24,1704-05-24
+padre frei religioso da Ordem de São João Evangelista,1,1698-10-30,1698-10-30
+"padre, frei, religioso de São Domingos",1,1719-10-01,1719-10-01
+padre frei religioso da Ordem Terceira de São Francisco,1,1751-05-11,1751-05-11
+porcionista do Colégio Real,1,1716-10-01,1716-10-01
+padre frei religioso da Ordem Nossa São do Carmo,1,1705-10-01,1705-10-01
+padre frei religioso da Ordem 3ª de São Francisco,1,1731-06-25,1731-06-25
+religioso da Ordem de São Bento,1,1703-05-14,1703-05-14
+religioso da Ordem de São João Evangelista,1,1706-10-26,1706-10-26
+padre frei do colégio de Cristo,1,1564-10-01,1564-10-01
+padre frei do colégio da Trindade,1,1578-06-30,1578-06-30
+padre frei de religioso de São Bernardo,1,1709-10-01,1709-10-01
+padre frei religioso de São Tomás,1,1729-10-01,1729-10-01
+padre frei religioso de São Tomás ou de São Domingos?,1,1718-10-01,1718-10-01
+"padre, frei eremita calçado de Santo Agostinho",1,1786-10-14,1786-10-14
+religioso da Ordem do Carmo,1,1573-10-01,1573-10-01
+padre frei de São Tomas,1,1712-10-01,1712-10-01
+religioso da Ordem dos cónegos regulares de Santa Cruz,1,1661-06-21,1661-06-21
+"padre frei religioso de Tomar, Ordem de Cristo",1,1706-11-01,1706-11-01
+padre frei de São Francisco dos Algarves,1,1742-10-01,1742-10-01
+religioso da Santíssima Trindade,1,1754-10-01,1754-10-01
+"padre, frei eremita Descalço de Santo Agostinho",1,1763-10-01,1763-10-01
+padre frei de São Francisco da Província dos Algarves,1,1742-10-01,1742-10-01
+padre frei religioso de Nossa Senhora da Graça de Santo Agostinho?,1,1724-10-01,1724-10-01
+padre frei de São Francisco da Província de Portugal,1,1745-10-01,1745-10-01
+religioso da Trindade,1,1599-01-19,1599-01-19
+religioso das Ordens Militares,1,1655-11-17,1655-11-17
+religioso de Nossa Senhora do Carmo,1,1698-04-08,1698-04-08
+padre frei de Santo Agostinho do colégio da Graça,1,1744-10-01,1744-10-01
+"religioso de S. Bernardo, padre mestre",1,1660-02-25,1660-02-25
+religioso da 3ª Ordem de São Francisco,1,1760-10-01,1760-10-01
+padre frei do colégio de São Bernardo,1,1664-10-01,1664-10-01
+reitor do colégio das Ciências Naturais,1,1798-10-01,1798-10-01
 padre frei religioso São Bernardo,1,1693-10-01,1693-10-01
-frei religioso de São Domingo,1,1761-10-01,1761-10-01
+"padre, frei religioso de Santo Agostinho do Colégio da Graça",1,1762-10-01,1762-10-01
+porcionista do Colégio de S. Pedro,1,1652-12-08,1652-12-08
+padre frei religioso de São José,1,1692-10-01,1692-10-01
+porcionista do colégio Militar,1,1657-05-24,1657-05-24
+padre frei religioso da 3ª Ordem de S. Pedro,1,1731-10-01,1731-10-01
+padre frei religioso da 3ª Ordem de S. Francisco,1,1728-10-01,1728-10-01
+"padre, frei religioso de Santo Agostinho",1,1741-05-17,1741-05-17
+padre frei religioso da 3ª Ordem de S Francisco,1,1731-12-12,1731-12-12
+padre frei religioso da 3ª Ordem da Penitência,1,1734-10-10,1734-10-10
+padre frei religioso de São João Evangelista,1,1683-10-01,1683-10-01
+padre frei religioso Descalço de Santo Agostinho,1,1734-10-01,1734-10-01
+padre frei dos Loios,1,1632-05-14,1632-05-14
+presbítero do hábito de São Pedro,1,1758-04-07,1758-04-07
+padre frei religioso,1,1723-10-21,1723-10-21
+padre frei prior do Mosteiro de Benfica?,1,1542-01-31,1542-01-31
+padre frei religioso de São João Evangelista no colégio de Coimbra,1,1673-06-07,1673-06-07
+padre frei religioso de São Paulo Primeiro eremita,1,1758-10-01,1758-10-01
+padre frei religioso de São Paulo eremita,1,1749-10-01,1749-10-01
+prior de Miranda,1,1607-01-27,1607-01-27
+prior de São Bartolomeu,1,1594-04-21,1594-04-21
+"padre, frei religioso da 3ª Ordem de São Francisco",1,1741-10-01,1741-10-01
+promotor do Santo Ofício da Inquisição,1,1663-01-26,1663-01-26
+padre da Ordem do Evangelho,1,1537-03-07,1537-03-07
+frei religioso de São Bernardo da Província de Portugal,1,1747-10-01,1747-10-01
 padre da Ordem de Santo Ilói,1,1552-10-00,1552-10-00
-eremita Calçado de Santo Agostinho,1,1766-10-01,1766-10-01
-cónego regular religioso da Ordem de Santo Agostinho,1,1704-05-02,1704-05-02
+estrangeiro,1,1540-11-03,1540-11-03
 cónego secular da Congregação do Evangelista,1,1745-12-16,1745-12-16
 do colégio de São Paulo,1,1678-10-01,1678-10-01
 doutor em Leis e colegial do Colégio de São Pedro,1,1739-01-28,1739-01-28
 doutor lente de Instituta,1,1739-03-16,1739-03-16
 "doutor, colegial de São Paulo",1,1674-10-01,1674-10-01
 "doutor, lente de véspora na Faculdade de Leis",1,1740-02-26,1740-02-26
-estrangeiro,1,1540-11-03,1540-11-03
-frei Colegial do Colégio do Militares,1,1733-06-01,1733-06-01
+eremita Calçado de Santo Agostinho,1,1766-10-01,1766-10-01
 familair de S. Pedro,1,1714-06-21,1714-06-21
+cónego regular de São João Evangelista,1,1751-10-01,1751-10-01
 familiar das Ordens,1,1639-06-18,1639-06-18
 familiar do Colégio de S. Paulo,1,1715-10-26,1715-10-26
 familiar do Colégio de São Pedro,1,1721-12-13,1721-12-13
 família do colégio de São Pedro,1,1740-10-01,1740-10-01
 frei Caramelita Calçado,1,1818-10-30,1818-10-30
 frei Carmelita,1,1540-10-09,1540-10-09
-cónego regular de São João Evangelista,1,1751-10-01,1751-10-01
+frei Carmelita Calçado do Pará,1,1802-10-11,1802-10-11
+cónego regular religioso da Ordem de Santo Agostinho,1,1704-05-02,1704-05-02
 cónego regular,1,1677-06-21,1677-06-21
-cónego na Sé de Braga,1,1765-10-01,1765-10-01
-cónego familiar de São João Evangelista,1,1829-10-30,1829-10-30
+padre da Congregação da São João Evangelista,1,1557-07-30,1557-07-30
+cónego da Congregação se São João Evangelista,1,1761-10-10,1761-10-10
 cónego Secular de São João Envangelista,1,1793-10-03,1793-10-03
 cónego Secular de São João Evangelista,1,1791-07-07,1791-07-07
 cónego Secular de São João de Deus,1,1792-10-29,1792-10-29
@@ -543,44 +543,44 @@ cónego da Basílica Patriarcal,1,1757-04-21,1757-04-21
 cónego da Congregação Evangelista,1,1761-10-01,1761-10-01
 cónego da Congregação de Evangelista,1,1765-10-01,1765-10-01
 cónego da Congregação de São João Evangelista,1,1766-10-01,1766-10-01
-cónego da Congregação se São João Evangelista,1,1761-10-10,1761-10-10
 cónego da Ordem do Evangelista,1,1769-10-01,1769-10-01
+cónego na Sé de Braga,1,1765-10-01,1765-10-01
 cónego da Sé da Guarda,1,1779-11-08,1779-11-08
 cónego da Sé da cidade de São Paulo,1,1765-10-01,1765-10-01
 cónego de São João Envangelista,1,1796-10-15,1796-10-15
 cónego do Envangelista,1,1758-10-01,1758-10-01
 cónego do São João Envangelista,1,1756-10-01,1756-10-01
 cónego evangelista,1,1721-10-01,1721-10-01
-frei Carmelita Calçado do Pará,1,1802-10-11,1802-10-11
+cónego familiar de São João Evangelista,1,1829-10-30,1829-10-30
+frei Colegial do Colégio do Militares,1,1733-06-01,1733-06-01
 frei Eremita Calçado de Santo Agostinho,1,1787-06-05,1787-06-05
-cónego Secular São João Evangelista,1,1749-10-01,1749-10-01
-frei da Ordem de S. Jerónimo,1,1550-03-12,1550-03-12
-frei da Ordem De Cristo,1,1761-10-01,1761-10-01
+frei Ordem da Trindade,1,1576-10-01,1576-10-01
+"frei da Ordem de Santiago, colegial das Ordens Militares",1,1641-07-20,1641-07-20
 frei da Ordem Reformada de S. Pedro de Alcântara,1,1805-11-23,1805-11-23
 frei da Ordem São Bernardo,1,1600-12-20,1600-12-20
 frei da Ordem São Jerónimo,1,1560-10-01,1560-10-01
 frei da Ordem de S. Francisco da Província do Algarve,1,1572-10-10,1572-10-10
 frei da Ordem de S. Franisco,1,1576-10-01,1576-10-01
 frei da Ordem de S. Franisco dos Claustrais,1,1551-02-11,1551-02-11
-"frei da Ordem de Santiago, colegial das Ordens Militares",1,1641-07-20,1641-07-20
-frei Ordem da Trindade,1,1576-10-01,1576-10-01
+frei da Ordem de S. Jerónimo,1,1550-03-12,1550-03-12
 frei da Ordem de Santo Iloi,1,1552-10-06,1552-10-06
+frei Ordem de São Francisco,1,1540-03-09,1540-03-09
 frei da Ordem de São Francisco da Província do Alentejo,1,1572-10-10,1572-10-10
 frei da Ordem de São Francisco de Portugal,1,1803-10-31,1803-10-31
 frei da Ordem de São Francisco dos Conventuais,1,1550-02-11,1550-02-11
 frei da Ordem de São Franisco,1,1791-10-22,1791-10-22
 frei da Ordem de São João,1,1803-10-15,1803-10-15
 frei da Ordem de São Paulo,1,1794-10-14,1794-10-14
+frei da Ordem de Tomar,1,1689-10-01,1689-10-01
+frei da Ordem De Cristo,1,1761-10-01,1761-10-01
 frei da Ordem ?,1,1622-07-30,1622-07-30
 frei da Ordem,1,1797-10-12,1797-10-12
 frei da Graça,1,1635-06-06,1635-06-06
-frei da 3ª ordem de São Francisco,1,1760-10-01,1760-10-01
-frei Ordem de São Francisco,1,1540-03-09,1540-03-09
 frei Ordem de São Jerónimo,1,1550-03-12,1550-03-12
 frei Religioso da 3ª Ordem da Penitência,1,1784-10-30,1784-10-30
 frei Religioso da Congregação de São Paulo,1,1804-06-06,1804-06-06
 frei Religioso da Ordem de Cristo,1,1785-05-09,1785-05-09
-"frei Religioso da Ordem dos Mínimos, de São Francisco de Paula",1,1786-10-31,1786-10-31
+"frei Religioso da Ordem dos Mínimos,  de São Francisco de Paula",1,1786-10-31,1786-10-31
 frei Religioso de São Francisco,1,1804-06-05,1804-06-05
 frei Religiosod da Santíssima Trindade,1,1738-10-01,1738-10-01
 frei São Bernardo,1,1593-03-05,1593-03-05
@@ -590,9 +590,10 @@ frei colegial do colégio das Ordens Militares,1,1622-06-21,1622-06-21
 frei da 3ª Ordem da Penitência,1,1779-10-26,1779-10-26
 frei da 3ª Ordem de S. Francisco,1,1767-10-01,1767-10-01
 frei da 3ª Ordem dos Medicantes,1,1783-10-31,1783-10-31
+frei da 3ª ordem de São Francisco,1,1760-10-01,1760-10-01
 cónego Secular da Congregação de São João Evangelista,1,1755-10-01,1755-10-01
+cónego Secular São João Evangelista,1,1749-10-01,1749-10-01
 criado do Infante D. Luís,1,1540-10-03,1540-10-03
-frei da Ordem de Tomar de Cristo,1,1683-10-01,1683-10-01
 "Frei, religioso de São Francisco da Província de Portugal",1,1734-10-01,1734-10-01
 Familiar do colégio de São Paulo,1,1710-10-01,1710-10-01
 Familiar do colégio dos Militares,1,1698-10-25,1698-10-25
@@ -668,9 +669,9 @@ barão de Ancêde,1,1853-07-16,1853-07-16
 barão de Cadoro,1,1896-10-02,1896-10-02
 barão de São Roque,1,1852-10-25,1852-10-25
 beneficiado da Santa Basílica Patriarcal,1,1746-10-01,1746-10-01
-frei da Ordem de Tomar,1,1689-10-01,1689-10-01
+frei da Ordem de Tomar de Cristo,1,1683-10-01,1683-10-01
 frei da Ordem do Carmo Calçado,1,1786-10-26,1786-10-26
-padre da Congregação da São João Evangelista,1,1557-07-30,1557-07-30
+frei da Ordem dos Carmelitas,1,1536-00-00,1536-00-00
 frei religioso de São Francisco de Província de Portugal,1,1764-10-01,1764-10-01
 frei religioso de São Francisco da Provinvia dos Algarves,1,1742-10-01,1742-10-01
 frei religioso de São Francisco da Provícnia dos Algarves,1,1767-10-01,1767-10-01
@@ -690,10 +691,10 @@ frei religioso de São Pedro de Alcantra,1,1805-11-23,1805-11-23
 frei religioso de São Pedro de Alcântra,1,1805-11-23,1805-11-23
 frei religioso de São Francisco da Provinvia de Portugal,1,1749-12-15,1749-12-15
 frei religioso de São Francisco da Pronvíncia dos Algarves,1,1747-10-01,1747-10-01
+frei religioso de São Domingo,1,1761-10-01,1761-10-01
 Capelão do Rei,1,1551-02-12,1551-02-12
-frei religioso de São Bernardo da Província de Portugal,1,1747-10-01,1747-10-01
-frei religioso da São Trindade,1,1765-10-01,1765-10-01
 frei religioso da Terceira Ordem de São Pedro,1,1730-10-01,1730-10-01
+frei religioso de Nossa Senhora  da Graça,1,1743-10-01,1743-10-01
 frei religioso de Nossa Senhora da Guia ou Graça,1,1691-12-15,1691-12-15
 frei religioso de Nossa Senhora de Carmo,1,1753-10-01,1753-10-01
 frei religioso de Nossa Senhora do Carmo do Rio de Janeiro,1,1757-10-01,1757-10-01
@@ -709,7 +710,7 @@ frei religioso de Sã Bernardo,1,1692-10-01,1692-10-01
 frei religioso de São Agostinho Descalço,1,1787-10-11,1787-10-11
 frei religioso de Tomar da Ordem de Cristo,1,1680-10-01,1680-10-01
 frei religioso do colégio de Nossa senhora da Graça,1,1734-10-01,1734-10-01
-frei religioso da Ordem do Carmo,1,1766-10-01,1766-10-01
+frei religioso da Sta. Ordem de São Francisco,1,1812-10-29,1812-10-29
 "padre Loyo, religioso da Ordem de São João Evangelista",1,1575-10-01,1575-10-01
 mestre escola de Coimbra,1,1620-10-03,1620-10-03
 monge Benedetino,1,1829-10-31,1829-10-31
@@ -746,31 +747,30 @@ freida Ordem de São Francisco,1,1567-10-01,1567-10-01
 físico de sua alteza,1,1548-00-00,1548-00-00
 lente de Instituta,1,1739-01-28,1739-01-28
 lente de código,1,1739-01-26,1739-01-26
-frei religioso da Sta. Ordem de São Francisco,1,1812-10-29,1812-10-29
-frei religioso da Ordem de São Paulo,1,1749-10-01,1749-10-01
-frei da Ordem dos Carmelitas,1,1536-00-00,1536-00-00
-frei de São Francisco do colégio de São Boaventura,1,1742-10-01,1742-10-01
-frei de Santo Agostinho Calçado,1,1804-06-02,1804-06-02
+frei religioso da São Trindade,1,1765-10-01,1765-10-01
+frei religioso da Ordem do Carmo,1,1766-10-01,1766-10-01
+frei da Ordem dos Claustrais de São Francisco,1,1557-02-05,1557-02-05
+"frei de São Jerónimo, Mestre de Música",1,1631-02-10,1631-02-10
 frei de Santo Agostinho Descalço,1,1793-10-11,1793-10-11
 frei de Semião de Brito,1,1741-10-01,1741-10-01
 frei de Simão da Fonseca,1,1753-10-01,1753-10-01
 frei de São Francisco,1,1744-10-01,1744-10-01
 frei de São Francisco da Ponte,1,1746-10-30,1746-10-30
 frei de São Francisco da cidade,1,1742-10-01,1742-10-01
-"frei de São Jerónimo, Mestre de Música",1,1631-02-10,1631-02-10
-frei eremita de Santo Agostinho Calçado,1,1789-10-26,1789-10-26
+frei de São Francisco do colégio de São Boaventura,1,1742-10-01,1742-10-01
 frei do colegial dos Militares,1,1697-10-25,1697-10-25
+frei eremita de Santo Agostinho Descalço,1,1789-10-06,1789-10-06
 frei do colégio das Ordens Militares,1,1619-05-23,1619-05-23
 frei do colégio de São Bento,1,1763-07-27,1763-07-27
 frei do colégio de São João,1,1575-10-01,1575-10-01
 frei e padre religioso de São Bernardo,1,1680-00-00,1680-00-00
 frei eremita Calçado de Sto. Agostinho,1,1779-12-11,1779-12-11
 frei eremita calçado de Santo Agostinho,1,1783-10-31,1783-10-31
+frei eremita de S. Paulo,1,1780-10-30,1780-10-30
+frei de Santo Agostinho Calçado,1,1804-06-02,1804-06-02
 frei de Santa Rita,1,1794-10-14,1794-10-14
 frei de S. Francisco da Província dos Algarves,1,1742-10-01,1742-10-01
 frei de S. Francisco,1,1540-11-03,1540-11-03
-frei de Nossa Senhora do Carmo,1,1757-10-01,1757-10-01
-frei da Ordem dos Claustrais de São Francisco,1,1557-02-05,1557-02-05
 frei da Ordem dos Eremitas Calçados de Santo Agostinho,1,1802-10-31,1802-10-31
 frei da Ordem dos Eremitas de Santo Agostinho,1,1786-10-05,1786-10-05
 frei da Ordem dos Militares,1,1620-07-08,1620-07-08
@@ -785,31 +785,31 @@ frei das 0rdens Militares,1,1655-05-19,1655-05-19
 frei das ordens Militares,1,1635-07-19,1635-07-19
 frei de Bento Lusido,1,1627-03-20,1627-03-20
 frei de Luís António de Brito,1,1769-10-01,1769-10-01
-frei eremita de S. Paulo,1,1780-10-30,1780-10-30
-frei eremita de Santo Agostinho Descalço,1,1789-10-06,1789-10-06
-frei religioso da Ordem de São Francisco da Província de Portugal,1,1753-10-01,1753-10-01
-frei religioso da Graça ou São Bernardo?,1,1689-10-01,1689-10-01
-frei religioso da 3ª Ordem de Penitência,1,1823-11-22,1823-11-22
+frei de Nossa Senhora do Carmo,1,1757-10-01,1757-10-01
+frei eremita de Santo Agostinho Calçado,1,1789-10-26,1789-10-26
+frei eremita de São Agostinho,1,1764-10-01,1764-10-01
+frei religioso da Ordem de São Paulo,1,1749-10-01,1749-10-01
+frei religioso da Ordem 2º de São Pedro,1,1728-10-01,1728-10-01
 frei religioso da 3ª Ordem de S. Francisco,1,1737-10-01,1737-10-01
 frei religioso da 3ª Ordem de São Pedro,1,1728-10-01,1728-10-01
 frei religioso da 3ª Ordem do colégio de São Pedro,1,1727-10-01,1727-10-01
 frei religioso da 3ª ordem,1,1807-10-31,1807-10-31
 frei religioso da 3ª ordem de São Francisco,1,1755-10-01,1755-10-01
 frei religioso da Carmo,1,1770-10-01,1770-10-01
-frei religioso da Ordem 2º de São Pedro,1,1728-10-01,1728-10-01
-frei eremita de São Agostinho,1,1764-10-01,1764-10-01
+frei religioso da Graça ou São Bernardo?,1,1689-10-01,1689-10-01
 frei religioso da Ordem 3ª,1,1682-10-01,1682-10-01
+frei eremita de SãoPaulo,1,1765-10-01,1765-10-01
 frei religioso da Ordem São Bernardo,1,1699-10-01,1699-10-01
 frei religioso da Ordem da Santíssima Trindade,1,1780-10-14,1780-10-14
 frei religioso da Ordem da Trinidade,1,1628-03-29,1628-03-29
 frei religioso da Ordem de Cristo do convento de Tomar,1,1720-10-01,1720-10-01
 frei religioso da Ordem de Santo Agostinho Descalço,1,1740-11-15,1740-11-15
 frei religioso da Ordem de São Francisco da Ponte,1,1746-10-30,1746-10-30
+frei religioso da Ordem de São Francisco da Província de Portugal,1,1753-10-01,1753-10-01
+frei religioso da 3ª Ordem de Penitência,1,1823-11-22,1823-11-22
 frei religioso da 3ª Ordem da Província dos Algarves,1,1747-10-01,1747-10-01
 frei religioso da 3ª Ordem da Peniência,1,1737-10-01,1737-10-01
 frei religioso da 1ª ordem de São Francisco,1,1779-10-26,1779-10-26
-frei religioso calçado de Santo Agostinho,1,1801-06-02,1801-06-02
-frei eremita de SãoPaulo,1,1765-10-01,1765-10-01
 frei eremita de santo Agostinho,1,1779-12-14,1779-12-14
 frei padre da Ordem de Santo Agostinho,1,1551-00-00,1551-00-00
 frei padre da Ordem de São Bento,1,1548-01-01,1548-01-01
@@ -824,4 +824,5 @@ frei religios de S. Jerónimo,1,1701-10-01,1701-10-01
 frei religioso,1,1666-10-01,1666-10-01
 frei religioso Agostinho descalço,1,1750-10-01,1750-10-01
 frei religioso Descalço de Santo Agostinho,1,1738-10-01,1738-10-01
+frei religioso calçado de Santo Agostinho,1,1801-06-02,1801-06-02
 visconde de Vila Verde,1,1876-10-11,1876-10-11

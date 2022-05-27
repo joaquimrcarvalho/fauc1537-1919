@@ -543,7 +543,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 169927,António Mendonça Furtado,sim,1678-10-15,1685-02-17,Pombeiro,,,Cânones,,,padre
 229095,António Mexia Rosado,sim,1676-10-01,1680-01-23,Elvas,,,Teologia,,,padre
 251103,António Monteiro,sim,1631-10-03,1637-05-15,Lisboa,Bartolomeu Monteiro,,Cânones,,,padre
-251656,António Monteiro,sim,1683-12-01,1685-10-01,São Joaninho,,,Cânones,,,padre
+251656,António Monteiro,sim,1683-12-01,1685-10-01,São  Joaninho,,,Cânones,,,padre
 251041,António Monteiro,sim,1715-00-00,1715-00-00,,,,Artes,,,padre
 251685,António Monteiro,sim,1722-10-01,1729-06-03,Vila Formoso,Pedro Gonçalves,,Cânones,,,padre
 227847,António Monteiro Pereira,sim,1726-10-01,1728-10-01,Lamego,,,Cânones,,,padre
@@ -1525,7 +1525,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 178504,Diogo Gomes,sim,1670-02-14,1677-06-22,Aguiar da Beira,,,Cânones,,,padre
 179355,Diogo Gonçalves,sim,1643-10-03,1650-05-23,São Romão,António Gonçalves,,Cânones,,,padre
 172939,Diogo Gonçalves Matoso,sim,1648-10-09,1651-11-10,Beringel,,,Cânones,,,padre
-246375,Diogo Gonçalves Pinto,sim,1643-10-10,1650-05-23,São Romão,António Gonçalves,,Cânones,,,padre
+246375,Diogo Gonçalves Pinto,sim,1643-10-10,1650-05-23,São  Romão,António Gonçalves,,Cânones,,,padre
 186451,Diogo Harti,sim,1652-10-10,1661-10-20,Irlanda,,,Teologia,,,padre
 190165,Diogo Hichy,sim,1752-10-01,1756-10-26,Irlanda,Patrício Hichy,,Cânones,,,padre
 154305,Diogo José Serrão de Carvalho,sim,1720-10-01,1725-10-01,Pombal,,,Cânones,,,padre
@@ -1694,7 +1694,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 184968,Domingos Martins,sim,1666-10-01,1672-10-24,São Martinho do Bispo,,,Teologia,,,padre
 184964,Domingos Martins,sim,1678-10-15,1684-07-27,Óbidos,João Ribeiro,,Cânones,,,padre
 187240,Domingos Martins Braga,sim,1735-10-01,1743-06-11,Braga,Pedro Martins,,Cânones,,,padre
-241385,Domingos Martins Pimenta,sim,1699-10-01,1706-07-16,São Miguel do Outeiro,Francisco Pimenta,,Cânones,,,padre
+241385,Domingos Martins Pimenta,sim,1699-10-01,1706-07-16,São  Miguel do Outeiro,Francisco Pimenta,,Cânones,,,padre
 184446,Domingos Martins da Cruz Marques,sim,1740-10-01,1746-06-15,Ribeira da Pena,António Marques,,Cânones,,,padre
 206436,Domingos Mendes,sim,1634-10-11,1647-11-06,Lisboa,Domingos Jorge,,Cânones,,,padre
 206443,Domingos Mendes,sim,1645-10-13,1655-05-31,Sertã,Simão Mendes,,Cânones,,,padre
@@ -2060,9 +2060,9 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 178648,Francisco Gomes,sim,1688-10-01,1695-07-27,Portel,António Fernandes,,Cânones,,,padre
 187129,Francisco Gomes Boto,sim,1630-10-03,1630-10-03,Eiras,,,Cânones,,,padre
 234714,Francisco Gomes Pereira,sim,1724-10-01,1725-10-01,Vila Viçosa,,,Cânones,,,padre
-243795,Francisco Gomes Pinheiro,sim,1696-10-01,1703-10-13,São Miguel do Outeiro,António Gomes Pinheiro,,Teologia,,,padre
-243789,Francisco Gomes Pinheiro,sim,1697-04-17,1698-06-18,São Miguel do Outeiro,,,Artes,,,padre
-249571,Francisco Gomes da Ponte,sim,1728-10-01,1730-10-01,São Pedro da Torre,,,Cânones,,,padre
+243795,Francisco Gomes Pinheiro,sim,1696-10-01,1703-10-13,São  Miguel do Outeiro,António Gomes Pinheiro,,Teologia,,,padre
+243789,Francisco Gomes Pinheiro,sim,1697-04-17,1698-06-18,São  Miguel do Outeiro,,,Artes,,,padre
+249571,Francisco Gomes da Ponte,sim,1728-10-01,1730-10-01,São  Pedro da Torre,,,Cânones,,,padre
 226540,Francisco Gomes da Silva,sim,1712-10-22,1717-10-26,Ourentã,,,Cânones,,,padre
 179385,Francisco Gonçalves,sim,1745-10-01,1751-05-05,Barroco,Domingos Gonçalves,,Teologia,,,padre
 179392,Francisco Gonçalves,sim,1745-11-02,1752-05-22,Estreito,João Antunes,,Cânones,,,padre
@@ -2121,7 +2121,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 181856,Francisco Lopes Machado,sim,1701-10-01,1710-03-01,Leitosa,Domingos Lopes,,Cânones,,,padre
 200465,Francisco Lopes Teixeira,sim,1649-10-05,1649-10-24,Coimbra,,,Teologia,,,padre
 201059,Francisco Lopes da Costa,sim,1764-10-01,1771-05-24,Castelo Branco,Francisco Lopes da Costa,,Cânones,,,padre
-140766,Francisco Lopes de Abreu,sim,1744-10-01,1752-01-30,"São Martinho, Soalhães",,,Cânones,,,padre
+140766,Francisco Lopes de Abreu,sim,1744-10-01,1752-01-30,"São  Martinho, Soalhães",,,Cânones,,,padre
 154998,Francisco Lopes de Carvalho,sim,1654-10-15,1654-10-15,Melo,,,Cânones,,,padre
 175586,Francisco Lopes de Oliveira,sim,1669-11-08,1679-07-11,Lourosa,,,Cânones,,,padre
 148631,Francisco Lopo de Ataíde,sim,1691-10-01,1692-10-01,,,Ordem de São Bento,Teologia,frei,,padre frei religioso de São Bento
@@ -2559,12 +2559,12 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 162455,Gonçalo José Ribeiro,sim,1730-01-08,1731-10-01,Canavesses,,,Cânones,,,padre
 245107,Gonçalo Lopes,sim,1557-02-28,1562-07-28,"Quintela, Viseu",,,Teologia,,,padre
 235170,Gonçalo Luís Pereira,sim,1710-10-01,1724-10-01,Porto,,,Cânones,,,padre
-207371,Gonçalo Mendes,sim,1616-03-12,1616-03-12,,,,Cursos jurídicos (Cânones ou Leis),,,padre
+207371,Gonçalo Mendes,sim,1616-03-12,1616-03-12,,,,Artes,,,padre
 207430,Gonçalo Mendes,sim,1618-10-29,1618-10-29,Lisboa,Francisco de Freitas,,Cânones,,,padre
 230532,Gonçalo Nobre da Silveira,sim,1739-10-01,1743-10-01,Lisboa,,,Cânones,,,padre
 224787,Gonçalo Peixoto,sim,1645-10-14,1651-10-26,Lisboa,Francisco Peixoto,,Cânones,,,padre
 235151,Gonçalo Pereira,sim,1655-12-23,1664-10-01,Cabeceiras de Basto,,,Cânones,,,padre
-247023,Gonçalo Pinto,sim,1650-10-17,1650-10-17,São Romão,,,Cânones,,,padre
+247023,Gonçalo Pinto,sim,1650-10-17,1650-10-17,São  Romão,,,Cânones,,,padre
 155297,Gonçalo Pinto de Carvalho,sim,1708-10-27,1714-12-07,Vila Marim,,,Cânones,,,padre
 143136,Gonçalo Pires de Almeida,sim,1695-10-01,1695-10-01,"Baía, Brasil",,,Cânones,,,padre
 162451,Gonçalo Ribeiro,sim,1653-10-08,1663-10-15,Torre de Moncorvo,,,Cânones,,,padre
@@ -3107,7 +3107,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 220020,José Mendes dos Santos,sim,1734-11-12,1742-07-25,Portunhos,Ambrósio dos Santos,,Cânones,,,padre
 241001,José Mergulhão,sim,1664-10-01,1665-10-29,,,Ordem de São Bernardo,Teologia,frei,,padre frei religioso de São Bernardo
 250022,José Moncada,sim,1736-12-30,1743-10-04,,,Ordem de Cristo,Teologia,frei,,"padre, frei religioso da Ordem de Cristo"
-247745,José Monteiro Pinto,sim,1752-10-01,1752-10-01,São Pedro de Paus,,,Cânones,,,padre
+247745,José Monteiro Pinto,sim,1752-10-01,1752-10-01,São  Pedro de Paus,,,Cânones,,,padre
 215635,José Monteiro Viana,sim,1724-10-01,1732-02-29,Peniche,João Monteiro Ferreira,,Cânones,,,padre
 186369,José Monteiro da Rocha,sim,1766-10-01,1770-06-30,[Marco de ] Canavezes,,,Cânones,,,padre
 213619,José Monteiro da Veiga,sim,1765-10-01,1770-06-07,Provesende,Domingos da Mota Monteiro,,Cânones,,,padre
@@ -4508,7 +4508,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 159144,Manuel Barbosa da Fonseca,sim,1722-10-01,1727-10-01,Lorvão,,,Cânones,,,padre
 229035,Manuel Barbosa da Silva,sim,1635-03-15,1635-03-15,Ilha de São Miguel,,,Artes,,,padre
 152021,Manuel Barros,sim,1661-10-14,1661-10-14,Vila Real,,,Cânones,,,padre
-150020,Manuel Batista,sim,1564-10-01,1568-06-21,,,,Teologia,,Colégio de S.João Evangelista,padre do colégio dos Lóios
+150020,Manuel Batista,sim,1564-10-01,1568-06-21,,,Ordem de São João Evangelista,Teologia,,Colégio de S.João Evangelista,padre do colégio dos Lóios
 150043,Manuel Batista,sim,1643-10-25,1647-10-04,Lamego,,,Cânones,,,padre
 150027,Manuel Batista,sim,1645-12-11,1651-10-07,Ceira,Manuel Lopes,,Cânones,,,padre
 150039,Manuel Batista,sim,1673-10-01,1676-10-22,Pombeiro,,,Cânones,,,padre
@@ -5203,7 +5203,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 180727,Manuel Pinheiro da Guerra,sim,1740-10-01,1740-10-01,Braga,,,Cânones,,,padre
 248022,Manuel Pinto,sim,1619-10-10,1628-02-21,Cantanhede,Tomé Jorge,,Cânones,,,padre
 248005,Manuel Pinto,sim,1649-10-10,1649-10-10,,António Pinto,,Cânones,,,padre
-248174,Manuel Pinto,sim,1688-10-01,1693-05-20,São Pedro do Sul,Simão Pinto,,Cânones,,,padre
+248174,Manuel Pinto,sim,1688-10-01,1693-05-20,São  Pedro do Sul,Simão Pinto,,Cânones,,,padre
 248110,Manuel Pinto,sim,1722-10-01,1727-07-18,Lavos,Manuel Pinto,,Cânones,,,padre
 244112,Manuel Pinto Ferraz,sim,1746-10-01,1751-05-17,Faro,António Pinheiro de Faria,,Cânones,,,padre
 136814,Manuel Pinto Reimão,sim,1680-02-10,1680-02-10,Almeida,,,Cânones,,,padre
@@ -5391,7 +5391,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 194647,Manuel Simões Coelho,sim,1712-10-01,1718-10-01,Alvorge,,,Cânones,,,padre
 194830,Manuel Simões Coelho,sim,1730-10-27,1758-12-19,Pedrogão Grande,,,Cânones,,,padre
 212880,Manuel Simões Mendes,sim,1688-10-01,1691-10-01,Souto da Casa,,,Cânones,,,padre
-229995,Manuel Simões Rovisco,sim,1694-03-31,1694-03-31,Gouveia,,,Cursos jurídicos (Cânones ou Leis),,,padre
+229995,Manuel Simões Rovisco,sim,1694-03-31,1694-03-31,Gouveia,,,Artes,,,padre
 220636,Manuel Simões Santos,sim,1719-10-01,1727-03-17,Casal de Álvaro,Mateus Simões,,Cânones,,,padre
 193669,Manuel Simões da Horta,sim,1695-10-01,1702-10-01,São Miguel de Outeiros,,,Cânones,,,padre
 232687,Manuel Soares,sim,1620-10-14,1624-10-15,,Domingos Fernandes,,Cânones,,,padre
@@ -5430,7 +5430,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 201212,Manuel Teixeira,sim,1705-10-29,1713-10-01,Franzilhal,,,Cânones,,,padre
 201194,Manuel Teixeira,sim,1707-10-22,1715-07-29,Coimbra,Manuel Antunes,,Cânones,,,padre
 160685,Manuel Teixeira Fraga,sim,1753-10-01,1758-04-28,Mondim de Basto,David Gomes Fraga,,Cânones,,,padre
-248400,Manuel Teixeira Pinto,sim,1700-10-01,1706-06-04,São Cipriano,António Pereira Pinto,,Cânones,,,padre
+248400,Manuel Teixeira Pinto,sim,1700-10-01,1706-06-04,São  Cipriano,António Pereira Pinto,,Cânones,,,padre
 248403,Manuel Teixeira Pinto,sim,1763-10-01,1770-07-07,"São Cipriano, Aregos",Afonso Manuel Teixeira Pinto,,Cânones,,,padre
 215486,Manuel Teixeira Sampaio,sim,1669-10-15,1674-05-17,Porto,,,Cânones,,,padre
 141151,Manuel Teixeira de Abreu,sim,1671-10-01,1677-10-15,Lamego,,,Cânones,,,padre
@@ -6477,7 +6477,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 176498,Pedro de Oliveira,sim,1635-10-02,1640-10-12,Coimbra,Pedro Cavaleiro,,Cânones,,,padre
 176600,Pedro de Oliveiros,sim,1666-11-15,1672-06-23,Lisboa,,,Cânones,,,padre
 229920,Pedro de Paiva da Silva,sim,1629-10-12,1633-01-25,Lamego,,,Cânones,,,padre
-245202,Pedro de Pinho,sim,1609-10-27,1618-11-24,São Martinho de Salreu,Miguel Afonso,,Cânones,,,padre
+245202,Pedro de Pinho,sim,1609-10-27,1618-11-24,São  Martinho de Salreu,Miguel Afonso,,Cânones,,,padre
 216974,Pedro de Santa Maria,sim,1712-10-01,1721-10-11,,,Ordem de Santo Agostinho (Graça),Teologia,frei,,padre frei religioso de Nossa Senhora da Graça
 176523,Pedro de Santa Maria de Oliveira,sim,1722-10-01,1722-10-01,,,Ordem do Carmo,Teologia,frei,,padre frei religioso de Nossa Senhora do Carmo
 217236,Pedro de Santa Teresa,sim,1731-12-15,1732-10-01,,,Ordem Terceira,Teologia,frei,,padre frei religioso da 3ª Ordem
@@ -6613,7 +6613,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 138131,Sebastião Cardoso,sim,1635-10-10,1635-10-10,Águeda,,,Cânones,,,padre
 192319,Sebastião Cerveira,sim,1601-10-01,1609-10-12,Coimbra,João Cerveira,,Cânones,,,padre
 194902,Sebastião Coelho,sim,1647-11-18,1654-11-20,Vila Nova de Anços,,,Cânones,,,padre
-242833,Sebastião Coelho Pimentel,sim,1716-10-27,1724-10-01,São Tomé de Mira,,,Cânones,,,padre
+242833,Sebastião Coelho Pimentel,sim,1716-10-27,1724-10-01,São  Tomé de Mira,,,Cânones,,,padre
 196360,Sebastião Cordeiro,sim,1613-10-11,1620-12-19,Castelo Branco,António Cordeiro,,Cânones,,,padre
 134551,Sebastião Delgado,sim,1716-10-01,1716-10-01,Alpalhão,,,,,,padre
 162596,Sebastião Dias,sim,1564-10-10,1584-01-30,Santar,,,Cânones,,,padre
