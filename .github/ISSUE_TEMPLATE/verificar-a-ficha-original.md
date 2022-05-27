@@ -22,11 +22,11 @@ use o formulário "Gralha em registo"
 URL: 
 https://pesquisa.auc.uc.pt/details?id=220198
 
-** Problema **
+**Problema**
 
 Copie a parte do registo que tem o problema (não é necessário copiar toda a informação)
 
-**  O que necessita de ser verificado **
+**O que necessita de ser verificado**
 
 Indique o conteúdo que necessita de ser verificado.
 
