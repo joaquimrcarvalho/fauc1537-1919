@@ -36,7 +36,7 @@ def get_db(db_spec, **extra_args):
     
     db_spec can be a connection string or a tuple.
     if a tuple:
-        ('mhk','mhkl_db_name') or
+        ('mhk','mhk_db_name') or
         ('sqlite','db_file')
     """
     if type(db_spec) is str:
