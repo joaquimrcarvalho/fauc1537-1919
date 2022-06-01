@@ -180,6 +180,28 @@ def get_attribute_table(db: TimelinkDB=None):
     return attr
 
 
+def get_person_table(db: TimelinkDB=None):
+    """ Return the person table.
+
+    Returns a sqlalchemy table linked to the persons table of MHK databases
+
+
+    """
+    if db is not None:
+        dbsystem = db
+    elif conf.TIMELINK_DBSYSTEM is not None:
+        dbsystem = conf.TIMELINK_DBSYSTEM
+    else:
+        raise(Exception("must specify database with db="))
+    if conf.TIMELINK_PERSONS is None:
+        eng: engine = dbsystem.get_engine()
+        metadata: MetaData = dbsystem.get_metadata()
+        pers=Table('persons', metadata, autoload_with=eng)
+        conf.TIMELINK_PERSONS = pers
+    else:
+        pers = conf.TIMELINK_PERSONS  
+    return pers
+
 
 def get_relations_table(db: TimelinkDB=None):
     """ Return the relations table.
