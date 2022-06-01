@@ -33,8 +33,13 @@ TIMELINK_NATTRIBUTES = None
 # This is the attribute table
 TIMELINK_ATTRIBUTES = None
 
+# This is the persons table
+TIMELINK_PERSONS = None
+
 # This is the relations table
 TIMELINK_RELATIONS = None
 
 # This is the named functions view
 TIMELINK_NFUNCS = None
+
+
