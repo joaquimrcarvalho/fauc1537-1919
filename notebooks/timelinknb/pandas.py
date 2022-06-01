@@ -175,6 +175,9 @@ def attribute_to_df(the_type,
         records = session.execute(stmt)
         df =  pd.DataFrame.from_records(records,index=['id'],columns=cols)
 
+    if df.iloc[0].count() == 0:
+        return None  #  nothing found we 
+
     if more_cols is None:
         more_columns = []
     else:
@@ -202,7 +205,10 @@ def attribute_to_df(the_type,
                 records = session.execute(stmt)
                 df2 =  pd.DataFrame.from_records(records,index=['id'],columns=cols)
 
-            df = df.join(df2)
+            if df2.iloc[0].count() == 0:
+                pass #  nothing found we 
+            else:
+                df = df.join(df2)
     
     return df
 
