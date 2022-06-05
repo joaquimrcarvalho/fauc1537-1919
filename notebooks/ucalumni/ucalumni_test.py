@@ -423,7 +423,7 @@ record, we can test the extractors in specific records.
 """
 
 # set the database which will provide the test records
-db_main_db = config.mysql_main_db
+db_main_db = config.sqlite_main_db
 
 db = TimelinkDB(db_main_db)
 Session.configure(bind=db.get_engine())

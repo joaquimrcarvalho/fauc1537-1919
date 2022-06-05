@@ -10,7 +10,8 @@ sqlite_main_db = "sqlite:///database/sqlite3/fauc.db?check_same_thread=False"
 sqlite_test_db = "sqlite:///notebooks/ucalumni/tests/db/ucalumni.db?check_same_thread=False"
 
 # Main db name in Mysql
-mhk_db_name = 'ucalumni'
+mysql_main_db = 'ucalumni'
+mysql_test_db = 'ucalumni_test'
 
 # this is where the notebooks will come for a db
 default_db = ('sqlite','fauc.db')
