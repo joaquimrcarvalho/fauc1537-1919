@@ -66,9 +66,9 @@ auc = KAbstraction.extend('auc', position=['name', ''], also=[
     'level', 'id'], guaranteed=['id'])
 n = KPerson.extend('n', position=['nome', 'sexo'], guaranteed=[
     'id', 'nome', 'sexo'], also=['mesmo_que', 'obs'])
-referido = KPerson.extend('referido', position=['nome'], guaranteed=[
-    'id', 'nome'], also=['mesmo_que', 'obs'])
-referida = KPerson.extend('referida', position=['nome'], guaranteed=[
+referido = KPerson.extend('referido', position=['nome','sexo'], guaranteed=[
+    'id', 'nome'], also=['mesmo_que',  'obs'])
+referida = KPerson.extend('referida', position=['nome','sexo'], guaranteed=[
     'id', 'nome'], also=['mesmo_que', 'obs'])
 ls = KLs.extend('ls', position=['type', 'value', 'data'], also=['data', 'obs','entity'])
 atr = KAtr.extend(
