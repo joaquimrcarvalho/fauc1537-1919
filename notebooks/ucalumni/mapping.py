@@ -127,16 +127,20 @@ def mapper_nomes_notes(aluno: Aluno, p: n):
             p.include(ls('nome-apelido', " ".join(apelidos[i:]), aluno.unit_date_inicial.value))
     # p.include(ls('nome.apelido.ano', ano+'.'+aluno.apelido, aluno.unit_date_inicial.value))
 
+    id_pai = None
     if getattr(aluno, 'pai', None) is not None:
         relation = "filho" if aluno.sexo == 'm' else "filha"
         id=aluno.id+'-pai'
-        p.include(referido(aluno.pai, id=id))
+        id_pai = id
+        p.include(referido(aluno.pai, 'm',id=id))
         p.include(rel("parentesco",relation, aluno.pai,id,data=aluno.unit_date_inicial.value))
         p.include(ls('nome-pai',aluno.pai, data=aluno.unit_date_inicial.value))
     if getattr(aluno, 'mae', None) is not None:
         id=aluno.id+'-mae'
-        p.include(referida(aluno.mae, id=id))
+        mae = referida(aluno.mae,'f', id=id)
+        p.include(mae)
         p.include(rel("parentesco",relation,aluno.mae,id,data=aluno.unit_date_inicial.value))
+        mae.include(rel("parentesco", 'mulher', aluno.pai, id_pai,data=aluno.unit_date_inicial.value))
         p.include(ls('nome-mae',aluno.mae, data=aluno.unit_date_inicial.value))
 
 Aluno.mappers.append(mapper_nomes_notes)

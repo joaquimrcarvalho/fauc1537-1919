@@ -13,7 +13,7 @@ import pytest
 import pyparsing as pp
 
 from timelink.mhk.models import base  # noqa
-from timelink.mhk.models.base import Source, Person, Attribute
+from timelink.mhk.models.base import Source, Person, Act, Attribute, Relation
 from timelink.mhk.models.db import TimelinkDB
 
 import ucalumni.config as config
@@ -1254,7 +1254,19 @@ def test_csv_to_sqlite():
         batch=50,
         testing=False,
     )
-    # TODO test if there is one source, 3 acts and 496 people
+    # Test correct linkage to source and act
+    with Session() as session:
+        p: Person = session.query(Person).order_by(Person.id).first()
+        function_in_act: Relation = [r for r in p.rels_out if r.the_type == 'function-in-act'][0]
+        destination = function_in_act.destination
+        act: Act = session.get(Act,destination)
+        assert act is not None, "Could not find act of first person"
+
+        pai: Person = session.get(Person,'140337-pai')
+        assert pai.sex is not None, "Father stored with no sex info"
+
+        pai_function: Relation = [r for r in pai.rels_out if r.the_type == 'function-in-act'][0]
+        assert pai_function is not None, "Father store with no function in act"
 
     assert True, "Problemas in import directly to database test"
 
