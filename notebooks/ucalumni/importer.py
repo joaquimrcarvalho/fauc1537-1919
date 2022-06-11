@@ -22,7 +22,7 @@ from timelink.kleio.groups import KElement, KPerson, KSource, KAct
 
 from ucalumni import config
 from ucalumni.config import Session
-from ucalumni.fields import break_lines_with_repetitions, process_bioreg
+from ucalumni.fields import break_lines_with_repetitions, process_bioreg, process_field
 from ucalumni.groups import atr, fonte, lista, n, kleio
 from ucalumni.grammar import BIOLINE, preserve_original, DateUtility, scan_date
 from ucalumni.aluno import Aluno
@@ -220,73 +220,6 @@ Data final  : {aluno.unit_date_final}
     return aluno
 
 
-def process_field(pr: ParseResults, section: str, fname: str, fvalue: str,
-        aluno: Aluno):
-    """ Processes section, field and value. Adds information to `Aluno`.
-
-    :param pr: `parseResults`  of the current line
-    :param section: field name (normally from tokens)
-    :param fname: field value (normally from tokens)
-    :param fvalue: name of section, if one was detected before
-    :param aluno: current student record
-    :type aluno: class: ucalumni.importer.Aluno
-    :return: fname,fvalue, fvalue_is_date (True if fvalue is a date_expression)
-
-    Extracts date if present in field value, for Notes.
-    Can change fname and fvalue according to context and specific rules.
-    If fvalue is a date or date range then it is replaced by a normalized
-    date and fvalue_is_date flag is returned
-    """
-
-    obs = ''
-    
-    default_date = aluno.unit_date_inicial
-
-    k = pr.asDict().keys()
-    
-    if 'provas' in k:
-        fname = 'provas'
-        
-    
-    fvalue_is_date = False
-
-    if fvalue > '':
-        ls_date = default_date
-        fvalue_is_date = False
-        any_date_found = False
-        # Check is field value contains an usable date
-        d = scan_date(fvalue)
-        if d is not None:
-            ls_date = d
-            if d.date_only:
-                if 'repeat' in k:
-                    fvalue = pr.first_word_for_repeat + ' ' + d.original
-                    fvalue_is_date = False
-                else:
-                    fvalue_is_date = True
-                    fvalue = d.value
-                    obs = d.original_date
-            any_date_found = True
-
-        if section == '':
-            sname = '*nosection*'
-        else:
-            sname = section
-        fname_inferred = 'nomatch' in k
-        aluno.add_nota(sname.strip(), 
-                        fname.strip(), 
-                        fvalue, 
-                        ls_date, 
-                        obs,
-                        fname_inferred=fname_inferred,
-                        fvalue_is_date=fvalue_is_date)
-
-        if any_date_found:
-            pass
-    else:
-        pass
-    return fname, fvalue, fvalue_is_date
-
 # keep a counter for file names
 letter_counter = {}
 
@@ -323,7 +256,13 @@ def row_to_ksource(row, atrs=False):
     obs = "Âmbito e conteúdo" + nl + nl + scope_content + nl + nl + \
           'Sistema de organização' + nl + nl + arrangement + nl + nl + "URL: " + url
 
-    fonte_id = gid
+    # get the sequential number for this id
+    snumber = letter_counter.get(gid,0)
+    snumber = snumber + 1
+    letter_counter[gid] = snumber
+    # set id of fonte
+    fonte_id = f'lista-{gid}-{snumber:05}'  # later we override this id with one derived from the letter
+    
     gt = fonte( fonte_id, tipo='UC-AUC-ficheiro-alunos',
                data=data,
                loc='Arquivo da Universidade de Coimbra',
@@ -344,7 +283,14 @@ def row_to_ksource(row, atrs=False):
 def row_to_klista(row, reference_date='2020-02-11', atrs=False):
     unit_id = row['UnitId']
     repository_code = row['RepositoryCode']
-    gid = unit_id
+
+    letra = unit_id
+    # get the sequential number for this letter
+    snumber = letter_counter.get(letra,0)
+    snumber = snumber + 1
+    letter_counter[letra] = snumber
+    gid = f'alunos-{letra}-{snumber:05}' 
+
     unit_title = row['UnitTitle']
     unitDateInitial = row["UnitDateInitial"]
     unitDateFinal = row["UnitDateFinal"]
@@ -404,13 +350,12 @@ def row_to_n(row, atrs=False, direct_import=False) -> n:
     # map the result to a Kleio person group
     p = map_aluno_kperson(aluno)
     if direct_import:
-        if len(p.includes('pai')) > 0 :
-            pai = p.includes('pai')[0]
-            pai.rel('parentesco','pai',p.dots.nome,p.dots.id,date=aluno.unit_date_inicial)
-            if len(p.includes('mae')) > 0 :
-                mae = p.includes('mae')[0]
-                mae.rel('parentesco','mae',p.dots.nome,p.dots.id,date=aluno.unit_date_inicial)
-                pai.rel('parentesco','mulher',mae.dots.nome,mae.dots.id,date=aluno.unit_date_inicial)
+        if len(p.includes('referido')) > 0 :
+            pai = p.includes('referido')[0]
+            pai.sex = 'm'
+            if len(p.includes('referida')) > 0 :
+                mae = p.includes('referida')[0]
+                mae.sex = 'f'
             
     # p.dots.maes[0].id
 
@@ -435,15 +380,6 @@ def export_alumni_source(sources_dir: str, kleio_group: kleio,
     The file name and necessary sub directories are calculated from the kleio_group.
     We assume that all the students in the group were filled under the same last name
     initial letter ("A","B",...) and this letter is stored as the loc element of the group `lista`
-
-    First the id of fonte and lista are computed from the kleio_group information.
-    This is done by using the last name initial for the students in this file followed
-    by a sequential number. The number is reset to one
-    when the letter changes
-
-        source id = F{letra}-{sequential_number}
-
-        lista_id = L{letra}-{sequential_number}
 
     The file name will be the same as the id of the group source (fonte).
     The sub directory will be the initial of the last name of the students in this file.
@@ -484,13 +420,11 @@ def export_alumni_source(sources_dir: str, kleio_group: kleio,
 
     # get the sequential number for this letter
     snumber = letter_counter.get(letra,0)
-    snumber = snumber + 1
-    letter_counter[letra] = snumber
 
-    # set id of fonte and lista
+    # set id of fonte
     fs['id'] = f'lista-{letra}-{snumber:05}'
 
-    lis['id'] = f'alunos-{letra}-{snumber:05}' 
+    # set obs of list from student names
     lis['obs'] = f'de {nome1.core}/{id1} até {nome2.core}/{id2}'
 
     if direct_import:
@@ -605,6 +539,13 @@ def import_auc_alumni(csv_file: str, dest_dir: str = '',        db_connection: s
                 
                 if direct_import:
                     aluno.rel('function-in-act','n','',l.id,'')
+                    if len(aluno.includes('referido')) > 0 :
+                        pai = aluno.includes('referido')[0]
+                        pai.rel('function-in-act','pai','',l.id,'')
+                    if len(aluno.includes('referida')) > 0 :
+                        mae = aluno.includes('referida')[0]
+                        mae.rel('function-in-act','mae','',l.id,'')
+
                 l.include(aluno)
 
                 ncount = ncount + 1
