@@ -214,7 +214,7 @@ def attribute_to_df(the_type,
                 df2 =  pd.DataFrame.from_records(records,index=['id'],columns=cols)
 
             if df2.iloc[0].count() == 0:
-                pass #  nothing found we 
+                df[mcol] = None #  nothing found we set the column to nulls
             else:
                 df = df.join(df2)
     
