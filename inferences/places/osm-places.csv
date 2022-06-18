@@ -3138,7 +3138,7 @@ São Pedro de Alva,osm,3466479781,"São Pedro de Alva, Coimbra, Portugal",São P
 Venda dos Moinhos,osm,945114820,"Venda dos Moinhos, Cumeeira, Penela, Coimbra, Portugal",Penela,Portugal,0.55,place,hamlet,39.9623733,-8.3658466,27.688788037623432
 Vila Cova de Alva,osm,6549083,"Vila Cova de Alva, Vila Cova de Alva e Anseriz, Arganil, Coimbra, Portugal",Vila Cova de Alva e Anseriz,Portugal,0.7023238541764917,boundary,historic,40.271972950000006,-7.950611049554171,41.08331660862139
 "Índia, Goa",osm,11251493,"Goa, India",,India,0.73878506312041,boundary,administrative,15.3503192,74.10178169795284,8298.227208796092
-Alcangosta,osm,5318965,"Alcongosta, Fundão, Castelo Branco, Portugal",Fundão,Portugal,0.42689306175331987,boundary,administrative,40.1166567,-7.4822713,81.02692995200147
+Alcangosta,osm,5318965,"Alcongosta, Fundão, Castelo Branco, Portugal",Fundão,Portugal,0.4268930617533198,boundary,administrative,40.1166567,-7.4822713,81.02692995200147
 Alemanha,osm,51477,Deutschland,,Deutschland,0.8896814891722549,boundary,administrative,51.0834196,10.4234469,1893.0295535423627
 "Baia, Brasil",osm,362413,"Bahia, Região Nordeste, Brasil",,Brasil,0.8613311294580472,boundary,administrative,-12.285251,-41.9294776,6762.870548244049
 Baía,osm,362413,"Bahia, Região Nordeste, Brasil",,Brasil,0.8613311294580472,boundary,administrative,-12.285251,-41.9294776,6762.870548244049
@@ -3156,3 +3156,82 @@ Santa Eulália de Barrosas,osm,2197242,"Santa Eulália, Vizela, Braga, Portugal"
 "São Paio de Farinha Podre, hoje São Pedro de Alva",osm,3466479781,"São Pedro de Alva, Coimbra, Portugal",São Pedro de Alva,Portugal,0.6862449547378124,place,town,40.3037818,-8.1651753,24.634790477481896
 Vendas dos Moinhos,osm,945114820,"Venda dos Moinhos, Cumeeira, Penela, Coimbra, Portugal",Penela,Portugal,0.55,place,hamlet,39.9623733,-8.3658466,27.688788037623432
 "Vila Cova de Sub-Avô, hoje Vila Cova de Alva",osm,6549083,"Vila Cova de Alva, Vila Cova de Alva e Anseriz, Arganil, Coimbra, Portugal",Vila Cova de Alva e Anseriz,Portugal,0.7023238541764917,boundary,historic,40.271972950000006,-7.950611049554171,41.08331660862139
+Abravezes,osm,6443610,"Abraveses, Viseu, Viseu, Portugal",Viseu,Portugal,0.4314090033148059,boundary,administrative,40.6774183,-7.9212864,67.50793335526224
+Agada,osm,4024178662,"Angadi, Karwar taluk, Uttara Kannada, Karnataka, India",,India,0.275,place,village,14.8941052,74.1251444,8331.416924583345
+Aguada,osm,3669518141,"Aguada, Carmópolis, Região Geográfica Imediata de Aracaju, Região Geográfica Intermediária de Aracaju, Sergipe, Região Nordeste, Brasil",Carmópolis,Brasil,0.385,place,village,-10.6814294,-36.9456389,6355.136055935503
+"Aldeia da Cruz, Ourém",osm,9562112091,"Aldeia, Porto Velho, Freixianda, Ribeira do Fárrio e Formigais, Ourém, Santarém, Portugal",Ourém,Portugal,0.44500000000000006,place,locality,39.7107132,-8.4453514,55.17626072881236
+Ançada,osm,703485223,"La Ancada, Ábrego, Occidente, Norte de Santander, Colombia",,Colombia,0.125,place,locality,8.1750029,-73.1653296,7288.33874882854
+Arrifana de Sousa,osm,5928154,"Penafiel, Penafiel, Guilhufe, Porto, PT-13, Portugal",Penafiel,Portugal,0.5674587002310442,boundary,historic,41.203919400000004,-8.292240964931633,111.23508794803709
+"Arrifana de Sousa, Penafiel",osm,5928154,"Penafiel, Penafiel, Guilhufe, Porto, PT-13, Portugal",Penafiel,Portugal,0.5674587002310442,boundary,historic,41.203919400000004,-8.292240964931633,111.23508794803709
+Arrifana do Sousa,osm,5928154,"Penafiel, Penafiel, Guilhufe, Porto, PT-13, Portugal",Penafiel,Portugal,0.5674587002310442,boundary,historic,41.203919400000004,-8.292240964931633,111.23508794803709
+Barrelas,osm,1241989178,"As Barrelas, Xinzo de Limia, Xinzo de Limia, A Limia, Ourense, ES-OR, Galicia, España",Xinzo de Limia,España,0.225,place,locality,42.0730464,-7.7056874,215.83293505570427
+"Barril, Mortágua",osm,7836566,"Barril, Mortágua, Vale de Remígio, Cortegaça e Almaça, Mortágua, Viseu, Portugal",Mortágua,Portugal,0.34500000000000003,boundary,census,40.39794585,-8.216010485881366,27.68188764686419
+Benviver,osm,5910306,"Bem Viver, Marco de Canaveses, Porto, PT-13, Portugal",Marco de Canaveses,Portugal,0.47935498215754135,boundary,administrative,41.1095689,-8.2180703,101.71245724976153
+Bostelo,osm,1241986926,"Bostelo, Flariz, Monterrei, Flariz, Verín, Ourense, ES-OR, Galicia, España",,España,0.23500000000000001,place,locality,41.9331305,-7.5654425,204.839286948208
+Cabaço,osm,6532061640,"Cabaço, São Paulo do Potengi, São Paulo do Potengi, Região Geográfica Imediata de São Paulo do Potengi, Região Geográfica Intermediária de Natal, Rio Grande do Norte, Região Nordeste, Brasil",São Paulo do Potengi,Brasil,0.36,place,neighbourhood,-5.9132938,-35.7041073,5821.293630242965
+Cambarinho,osm,9859179,"Cambarinho, Campia, Vouzela, Viseu, Portugal",Vouzela,Portugal,0.37358119422996994,boundary,protected_area,40.670204999999996,-8.19849551629284,54.89450441517825
+Casas Novas do Campo,osm,6655142523,"As Casas Novas, As Barrosas, Curros, A Ponte do Porto, Camariñas, Terra de Soneira, A Coruña, ES-C, Galicia, España",Camariñas,España,0.42500000000000004,place,locality,43.1352826,-9.1100518,330.13652863968326
+Castelo,osm,6520046,"Castelo, Alfama, Santa Maria Maior, Lisboa, Lisboa, Portugal",Lisboa,Portugal,0.4962626071551539,boundary,historic,38.7132173,-9.13291958955044,176.6952270931101
+Chopas,osm,1242669418,"Las Chopas, Villaverde de Íscar, Segovia, ES-SG, Castilla y León, España",,España,0.225,place,locality,41.2964127,-4.5738899,347.0216152016135
+Chão de Lamas,osm,1241985195,"Chao de Lamas, Abades, Baltar, A Limia, Ourense, ES-OR, Galicia, España",Baltar,España,0.325,place,locality,41.8870645,-7.8022461,193.7624685397086
+Colónia do Sacramento,osm,2862754,"Colonia del Sacramento, Colonia, Uruguay",Colonia del Sacramento,Uruguay,0.6021547649559489,boundary,administrative,-34.4698592,-57.8433679,9699.516107194784
+Coreixas,osm,1242508193,"Coto de Coreixas, Santa Mariña, Santa Mariña de Pescoso, Rodeiro, O Deza, Pontevedra, Galicia, España",Rodeiro,España,0.225,place,locality,42.6895779,-7.9322936,278.74301635554247
+Couras,osm,1420463717,"Les Couras, Jonchères, Rauret, Le Puy-en-Velay, Haute-Loire, Auvergne-Rhône-Alpes, France métropolitaine, France",Le Puy-en-Velay,France,0.225,place,locality,44.7921851,3.7925045,1124.4794854975426
+Couto do Mosteiro,osm,7873532,"Couto do Mosteiro, Pesseguido, Santa Comba Dão e Couto de Mosteiro, Santa Comba Dão, Viseu, Portugal",Santa Comba Dão,Portugal,0.5543651946830115,boundary,census,40.4102502,-8.141927339600691,33.021282013415295
+Covelos,osm,3059741039,"Covelos, Dozón, Dozón, O Deza, Pontevedra, Galicia, España",Dozón,España,0.36,place,hamlet,42.5688402,-8.013445,264.5217144418125
+Cuencos,osm,1241645653,"Los Cuencos, Ahigal, Trasierra-Tierras de Granadilla, Cáceres, Extremadura, España",,España,0.225,place,locality,40.2020589,-6.2227215,187.57973084696079
+Extremos,osm,1241337865,"Los Extremos, El Campillo, Cuenca Minera, Huelva, Andalucía, España",,España,0.225,place,locality,37.7047699,-6.7288709,314.35626575884885
+"Farinha Podre, hoje São Pedro de Alva",osm,3466479781,"São Pedro de Alva, Coimbra, Portugal",São Pedro de Alva,Portugal,0.6862449547378124,place,town,40.3037818,-8.1651753,24.634790477481896
+Galão,osm,1252064621,"Galao, Lamanan, Lamanan, Davao City, Davao Region, Pilipinas / Philippines",Davao City,Pilipinas / Philippines,0.25,place,hamlet,7.2532944,125.4416663,12948.622484967693
+Granja de Espinho,osm,3450955133,"Fazenda Barra de Juarez, Lagarto, Lagarto, Região Geográfica Imediata de Lagarto, Região Geográfica Intermediária de Itabaiana, Sergipe, Região Nordeste, Brasil",Lagarto,Brasil,0.29999999999999993,place,farm,-10.8536307,-37.5391486,6400.714095853182
+Guerreira,osm,1242626129,"La Guerreira, Castrillo de Cabrera, León, Castilla y León, España",,España,0.225,place,locality,42.3637097,-6.4990416,288.7820876273803
+Ladairo,osm,1241985675,"Ladairo, Vilaza, Monterrei, Verín, Ourense, ES-OR, Galicia, España",,España,0.23500000000000001,place,locality,41.9184652,-7.4656088,206.45263904463317
+"Lageosa, Guarda",osm,6365516,"Lageosa da Raia, Lajeosa e Forcalhos, Sabugal, Guarda, Portugal",Lajeosa e Forcalhos,Portugal,0.5212347422123425,boundary,historic,40.3434769,-6.817586908935239,137.62514215425986
+"Lagoa, Ilha de São Miguel, Açores",osm,7540360,"Lagoa, Açores, Portugal",Lagoa,Portugal,0.6377927780742978,boundary,administrative,37.7429319,-25.527595517493474,1504.5255594045134
+Lama Longa,osm,1241990130,"Lama Longa, San Millao, Cualedro, Verín, Ourense, ES-OR, Galicia, España",Cualedro,España,0.325,place,locality,41.8882369,-7.6111894,198.83341897284694
+Landroal,osm,5402657,"Alandroal, Évora, Portugal",Alandroal,Portugal,0.5229821358312804,boundary,administrative,38.60240485,-7.384427441025773,199.4984506477844
+"Lavarrabos, hoje São João do Campo",osm,6386155,"São João do Campo, Coimbra, Coimbra, Portugal",Coimbra,Portugal,0.75,boundary,administrative,40.2369927,-8.5117919,8.006298827748997
+"Macau, China",osm,1867188,"澳門 Macau, 中国",,中国,0.7718757305940611,boundary,administrative,22.1757605,113.5514142,10862.44927559175
+"Margão, Goa",osm,2548066557,"Margao, Salcete, South Goa, Goa, India",Margao,India,0.5276523853043148,place,town,15.272923,73.9583159,8291.401155695095
+Marão,osm,5609516576,"Praça Lindalva Marão, Alto Alegre do Maranhão, Região Geográfica Imediata de Bacabal, Região Geográfica Intermediária de Santa Inês-Bacabal, Maranhão, Região Nordeste, Brasil",Alto Alegre do Maranhão,Brasil,0.225,place,square,-4.2120896,-44.4462321,6140.839024733126
+Mileu,osm,1744957031,"Póvoa do Mileu, Guarda, Guarda, Guarda, Portugal",Guarda,Portugal,0.225,place,locality,40.5429496,-7.253428,106.32112908607947
+Mondim,osm,25624119,"Mondim de Basto, Mondim de Basto, Vila Real, Portugal",Mondim de Basto,Portugal,0.7180726078370604,place,town,41.4111525,-7.9524216,139.51864826176393
+Mouros,osm,4058323700,"Gleba dos Mouros, Linha Aparecida, Manfrinópolis, Região Geográfica Imediata de Francisco Beltrão, Região Geográfica Intermediária de Cascavel, Paraná, Região Sul, Brasil",Região Geográfica Imediata de Francisco Beltrão,Brasil,0.225,place,locality,-26.1205832,-53.2658813,8687.703082420296
+Outeiro dos Gatos,osm,1241789034,"Outeiro dos Gatos, Augasantas, Rois, O Sar, A Coruña, ES-C, Galicia, España",Rois,España,0.42500000000000004,place,locality,42.7510906,-8.769116,283.9570005912288
+Palmares,osm,303691,"Palmares, Região Geográfica Imediata de Palmares, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, Brasil",Palmares,Brasil,0.5536874052811473,boundary,administrative,-8.684226,-35.589032,6091.615371143782
+Panascoso,osm,1189473491,"Penhascoso, Mação, Santarém, Portugal",Mação,Portugal,0.385,place,village,39.5441262,-8.0399003,80.71485427806115
+Pangim,osm,1687216929,"Panaji, Tiswadi, North Goa, Goa, India",Panaji,India,0.44532375978900435,place,city,15.4989946,73.8282141,8264.970709407417
+Penagarcia,osm,1241614111,"Valle de Peñagarcía, Cilleros, Sierra de Gata, Cáceres, Extremadura, España",Cilleros,España,0.125,place,locality,40.0847266,-6.8661117,133.6154737347125
+Penaverde,osm,1242833115,"Peñaverde, Gustevela, Cangas de Onís, Asturias / Asturies, ES-O, Asturias / Asturies, España",Cangas de Onís,España,0.125,place,locality,43.3865721,-5.0190259,452.5334254819889
+Pernanbuco,osm,4823642574,"Pernanbuco, Canton Teduzara, Municipio Santa Rosa del Abuná, Provincia de Abuná, Pando, Bolivia",Municipio Santa Rosa del Abuná,Bolivia,0.36,place,hamlet,-10.5928583,-67.1740296,8250.143531665197
+Pico dos Regalados,osm,1241728912,"Monte do Pico, Lourentín, Goente, As Pontes de García Rodríguez, O Eume, A Coruña, ES-C, Galicia, España",As Pontes de García Rodríguez,España,0.225,place,locality,43.4424901,-7.9417282,361.5620845339597
+Porco,osm,8082216040,"Ilha do Porco, Altônia, Região Geográfica Imediata de Umuarama, Região Metropolitana de Umuarama, Região Geográfica Intermediária de Maringá, Paraná, Região Sul, Brasil",Altônia,Brasil,0.42500000000000004,place,island,-23.8568889,-54.0319378,8522.595524729604
+Póvoa de El-Rei,osm,6391640,"Póvoa D' El Rei, Póvoa d'El-Rei, Vale do Massueime, Pinhel, Guarda, Portugal",Vale do Massueime,Portugal,0.42500000000000004,boundary,historic,40.783737849999994,-7.205808414182619,121.63439085086858
+"Quepem, India",osm,1887929310,"Quepem, Quepem, South Goa, Goa, India",Quepem,India,0.4915966805698038,place,town,15.2142541,74.0707793,8304.911738208677
+Quinta da Lameira,osm,3497057995,"Quinta da Lameira, Corujeira e Trinta, Guarda, Guarda, Portugal",Guarda,Portugal,0.42500000000000004,place,locality,40.5181147,-7.3381987,98.62822649553435
+Rego da Murta,osm,6544571,"Rego da Murta, Pussos São Pedro, Alvaiázere, Leiria, Portugal",Pussos São Pedro,Portugal,0.42500000000000004,boundary,historic,39.7795185,-8.354881178734171,47.898725634505524
+Ribeira da Pena,osm,4192930,"Ribeira de Pena, Vila Real, Portugal",Ribeira de Pena,Portugal,0.7102700276515719,boundary,administrative,41.5196507,-7.7936942,155.16802464736415
+Ribeira de Moinhos,osm,3995321103,"Moinhos, São Paulo, Ribeira Brava, Ribeira Brava, Madeira, Portugal",Ribeira Brava,Portugal,0.43500000000000005,place,locality,32.6948839,-17.0242461,1134.229615783862
+Santa Ana,osm,6089122107,"Santa Ana, Timbaúba, Timbaúba, Região Geográfica Imediata de Goiana-Timbaúba, Região Geográfica Intermediária do Recife, Pernambuco, Região Nordeste, Brasil",Timbaúba,Brasil,0.47500000000000003,place,suburb,-7.5148931,-35.3284862,5962.482702031262
+Santa Comba da Ermida,osm,1241719247,"A Cova da Ermida, Cícere, Santa Comba, O Xallas, A Coruña, ES-C, Galicia, España",Santa Comba,España,0.525,place,locality,43.0758242,-8.8737242,320.7577465570121
+Santa Marinha da Pedreira,osm,5837291,"Pedreira, Felgueiras, Pedreira, Porto, PT-13, Portugal",Felgueiras,Portugal,0.4283181518182593,boundary,historic,41.32817154999999,-8.210080524798745,125.78653299844622
+Sebal Grande,osm,1798788092,"Sebal, Condeixa-a-Nova, Coimbra, Portugal",Condeixa-a-Nova,Portugal,0.685,place,village,40.1204296,-8.5343384,13.359606370224233
+Serra de El-Rei,osm,2065063,"Parc de Collserola, Esplugues de Llobregat, Molins de Rei, Baix Llobregat, Barcelona, ES-B, Catalunya, España",Molins de Rei,España,0.6624313575409158,boundary,protected_area,41.4347985,2.116408327180234,899.1798054126331
+"Soure, Leiria",osm,8645202476,"Costa de Soure, Casalinhos, Pelmá, Alvaiázere, Leiria, Portugal",Alvaiázere,Portugal,0.335,place,locality,39.7858877,-8.4229343,46.80561317581733
+Souzel,osm,5397427,"Sousel, Portalegre, Portugal",Sousel,Portugal,0.5210571698881419,boundary,administrative,38.95224,-7.67603,153.5317765918332
+Soza,osm,1241758157,"La Soza, Morales de Rey, Zamora, Castilla y León, España",,España,0.225,place,locality,42.0720604,-5.761015,304.8371656444378
+São João da Cova,osm,6489243098,"Cova da Moura, São João das Lampas e Terrugem, Sintra, Lisboa, Portugal",São João das Lampas e Terrugem,Portugal,0.525,place,locality,38.9114419,-9.428262,167.6953869180745
+"São Martinho, Covilhã",osm,5397722,"São Martinho, Covilhã, Castelo Branco, Portugal",Covilhã,Portugal,0.49764122278025946,boundary,historic,40.2732358,-7.5224881839718805,77.2296638999814
+"São Miguel das Aves, Santo Tirso",osm,5937385,"Campo (São Martinho), Santo Tirso, Campo (São Martinho), Porto, PT-13, Portugal",Santo Tirso,Portugal,0.5965864680443338,boundary,historic,41.35849115,-8.368132875977032,127.91920141991827
+"São Quintino, Lisboa",osm,5422574238,"Quinta de São Lourenço, Zibreira da Fé, Santo Quintino, Sobral de Monte Agraço, Lisboa, Portugal",Sobral de Monte Agraço,Portugal,0.43500000000000005,place,locality,38.9985235,-9.1787028,148.97584519044213
+São Tiago de Besteiros,osm,6451767,"Santiago de Besteiros, Tondela, Viseu, Portugal",Tondela,Portugal,0.6027787078968705,boundary,administrative,40.5829418,-8.1293219,48.71553448263439
+"São Tomé, África",osm,535880,São Tomé e Príncipe,,São Tomé e Príncipe,0.8245364589328441,boundary,administrative,0.8875498,6.9648718,4624.802175338824
+"São Veríssimo, Nevogilde",osm,5734591390,"Junda de Freguesia de Nevogilde, 188, Rua de São Veríssimo, Casais, Lousada, Porto, PT-13, Portugal",Lousada,Portugal,0.31100000000000005,place,house,41.253524,-8.3139836,116.5530345876033
+Tagarro,osm,1242666435,"Era del Tagarro, Ponferrada, El Bierzo, León, Castilla y León, España",Ponferrada,España,0.225,place,locality,42.4486786,-6.5116026,296.0272114557842
+Togal,osm,6557828399,"Tagal I, Mayo-Kebbi Est مايو كيبي الشرقية, Tchad تشاد",,Tchad تشاد,0.275,place,village,9.5670661,15.2808452,4125.292851422613
+Torre de Vera,osm,1241638730,"Dehesa Torre de Paniagua, Gargüera de la Vera, La Vera, Cáceres, Extremadura, España",,España,0.42500000000000004,place,locality,40.0047237,-5.9517898,212.14548243339914
+Tuias,osm,5910293,"Tuias, Marco de Canaveses, Marco de Canaveses, Porto, PT-13, Portugal",Marco de Canaveses,Portugal,0.33254953489334615,boundary,historic,41.17549355,-8.16457827943076,109.7497640952167
+"Veiros, Portalegre",osm,558731377,"ZPE Veiros, Monforte, Portalegre, Portugal",Monforte,Portugal,0.335,boundary,protected_area,38.98637415,-7.504568132437352,156.97849698719435
+Viana do Alvito,osm,6802673,"Alvito/Cuba, Viana do Alentejo, Viana do Alentejo, Évora, Portugal",Viana do Alentejo,Portugal,0.42500000000000004,boundary,protected_area,38.29959665,-7.992580230899309,215.0851406706063
+Vila Nova de Portimão,osm,5404106,"Portimão, Faro, PT-08, Portugal",Portimão,Portugal,0.598602250830663,boundary,administrative,37.1375808,-8.5368426,340.9173112424539
+Vila Nova do Alvito,osm,12593817,"Vila Nova da Baronia, Estebainha, Vila Nova da Baronia, Alvito, Beja, PT-02, Portugal",Alvito,Portugal,0.43500000000000005,boundary,census,38.29075675,-8.038531228179998,215.40062016918478
