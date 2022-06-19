@@ -351,7 +351,7 @@ def attribute_values(attr_type,
 
     with Session(bind=dbsystem.get_engine()) as session:
         records = session.execute(stmt)
-        df =  pd.DataFrame.from_records(records,index=['value'],columns=['value','count','date_in','date_max'])
+        df =  pd.DataFrame.from_records(records,index=['value'],columns=['value','count','date_min','date_max'])
     
     return df
 
