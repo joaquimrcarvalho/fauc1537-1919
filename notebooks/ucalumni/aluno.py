@@ -608,12 +608,12 @@ class Aluno:
                 'valor': nota.valor,
                 'obs': nota.obs})
         table = markdown_table(mkdtable)
-        r = r + '\n### Notas (campos extraídos do registo):\n' + table
+        r = r + '\n### Notes (sections and fields from the record):\n' + table
         # Faculdade
         if self.faculdade is not None:
             for fac,data,obs in self.faculdade:
-                r = r + f'### Faculdade{fac} {data} {obs}\n'
-            r = r + f'* Faculdade problema:{self.faculdade_problem} ({self.faculdade_problem_obs})\n'
+                r = r + f'### Faculdade: {fac} {data} {obs}\n'
+            r = r + f'* Faculdade problema: {self.faculdade_problem} ({self.faculdade_problem_obs})\n'
             fac_org = self.faculdade_original
             if fac_org is not None and fac_org > '':
                 r = r + f'* Faculdade original: {self.faculdade_original}\n'
