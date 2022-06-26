@@ -571,7 +571,7 @@ class Aluno:
    
     def __str__(self):
         r = f"# {self.id} {self.nome}\n\n"
-        r = r + f'## Original\n{self.obs}\n'
+        r = r + f'## Original\n```{self.obs}\n```\n'
         if self.erratum_diff is not None and self.erratum_diff > '':
             r = r+f'\n### Erratum:\n.....................\n{self.erratum_diff}\n......................\n'
 
