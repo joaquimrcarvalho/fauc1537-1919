@@ -86,6 +86,16 @@ tem três componentes. Esta lista tem mais linhas que
 _naturalidade_original.csv_ mas contém expressões mais
 ambíguas e genéricas.
 
-__osm_places.csv__ e __osm-places.csv__
+__osm-places.csv__ e __osm_not_found.csv__
 * Ficheiros de "cache" de acesso ao serviço _OpenStreetMaps_.
+
+__ine-inspire-clean.csv__
+* Lista da topónimos do serviço de GeoNames INSPIRE do Instituto Nacional de Estastística
+  com vários processamentos adicionais (ver o [notebook em curso](../../notebooks/911-places-ine-topo.ipynb)):
+    * conversão das coordenadas para latitude e longitude
+    * uniformização de nomes desdobrando abreviaturas
+    * identificação de topónimos repetidos (mesmo nome, menos de 1km de distância)
+    * remoção de topónimos fora das fronteiras de Portugal continental
+    * adição do contexto administrativo (freguesia,concelho, distrito)
+    * adição de um índice de "importância" com base na função administrativa e população em 2011
 
