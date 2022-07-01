@@ -2559,7 +2559,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 162455,Gonçalo José Ribeiro,sim,1730-01-08,1731-10-01,Canavesses,,,Cânones,,,padre
 245107,Gonçalo Lopes,sim,1557-02-28,1562-07-28,"Quintela, Viseu",,,Teologia,,,padre
 235170,Gonçalo Luís Pereira,sim,1710-10-01,1724-10-01,Porto,,,Cânones,,,padre
-207371,Gonçalo Mendes,sim,1616-03-12,1616-03-12,,,,Artes,,,padre
+207371,Gonçalo Mendes,sim,1616-03-12,1616-03-12,,,,Cursos jurídicos (Cânones ou Leis),,,padre
 207430,Gonçalo Mendes,sim,1618-10-29,1618-10-29,Lisboa,Francisco de Freitas,,Cânones,,,padre
 230532,Gonçalo Nobre da Silveira,sim,1739-10-01,1743-10-01,Lisboa,,,Cânones,,,padre
 224787,Gonçalo Peixoto,sim,1645-10-14,1651-10-26,Lisboa,Francisco Peixoto,,Cânones,,,padre
@@ -5391,7 +5391,7 @@ id,name,padre,uc-entrada,uc-saida,naturalidade,nome-pai,ordem-religiosa,faculdad
 194647,Manuel Simões Coelho,sim,1712-10-01,1718-10-01,Alvorge,,,Cânones,,,padre
 194830,Manuel Simões Coelho,sim,1730-10-27,1758-12-19,Pedrogão Grande,,,Cânones,,,padre
 212880,Manuel Simões Mendes,sim,1688-10-01,1691-10-01,Souto da Casa,,,Cânones,,,padre
-229995,Manuel Simões Rovisco,sim,1694-03-31,1694-03-31,Gouveia,,,Artes,,,padre
+229995,Manuel Simões Rovisco,sim,1694-03-31,1694-03-31,Gouveia,,,Cursos jurídicos (Cânones ou Leis),,,padre
 220636,Manuel Simões Santos,sim,1719-10-01,1727-03-17,Casal de Álvaro,Mateus Simões,,Cânones,,,padre
 193669,Manuel Simões da Horta,sim,1695-10-01,1702-10-01,São Miguel de Outeiros,,,Cânones,,,padre
 232687,Manuel Soares,sim,1620-10-14,1624-10-15,,Domingos Fernandes,,Cânones,,,padre
