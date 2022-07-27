@@ -16,16 +16,19 @@
 ## The student records of the University of Coimbra (1537-1919): an Open Data Science approach
 
 
-Como citar:
+Está disponível um artigo descrevendo os principais aspectos da produção deste repositório:
 
-    CARVALHO, Joaquim - FAUC-1537-1919 [Em linha] [Consult. 11 mai. 2022]. 
-    Disponível em WWW:<URL:https://github.com/joaquimrcarvalho/fauc1537-1919>.
+>Carvalho, J. R. (2022). The student records of the University of Coimbra (1537-1919): An Open Data Science approach. Boletim do Arquivo da Universidade de Coimbra, XXXV(1), 11–58. (https://impactum-journals.uc.pt/boletimauc/article/view/11411)
+
+
+
 
 ---
 
-How to quote:
+There is a paper describing the production of this repository:
 
-    Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.
+>Carvalho, J. R. (2022). The student records of the University of Coimbra (1537-1919): An Open Data Science approach. Boletim do Arquivo da Universidade de Coimbra, XXXV(1), 11–58. (https://impactum-journals.uc.pt/boletimauc/article/view/11411)
+
 
 
 
@@ -129,8 +132,7 @@ and use the predefined templates at https://github.com/joaquimrcarvalho/fauc1537
 _Os **ficheiros de dados e blocos de notas Jupyter** são disponibilizados nos termos da licença Creative Commons Attribution-NonCommmercial-ShareAlike 4.0 International
  [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)_
 
-Salvo indicação em contrário a atribuição deve ser: CARVALHO, Joaquim - FAUC-1537-1919 [Em linha]. 
-        Disponível em WWW:<URL:https://github.com/joaquimrcarvalho/fauc1537-1919>. 
+Salvo indicação em contrário a atribuição deve ser: __Carvalho, J. R. (2022). The student records of the University of Coimbra (1537-1919): An Open Data Science approach. Boletim do Arquivo da Universidade de Coimbra, XXXV(1), 11–58. (https://impactum-journals.uc.pt/boletimauc/article/view/11411) __
 
  _O **software** (ficheiros ".py") é disponibilizado nos termos da [MIT License](https://opensource.org/licenses/MIT)._
 
@@ -140,8 +142,7 @@ Salvo indicação em contrário a atribuição deve ser: CARVALHO, Joaquim - FAU
 _**Data files and Jupyter notebooks** are licensed under the_ Creative Commons Attribution-NonCommmercial-ShareAlike 4.0 International  [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-
-Unless specified otherwise attribution should be __Carvalho, Joaquim. (2022) 2022. FAUC-1537-1918. Python, Jupyter Notebook. https://github.com/joaquimrcarvalho/fauc1537-1919.__ 
+Unless specified otherwise attribution should be __Carvalho, J. R. (2022). The student records of the University of Coimbra (1537-1919): An Open Data Science approach. Boletim Do Arquivo Da Universidade de Coimbra, XXXV(1), 11–58.__ 
 
  _The **software** (files ".py" )is distributed under the [MIT License](https://opensource.org/licenses/MIT)._
 
