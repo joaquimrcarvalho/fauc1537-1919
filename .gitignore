@@ -1,5 +1,6 @@
 .DS_Store
 .vscode/settings.json
+.venv
 __pycache__
 database/auc/
 database/sqlite3
