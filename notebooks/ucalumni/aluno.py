@@ -14,7 +14,7 @@ from markdownTable import markdownTable
 
 from timelink.mhk.models import base # this setups the orm models
 from timelink.mhk.models.base import Person
-from timelink.mhk.models.db import TimelinkDB
+from timelink.mhk.models.db import TimelinkMHK
 
 from ucalumni.config import Session
 from ucalumni.grammar import DATELINE, DateUtility
@@ -247,7 +247,7 @@ class Nota:
         return f"{self.numero:02d} [{self.processed}] {self.seccao} : {self.campo} : {self.data.value} : {self.valor} | obs: {self.obs}"
 
 
-def get_aluno_from_db(id :str, db :TimelinkDB=None)-> Type["Aluno"]:
+def get_aluno_from_db(id :str, db :TimelinkMHK=None)-> Type["Aluno"]:
     """ Get a aluno record from database by id
     
     Returns original information of a 'aluno' record from
@@ -269,7 +269,7 @@ def get_aluno_from_db(id :str, db :TimelinkDB=None)-> Type["Aluno"]:
 
     A common pattern is:
         from ucalumni import Session
-        db = TimelinkDB(db_main_db)
+        db = TimelinkMHK(db_main_db)
         Session.configure(bind=db.engine())
 
         my_aluno = get_aluno_from_db('140337')
@@ -302,7 +302,7 @@ def get_aluno_from_db(id :str, db :TimelinkDB=None)-> Type["Aluno"]:
     return(aluno)
 
 
-def get_and_process_aluno(id, db: TimelinkDB=None)-> Type["Aluno"]:
+def get_and_process_aluno(id, db: TimelinkMHK=None)-> Type["Aluno"]:
     """
     Fetch the FA original information of
     a student and extract the information

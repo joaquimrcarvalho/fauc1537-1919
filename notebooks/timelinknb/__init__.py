@@ -19,7 +19,7 @@ from sqlalchemy import MetaData, Table, engine, inspect, text
 from timelink.mhk.utilities import get_connection_string
 from timelink.mhk.models import base  # noqa
 from timelink.mhk.models.person import Person
-from timelink.mhk.models.db import TimelinkDB
+from timelink.mhk.models.db import TimelinkMHK
 
 import timelinknb.config as conf
 from timelinknb.config import Session
@@ -32,7 +32,7 @@ mhk_databases = []
 
 
 def get_db(db_spec, **extra_args):
-    """ get a TimelinkDB instance of the FAUC db
+    """ get a TimelinkMHK Database
     
     db_spec can be a connection string or a tuple.
     if a tuple:
@@ -55,7 +55,7 @@ def get_db(db_spec, **extra_args):
     elif db == 'string':
         con_string = name
         conf.TIMELINK_CONNSTRING = con_string # share it with other modules
-        tlink_db =TimelinkDB(con_string,**extra_args)
+        tlink_db =TimelinkMHK(con_string,**extra_args)
         conf.TIMELINK_DBSYSTEM = db # share it
         conf.Session.configure(bind=db.get_engine())
     else:
@@ -74,13 +74,13 @@ def get_sqlite_db(db_name,**extra_args):
     """
     connection_string = f"sqlite:///../database/sqlite3/{db_name}?check_same_thread=False"
     conf.TIMELINK_CONNSTRING = connection_string # share it with other modules
-    db = TimelinkDB(connection_string,**extra_args)
+    db = TimelinkMHK(connection_string,**extra_args)
     conf.TIMELINK_DBSYSTEM = db # share it
     conf.Session.configure(bind=db.get_engine())
     return db
 
 
-def get_mhk_db(db_name,**extra_args) -> TimelinkDB: 
+def get_mhk_db(db_name,**extra_args) -> TimelinkMHK: 
     """ Create a connection to a Timelink/MHK database
     
     Creates a connection to the database db_name, 
@@ -93,17 +93,17 @@ def get_mhk_db(db_name,**extra_args) -> TimelinkDB:
 
     connection_string = get_connection_string(db_name)
     conf.TIMELINK_CONNSTRING = connection_string # share it with other modules
-    db = TimelinkDB(connection_string,**extra_args)
+    db = TimelinkMHK(connection_string,**extra_args)
     conf.TIMELINK_DBSYSTEM = db # share it
     conf.Session.configure(bind=db.get_engine())
     return db
 
 
-def get_nattribute_table(db: TimelinkDB=None):
+def get_nattribute_table(db: TimelinkMHK=None):
     """ Return the nattribute view.
 
     Returns a sqlalchemy table linked to the nattributes view of MHK databases
-    This views joins the talbe "persons" and the table "attributes" providing attribute
+    This views joins the table "persons" and the table "attributes" providing attribute
     values with person names and sex.
 
     The column id contains the id of the person/object, not of the attribute
@@ -149,7 +149,7 @@ def get_nattribute_table(db: TimelinkDB=None):
 
 
 
-def get_attribute_table(db: TimelinkDB=None):
+def get_attribute_table(db: TimelinkMHK=None):
     """ Return the attribute table.
 
     Returns a sqlalchemy table linked to the attributes table of MHK databases
@@ -180,7 +180,7 @@ def get_attribute_table(db: TimelinkDB=None):
     return attr
 
 
-def get_person_table(db: TimelinkDB=None):
+def get_person_table(db: TimelinkMHK=None):
     """ Return the person table.
 
     Returns a sqlalchemy table linked to the persons table of MHK databases
@@ -203,7 +203,7 @@ def get_person_table(db: TimelinkDB=None):
     return pers
 
 
-def get_relations_table(db: TimelinkDB=None):
+def get_relations_table(db: TimelinkMHK=None):
     """ Return the relations table.
 
     Returns a sqlalchemy table linked to the relations table of MHK databases
@@ -235,7 +235,7 @@ def get_relations_table(db: TimelinkDB=None):
 
 
 
-def get_nfuncs_view(db: TimelinkDB=None):
+def get_nfuncs_view(db: TimelinkMHK=None):
     """ Return the nfuncs (named functions) table.
 
     Returns a sqlalchemy table linked to the nfuncs view of MHK databases

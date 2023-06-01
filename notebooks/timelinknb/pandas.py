@@ -17,7 +17,7 @@ from matplotlib import cm, colors
 from IPython.display import display
 
 from timelink.mhk.models import base  # noqa
-from timelink.mhk.models.db import TimelinkDB
+from timelink.mhk.models.db import TimelinkMHK
 from timelink.mhk.models.person import Person
 from timelinknb.config import Session
 from timelinknb import get_attribute_table, get_nattribute_table, get_person_table
@@ -29,7 +29,7 @@ def remove_particles(name, particles=None):
 
     return " ".join([n for n in name.split() if n not in particles])
 
-def name_to_df(name,db: TimelinkDB=None, similar=False, sql_echo=False ):
+def name_to_df(name,db: TimelinkMHK=None, similar=False, sql_echo=False ):
     """ name_to_df return df of people with a matching name
 
 Args:
@@ -39,7 +39,7 @@ Args:
     """
     # We try to use an existing connection and table introspection
     # to avoid extra parameters and going to database too much
-    dbsystem: TimelinkDB = None
+    dbsystem: TimelinkMHK = None
     if db is not None:
         dbsystem = db
     elif conf.TIMELINK_DBSYSTEM is not None:
@@ -79,7 +79,7 @@ def attribute_to_df(the_type,
                           name_like=None,
                           filter_by=None,
                           more_cols=None,
-                          db: TimelinkDB=None,
+                          db: TimelinkMHK=None,
                           sql_echo=False):
     """ Generate a pandas dataframe with people with a given attribute
 
@@ -93,7 +93,7 @@ def attribute_to_df(the_type,
         name_like   : name must match pattern (will set person_info = True),
         filter_by   : list of ids, limit to these
         more_cols   : add more attributes if available
-        db          : A TimelinkDB object
+        db          : A TimelinkMHK object
         sql_echo    : if True echo the sql generated
 
     Note that if person_info = True the columns 'name' and 'sex' will be added.
@@ -106,7 +106,7 @@ def attribute_to_df(the_type,
     """
     # We try to use an existing connection and table introspection
     # to avoid extra parameters and going to database too much
-    dbsystem: TimelinkDB = None
+    dbsystem: TimelinkMHK = None
     if db is not None:
         dbsystem = db
     elif conf.TIMELINK_DBSYSTEM is not None:
@@ -226,7 +226,7 @@ def group_attributes(group: list,
                      include_attributes=None,
                      exclude_attributes=None,
                      person_info=True,
-                     db: TimelinkDB = None,
+                     db: TimelinkMHK = None,
                      sql_echo = False):
     """ Return the attributes of a group of people in a dataframe.
 
@@ -240,7 +240,7 @@ def group_attributes(group: list,
         warn("No list of ids specified")
         return None
     
-    dbsystem: TimelinkDB = None
+    dbsystem: TimelinkMHK = None
     if db is not None:
         dbsystem = db
     elif conf.TIMELINK_DBSYSTEM is not None:
@@ -295,7 +295,7 @@ def group_attributes(group: list,
 
 
 def attribute_values(attr_type,
-                     db: TimelinkDB = None,
+                     db: TimelinkMHK = None,
                      dates_between = None,
                      sql_echo =False):
     """Return the vocabulary of an attribute
@@ -311,7 +311,7 @@ def attribute_values(attr_type,
     """
     
     
-    dbsystem: TimelinkDB = None
+    dbsystem: TimelinkMHK = None
     if db is not None:
         dbsystem = db
     elif conf.TIMELINK_DBSYSTEM is not None:
@@ -436,7 +436,7 @@ def display_group_attributes(ids,
                             include_attributes=None,
                             exclude_attributes=None,
                             person_info=True,
-                            db: TimelinkDB = None,
+                            db: TimelinkMHK = None,
                             ):
     """ Display attributes of a group with header and colored rows
     

@@ -16,7 +16,7 @@ from os import linesep as nl
 from pyparsing import ParseResults
 
 from timelink.mhk.models import base  # noqa
-from timelink.mhk.models.db import TimelinkDB 
+from timelink.mhk.models.db import TimelinkMHK 
 from timelink.mhk.models.pom_som_mapper import PomSomMapper
 from timelink.kleio.groups import KElement, KPerson, KSource, KAct
 
@@ -461,13 +461,13 @@ def import_auc_alumni(csv_file: str, dest_dir: str = '',        db_connection: s
     
     with open(csv_file) as csvfile:
         direct_import = False
-        db: TimelinkDB = None
+        db: TimelinkMHK = None
         # ensure the directory exists otherwise sqlalchemy fails.
         if dest_dir > '':
             Path(dest_dir).mkdir(parents=True, exist_ok=True)
         if db_connection and db_connection > " ":
             direct_import = True
-            db = TimelinkDB(db_connection)
+            db = TimelinkMHK(db_connection)
             try:
                 Session.configure(bind=db.get_engine())
             except Exception as e:
