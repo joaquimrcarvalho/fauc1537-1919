@@ -1,0 +1,405 @@
+entity,'```diff\n',obs,'\n```'
+140341,
+```diff
+--- original
++++ errata
+@@ -1,3 +1,9 @@
++# CORRIGIR Dígitos finais da data de formatura (inferidos da data final)
++Id: 140341
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/A/000005
++Nome : Francisco Xavier Abelha
++Data inicial: 1729-10-01
++Data final : 1736-07-16
+Filiação: Pedro Gonçalves Abelho
+Naturalidade: Castelo de Vide
+Faculdade: Cânones
+@@ -8,4 +14,4 @@
+01.10.1734
+Instituta: 01.10.1729
+Bacharel: 15.05.1735
+-Formatura: 16.07.17
++Formatura: 16.07.1736
+```
+
+268593,
+```diff
+--- original
++++ errata
+@@ -1,7 +1,14 @@
+-Filiação:
++# CORRIGIR: Data de segunda formatura
++Id: 268593
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/A/000009
++Nome : José Inácio Correia Manuel de Aboim (colegial dos Militares)
++Data inicial: 1738-07-29
++Data final : 1739-05-14
++Filiação:
+Naturalidade: Aboim
+Faculdade: Cânones
+Exames: Bacharel: 29.07.1738
+Formatura: 19.04.1739
+-Formatura 05.07.1873 Aprovado Nemine Discrepante, Atos n.º 26, fl. 175
+-Outras informações:
++# Assumido 1738 em vez de 1873
++Formatura 05.07.1738 Aprovado Nemine Discrepante, Atos n.º 26, fl. 175
++Outras informações:
+
+```
+
+185263,
+```diff
+--- original
++++ errata
+@@ -1,8 +1,14 @@
++# CORRIGIR Data final em função da última data do registo
++Id: 185263
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/B/003035
++Nome : Francisco Rodrigues Belo (frei da Ordem de Santiago, colegial das Ordens Militares)
++Data inicial: 1641-07-20
++Data final : 1641-07-30
+Filiação:
+-Naturalidade:
++Naturalidade:
+Faculdade: Teologia
+-Matrícula(s):
+-Instituta:
++Matrícula(s):
++Instituta:
+Incorporação em todos os Atos em Teologia até o 2º princípio 20.07.1641 - Atos e Graus 32, fl. 15v., caderno 2º
+Incorporação de Bacharel e Licenciado em Artes 20.07.1641 - Atos e Graus 32, fl. 17v., caderno 2º
+Incorporação de Bcharel em Cânones 20.07.1641 - Atos e Graus 32, fl. 59, caderno 2º
+
+```
+
+165656,
+```diff
+--- original
++++ errata
+@@ -1,5 +1,11 @@
+-Filiação:
++# CORRIGIR Faculdade
++Id: 165656
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/E/000350
++Nome : Diogo da Esperança
++Data inicial: 1625-11-15
++Data final : 1626-10-17
++Filiação:
+Naturalidade: Cerdeira
+-Faculdade: Cãnones
++Faculdade: Cânones
+Matrícula(s): 17.10.1626
+Instituta: 15.11.1625
+
+```
+
+240217,
+```diff
+--- original
++++ errata
+@@ -1,7 +1,13 @@
+-Filiação:
++# CORRIGIR Data final
++Id: 240217
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/F/000021
++Nome : António Fagundes (padre)
++Data inicial: 1540-09-30
++Data final : 1551
++Filiação:
+Naturalidade: Rubiães (Viana do Castelo)
+Faculdade: Cânones
+Matrícula(s): 30.09.1540
+-Instituta:
++Instituta:
+Quatro cursos em Cânones, 19.07.1550
+Provou um curso de Residência em 1551
+
+```
+
+252365,
+```diff
+--- original
++++ errata
+@@ -1,17 +1,26 @@
+-Filiação:
+-Naturalidade: Serpa
+-Faculdade:
+-Matrícula(s):
+-Instituta:
+-1 curso de Artes 01.10.1558 a 30.06.1559
+-Instituta 01.10.1559 até 27.07.1560
+-Leis 01.10.1560 a 31.05.1561
+-Aprovação para Licenciado em Artes 22.05.15666
+-Bacharel em Artes 26.02.1564
+-Licenciado em Artes 26.02.1566
+-Medicina 01.10.1564 até 31.05.1565; 28.10.1566 at+e 15.07.1567; 01.10.1568 até 14.06.1569
+-Licenciado em Artes 09.06.1566 Aprovado Nenime Discrepante
+-1.ª tentativa 20.05.1568
+-2ª tentativa 03.03.1569
+-Formatura 08.06.1569
+-Aprovação em Medicina 02.03.1570
++ Id: 252365
++ Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/F/001807
++ Nome : João Fernandes, vide Quaresma
++ Data inicial: 1558-10-01
++ Data final : 1570-03-02
++ Filiação:
++ Naturalidade: Serpa
++ Faculdade:
++ Matrícula(s):
++# Instituta:
++# 1 curso de Artes 01.10.1558 a 30.06.1559
++ Artes: 01.10.1558 a 30.06.1559
++ Instituta: 01.10.1559 até 27.07.1560
++ Leis: 01.10.1560 a 31.05.1561
++# Medicina 01.10.1564 até 31.05.1565; 28.10.1566 at+e 15.07.1567; 01.10.1568 até 14.06.1569
++ Medicina: 01.10.1564 até 31.05.1565; 28.10.1566 até 15.07.1567; 01.10.1568 até 14.06.1569
++ Graus:
++# Aprovação para Licenciado em Artes 22.05.15666
++ Aprovação para Licenciado em Artes 22.05.1566
++ Bacharel em Artes 26.02.1564
++ Licenciado em Artes 26.02.1566
++ Licenciado em Artes 09.06.1566 Aprovado Nenime Discrepante
++ 1.ª tentativa 20.05.1568
++ 2ª tentativa 03.03.1569
++ Formatura 08.06.1569
++ Aprovação em Medicina 02.03.1570
+
+```
+
+159940,
+```diff
+--- original
++++ errata
+@@ -1,18 +1,24 @@
+-Filiação:
++# CORRIGIR retirar ""Grau de doutor""
++Id: 159940
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/F/006961
++Nome : Simão Martins da Fonseca
++Data inicial: 1640-11-10
++Data final : 1640-11-10
++Filiação:
+Naturalidade: Vila Pouca do Campo
+Faculdade: Teologia
+Matrícula(s): 10.11.1640
+-Instituta
+-Bacharel
+-Repetição
+-Formatura
+-Aprovação
+-Suficiência
+-Repetição
+-Licenciado
+-Mestre
+-Graduação
++Instituta
++Bacharel
++Repetição
++Formatura
++Aprovação
++Suficiência
++Repetição
++Licenciado
+Mestre
+-Grau de doutor
+-Aprovação
+-Doutor
++Graduação
++Mestre
++Grau de doutor
++Aprovação
++Doutor
+
+```
+
+254460,
+```diff
+--- original
++++ errata
+@@ -1,3 +1,9 @@
++# CORRIGIR Nota ao nome
++Id: 254460
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/L/005107
++Nome : Xavier Luís, vide Silva
++Data inicial: 1701-10-01
++Data final : 1707-06-28
+Filiação: Manuel Luís
+Naturalidade: Coimbra
+Faculdade: Medicina
+
+```
+
+182693,
+```diff
+--- original
++++ errata
+@@ -1,5 +1,11 @@
+-Filiação:
+-Naturalidade:
++# CORRIGIR na nota do nome o colégio será de ""S. Tomás""
++Id: 182693
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/M/001667
++Nome : Bernardo de São José Magalhães (padre frei religioso do colégio de São Tomás)
++Data inicial: 1741-10-01
++Data final : 1741-10-01
++Filiação:
++Naturalidade:
+Faculdade: Teologia
+Matrícula(s): 01.10.1741 (ordinário)
+-Instituta:
++Instituta:
+
+```
+
+169434,
+```diff
+--- original
++++ errata
+@@ -1,3 +1,9 @@
++# CORRIGIR Data final
++Id: 169434
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/M/004236
++Nome : Luís Martins
++Data inicial: 1538
++Data final : 1552
+Filiação: Brás Martins
+Naturalidade: Cabeça de Vide
+Faculdade:Cânones
+
+```
+
+200768,
+```diff
+--- original
++++ errata
+@@ -1,5 +1,10 @@
+-Filiação:
++# CORRIGIR Faculdade
++Id: 200768
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/M/006151
++Nome : Joaquim Elias de Sousa e Melo
++Data inicial: 1808-11-24
++Data final : 1808-11-24
++Filiação:
+Naturalidade: Funchal
+-Faculdade: Matemátca
++Faculdade: Matemática
+Matrícula(s): 24.11.1808 (obrigado)
+-Instituta:
+
+```
+
+247498,
+```diff
+--- original
++++ errata
+@@ -1,6 +1,12 @@
+-Filiação:
++# CORRIGIR Faculdade
++Id: 247498
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/M/008662
++Nome : Jaime António Palma Mira
++Data inicial: 1905-10-07
++Data final : 1905-10-09
++Filiação:
+Naturalidade: Albernoa
+-Faculdade:Matremática
++Faculdade:Matemática
+Matrícula(s): 07.10.1905 (ordinário)
+Filosofia: 09.10.1905 (ordinário)
+Instituta:
+
+```
+
+176137,
+```diff
+--- original
++++ errata
+@@ -1,5 +1,11 @@
+-Filiação:
++# CORRIGIR gralha na faculdade Medecina
++Id: 176137
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/O/000980
++Nome : Luís de Oliveira
++Data inicial: 1683-10-01
++Data final : 1683-10-01
++Filiação:
+Naturalidade: Tancos
+-Faculdade: Medecina
++Faculdade: Medicina
+Matrícula(s): 01.10.1683
+-Instituta:
++Instituta:
+
+```
+
+132428,
+```diff
+--- original
++++ errata
+@@ -1,6 +1,12 @@
+-Filiação:
++# CORRIGIR Faculdade
++Id: 132428
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/Q/000374
++Nome : Manuel Quaresma (padre)
++Data inicial: 1651-10-08
++Data final : 1653-10-22
++Filiação:
+Naturalidade: Ansião
+-Faculdade: de Cãnones
++Faculdade: Cânones
+Matrícula(s):08.10.1651
+19.10.1652
+22.10.1653
+
+```
+
+152975,
+```diff
+--- original
++++ errata
+@@ -1,7 +1,13 @@
++# CORRIGIR falta de pontução no campo de matrícula(s)
++Id: 152975
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/R/005128
++Nome : António Ribeiro
++Data inicial: 1672-10-01
++Data final : 1679-05-24
+Filiação: Gonçalo Gonçalves
+Naturalidade: Guimarães
+Faculdade: Cânones
+-Matriculas 1673.10.15
++Matrícula(s): 1673.10.15
+1675.10.01
+1675.10.01
+1676.10.14
+
+```
+
+216868,
+```diff
+--- original
++++ errata
+@@ -1,5 +1,11 @@
+-Filiação:
+-Naturalidade:
++# CORRIGIR na nota do nome o colégio será de ""S. Tomás""
++Id: 216868
++Código de referência: PT/AUC/ELU/UC-AUC/B/001-001/S/001744
++Nome : José de Santa Helena (padre frei religioso do colégio de São Tomás)
++Data inicial: 1731-10-01
++Data final : 1736-10-01
++Filiação:
++Naturalidade:
+Faculdade: Teologia
+Matrícula(s): 01.10.1731
+01.10.1732
+@@ -7,4 +13,4 @@
+01.10.1734
+01.10.1735
+01.10.1736 (ordinário)
+-Instituta:
++Instituta:
+
+```
