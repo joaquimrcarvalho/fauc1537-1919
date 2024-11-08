@@ -4,6 +4,7 @@ Tests for the ucalumni module
 (c) Joaquim Carvalho 2021.
 MIT License, no warranties.
 """
+
 import datetime
 from os import linesep as nl
 from pathlib import Path
@@ -294,6 +295,7 @@ def test_extract_note_from_nome(sample_aluno: Aluno):
     assert len(sample_aluno.notas) > 0
     assert sample_aluno.nota == "professor"
 
+
 def test_extract_note_from_nome_comma(sample_aluno: Aluno):
     sample_aluno.nome = "Joaquim Carvalho, (professor)"
     extract_name_note_vid(sample_aluno)
@@ -334,24 +336,29 @@ def test_extract_vide_from_nome2(sample_aluno: Aluno):
 def test_extract_vide_from_nome4(sample_aluno: Aluno):
     sample_aluno.nome = "João Mateus Camelo da Silva e Rocha, vide Machado e Rocha"
     extract_name_note_vid(sample_aluno)
-    assert sample_aluno.vide_target == "João Mateus Camelo da Silva Machado e Rocha", "could not handle multiple common termination names"
+    assert (
+        sample_aluno.vide_target == "João Mateus Camelo da Silva Machado e Rocha"
+    ), "could not handle multiple common termination names"
 
 
 def test_extract_vide_from_nome5(sample_aluno: Aluno):
     sample_aluno.nome = "Dionísio Dinis de Oliveira, vide Dinis de Oliveira da Fonseca"
     extract_name_note_vid(sample_aluno)
-    assert sample_aluno.vide_target == "Dinis de Oliveira da Fonseca", "could not handle substiution of first name"
+    assert (
+        sample_aluno.vide_target == "Dinis de Oliveira da Fonseca"
+    ), "could not handle substiution of first name"
 
 
 # https://linode.timelink-mhk.net/mhk/servlet/do?action=show&id=130281
 # Nuno da Câmara (D.), vide Nuno Casimiro da Câmara e Nuno José da Câmara
 def test_extract_note_and_vide(sample_aluno: Aluno):
-    sample_aluno.nome = "Nuno da Câmara (D.), vide Nuno Casimiro da Câmara e Nuno José da Câmara"
+    sample_aluno.nome = (
+        "Nuno da Câmara (D.), vide Nuno Casimiro da Câmara e Nuno José da Câmara"
+    )
     extract_name_note_vid(sample_aluno)
     assert sample_aluno.vide == "Nuno Casimiro da Câmara e Nuno José da Câmara"
     assert sample_aluno.nome == "Nuno da Câmara"
     assert sample_aluno.nota == "D."
-
 
 
 def test_extract_vide_from_nome3(sample_aluno: Aluno):
@@ -494,11 +501,11 @@ def ls_check_date(p: n, type_: str, value: str, date: str):
         ),
         # Must use the inferred faculdade, not the original
         #  144910
-         (
+        (
             "Matricula: Canones 1796",
             "144910",
             "ls_check_value(kaluno,'matricula-faculdade.ano','Cânones.1795')",
-        ),       
+        ),
         # But the original is some cases must be preserved sometimes
         # if not in error and no date in matrículas
         (
@@ -506,7 +513,6 @@ def ls_check_date(p: n, type_: str, value: str, date: str):
             "221833",
             "ls_check_value(kaluno,'matricula-faculdade.ano','Matemática.1773')",
         ),
-
         (
             "Matriculas: simple case, pre 1772",
             "139883",
@@ -592,7 +598,7 @@ def test_from_db_matricula(description, id, expression):
         ls_check_value(kaluno,'nome.apelido','Lacerda')
         aluno.nome == 'Aarão Soeiro Moreira de Lacerda'
 
- """
+    """
     aluno = Aluno.from_db(id)
     aluno.process()
     kaluno = map_aluno_kperson(aluno)
@@ -650,14 +656,14 @@ def test_from_db_instituta(description, id, expression):
             "Graus: Should bacharel em Leis",
             "249629",
             "ls_check_value(kaluno,'grau','Bacharel em Leis')",
-        ),         
+        ),
         # Many empty fields have a dash
         # 163034
         (
             "Graus: take dash as empty",
             "163034",
             "not ls_check_value(kaluno,'grau','Bacharel')",
-        ),      
+        ),
         (
             "Graus: Mestre is mestre (no false negative)",
             "137651",
@@ -679,21 +685,21 @@ def test_from_db_instituta(description, id, expression):
             "Graus: Doutor em Leis",
             "180447",
             "ls_check_value(kaluno,'grau','Doutor em Leis')",
-        ),        
+        ),
         # Infer ambito from Faculdade
         # 150587
         (
             "Graus: Doutor em Medicina",
             "150587",
             "ls_check_value(kaluno,'grau','Doutor em Medicina')",
-        ),   
+        ),
         # Bacharel em Artes in the field name
         # 140346
         (
             "Graus:Bacharel em Artes",
             "140346",
             "ls_check_value(kaluno,'grau','Bacharel em Artes')",
-        ),          
+        ),
     ],
 )
 def test_from_db_graus(description, id, expression):
@@ -1056,17 +1062,16 @@ def test_from_db_colegio(description, id, expression):
             " and kaluno.includes('referida') is not None"
             " and kaluno.includes('rel')[0].data.core =='1837-10-21'",
         ),
-        # 
+        #
         (
             "Pai e mae as attributes",
             "150543",
-            "ls_check_type(kaluno,'nome-pai') and "
-            "ls_check_type(kaluno,'nome-mae')",
+            "ls_check_type(kaluno,'nome-pai') and " "ls_check_type(kaluno,'nome-mae')",
         ),
     ],
 )
 def test_from_db_names(description, id, expression):
-    """ Tests with names """
+    """Tests with names"""
     aluno = Aluno.from_db(id)
     aluno.process()
     kaluno = map_aluno_kperson(aluno)
@@ -1105,7 +1110,7 @@ def test_from_db_names(description, id, expression):
             "280433",
             "ls_check_value(kaluno,'nome-geografico','Leiria')",
         ),
-        # Corrects naturalidade 
+        # Corrects naturalidade
         # 233763
         (
             "Naturalidade corrected minus slash and ?",
@@ -1119,7 +1124,6 @@ def test_from_db_names(description, id, expression):
             "140411",
             "ls_check_value(kaluno,'naturalidade','Cão')",
         ),
-
         # filiação
         (
             "Filiacao: father and mother present",
@@ -1141,32 +1145,32 @@ def test_from_db_names(description, id, expression):
     ],
 )
 def test_from_db_varia(description, id, expression):
-    """
-
-    """
+    """ """
     aluno = Aluno.from_db(id)
     aluno.process()
     kaluno = map_aluno_kperson(aluno)
     assert eval(expression), description
 
+
 @pytest.mark.parametrize(
-     "description,id,expression",
-     [
-         ("Entry: exams", "195173","True"),
+    "description,id,expression",
+    [
+        ("Entry: exams", "195173", "True"),
         (
-        "Entry colegio",
-        "140448",
-        "True",
+            "Entry colegio",
+            "140448",
+            "True",
         ),
     ],
- )
+)
 def test_from_db_as_entry(description, id, expression):
-     """ """
-     aluno = Aluno.from_db(id)
-     aluno.process()
-     entry = aluno.as_entry()
-     print(entry)
-     assert True, description
+    """ """
+    aluno = Aluno.from_db(id)
+    aluno.process()
+    entry = aluno.as_entry()
+    print(entry)
+    assert True, description
+
 
 # Use this as a template
 # @pytest.mark.parametrize(
@@ -1242,7 +1246,6 @@ def test_csv_to_kleio():
     assert True, "Problemas in import test"
 
 
-
 def test_csv_to_sqlite():
 
     path_to_sqlite_dir = "notebooks/ucalumni/tests/db"
@@ -1257,15 +1260,19 @@ def test_csv_to_sqlite():
     # Test correct linkage to source and act
     with Session() as session:
         p: Person = session.query(Person).order_by(Person.id).first()
-        function_in_act: Relation = [r for r in p.rels_out if r.the_type == 'function-in-act'][0]
+        function_in_act: Relation = [
+            r for r in p.rels_out if r.the_type == "function-in-act"
+        ][0]
         destination = function_in_act.destination
-        act: Act = session.get(Act,destination)
+        act: Act = session.get(Act, destination)
         assert act is not None, "Could not find act of first person"
 
-        pai: Person = session.get(Person,'140337-pai')
+        pai: Person = session.get(Person, "140337-pai")
         assert pai.sex is not None, "Father stored with no sex info"
 
-        pai_function: Relation = [r for r in pai.rels_out if r.the_type == 'function-in-act'][0]
+        pai_function: Relation = [
+            r for r in pai.rels_out if r.the_type == "function-in-act"
+        ][0]
         assert pai_function is not None, "Father store with no function in act"
 
     assert True, "Problemas in import directly to database test"

@@ -1,4 +1,4 @@
-**[EN]** 
+**[EN]**
 # UC Alumni: processing the alumni records at the Arquivo da Universidade de Coimbra
 
     > This file only exists in English
@@ -10,28 +10,28 @@ online catalog of alumni of the University of Coimbra and extract data in
 a format suitable for statistical, prosopographical and network analysis.
 
 
-The alumni records at the Arquivo da Universidade de Coimbra consist of over 100,000 records, 
-from 1537 to 1913. 
+The alumni records at the Arquivo da Universidade de Coimbra consist of over 100,000 records,
+from 1537 to 1913.
 
 A catalog is available at http://pesquisa.auc.uc.pt/details?id=264605. It includes a description of how the information was collected (in Portuguese). A more complete guide for researchers, by Ana Maria Bandeira, is available online: https://www.uc.pt/auc/orientacoes/UC_GuiaPercursoAcademico.pdf
 
 
-The catalog packs most of the relevant information about each student in a 
-couple of texts fields. 
+The catalog packs most of the relevant information about each student in a
+couple of texts fields.
 
 To be useful the information needs to be mapped into a structured database.
-We use the `Timelink` data model to create a database which allows for 
-many interesting analysis of the alumni information. 
+We use the `Timelink` data model to create a database which allows for
+many interesting analysis of the alumni information.
 
-This document gives an overview of the format of the alumni records in the 
-original online catalog and the process of conversion to `Timelink` format. 
+This document gives an overview of the format of the alumni records in the
+original online catalog and the process of conversion to `Timelink` format.
 
 
 ## The online catalog
 
 The online catalog transcribes the content of the card records, which were produced
-between 1940 a 1950. The online catalog is managed by the `archeevo` 
-software (https://www.keep.pt/en/produts/archeevo-archival-management-software/). 
+between 1940 a 1950. The online catalog is managed by the `archeevo`
+software (https://www.keep.pt/en/produts/archeevo-archival-management-software/).
 An export of the contents of catalog in `csv` format was done in February 2020,
 and a new one in February 2022.
 
@@ -41,7 +41,7 @@ The export file contains a first row with the SSR record, one row for each lette
 
 ## The export format
 
-The rows corresponding to student information contain the following relevant columns 
+The rows corresponding to student information contain the following relevant columns
 (additional columns, not shown bellow, contain control information ):
 
         -------------------------------
@@ -78,32 +78,32 @@ The rows corresponding to student information contain the following relevant col
 
         Outras informações: Tirou as cartas com o nome Jerónimo de Faria Vidal, Atos e Graus 80, fl. 104 v.
 
-For analytical purposes the relevant fields are 
+For analytical purposes the relevant fields are
 * UnitTitle = Name of student, which can contain a note on status (priest, college of residence, etc...) and a " vide " note, which is a cross reference to another record, sometimes circular (for instance: 127765, 211625).
 * UnitDateInitial = first date on the record
 * UnitDateFinal = last date on the record
 * BiogHist = contains place of birth ("naturalidade") and can include parents names (mostly father name).
-* ScopeContent = contains the academic record, with different types of information in semi structured way, such as  "Faculdade", "Matrícula(s))", "Exames", information on degrees and a generic "Outras Informações". 
+* ScopeContent = contains the academic record, with different types of information in semi structured way, such as  "Faculdade", "Matrícula(s))", "Exames", information on degrees and a generic "Outras Informações".
 
-Extracting structured information from "ScopeContent" is the main challenge of processing the catalog. 
+Extracting structured information from "ScopeContent" is the main challenge of processing the catalog.
 
-Names of students and "BioHist" are comparatively simple to handle, even if the 
+Names of students and "BioHist" are comparatively simple to handle, even if the
 notes to the names included between parenthesis require some processing.
 
 The field "ScopeContent" has many variations in structure and the same type of information is
 recorded in different styles.
 
-The rest of this document details how the information is processed. 
+The rest of this document details how the information is processed.
 
 ## The target data model
 
 In order to generate a usable representation of the catalog it is necessary to map the information
-in the catalog to fields in a database. 
+in the catalog to fields in a database.
 
-We use the database structure defined by `Timelink` in which each person is represented by a 
-variable set of _attributes_ and _relations_. 
+We use the database structure defined by `Timelink` in which each person is represented by a
+variable set of _attributes_ and _relations_.
 
-`Timelink`  _attributes_ will store the 
+`Timelink`  _attributes_ will store the
 academic information while _relations_ store the family relations are recorded in `BioHist` field.
 
 
@@ -137,11 +137,11 @@ Student names can have annotations in the name itself, between parentesis:
 * Frei  = Friar, normally followed by the name of the Order, with many variations
 * Colegial ou Colégio = The college of the student, followed by the name of the college.
 * Lente = Lecturer
-* various professions: impressor, ourives, "mestre" 
+* various professions: impressor, ourives, "mestre"
 
 The text between parentesis is added as the attribute "nota", with 9975 occurences so far.
 
-Most frequence notes are:
+Most frequent notes are:
 
 
 | Note                                            | Count |
@@ -169,10 +169,10 @@ From the information in name notes the following information is extacted:
 
 ### Colégio
 
-If the name note contains "colégio", "colegio" or "colegial" the name of the 
+If the name note contains "colégio", "colegio" or "colegial" the name of the
 college is extracted as follows:
 
-* Non relevant words and ponctuation are removed from the note: 
+* Non relevant words and ponctuation are removed from the note:
         * padre reitor padres frei monge eremita d. religioso colegial porcionista familiar da de do dos das
 * "São" is replaced by "S."
 * The resulting expression is scanned for a match is predefined college names:
@@ -199,7 +199,7 @@ college is extracted as follows:
             aluno.colegio = colegio
 
 Note that if no match is found the original note minus irrelevant words and ponctuation is used.
- 
+
  A total of 275 references to "colégio" were collected:
 
 
@@ -254,7 +254,7 @@ See also the following note in record [217564](https://pesquisa.auc.uc.pt/detail
 > Outras informações: Conforme os Atos é referido como: Frei Domingos de Santo Agostinho, Frei Domingos Eremita de Santo Agostinho ou Frei Domingos do Colégio da Graça. Foi feita a interpretação como sendo o mesmo.
 
 
-## Remissions 
+## Remissions
 
 
 
@@ -262,7 +262,7 @@ See also the following note in record [217564](https://pesquisa.auc.uc.pt/detail
 
 
 
-## "Filiação"   
+## "Filiação"
 
 
 
@@ -272,9 +272,9 @@ See also the following note in record [217564](https://pesquisa.auc.uc.pt/detail
 
 ## Informations prefixed with field names
 
-Most information in the notes is tagged in the format "FIELD:VALUE" 
+Most information in the notes is tagged in the format "FIELD:VALUE"
 
-e.g.  
+e.g.
 
     Faculdade: Cânones
     Matrícula(s): 15.10.1661
@@ -300,7 +300,7 @@ Another pattern introduces a two level structure where the form "HEADER:" preced
 Sometimes we get an extra label in the same line:
 
         4º e Grau de Bacharel: 03.07.1888, Reprovado, Atos n.º 29, fl. 134, idem: 12.07.1889, Aprovado Simpliciter, Atos n.º 30, fl. 94 v.
-        
+
 Note the `idem` which means repeating the previous field, in this case: "4º e Grau de Bacharel".
 
 ## Handling variations and inconsistencies in field names
@@ -309,7 +309,7 @@ To handle the variation in the notation the following rules are used:
 
 **Rule #1 Field names are signaled by ":" or " - "**
 
-Field names are inferred from "field:value" or "field - value". The value part is the 
+Field names are inferred from "field:value" or "field - value". The value part is the
 sequence after ":" or " - " until the end of the line (except when subsequent rules apply).
 
 **Rule #2 Lines with more than one field name denote sections**
@@ -331,7 +331,7 @@ sequence after ":" or " - " until the end of the line (except when subsequent ru
             2º Princípio: 17.1.1579
             4º Princípio: 1.12.1579
 
-"Outras informações" is considered the section header. 
+"Outras informações" is considered the section header.
 
 **Rule #4: A line with no field is considered a new value for the last detected field**
 
@@ -413,7 +413,7 @@ id:127987 António Cabral 1665-10-15 : 1666-10-10
 * See [QA for faculdade](031-instituta_qa.ipynb)
 * See [Inferences for faculdade](035-faculdades.ipynb)
 
-Mostly contains a single name of a Faculdade (school) of the University. 
+Mostly contains a single name of a Faculdade (school) of the University.
 
 But some students have more than one Faculdade recorded explicitly:
 
@@ -429,7 +429,7 @@ But some students have more than one Faculdade recorded explicitly:
         Instituta: 1618/12/08.
         Bacharel em Cânones: 1623/07/12
         Formatura: 1623/07/19
- 
+
         (Lopo de Abreu id: 141025)
         Faculdade: Cânones / Leis
         Matrícula(s):
@@ -450,24 +450,24 @@ But some students have more than one Faculdade recorded explicitly:
 
 When there is no value recorded in the "Faculdade:" field, the programme tries to
 infer from other information in the record. The process can generate more than one
-"faculdade" per given student. 
+"faculdade" per given student.
 
 In different periods attendance of some "faculdades" was required as part of the curriculum
 of other "faculdades". Before 1772 to enter the faculties of Theology and Medicine it was necessary
-to be a bachelor in Arts, and so either enroll in the Faculty of Arts or obtain an equivalence 
+to be a bachelor in Arts, and so either enroll in the Faculty of Arts or obtain an equivalence
 of prior studies outside the university (for instance in colleges).
 
 After 1772 all students, irrespective of the area of study, should do introductory courses at the Faculty of Mathematics and Philosophy for two years, and only then continue to the school where they would receive their degree. In this context the first enrollments occur in the faculty of Mathematics or Philosophy despite the students going on to study Civil or Canon Law, Medicine or Theology. Note that some students did go on to graduate in Mathematics or Philosophy as their first choice
 
-The algorithm tries to infer the Faculdade if the corresponding field is empty and corrects the value 
+The algorithm tries to infer the Faculdade if the corresponding field is empty and corrects the value
 if is was not in compliance of the academic rules of precedence.
 
 Many errors occur during the periods of transition: when a student entered the university before a
-major reformation and exited after new rules were in place. 
+major reformation and exited after new rules were in place.
 
 ### Matrícula (inscription)
 
-Information about inscriptions is one of the most varied and difficult to process. 
+Information about inscriptions is one of the most varied and difficult to process.
 
 In its simplest form it is just a series of dates:
 
@@ -529,7 +529,7 @@ Errors due to misunderstanding of the rules:
             5 º ano - 03.10.1801
 
 
-### Instituta 
+### Instituta
 
 We only take fields the value of which contain a date. Some records have spurious punctuation content in this field
 (e.g. https://pesquisa.auc.uc.pt/details?id=140367)
@@ -544,14 +544,14 @@ Between 1700 and 1771 the mean duration of obtaining the "bacharel" degree was 7
 
 
 
-## Install required packages and libraries 
+## Install required packages and libraries
 
 The normal requirements for running Timelink notebooks were expanded for this
 specific application. Be sure to install all the required software as follows:
 
 Open a terminal in VS Code and type
 
-        pip install -r notebooks/requirements.txt 
+        pip install -r notebooks/requirements.txt
 
 
 ## References

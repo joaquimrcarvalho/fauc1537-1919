@@ -10,7 +10,7 @@ from pathlib import Path
 import re
 
 from pyparsing import QuotedString
-from markdownTable import markdownTable
+from py_markdown_table.markdown_table import markdown_table as markdownTable
 
 from timelink.mhk.models import base # this setups the orm models
 from timelink.mhk.models.base import Person
@@ -25,7 +25,7 @@ import ucalumni.fields
 # Helper for abbreviations
 def replace_with_abbrev(text: str, abrev_list: dict) -> str:
     """ Replace expressions with abbreviations
-    
+
     Arg:
         text: text with expressions to be replaced
 
@@ -64,7 +64,7 @@ def markdown_table(table: list):
     """
     Generate a markdown table from list of data
 
-    table: a list of dictionnaries row date, 
+    table: a list of dictionnaries row date,
            where keys are column names.
 
     The table can be used for documentation and matches
@@ -74,9 +74,9 @@ def markdown_table(table: list):
 
            notes_table = []
 
-           for nota in aluno.notes: 
-               notes_table.append({'N':nota.numero, 
-                'section': nota.seccao, 
+           for nota in aluno.notes:
+               notes_table.append({'N':nota.numero,
+                'section': nota.seccao,
                 'campo':nota.campo,
                 'data':nota.data.value,
                 'valor': nota.valor,
@@ -101,7 +101,7 @@ def markdown_table(table: list):
         elif number == 1 :
             header_sep_line = line
         elif number == 2:
-            header = line 
+            header = line
             # we get the column separators positions
             sep_pos = [m.start() for m in re.finditer('\|',line)]
             s = list(header_sep_line)
@@ -144,7 +144,7 @@ class Matricula:
 
     `ambito`: what is the inscription in: Cânones, Curso Jurídico, 1ª ano do Curso Jurídico
     `tipo`: the type, one of: faculdade, ano, curso, classe
-    `modalidade`: obrigado ou ordinário 
+    `modalidade`: obrigado ou ordinário
     `data` : date of the matricula, class: ucalumni.grammar.DateUtility
     `obs` : observations
 
@@ -249,7 +249,7 @@ class Nota:
 
 def get_aluno_from_db(id :str, db :TimelinkMHK=None)-> Type["Aluno"]:
     """ Get a aluno record from database by id
-    
+
     Returns original information of a 'aluno' record from
     a Timelink/MHK database.
 
@@ -264,8 +264,8 @@ def get_aluno_from_db(id :str, db :TimelinkMHK=None)-> Type["Aluno"]:
         * scope_content (with the obs field in the db which is = BioHist+ScopeContent)
         * obs (same as scope_content)
 
-    Assumes that a Session variable exists in scope associated 
-        with a Timelink/MHk database. 
+    Assumes that a Session variable exists in scope associated
+        with a Timelink/MHk database.
 
     A common pattern is:
         from ucalumni import Session
@@ -273,7 +273,7 @@ def get_aluno_from_db(id :str, db :TimelinkMHK=None)-> Type["Aluno"]:
         Session.configure(bind=db.engine())
 
         my_aluno = get_aluno_from_db('140337')
-    
+
         See  https://docs.sqlalchemy.org/en/14/orm/session_basics.html
 
     """
@@ -354,7 +354,7 @@ class Aluno:
     `param codref``
          reference code in the original catalog e.g. "PT/AUC/ELU/UC-AUC/B/001-001/B/003305"
     `param nome` str, name of the student as in the catalog, might differ after processing because of name annotations
-    `param data_registo` 
+    `param data_registo`
         `datetime.datetime` date of the last change to the catalog record (?)
     `param unit_date_inicial` earliest reference in the sources, str
     `param unit_date_final` latest reference in the sources, str
@@ -377,23 +377,23 @@ class Aluno:
     # errata: class variable with list of id of existing errata records
     # see Aluno.collect_errata(path)
     errata: ClassVar[str] = field(init=False, compare=False,default=None)
-    # Erratum: information which corrects the original 
+    # Erratum: information which corrects the original
     #  archeevo record. If not None or empty will be used
-    #  to extract information, superseeding original record. 
+    #  to extract information, superseeding original record.
     erratum: str = field(init=False, compare=False,default=None)
     erratum_diff: str = field(init=False, compare=False,default=None)
     # Fields set by the extraction functions
     pnome: str = field(init=False, compare=False,default=None)
     apelido: str = field(init=False, compare=False,default=None)
     sexo: str = field(init=False, compare=False, default='m')
-                        # the final value for faculdade, after aplication of checks 
+                        # the final value for faculdade, after aplication of checks
     faculdade: List[str] = field(init=False, compare=False, default_factory=list)
                         # the original value for the field "faculdade", if any
     faculdade_original: str = field(init=False, compare=False, default=None)
-                        # Error message related to faculdade 
-    faculdade_problem: str = field(init=False,compare=False,default=None) 
+                        # Error message related to faculdade
+    faculdade_problem: str = field(init=False,compare=False,default=None)
                         # detail on problem with faculdade
-    faculdade_strange: str = field(init=False,compare=False,default=None) 
+    faculdade_strange: str = field(init=False,compare=False,default=None)
                         # something strange like Direito changed to Teologia
     faculdade_problem_obs: str = field(init=False,compare=False, default=None)
     nome_final: str = field(init=False,
@@ -431,7 +431,7 @@ class Aluno:
                                         default_factory=dict)
 
     instituta: list[Instituta] = field(init=False, compare=False, default_factory=list)
- 
+
     obs: str = field(init=False, compare=False,default="")
 
     # list of extraction functions
@@ -449,11 +449,11 @@ class Aluno:
     @classmethod
     def collect_errata(cls,path_to_errata: str):
         """Collects errata files into Aluno.errata
-        
+
         From `path_to_errata` and subdirectories collects files
         with name pattern [0-9]*.[tT][xX][tT] e.g. 165656.txt
 
-        Sets Aluno.errata (class property) to a dictionnary where 
+        Sets Aluno.errata (class property) to a dictionnary where
         the keys are the file names with no extension (Aluno ids)
         and the value is a tuple (file_name, path, relative, absolute)
 
@@ -465,7 +465,7 @@ class Aluno:
         for f in files:
             id = f['id']
             cls.errata[id] = (
-                f['file_name'],   
+                f['file_name'],
                 f['path'],
                 f['path_relative'],
                 f['path_absolute'])
@@ -568,7 +568,7 @@ class Aluno:
 
     def print_notes(self):
             [print(f'{str(nota.numero).zfill(2)} {nota.seccao:12} {nota.campo:24} {nota.valor:12} {nota.data.value:20} {nota.obs}') for nota in self.notas]
-   
+
     def __str__(self):
         r = f"# {self.id} {self.nome}\n\n"
         r = r + f'## Original\n```{self.obs}\n```\n'
@@ -578,7 +578,7 @@ class Aluno:
         if len(self.extractors) == 0:
             return r
 
-            
+
         r = r + "## Inferences:\n"
         r = r + f'* id:{self.id}\n'
         r = r + f'* Nome: {self.nome}\n'\
@@ -600,9 +600,9 @@ class Aluno:
         mkdtable.clear()
         nota: Nota
         for  nota in self.notas:
-            mkdtable.append({'N':nota.numero, 
+            mkdtable.append({'N':nota.numero,
                 'proc': nota.processed,
-                'section': nota.seccao, 
+                'section': nota.seccao,
                 'campo':nota.campo,
                 'data':nota.data.value,
                 'valor': nota.valor,
@@ -621,7 +621,7 @@ class Aluno:
         if self.instituta is not None:
             for inst in self.instituta:
                 r = r + f'### Instituta {inst.data} {inst.obs}\n'
-            
+
 
         # Matrículas
         mkdtable.clear()
@@ -633,7 +633,7 @@ class Aluno:
                 'modalidade':matricula.modalidade,
                 'data':matricula.data,
                 'obs':matricula.obs})
-        table = markdown_table(mkdtable)        
+        table = markdown_table(mkdtable)
         r = r + '\n### Matrículas:\n' + table
 
         # Exames
@@ -645,7 +645,7 @@ class Aluno:
                 'resumo':exame.resultado,
                 'data':exame.data,
                 'obs':exame.obs})
-        table = markdown_table(mkdtable)        
+        table = markdown_table(mkdtable)
         r = r + '\n### Exames:\n' + table
 
         # Graus
@@ -656,12 +656,12 @@ class Aluno:
                 'nome':grau.nome,
                 'data':grau.data,
                 'obs':grau.obs})
-        table = markdown_table(mkdtable)        
+        table = markdown_table(mkdtable)
         r = r + '\n### Graus:\n' + table
 
         return r + '\n'
 
-        
+
     def as_entry(self):
         """ Format aluno as dictionnary entry"""
         r = f'[{self.id}] {self.nome}'
@@ -680,14 +680,14 @@ class Aluno:
             r = f'{r} e {self.mae}'
         if self.familia is not None:
             r = f'{r}.\nF. {self.familia}'
-        
+
         if self.naturalidade is not None:
             r = f'{r}. N. {self.naturalidade}'
 
         if self.colegio is not None:
-            r = f'{r}. {self.colegio}'         
+            r = f'{r}. {self.colegio}'
             if self.nota != self.colegio:
-                r = f'{r} ({self.nota})' 
+                r = f'{r} ({self.nota})'
             r=f'{r}.'
 
         matricula: Matricula
@@ -726,4 +726,4 @@ class Aluno:
 
         return replace_with_abbrev(r,entry_abbrev)
 
-        
+

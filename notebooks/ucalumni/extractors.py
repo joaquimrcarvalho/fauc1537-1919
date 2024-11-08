@@ -1,7 +1,10 @@
+# flake8: max-line-length=120
+# flake8: noqa: E501
 """
 (c) Joaquim Carvalho 2021.
 MIT License, no warranties.
 """
+
 from logging import warning
 from os.path import commonprefix
 import re
@@ -133,66 +136,291 @@ ordens = {
 # These are the first names with more than 5 occurrences
 # Check notebook 00-remissivas to obtain the current list
 
-pnomes = [  'Abel','Abílio','Acácio','Acúrcio','Adão',
-            'Adelino','Adolfo','Adriano','Adrião','Afonso',
-            'Agnelo','Agostinho','Aires','Albano','Alberto',
-            'Albino','Aleixo','Alexandre','Alfredo','Alípio',
-            'Álvaro','Amadeu','Amador','Amancio','Amândio',
-            'Amaro','Ambrósio','Américo','Anacleto','Anastácio',
-            'André','Ângelo','Aníbal','Aniceto','Anselmo',
-            'Antão','Antero','António','Antrónio','Apolinário',
-            'Arcanjo','Aristides','Armando','Arnaldo','Arsenio',
-            'Artur','Ascenso','Atanásio','Augusto','Aureliano',
-            'Aurélio','Avelino','Baltasar','Barnabé','Bartolomeu',
-            'Basílio','Batista','Belchior','Benjamim','Bento',
-            'Berardo','Bernardino','Bernardo','Boaventura','Bonifácio',
-            'Brás','Bruno','Caetano','Calisto','Camilo',
-            'Cândido','Carlos','Casimiro','Celestino','César',
-            'Cipriano','Cláudio','Clemente','Constantino','Cosme',
-            'Crisogono','Crispim','Cristiano','Cristóvão','Custódio',
-            'Dâmaso','Damião','Daniel','David','Delfim',
-            'Desidério','Diamantino','Dinis','Diogo','Dionísio',
-            'Domingos','Duarte','Edmundo','Eduardo','Egídio',
-            'Eleuterio','Elias','Elisío','Emídio','Emílio',
-            'Ernesto','Estácio','Estanislau','Estevão','Eugénio',
-            'Eurico','Eusébio','Eustáquio','Evaristo','Fabião',
-            'Fabricio','Faustino','Fausto','Feliciano','Felício',
-            'Felisberto','Felix','Fernando','Fernão','Filipe',
-            'Firmino','Florêncio','Fortunato','Fradique','Francisco',
-            'Frederico','Fructuoso','Frutuoso','Gabriel','Garcia',
-            'Gaspar','Gerardo','Germano','Gervásio','Gil',
-            'Giraldo','Gomes','Gonçalo','Gregório','Gualter',
-            'Guilherme','Gustavo','Heitor','Henrique','Henriques',
-            'Herculano','Hermano','Higidio','Hilário','Hipólito',
-            'Horácio','Ildefonso','Inácio','Inocêncio','Isidoro',
-            'Ivo','Jacinto','Jacome','Jaime','Januário',
-            'Jerónimo','João','Joaquim','Jordão','Jorge',
-            'José','Julião','Júlio','Justino','Lancerote',
-            'Lázaro','Leandro','Leão','Leonardo','Leonel',
-            'Leopoldo','Libânio','Lino','Lopo','Lourenço',
-            'Lucas','Luciano','Lúcio','Luís','Macário',
-            'Mamede','Manuel','Marçal','Marcelino','Marcos',
-            'Mariano','Mário','Martim','Martinho','Martins',
-            'Mateus','Matias','Mauricio','Maximiano','Máximo',
-            'Melchior','Mendo','Miguel','Narciso','Nicolau',
-            'Norberto','Nuno','Onofre','Óscar','Paio',
-            'Pantaleão','Pascoal','Patrício','Paulino','Paulo',
-            'Pedro','Plácido','Policarpo','Pompeu','Porfírio',
-            'Possidónio','Prudêncio','Quintino','Rafael','Raimundo',
-            'Ramiro','Rául','Ricardo','Roberto','Rodrigo',
-            'Romão','Roque','Rosendo','Rufino','Rui',
-            'Salvador','Sancho','Santos','Sebastião','Semião',
-            'Serafim','Sérgio','Severino','Silvério','Silvestre',
-            'Simão','Simião','Simplicio','Teodoro','Teodósio',
-            'Teófilo','Teotónio','Timóteo','Tito','Tomás',
-            'Tomé','Torcato','Tristão','Urbano','Valentim',
-            'Valério','Vasco','Venâncio','Ventura','Veríssimo',
-            'Vicente','Virgílio','Viriato','Vital','Vitor',
-            'Vitoriano','Vitorino','Xavier','Zeferino',]
+pnomes = [
+    "Abel",
+    "Abílio",
+    "Acácio",
+    "Acúrcio",
+    "Adão",
+    "Adelino",
+    "Adolfo",
+    "Adriano",
+    "Adrião",
+    "Afonso",
+    "Agnelo",
+    "Agostinho",
+    "Aires",
+    "Albano",
+    "Alberto",
+    "Albino",
+    "Aleixo",
+    "Alexandre",
+    "Alfredo",
+    "Alípio",
+    "Álvaro",
+    "Amadeu",
+    "Amador",
+    "Amancio",
+    "Amândio",
+    "Amaro",
+    "Ambrósio",
+    "Américo",
+    "Anacleto",
+    "Anastácio",
+    "André",
+    "Ângelo",
+    "Aníbal",
+    "Aniceto",
+    "Anselmo",
+    "Antão",
+    "Antero",
+    "António",
+    "Antrónio",
+    "Apolinário",
+    "Arcanjo",
+    "Aristides",
+    "Armando",
+    "Arnaldo",
+    "Arsenio",
+    "Artur",
+    "Ascenso",
+    "Atanásio",
+    "Augusto",
+    "Aureliano",
+    "Aurélio",
+    "Avelino",
+    "Baltasar",
+    "Barnabé",
+    "Bartolomeu",
+    "Basílio",
+    "Batista",
+    "Belchior",
+    "Benjamim",
+    "Bento",
+    "Berardo",
+    "Bernardino",
+    "Bernardo",
+    "Boaventura",
+    "Bonifácio",
+    "Brás",
+    "Bruno",
+    "Caetano",
+    "Calisto",
+    "Camilo",
+    "Cândido",
+    "Carlos",
+    "Casimiro",
+    "Celestino",
+    "César",
+    "Cipriano",
+    "Cláudio",
+    "Clemente",
+    "Constantino",
+    "Cosme",
+    "Crisogono",
+    "Crispim",
+    "Cristiano",
+    "Cristóvão",
+    "Custódio",
+    "Dâmaso",
+    "Damião",
+    "Daniel",
+    "David",
+    "Delfim",
+    "Desidério",
+    "Diamantino",
+    "Dinis",
+    "Diogo",
+    "Dionísio",
+    "Domingos",
+    "Duarte",
+    "Edmundo",
+    "Eduardo",
+    "Egídio",
+    "Eleuterio",
+    "Elias",
+    "Elisío",
+    "Emídio",
+    "Emílio",
+    "Ernesto",
+    "Estácio",
+    "Estanislau",
+    "Estevão",
+    "Eugénio",
+    "Eurico",
+    "Eusébio",
+    "Eustáquio",
+    "Evaristo",
+    "Fabião",
+    "Fabricio",
+    "Faustino",
+    "Fausto",
+    "Feliciano",
+    "Felício",
+    "Felisberto",
+    "Felix",
+    "Fernando",
+    "Fernão",
+    "Filipe",
+    "Firmino",
+    "Florêncio",
+    "Fortunato",
+    "Fradique",
+    "Francisco",
+    "Frederico",
+    "Fructuoso",
+    "Frutuoso",
+    "Gabriel",
+    "Garcia",
+    "Gaspar",
+    "Gerardo",
+    "Germano",
+    "Gervásio",
+    "Gil",
+    "Giraldo",
+    "Gomes",
+    "Gonçalo",
+    "Gregório",
+    "Gualter",
+    "Guilherme",
+    "Gustavo",
+    "Heitor",
+    "Henrique",
+    "Henriques",
+    "Herculano",
+    "Hermano",
+    "Higidio",
+    "Hilário",
+    "Hipólito",
+    "Horácio",
+    "Ildefonso",
+    "Inácio",
+    "Inocêncio",
+    "Isidoro",
+    "Ivo",
+    "Jacinto",
+    "Jacome",
+    "Jaime",
+    "Januário",
+    "Jerónimo",
+    "João",
+    "Joaquim",
+    "Jordão",
+    "Jorge",
+    "José",
+    "Julião",
+    "Júlio",
+    "Justino",
+    "Lancerote",
+    "Lázaro",
+    "Leandro",
+    "Leão",
+    "Leonardo",
+    "Leonel",
+    "Leopoldo",
+    "Libânio",
+    "Lino",
+    "Lopo",
+    "Lourenço",
+    "Lucas",
+    "Luciano",
+    "Lúcio",
+    "Luís",
+    "Macário",
+    "Mamede",
+    "Manuel",
+    "Marçal",
+    "Marcelino",
+    "Marcos",
+    "Mariano",
+    "Mário",
+    "Martim",
+    "Martinho",
+    "Martins",
+    "Mateus",
+    "Matias",
+    "Mauricio",
+    "Maximiano",
+    "Máximo",
+    "Melchior",
+    "Mendo",
+    "Miguel",
+    "Narciso",
+    "Nicolau",
+    "Norberto",
+    "Nuno",
+    "Onofre",
+    "Óscar",
+    "Paio",
+    "Pantaleão",
+    "Pascoal",
+    "Patrício",
+    "Paulino",
+    "Paulo",
+    "Pedro",
+    "Plácido",
+    "Policarpo",
+    "Pompeu",
+    "Porfírio",
+    "Possidónio",
+    "Prudêncio",
+    "Quintino",
+    "Rafael",
+    "Raimundo",
+    "Ramiro",
+    "Rául",
+    "Ricardo",
+    "Roberto",
+    "Rodrigo",
+    "Romão",
+    "Roque",
+    "Rosendo",
+    "Rufino",
+    "Rui",
+    "Salvador",
+    "Sancho",
+    "Santos",
+    "Sebastião",
+    "Semião",
+    "Serafim",
+    "Sérgio",
+    "Severino",
+    "Silvério",
+    "Silvestre",
+    "Simão",
+    "Simião",
+    "Simplicio",
+    "Teodoro",
+    "Teodósio",
+    "Teófilo",
+    "Teotónio",
+    "Timóteo",
+    "Tito",
+    "Tomás",
+    "Tomé",
+    "Torcato",
+    "Tristão",
+    "Urbano",
+    "Valentim",
+    "Valério",
+    "Vasco",
+    "Venâncio",
+    "Ventura",
+    "Veríssimo",
+    "Vicente",
+    "Virgílio",
+    "Viriato",
+    "Vital",
+    "Vitor",
+    "Vitoriano",
+    "Vitorino",
+    "Xavier",
+    "Zeferino",
+]
 
 
 def get_extractors():
-    """ Ensure that extractors were loaded
+    """Ensure that extractors were loaded
 
     This is just a place holder to allow
     for
@@ -200,9 +428,10 @@ def get_extractors():
         from ucalumni.extractor import get_extractors()
 
     The result is irrelevant the import does what is necessary
-    
+
     """
     return Aluno.extractors
+
 
 def extract_name_note_vid(aluno: Aluno):
     """
@@ -245,7 +474,7 @@ def extract_name_note_vid(aluno: Aluno):
         "Batista",
     ]
     if "nota" in rn.keys():
-        nome_ = rn.get("nome",rn.get("nome1"))
+        nome_ = rn.get("nome", rn.get("nome1"))
         aluno.nome = " ".join(nome_)
         nota = rn["nota"]
         aluno.nota = nota
@@ -258,10 +487,10 @@ def extract_name_note_vid(aluno: Aluno):
         # we invert the string, use commonprefix and again
         terminacao_comum = commonprefix([nome[::-1], nome_vide[::-1]])[::-1]
         # check it is a separate name and not just common letters at the end
-        # a proper family name should share a starting space 
+        # a proper family name should share a starting space
         if len(terminacao_comum) > 0:
-            if terminacao_comum[0] != ' ':
-                terminacao_comum = ''    # not a separate name, abandom
+            if terminacao_comum[0] != " ":
+                terminacao_comum = ""  # not a separate name, abandom
             else:
                 terminacao_comum = terminacao_comum.strip()
 
@@ -275,7 +504,7 @@ def extract_name_note_vid(aluno: Aluno):
         if pos > -1:
             lookup_name = nome[0:pos] + nome_vide
             vtype = "cut"
-        # Type REP: vide name looks like a full name 
+        # Type REP: vide name looks like a full name
         # e.g. António de Abreu Bacelar de Azevedo, vide António Abreu Bacelar
         # relaxing the same first name rule, lots  of leaks
         #  This leaks a lot : elif len(nomes_vide)>1 and nomes_vide[0] in pnomes :
@@ -287,13 +516,13 @@ def extract_name_note_vid(aluno: Aluno):
         # but vide must not contain first name
         # in that case probably a REP
         # otherwise generates leaks and lowers mumbers of matches
-        elif terminacao_comum > '':
-            if not nomes_vide[0] in pnomes :
-                lookup_name = re.sub(f'{terminacao_comum}$',nome_vide,nome)
-                vtype='repap'
+        elif terminacao_comum > "":
+            if not nomes_vide[0] in pnomes:
+                lookup_name = re.sub(f"{terminacao_comum}$", nome_vide, nome)
+                vtype = "repap"
             else:  # if common termination and first name better replace
                 lookup_name = nome_vide
-                vtype='rep'
+                vtype = "rep"
         else:
             # TYPE Add vide name is not part of original nor a full name
             # so it must be an aditional surname
@@ -302,20 +531,23 @@ def extract_name_note_vid(aluno: Aluno):
             vtype = "add"
 
         # we try to recover cases where there was replacement of first name
-        # they are missed by the REP amd REPAP rules above and end up 
+        # they are missed by the REP amd REPAP rules above and end up
         # producing lookup which are the sobreposition of two names
         # this was added by examining bad "ADD" and "REPAP" results
         # if the result is a long name (>5 names), both name and vide start
         # with first names and vide also long (>4) then probable a replace
         # that changes the first name.
         nomes_lookup = lookup_name.split()
-        if vtype != 'rep' \
-            and nomes[0] in pnomes and nomes_vide[0] in pnomes\
-            and nomes[0] != nomes_vide[0]\
-            and len(nomes_vide) > 3\
-            and len(nomes_lookup) > 5:
+        if (
+            vtype != "rep"
+            and nomes[0] in pnomes
+            and nomes_vide[0] in pnomes
+            and nomes[0] != nomes_vide[0]
+            and len(nomes_vide) > 3
+            and len(nomes_lookup) > 5
+        ):
             lookup_name = nome_vide
-            
+
         aluno.vide_type = vtype
         aluno.vide_target = lookup_name
 
@@ -428,7 +660,6 @@ def extract_ordem_religiosa(aluno: Aluno):
                 if len(clean) == 0:
                     clean = [aluno.nota]
                 aluno.ordem.append(" ".join(clean))
-
 
 
 Aluno.add_extractor(extract_ordem_religiosa)
@@ -580,7 +811,8 @@ def extract_faculdade(aluno: Aluno):
     same_fac = sorted(main_fac) == sorted(fac_names)
 
     # check if we need to make a note of any change
-    if len(aluno.faculdade) == 0 and len(main_fac) == 0:  # no faculdade was found
+    # no faculdade was found
+    if len(aluno.faculdade) == 0 and len(main_fac) == 0:
         if (
             aluno.faculdade_original is None
             and aluno.unit_date_inicial.value != "0000-00-00"
@@ -593,35 +825,35 @@ def extract_faculdade(aluno: Aluno):
         # overring catalog faculdade
         aluno.faculdade = []
         for fac in main_fac:
-            fac_obs = ''
+            fac_obs = ""
             if aluno.has_faculdade:
                 aluno.faculdade_problem = "Aviso: faculdade corrigida"
                 aluno.faculdade_problem_obs = (
                     f'{aluno.faculdade_original} para {",".join(main_fac)}.'
                 )
-                fac_obs=f"Faculdade corrigida"
-                
+                fac_obs = f"Faculdade corrigida"
+
             else:
                 aluno.faculdade_problem = "Aviso: faculdade inferida"
                 aluno.faculdade_problem_obs = fac
-                fac_obs="Faculdade inferida"
+                fac_obs = "Faculdade inferida"
             aluno.faculdade.append((fac, aluno.unit_date_inicial, fac_obs))
 
     problem = aluno.faculdade_problem
     aluno.faculdade_strange = None
-    if problem is not None and problem > '' and aluno.faculdade_original is not None:
+    if problem is not None and problem > "" and aluno.faculdade_original is not None:
         # the original faculdade was changed algoritmically
         # if it was Filosofia or Matemática is OK
         # if the result is Canones or Leis is OK too
         # other changes (e.g. Direito corrected to Teologia) are
         # marked as "strange"
-        fac_names = [f for (f,d,o) in aluno.faculdade]
-        if aluno.faculdade_original in ['Filosofia','Matemática']:
+        fac_names = [f for (f, d, o) in aluno.faculdade]
+        if aluno.faculdade_original in ["Filosofia", "Matemática"]:
             pass
-        elif "Cânones" not in fac_names and\
-                "Leis" not in fac_names:
-                aluno.faculdade_strange = aluno.faculdade_problem_obs  # This is a strange override by the algoritm
-
+        elif "Cânones" not in fac_names and "Leis" not in fac_names:
+            aluno.faculdade_strange = (
+                aluno.faculdade_problem_obs
+            )  # This is a strange override by the algoritm
 
 
 Aluno.add_extractor(extract_faculdade)
@@ -660,7 +892,7 @@ def extract_graus(aluno: Aluno):
         #
         grau_in_field = False
         hits = list_search(graus.keys(), campo.lower())
-        
+
         # we need to note where the grau was detected to avoid
         # errors when processing this:
         #
@@ -699,8 +931,8 @@ def extract_graus(aluno: Aluno):
                     continue  # skip
                 if graus[g] == "*SKIP*":
                     continue
-                if (
-                    g.lower() == nota.valor.lower().strip(" -:")
+                if g.lower() == nota.valor.lower().strip(
+                    " -:"
                 ):  # just the degree name in the field
                     continue
                 if nota.data.date_only:
@@ -709,7 +941,9 @@ def extract_graus(aluno: Aluno):
                     obs = nota.valor + " " + nota.obs
 
                 # now lets see if we get a faculdade
-                if grau_in_field:  # only search field for fac in grau in field see above
+                if (
+                    grau_in_field
+                ):  # only search field for fac in grau in field see above
                     hits = list_search(faculdades.keys(), campo.lower())
                 else:
                     hits = []
@@ -718,12 +952,14 @@ def extract_graus(aluno: Aluno):
                 ambito = None
                 for fac in hits:
                     ambito = faculdades.get(fac, fac)  # get the fac name
-                if ambito is None and len(aluno.faculdade) > 0:  # get the ambito from faculdade
+                if (
+                    ambito is None and len(aluno.faculdade) > 0
+                ):  # get the ambito from faculdade
                     facname, fdata, fobs = aluno.faculdade[0]
                     ambito = facname
                 grau_nome = graus[g]
                 if ambito is not None:
-                    grau_nome = grau_nome+" em "+ambito
+                    grau_nome = grau_nome + " em " + ambito
                 else:
                     continue
 
@@ -746,7 +982,7 @@ Aluno.add_extractor(extract_graus)
 
 def extract_matriculas(aluno: Aluno):
     """Extracts matrículas. Must run after extract_faculdade
-    
+
     Deals with
 
             Matrícula(s): Matemática 0.1.1792 (ordinário)
@@ -848,16 +1084,16 @@ def extract_matriculas(aluno: Aluno):
     previous_classe = None
 
     # When processing matrículas with only dates
-    # we need to deal with the situation where the 
+    # we need to deal with the situation where the
     # faculdade was changed by the algoritm
     # in some cases the matriculas should be associated
     # with the original faculdade in others with the
-    # corrected one. 
+    # corrected one.
     # in the following example Matemática was changed to Medicina
     # because Matemática is a prerequisite.
     # But the first matriculas are in Matemática
     # Faculdade: Matemática
-    # 
+    #
     # Id: 221833
     #
     # Matrícula(s): 02.12.1772 (obrigado)
@@ -874,7 +1110,7 @@ def extract_matriculas(aluno: Aluno):
     # because the Faculdade original was overriden
     #  Id: 144910
     # Faculdade: Direito
-    # 
+    #
     # Matrícula(s): 29.10.1795
     # 04.10.1796
     # 13.10.1797
@@ -883,19 +1119,16 @@ def extract_matriculas(aluno: Aluno):
     # Exames em Cânones: 3º: 14.07.1798, Aprovado Nemine Discrepante, Atos nº 6, fl. 12
     fac_from_aluno = aluno.faculdade
     problem = aluno.faculdade_problem
-    if problem is not None and problem > '' and aluno.faculdade_original is not None:
+    if problem is not None and problem > "" and aluno.faculdade_original is not None:
         # the faculdade was changed algoritmically
         # we accept the original for undated matriculas
         # if it was Filosofia or Matemática
         # this means that corrections to Direito are accepted
         # other changes (e.g. Direito corrected to Teologia) are
         # marked as "stange"
-        fac_names = [f for (f,d,o) in aluno.faculdade]
-        if aluno.faculdade_original in ['Filosofia','Matemática']:
-            fac_from_aluno = [(aluno.faculdade_original,
-                            aluno.unit_date_inicial,
-                            "")]
-
+        fac_names = [f for (f, d, o) in aluno.faculdade]
+        if aluno.faculdade_original in ["Filosofia", "Matemática"]:
+            fac_from_aluno = [(aluno.faculdade_original, aluno.unit_date_inicial, "")]
 
     for nota in aluno.get_unprocessed_note():
         if (
@@ -968,11 +1201,7 @@ def extract_matriculas(aluno: Aluno):
             modalidade = (
                 "obrigado"
                 if obrigado
-                else "voluntário"
-                if voluntario
-                else "ordinário"
-                if ordinario
-                else ""
+                else "voluntário" if voluntario else "ordinário" if ordinario else ""
             )
 
             # Faculdade
@@ -1004,7 +1233,11 @@ def extract_matriculas(aluno: Aluno):
             # Matrícula(s): 1578/10/16, Volume 1, Livro 3.º, fl. 2
 
             classes_ = year_in_campo + year_in_valor
-            if len(classes_) > 0 and not "livro" in valor.lower() and not "caderno" in valor.lower():
+            if (
+                len(classes_) > 0
+                and not "livro" in valor.lower()
+                and not "caderno" in valor.lower()
+            ):
                 tipo = "classe"
                 if previous_tipo == "faculdade":
                     base_classe = previous_faculdade
@@ -1027,9 +1260,7 @@ def extract_matriculas(aluno: Aluno):
                 elif previous_tipo == "classe":
                     base_classe = previous_classe
                 else:
-                    base_classe = " - ".join(
-                        [fac for (fac, d, o) in fac_from_aluno]
-                    )
+                    base_classe = " - ".join([fac for (fac, d, o) in fac_from_aluno])
                     obs = obs + " (âmbito da classe inferido)"
                 for ambito in classes_:
                     classe = f'{base_classe}, {anos.get(ambito,f"!{ambito}!")}'
@@ -1127,10 +1358,8 @@ def extract_exames(aluno: Aluno):
                     else:
                         ambito = ""
 
-                    ambito = ambito+" "+ nota.valor[0 : nota.data.start]
-                    ambito = ambito.strip(
-                        ".,: "
-                    )  # check  pre date
+                    ambito = ambito + " " + nota.valor[0 : nota.data.start]
+                    ambito = ambito.strip(".,: ")  # check  pre date
             try:
                 data = nota.data
                 if nota.data.scan_results is not None:
