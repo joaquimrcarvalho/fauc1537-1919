@@ -2,6 +2,7 @@
 (c) Joaquim Carvalho 2021.
 MIT License, no warranties.
 """
+
 from dataclasses import dataclass, field
 from datetime import datetime
 from logging import warning
@@ -10,9 +11,9 @@ from pathlib import Path
 import re
 
 from pyparsing import QuotedString
-from py_markdown_table.markdown_table import markdown_table as markdownTable
+from py_markdown_table.markdown_table import markdown_table
 
-from timelink.mhk.models import base # this setups the orm models
+from timelink.mhk.models import base  # this setups the orm models
 from timelink.mhk.models.base import Person
 from timelink.mhk.models.db import TimelinkMHK
 
@@ -24,7 +25,7 @@ import ucalumni.fields
 
 # Helper for abbreviations
 def replace_with_abbrev(text: str, abrev_list: dict) -> str:
-    """ Replace expressions with abbreviations
+    """Replace expressions with abbreviations
 
     Arg:
         text: text with expressions to be replaced
@@ -38,32 +39,33 @@ def replace_with_abbrev(text: str, abrev_list: dict) -> str:
         atext = re.sub(expression, abrev, atext)
     return atext
 
+
 entry_abbrev: dict = {
-    '[Rr]eprovado':'repr.',
-    '[Aa]provado': 'apr.',
-    ' com ': ' ',
-    'valores': 'v.',
-    '[Ll]ivro': 'liv.',
-    '[Vv]oluntário': 'vol.',
-    '[Ob]rigado': 'obr.',
-    '[Oo]rdinário]': 'ord.',
-    'Bacharel': 'bach.',
-    'Cadeira': 'cad.',
-    'Atos': 'at.',
-    'Tomo': 't.',
-    'Formatura': 'form.',
-    'Licenciatura': 'lic.',
-    'Doutor': 'dr.',
-    'Mestre': 'mes.',
-    'Faculdade inferida': 'f.inf.',
-    'Faculdade corrigida': 'f.corr.',
+    "[Rr]eprovado": "repr.",
+    "[Aa]provado": "apr.",
+    " com ": " ",
+    "valores": "v.",
+    "[Ll]ivro": "liv.",
+    "[Vv]oluntário": "vol.",
+    "[Ob]rigado": "obr.",
+    "[Oo]rdinário]": "ord.",
+    "Bacharel": "bach.",
+    "Cadeira": "cad.",
+    "Atos": "at.",
+    "Tomo": "t.",
+    "Formatura": "form.",
+    "Licenciatura": "lic.",
+    "Doutor": "dr.",
+    "Mestre": "mes.",
+    "Faculdade inferida": "f.inf.",
+    "Faculdade corrigida": "f.corr.",
 }
 
+
 # Helper to display content of fields in aluno records. Used in __str__ method of aluno
-def markdown_table(table: list):
+def mktable(table: list):
     """
     Generate a markdown table from list of data
-
     table: a list of dictionnaries row date,
            where keys are column names.
 
@@ -82,45 +84,49 @@ def markdown_table(table: list):
                 'valor': nota.valor,
                 'obs': nota.obs})
 
-            mkd_table = markdowntable(notes_table)
+            mkd_table = mktable(notes_table)
     """
     if len(table) == 0:
-        return('')
+        return ""
 
-    mkd =  markdownTable(table).setParams(row_sep='topbottom',
-                                          padding_weight='right',
-                                          padding_width=2).getMarkdown()
+    mkd = (
+        markdown_table(table)
+        .set_params(row_sep="topbottom",
+                    padding_weight="right",
+                    padding_width=2)
+        .get_markdown()
+    )
     # we retouch the markdown to look good in VS Code
     lines = mkd.splitlines()
-    vscode_style_table = ''
+    vscode_style_table = ""
     for number, line in enumerate(lines):
         # first line is ```` ignore
         # second is +-------- ... -----+ put it aside
         if number == 0:
             pass
-        elif number == 1 :
+        elif number == 1:
             header_sep_line = line
         elif number == 2:
             header = line
             # we get the column separators positions
-            sep_pos = [m.start() for m in re.finditer('\|',line)]
+            sep_pos = [m.start() for m in re.finditer("\|", line)]
             s = list(header_sep_line)
-            s[0] = '|'
+            s[0] = "|"
             for pos in sep_pos:
-                s[pos]='|'
-            s[-1] = '|'
+                s[pos] = "|"
+            s[-1] = "|"
             header_sep_line = "".join(s)
-            vscode_style_table = header + '\n' + header_sep_line + '\n'
-        elif number == len(lines) -1:
+            vscode_style_table = header + "\n" + header_sep_line + "\n"
+        elif number == len(lines) - 1:
             pass
         else:
-            vscode_style_table = vscode_style_table + line + '\n'
+            vscode_style_table = vscode_style_table + line + "\n"
     return vscode_style_table
 
 
 @dataclass
 class Instituta:
-    """ Representa um inscrição em Instituta
+    """Representa um inscrição em Instituta
 
     Members
     -------
@@ -129,15 +135,17 @@ class Instituta:
 
     NOTE: makes sense? could be a type of matrícula
     """
+
     data: DateUtility
     obs: str
 
     def __str__(self):
-        return f'{self.data.value} {self.obs}'
+        return f"{self.data.value} {self.obs}"
+
 
 @dataclass
 class Matricula:
-    """ Represents an inscription "matrícula"
+    """Represents an inscription "matrícula"
 
     Members
     -------
@@ -151,15 +159,15 @@ class Matricula:
     """
 
     ambito: str  # object of the inscription
-    tipo: str # type of the inscription Faculdade, curso, classe
-    modalidade: str # obrigatório ou ordinário
+    tipo: str  # type of the inscription Faculdade, curso, classe
+    modalidade: str  # obrigatório ou ordinário
     data: DateUtility
     obs: str
 
 
 @dataclass
 class Grau:
-    """ Representa um grau
+    """Representa um grau
     nome
         nome do grau, str
     ambito
@@ -169,6 +177,7 @@ class Grau:
     obs
         any note
     """
+
     nome: str
     ambito: str
     data: DateUtility
@@ -177,7 +186,7 @@ class Grau:
 
 @dataclass
 class Exame:
-    """ Representa a informação de um exame
+    """Representa a informação de um exame
     ambito
         course or degree
     data
@@ -186,6 +195,7 @@ class Exame:
         Result of the exame
     obs
     """
+
     ambito: str  # cadeira, curso, grau
     data: DateUtility
     resultado: str
@@ -194,7 +204,8 @@ class Exame:
 
 @dataclass
 class Prova:
-    """ Corresponds to entries like: 'Provou cursar... provou residir"""
+    """Corresponds to entries like: 'Provou cursar... provou residir"""
+
     ambito: atr  # cursar, residir
     data: DateUtility
     obs: str
@@ -202,7 +213,7 @@ class Prova:
 
 @dataclass
 class Nota:
-    """ Information not processed in a precise form.
+    """Information not processed in a precise form.
      Extractors work the information in the Nota list and
      move it to specific fields and lists.
 
@@ -221,7 +232,8 @@ class Nota:
     processed
         if True this note was already processed by an extractor
 
-     """
+    """
+
     numero: int
     seccao: str
     campo: str
@@ -229,8 +241,10 @@ class Nota:
     data: DateUtility
     obs: str
     processed: bool = field(init=False, default=False)
-    fname_inferred: bool = field(init=False,default=False) # field name can be inferred from previous line
-    fvalue_is_date: bool = field(init=False,default=False)
+    fname_inferred: bool = field(
+        init=False, default=False
+    )  # field name can be inferred from previous line
+    fvalue_is_date: bool = field(init=False, default=False)
 
     @property
     def fvalue_contains_date(self):
@@ -247,8 +261,8 @@ class Nota:
         return f"{self.numero:02d} [{self.processed}] {self.seccao} : {self.campo} : {self.data.value} : {self.valor} | obs: {self.obs}"
 
 
-def get_aluno_from_db(id :str, db :TimelinkMHK=None)-> Type["Aluno"]:
-    """ Get a aluno record from database by id
+def get_aluno_from_db(id: str, db: TimelinkMHK = None) -> Type["Aluno"]:
+    """Get a aluno record from database by id
 
     Returns original information of a 'aluno' record from
     a Timelink/MHK database.
@@ -283,10 +297,22 @@ def get_aluno_from_db(id :str, db :TimelinkMHK=None)-> Type["Aluno"]:
         case = session.get(Person, id)
         obs = case.obs
         name = case.name
-        code_ref = [atr.the_value for atr in case.attributes if atr.the_type == 'código-de-referência'][0]
-        start_date = [atr.the_value for atr in case.attributes if atr.the_type == 'uc-entrada'][0]
-        end_date = [atr.the_value for atr in case.attributes if atr.the_type == 'uc-saida'][0]
-        data_do_registo = [atr.the_value for atr in case.attributes if atr.the_type == 'data-do-registo'][0]
+        code_ref = [
+            atr.the_value
+            for atr in case.attributes
+            if atr.the_type == "código-de-referência"
+        ][0]
+        start_date = [
+            atr.the_value for atr in case.attributes if atr.the_type == "uc-entrada"
+        ][0]
+        end_date = [
+            atr.the_value for atr in case.attributes if atr.the_type == "uc-saida"
+        ][0]
+        data_do_registo = [
+            atr.the_value
+            for atr in case.attributes
+            if atr.the_type == "data-do-registo"
+        ][0]
         aluno = Aluno(
             id,
             code_ref,
@@ -295,14 +321,14 @@ def get_aluno_from_db(id :str, db :TimelinkMHK=None)-> Type["Aluno"]:
             end_date,
             datetime.now(),  # fake we store it in ls
             "http://pesquisa.auc.uc.pt/details?id=" + id,
-            )
+        )
         aluno.bio_hist = ""
         aluno.scope_content = str(obs).replace('"""', "")  # it includes the bio_hist
-        aluno.obs = f'# DB LOAD\n{case.obs}'
-    return(aluno)
+        aluno.obs = f"# DB LOAD\n{case.obs}"
+    return aluno
 
 
-def get_and_process_aluno(id, db: TimelinkMHK=None)-> Type["Aluno"]:
+def get_and_process_aluno(id, db: TimelinkMHK = None) -> Type["Aluno"]:
     """
     Fetch the FA original information of
     a student and extract the information
@@ -314,6 +340,7 @@ def get_and_process_aluno(id, db: TimelinkMHK=None)-> Type["Aluno"]:
     aluno = get_aluno_from_db(id, db)
     aluno.process()
     return aluno
+
 
 @dataclass
 class Aluno:
@@ -361,6 +388,7 @@ class Aluno:
     `param url` str, link to the record in the online catalog
 
     """
+
     # Fields set by the metadata on the original record
     id: str
     codref: str
@@ -376,31 +404,32 @@ class Aluno:
     scope_content: str = field(init=False, compare=False)
     # errata: class variable with list of id of existing errata records
     # see Aluno.collect_errata(path)
-    errata: ClassVar[str] = field(init=False, compare=False,default=None)
+    errata: ClassVar[str] = field(init=False, compare=False, default=None)
     # Erratum: information which corrects the original
     #  archeevo record. If not None or empty will be used
     #  to extract information, superseeding original record.
-    erratum: str = field(init=False, compare=False,default=None)
-    erratum_diff: str = field(init=False, compare=False,default=None)
+    erratum: str = field(init=False, compare=False, default=None)
+    erratum_diff: str = field(init=False, compare=False, default=None)
     # Fields set by the extraction functions
-    pnome: str = field(init=False, compare=False,default=None)
-    apelido: str = field(init=False, compare=False,default=None)
-    sexo: str = field(init=False, compare=False, default='m')
-                        # the final value for faculdade, after aplication of checks
+    pnome: str = field(init=False, compare=False, default=None)
+    apelido: str = field(init=False, compare=False, default=None)
+    sexo: str = field(init=False, compare=False, default="m")
+    # the final value for faculdade, after aplication of checks
     faculdade: List[str] = field(init=False, compare=False, default_factory=list)
-                        # the original value for the field "faculdade", if any
+    # the original value for the field "faculdade", if any
     faculdade_original: str = field(init=False, compare=False, default=None)
-                        # Error message related to faculdade
-    faculdade_problem: str = field(init=False,compare=False,default=None)
-                        # detail on problem with faculdade
-    faculdade_strange: str = field(init=False,compare=False,default=None)
-                        # something strange like Direito changed to Teologia
-    faculdade_problem_obs: str = field(init=False,compare=False, default=None)
-    nome_final: str = field(init=False,
-                            compare=False)  # name after processing eventual annotations
-    nota_nome: str = field(init=False,
-                           compare=False,
-                           default=None)  # texto of annotation in name, if any
+    # Error message related to faculdade
+    faculdade_problem: str = field(init=False, compare=False, default=None)
+    # detail on problem with faculdade
+    faculdade_strange: str = field(init=False, compare=False, default=None)
+    # something strange like Direito changed to Teologia
+    faculdade_problem_obs: str = field(init=False, compare=False, default=None)
+    nome_final: str = field(
+        init=False, compare=False
+    )  # name after processing eventual annotations
+    nota_nome: str = field(
+        init=False, compare=False, default=None
+    )  # texto of annotation in name, if any
     vide: str = field(init=False, compare=False, default=None)
     #: cut=vide is cut from name, rep=vide replaces name, add=vide adds to name
     vide_type: str = field(init=False, compare=False, default=None)
@@ -408,46 +437,44 @@ class Aluno:
 
     pai: str = field(init=False, compare=False, default=None)
     mae: str = field(init=False, compare=False, default=None)
-    familia: str = field(init=False,
-                         compare=False,
-                         default=None)  # sometines "paternidade" has a title or family name
+    familia: str = field(
+        init=False, compare=False, default=None
+    )  # sometines "paternidade" has a title or family name
 
-    naturalidade: str = field(init=False, compare=False,default=None)
+    naturalidade: str = field(init=False, compare=False, default=None)
     colegio: str = field(init=False, compare=False, default=None)
     titulo: str = field(init=False, compare=False)  # dom, frei, padre
-    universidade: str = field(init=False,
-                              compare=False,default=None)  # references to other universities
-    ordem: list[str] = field(init=False, compare=False,default_factory=list)  # religious orders
+    universidade: str = field(
+        init=False, compare=False, default=None
+    )  # references to other universities
+    ordem: list[str] = field(
+        init=False, compare=False, default_factory=list
+    )  # religious orders
 
-    matriculas: list[Matricula] = field(init=False, compare=False,
-                                        default_factory=list)
+    matriculas: list[Matricula] = field(init=False, compare=False, default_factory=list)
     graus: list[Grau] = field(init=False, compare=False, default_factory=list)
-    exames: list[Exame] = field(init=False, compare=False,
-                                default_factory=list)
-    provas: list[Prova] = field(init=False, compare=False,
-                                default_factory=list)
+    exames: list[Exame] = field(init=False, compare=False, default_factory=list)
+    provas: list[Prova] = field(init=False, compare=False, default_factory=list)
     notas: list[Nota] = field(init=False, compare=False, default_factory=list)
-    notas_index: dict[str, str] = field(init=False, compare=False,
-                                        default_factory=dict)
+    notas_index: dict[str, str] = field(init=False, compare=False, default_factory=dict)
 
     instituta: list[Instituta] = field(init=False, compare=False, default_factory=list)
 
-    obs: str = field(init=False, compare=False,default="")
+    obs: str = field(init=False, compare=False, default="")
 
     # list of extraction functions
     extractors: ClassVar[List[Callable]] = []
-
 
     # return the date in which this record was edit (from the export file)
     def get_record_date(self):
         return self.process_info_date.strftime("%Y-%m-%d")
 
     @classmethod
-    def from_db(cls,id: str) -> Type["Aluno"]:
+    def from_db(cls, id: str) -> Type["Aluno"]:
         return get_aluno_from_db(id)
 
     @classmethod
-    def collect_errata(cls,path_to_errata: str):
+    def collect_errata(cls, path_to_errata: str):
         """Collects errata files into Aluno.errata
 
         From `path_to_errata` and subdirectories collects files
@@ -460,18 +487,28 @@ class Aluno:
         """
 
         result = list(Path(path_to_errata).rglob("[0-9]*.[tT][xX][tT]"))
-        files = [ {'id':s.stem.split(" ")[0],'file_name':s.name,'path_relative':str(s.relative_to(path_to_errata).parent),'path':str(s),'path_absolute':str(s.resolve())} for s in result]
+        files = [
+            {
+                "id": s.stem.split(" ")[0],
+                "file_name": s.name,
+                "path_relative": str(s.relative_to(path_to_errata).parent),
+                "path": str(s),
+                "path_absolute": str(s.resolve()),
+            }
+            for s in result
+        ]
         cls.errata = {}
         for f in files:
-            id = f['id']
+            id = f["id"]
             cls.errata[id] = (
-                f['file_name'],
-                f['path'],
-                f['path_relative'],
-                f['path_absolute'])
+                f["file_name"],
+                f["path"],
+                f["path_relative"],
+                f["path_absolute"],
+            )
 
     def check_errata(self):
-        """ Check if aluno has an errata record
+        """Check if aluno has an errata record
 
         If so set the content of aluno.erratum to the errata record
         Erratum wil be used by aluno.process() as source for extracting
@@ -483,10 +520,9 @@ class Aluno:
             #  warning("calling check_errata without calling Aluno.collect_errata(path) first")
             return
         if self.id in Aluno.errata.keys():
-            (file_name, file_path,rel ,abs ) = Aluno.errata[self.id]
+            (file_name, file_path, rel, abs) = Aluno.errata[self.id]
             with open(file_path) as f:
-                 self.erratum = f.read()
-
+                self.erratum = f.read()
 
     @classmethod
     def add_extractor(cls, extractor: Callable):
@@ -517,12 +553,22 @@ class Aluno:
         """
         # print("Number of extractors: ",len(self.extractors))
         if len(self.extractors) == 0:
-            raise TypeError("Aluno.extract is being called but not extractors were added. Must import ucalumni.extractors module after uc.alumni.aluno")
+            raise TypeError(
+                "Aluno.extract is being called but not extractors were added. Must import ucalumni.extractors module after uc.alumni.aluno"
+            )
         for extractor in self.extractors:
             extractor(self)
 
-    def add_nota(self, seccao: str, campo: str, valor: str, data: DateUtility,
-                 obs: str, fname_inferred = False,fvalue_is_date = False):
+    def add_nota(
+        self,
+        seccao: str,
+        campo: str,
+        valor: str,
+        data: DateUtility,
+        obs: str,
+        fname_inferred=False,
+        fvalue_is_date=False,
+    ):
         """
         Adds a note to the list of notes of this Aluno.
         Also creates or updates self.notes_index[seccao][campo] adding
@@ -536,7 +582,7 @@ class Aluno:
         :return: None
         """
 
-        this_note = Nota(len(self.notas)+1, seccao, campo, valor, data, obs)
+        this_note = Nota(len(self.notas) + 1, seccao, campo, valor, data, obs)
         this_note.fname_inferred = fname_inferred
         this_note.fvalue_is_date = fvalue_is_date
         self.notas.append(this_note)
@@ -554,7 +600,7 @@ class Aluno:
         return self
 
     def get_unprocessed_note(self):
-        """ Returns an unprocessed note. Used by extractors
+        """Returns an unprocessed note. Used by extractors
         to fetch notes that need processing.
 
         Extractors process notes and flag then as processed if the
@@ -562,168 +608,186 @@ class Aluno:
 
         Not all extractors set the processed flag to true, because
          the same note can provide information for different extractors
-         """
+        """
         for nota in [n for n in self.notas if not n.processed]:
             yield nota
 
     def print_notes(self):
-            [print(f'{str(nota.numero).zfill(2)} {nota.seccao:12} {nota.campo:24} {nota.valor:12} {nota.data.value:20} {nota.obs}') for nota in self.notas]
+        [
+            print(
+                f"{str(nota.numero).zfill(2)} {nota.seccao:12} {nota.campo:24} {nota.valor:12} {nota.data.value:20} {nota.obs}"
+            )
+            for nota in self.notas
+        ]
 
     def __str__(self):
         r = f"# {self.id} {self.nome}\n\n"
-        r = r + f'## Original\n```{self.obs}\n```\n'
-        if self.erratum_diff is not None and self.erratum_diff > '':
-            r = r+f'\n### Erratum:\n.....................\n{self.erratum_diff}\n......................\n'
+        r = r + f"## Original\n```{self.obs}\n```\n"
+        if self.erratum_diff is not None and self.erratum_diff > "":
+            r = (
+                r
+                + f"\n### Erratum:\n.....................\n{self.erratum_diff}\n......................\n"
+            )
 
         if len(self.extractors) == 0:
             return r
 
-
         r = r + "## Inferences:\n"
-        r = r + f'* id:{self.id}\n'
-        r = r + f'* Nome: {self.nome}\n'\
-            +f'* Data inicial:{str(self.unit_date_inicial)}\n'\
-            +f'* Data final: {str(self.unit_date_final)}\n'\
-            +f'* Codigo de referência: {self.codref}\n'
+        r = r + f"* id:{self.id}\n"
+        r = (
+            r
+            + f"* Nome: {self.nome}\n"
+            + f"* Data inicial:{str(self.unit_date_inicial)}\n"
+            + f"* Data final: {str(self.unit_date_final)}\n"
+            + f"* Codigo de referência: {self.codref}\n"
+        )
 
         if self.vide is not None:
-            r = r + f'\n* Vide {self.vide}'
-            r = r + f'\n* Tipo de vide {self.vide_type}'
-            r = r + f'\n* Nome destino vide {self.vide_target}'
+            r = r + f"\n* Vide {self.vide}"
+            r = r + f"\n* Tipo de vide {self.vide_type}"
+            r = r + f"\n* Nome destino vide {self.vide_target}"
         if self.colegio is not None:
-            r = f'{r}* Colégio {self.colegio}\n'
+            r = f"{r}* Colégio {self.colegio}\n"
 
-
-        mkdtable: list = []
+        table_data: list = []
 
         # Notas
-        mkdtable.clear()
+        table_data.clear()
         nota: Nota
-        for  nota in self.notas:
-            mkdtable.append({'N':nota.numero,
-                'proc': nota.processed,
-                'section': nota.seccao,
-                'campo':nota.campo,
-                'data':nota.data.value,
-                'valor': nota.valor,
-                'obs': nota.obs})
-        table = markdown_table(mkdtable)
-        r = r + '\n### Notes (sections and fields from the record):\n' + table
+        for nota in self.notas:
+            table_data.append(
+                {
+                    "N": nota.numero,
+                    "proc": nota.processed,
+                    "section": nota.seccao,
+                    "campo": nota.campo,
+                    "data": nota.data.value,
+                    "valor": nota.valor,
+                    "obs": nota.obs,
+                }
+            )
+        table = mktable(table_data)
+        r = r + "\n### Notes (sections and fields from the record):\n" + table
         # Faculdade
         if self.faculdade is not None:
-            for fac,data,obs in self.faculdade:
-                r = r + f'### Faculdade: {fac} {data} {obs}\n'
-            r = r + f'* Faculdade problema: {self.faculdade_problem} ({self.faculdade_problem_obs})\n'
+            for fac, data, obs in self.faculdade:
+                r = r + f"### Faculdade: {fac} {data} {obs}\n"
+            r = (
+                r
+                + f"* Faculdade problema: {self.faculdade_problem} ({self.faculdade_problem_obs})\n"
+            )
             fac_org = self.faculdade_original
-            if fac_org is not None and fac_org > '':
-                r = r + f'* Faculdade original: {self.faculdade_original}\n'
+            if fac_org is not None and fac_org > "":
+                r = r + f"* Faculdade original: {self.faculdade_original}\n"
 
         if self.instituta is not None:
             for inst in self.instituta:
-                r = r + f'### Instituta {inst.data} {inst.obs}\n'
-
+                r = r + f"### Instituta {inst.data} {inst.obs}\n"
 
         # Matrículas
-        mkdtable.clear()
+        table_data.clear()
         matricula: Matricula
         for matricula in self.matriculas:
-            mkdtable.append({
-                'âmbito':matricula.ambito,
-                'tipo':matricula.tipo,
-                'modalidade':matricula.modalidade,
-                'data':matricula.data,
-                'obs':matricula.obs})
-        table = markdown_table(mkdtable)
-        r = r + '\n### Matrículas:\n' + table
+            table_data.append(
+                {
+                    "âmbito": matricula.ambito,
+                    "tipo": matricula.tipo,
+                    "modalidade": matricula.modalidade,
+                    "data": matricula.data,
+                    "obs": matricula.obs,
+                }
+            )
+        table = mktable(table_data)
+        r = r + "\n### Matrículas:\n" + table
 
         # Exames
-        mkdtable.clear()
+        table_data.clear()
         exame: Exame
         for exame in self.exames:
-            mkdtable.append({
-                'âmbito':exame.ambito,
-                'resumo':exame.resultado,
-                'data':exame.data,
-                'obs':exame.obs})
-        table = markdown_table(mkdtable)
-        r = r + '\n### Exames:\n' + table
+            table_data.append(
+                {
+                    "âmbito": exame.ambito,
+                    "resumo": exame.resultado,
+                    "data": exame.data,
+                    "obs": exame.obs,
+                }
+            )
+        table = mktable(table_data)
+        r = r + "\n### Exames:\n" + table
 
         # Graus
-        mkdtable.clear()
+        table_data.clear()
         grau: Grau
         for grau in self.graus:
-            mkdtable.append({
-                'nome':grau.nome,
-                'data':grau.data,
-                'obs':grau.obs})
-        table = markdown_table(mkdtable)
-        r = r + '\n### Graus:\n' + table
+            table_data.append({"nome": grau.nome, "data": grau.data, "obs": grau.obs})
+        table = mktable(table_data)
+        r = r + "\n### Graus:\n" + table
 
-        return r + '\n'
-
+        return r + "\n"
 
     def as_entry(self):
-        """ Format aluno as dictionnary entry"""
-        r = f'[{self.id}] {self.nome}'
+        """Format aluno as dictionnary entry"""
+        r = f"[{self.id}] {self.nome}"
         if self.faculdade is not None:
-            r=f'{r}.'
-            for fac,data,obs in self.faculdade:
-                r = f'{r} {fac}'
+            r = f"{r}."
+            for fac, data, obs in self.faculdade:
+                r = f"{r} {fac}"
                 if obs is not None and obs.strip() != fac.strip():
-                    r = f'{r} ({obs})'
+                    r = f"{r} ({obs})"
 
-        if self.unit_date_inicial.value > '0000-00-00':
-            r = f'{r}, {self.unit_date_inicial.value[0:4]}:{self.unit_date_final.value[0:4]}.'
+        if self.unit_date_inicial.value > "0000-00-00":
+            r = f"{r}, {self.unit_date_inicial.value[0:4]}:{self.unit_date_final.value[0:4]}."
         if self.pai is not None:
-            r = f'{r}\nF. {self.pai}'
+            r = f"{r}\nF. {self.pai}"
         if self.mae is not None:
-            r = f'{r} e {self.mae}'
+            r = f"{r} e {self.mae}"
         if self.familia is not None:
-            r = f'{r}.\nF. {self.familia}'
+            r = f"{r}.\nF. {self.familia}"
 
         if self.naturalidade is not None:
-            r = f'{r}. N. {self.naturalidade}'
+            r = f"{r}. N. {self.naturalidade}"
 
         if self.colegio is not None:
-            r = f'{r}. {self.colegio}'
+            r = f"{r}. {self.colegio}"
             if self.nota != self.colegio:
-                r = f'{r} ({self.nota})'
-            r=f'{r}.'
+                r = f"{r} ({self.nota})"
+            r = f"{r}."
 
         matricula: Matricula
         if len(self.matriculas) > 0:
-            r=f'{r}.\nMatr. '
-            comma = ''
+            r = f"{r}.\nMatr. "
+            comma = ""
             for matricula in self.matriculas:
-                r = f'{r}{comma} {matricula.data}'
-                if len(self.faculdade) == 1 and matricula.ambito == self.faculdade[0][0]:
+                r = f"{r}{comma} {matricula.data}"
+                if (
+                    len(self.faculdade) == 1
+                    and matricula.ambito == self.faculdade[0][0]
+                ):
                     pass
                 else:
-                    r = f'{r} ({matricula.ambito})'
-                comma = ','
-            r=f'{r}.'
+                    r = f"{r} ({matricula.ambito})"
+                comma = ","
+            r = f"{r}."
 
         exame: Exame
         if len(self.exames) > 0:
-            r=f'{r}\nEx. '
-            comma = ''
+            r = f"{r}\nEx. "
+            comma = ""
             for exame in self.exames:
-                ex = f'{exame.data}: {exame.ambito} {exame.resultado} {exame.obs}'
-                r = f'{r}{comma} {ex.strip()}'
+                ex = f"{exame.data}: {exame.ambito} {exame.resultado} {exame.obs}"
+                r = f"{r}{comma} {ex.strip()}"
                 comma = ";"
-            r=f'{r}.'
+            r = f"{r}."
 
         grau: Grau
         if len(self.graus) > 0:
-            r=f'{r}.\nG. '
-            comma = ''
+            r = f"{r}.\nG. "
+            comma = ""
             for grau in self.graus:
 
-                gr = f'{grau.nome} {grau.data}'
-                r = f'{r}{comma} {gr.strip()}'
+                gr = f"{grau.nome} {grau.data}"
+                r = f"{r}{comma} {gr.strip()}"
                 comma = ","
-            r=f'{r}.'
+            r = f"{r}."
 
-        return replace_with_abbrev(r,entry_abbrev)
-
-
+        return replace_with_abbrev(r, entry_abbrev)
