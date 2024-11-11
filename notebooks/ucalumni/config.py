@@ -15,9 +15,9 @@ mysql_test_db = 'ucalumni_test'
 default_sqlite_dir = '../database/sqlite3'
 default_sqlite_db = 'fauc.db'
 
-default_db = ('sqlite','fauc.db.sqlite')  # DEPRECATED
+default_db = ('sqlite', 'fauc.db.sqlite')  # DEPRECATED
 
-default_db_url = sqlite_main_db # DEPRECATED
+default_db_url = sqlite_main_db  # DEPRECATED
 
 # To share a Session do, in each module:
 # from ucalumni.config import Session
