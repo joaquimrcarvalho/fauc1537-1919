@@ -8,7 +8,7 @@ matplotlib
 mysql-connector-python
 networkx
 pandas
-py-markdown-table
+py-markdown-table>=1.0
 pydantic
 pydantic-settings
 pyparsing>=2.4.7
