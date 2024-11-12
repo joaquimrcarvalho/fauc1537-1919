@@ -1247,7 +1247,7 @@ Vale de Açores,osm,4260954592,"Vale de Açores, Mortágua, Vale de Remígio, Co
 Vale de Prazeres,osm,1186313292,"Vale de Prazeres, Vale de Prazeres e Mata da Rainha, Fundão, Castelo Branco, Portugal",Vale de Prazeres e Mata da Rainha,Portugal,0.6050039459623189,place,village,40.1106704,-7.4310164,85.4458911182775
 Vale de Remígio,osm,3436030745,"Vale de Remígio, Mortágua, Viseu, Portugal",Mortágua,Portugal,0.5458506578483179,place,village,40.4035245,-8.260753,25.91366592143749
 Vale de Telhas,osm,5735872,"Vale de Telhas, Mirandela, Bragança, Portugal",Mirandela,Portugal,0.65,boundary,administrative,41.6163445,-7.2277096,186.200454492945
-Vale de Todos,osm,7575874667,"Vale de Todos, Ansião, Ansião, Leiria, Portugal",Ansião,Portugal,0.55,place,hamlet,39.9645354,-8.4187077,26.976402606905094
+Vale de Todos,osm,7575874667,"Vale de Todos, Ansião, Ansião, Leiria, Portugal",Ansião,Portugal,0.55,place,hamlet,39.9645354,-8.4187077,26.976402606905097
 Vale do Peso,osm,1228294842,"Vale do Peso, Crato, Portalegre, Portugal",Crato,Portugal,0.5750000000000001,place,village,39.3509579,-7.6489527,116.07703146684912
 Vale dos Prazeres,osm,4417176392,"Bairro dos Prazeres, Paraibuna, Paraibuna, Região Imediata de São José dos Campos, Região Metropolitana do Vale do Paraíba e Litoral Norte, Região Geográfica Intermediária de São José dos Campos, São Paulo, Região Sudeste, Brasil",Paraibuna,Brasil,0.5750000000000001,place,suburb,-23.6100382,-45.6492972,8050.226748516827
 Valença,osm,4640264,"Valença, Viana do Castelo, Portugal",Valença,Portugal,0.5455758794052963,boundary,administrative,41.99169905,-8.606372086402132,198.7327408872749
@@ -4378,7 +4378,7 @@ Fornos de Pinhal,osm,4197850,"Fornos do Pinhal, Valpaços, Vila Real, Portugal",
 "Fornos, Porto",osm,3969676584,"Fornos, Marco de Canaveses, Marco de Canaveses, Porto, PT-13, Portugal",Marco de Canaveses,Portugal,0.4827191885788626,place,suburb,41.1903094,-8.1414731,111.7652834145636
 "Fornos, distrito de Aveiro",osm,6021193,"Fornos, Castelo de Paiva, Aveiro, Portugal",Fornos,Portugal,0.5723442792274319,boundary,administrative,41.0540311,-8.252149739478206,95.1567798806917
 Foz Côa,osm,3984652,"Vila Nova de Foz Coa, Guarda, Portugal",Vila Nova de Foz Coa,Portugal,0.5296228200939304,boundary,administrative,41.0509753,-7.1978455060593625,139.8960428681846
-Foz Dão,osm,3531032589,"Antiga Aldeia de Foz do Dão, Ovoa e Vimieiro, Santa Comba Dão, Viseu, Portugal",Santa Comba Dão,Portugal,0.325,place,locality,40.336069,-8.1859273,24.920183092318734
+Foz Dão,osm,3531032589,"Antiga Aldeia de Foz do Dão, Ovoa e Vimieiro, Santa Comba Dão, Viseu, Portugal",Santa Comba Dão,Portugal,0.325,place,locality,40.336069,-8.1859273,24.920183092318737
 "Foz de Arouce, Lousã",osm,1363833133,"Foz de Arouce, Foz de Arouce e Casal de Ermio, Lousã, Coimbra, Portugal",Foz de Arouce e Casal de Ermio,Portugal,0.6523278476590364,place,village,40.158653,-8.278448,13.683719665454364
 Foz de Cima,osm,5353507779,"Lafrana de Cima, Moinhos da Gândara, Figueira da Foz, Coimbra, Portugal",Figueira da Foz,Portugal,0.55,place,hamlet,40.2472076,-8.7659053,29.264421066720907
 Foz de Moura,osm,1324838209,"Foz de Moura, Pomares, Arganil, Coimbra, Portugal",Arganil,Portugal,0.55,place,hamlet,40.2610626,-7.8876462,46.20039067233562
@@ -4544,7 +4544,7 @@ Gôa,osm,11251493,"Goa, India",,India,0.62878506312041,boundary,administrative,1
 Hamburgo,osm,3837325194,"Hamburgo, Pacaraima, Pacaraima, Região Geográfica Imediata de Pacaraima, Região Geográfica Intermediária de Boa Vista, Roraima, Região Norte, Brasil",Pacaraima,Brasil,0.36,place,hamlet,4.2212111,-60.8076722,6577.199662382581
 Herrero,osm,1243302169,"Herrero, Retamoso de la Jara, La Jara, Toledo, Castilla-La Mancha, España",,España,0.235,place,locality,39.7300544,-4.7675555,316.98949990471914
 Horta da Vilariça,osm,5717581,"Horta da Vilariça, Torre de Moncorvo, Bragança, Portugal",Torre de Moncorvo,Portugal,0.65,boundary,administrative,41.23274,-7.1218623,158.44248295462364
-"Horta, Coimbra",osm,5295369255,"Horta, Marco do Distrito, Porto Coelheiro, Soure, Soure, Coimbra, Portugal",Soure,Portugal,0.345,place,locality,40.0332634,-8.5726094,23.024785205139214
+"Horta, Coimbra",osm,5295369255,"Horta, Marco do Distrito, Porto Coelheiro, Soure, Soure, Coimbra, Portugal",Soure,Portugal,0.345,place,locality,40.0332634,-8.5726094,23.024785205139217
 "Horta, Guarda",osm,6393404,"Horta, Vila Nova de Foz Coa, Guarda, Portugal",Vila Nova de Foz Coa,Portugal,0.5700000000000001,boundary,administrative,41.0654267,-7.3122513,133.99463345718632
 "Horta, Vila",osm,6393404,"Horta, Vila Nova de Foz Coa, Guarda, Portugal",Vila Nova de Foz Coa,Portugal,0.56,boundary,administrative,41.0654267,-7.3122513,133.99463345718632
 Idanha- a- Nova,osm,5395738,"Idanha-a-Nova, Castelo Branco, Portugal",Idanha-a-Nova,Portugal,0.7312222677613642,boundary,administrative,39.87697385,-7.114231633979989,117.8063688962188
@@ -4923,7 +4923,7 @@ Monte Junto,osm,1241754064,"Monte Junto, Rabanales, Zamora, Castilla y León, Es
 "Monte Santo, Guarda",osm,731614393,"Praceta do Guarda-Rios, Monte Fino, Monte Gordo, Vila Real de Santo António, Faro, PT-08, Portugal",Monte Gordo,Portugal,0.425,place,square,37.1869475,-7.452976306742296,345.8148223234239
 Monte das Barreiras,osm,1242433601,"Monte das Barreiras, Santa Cristina de Cobres, Vilaboa, Pontevedra, Pontevedra, Galicia, España",Vilaboa,España,0.425,place,locality,42.3480912,-8.6775963,238.67347536306085
 Monte de Lobo,osm,4187904752,"Vale do Lobo, São João do Monte e Mosteirinho, Tondela, Viseu, Portugal",Tondela,Portugal,0.55,place,hamlet,40.6047799,-8.2416254,46.81713777447278
-"Monte de Lobos, Viseu",osm,5276344479,"Monte de Lobos, Pala, Mortágua, Viseu, Portugal",Mortágua,Portugal,0.6599999999999999,place,hamlet,40.4139127,-8.2657099,26.671990515314054
+"Monte de Lobos, Viseu",osm,5276344479,"Monte de Lobos, Pala, Mortágua, Viseu, Portugal",Mortágua,Portugal,0.6599999999999999,place,hamlet,40.4139127,-8.2657099,26.671990515314057
 Monte de Vera,osm,8287690150,"Jardim Monte Alegre, Vera Tereza, Caieiras, Caieiras, Região Imediata de São Paulo, Região Metropolitana de São Paulo, Região Geográfica Intermediária de São Paulo, São Paulo, Região Sudeste, Brasil",Caieiras,Brasil,0.55,place,quarter,-23.3343553,-46.7496455,8078.950074631673
 Monte do Duque,osm,5578199912,"Monte do Duque, Santana, Nisa, Portalegre, Portugal",Nisa,Portugal,0.55,place,hamlet,39.6152354,-7.703176,90.23889230884576
 Montemor Velho,osm,5378425,"Montemor-o-Velho, Coimbra, Portugal",Montemor-o-Velho,Portugal,0.676860972573933,boundary,administrative,40.1726104,-8.6844483,22.34518396296744
@@ -5629,7 +5629,7 @@ Roncas,osm,8287909972,"Roncas, Sornico Superiore, Artegna, Udine, IT-UD, Friuli-
 Rosa,osm,6948432697,"Rosa, Faxinal dos Guedes, Região Geográfica Imediata de Xanxerê, Região Geográfica Intermediária de Chapecó, Santa Catarina, Brasil",Faxinal dos Guedes,Brasil,0.385,place,suburb,-26.8445825,-52.2629337,8700.14937377383
 "Rossas, Vieira",osm,4172157,"Rossas, Braga, Portugal",Rossas,Portugal,0.5216285608006754,boundary,administrative,41.5848975,-8.097119,155.46113705958152
 Rosto de Cão,osm,7540323,"Rosto do Cão (Livramento), Ponta Delgada, Açores, Portugal",Ponta Delgada,Portugal,0.598558873147647,boundary,administrative,37.7545549,-25.6083235,1511.0228004199903
-Rotar,osm,272546475,"Ротар, Районул Каменка / Каменский район / Кам'янський район, Unitățile administrativ-teritoriale din stînga Nistrului, Нистрения / Приднестровье / Придністров'я, Moldova",,Moldova,0.3240320544678041,place,village,48.1057167,28.8138111,3071.9674239514134
+Rotar,osm,272546475,"Ротар, Районул Каменка / Каменский район / Кам'янський район, Unitățile administrativ-teritoriale din stînga Nistrului, Нистрения / Приднестровье / Придністров'я, Moldova",,Moldova,0.3240320544678041,place,village,48.1057167,28.8138111,3071.967423951414
 Roto,osm,9215874260,"Casal Pinta Rôto, Ribafria e Pereiro de Palhacana, Alenquer, Lisboa, Portugal",Alenquer,Portugal,0.1999999999999999,place,isolated_dwelling,39.0553353,-9.1032769,140.50724152775345
 Roufe,osm,1241760289,"Roufé, Estivadiña, Fiopáns, A Baña, A Barcala, A Coruña, ES-C, Galicia, España",A Baña,España,0.125,place,locality,42.9278123,-8.7061037,303.04129052024086
 "Routar, Viseu",osm,1740450707,"Routar, Boa Aldeia, Farminhão e Torredeita, Viseu, Viseu, Portugal",Viseu,Portugal,0.47,place,hamlet,40.6419899,-8.0314016,58.73634568028025
@@ -6459,7 +6459,7 @@ Vale de Remigio,osm,3436030745,"Vale de Remígio, Mortágua, Viseu, Portugal",Mo
 Vale de São Romão,osm,7886162089,"Urbanização Vale da Cabrita, São Romão, Leiria, Pousos, Barreira e Cortes, Leiria, Leiria, Portugal",Leiria,Portugal,0.55,place,neighbourhood,39.7434981,-8.8002132,60.62403106466708
 Vale de Tábua,osm,5476733869,"Vale de Taipa, Póvoa de Midões, Tábua, Coimbra, Portugal",Tábua,Portugal,0.56,place,hamlet,40.3804044,-8.000257,40.9800581658286
 Vale de Vinha,osm,3451378067,"Vinha, Vale (São Cosme), Telhado e Portela, Vila Nova de Famalicão, Braga, Portugal",Vila Nova de Famalicão,Portugal,0.56,place,neighbourhood,41.4478483,-8.4708072,137.8018958490005
-Vale de todos,osm,7575874667,"Vale de Todos, Ansião, Ansião, Leiria, Portugal",Ansião,Portugal,0.55,place,hamlet,39.9645354,-8.4187077,26.976402606905094
+Vale de todos,osm,7575874667,"Vale de Todos, Ansião, Ansião, Leiria, Portugal",Ansião,Portugal,0.55,place,hamlet,39.9645354,-8.4187077,26.976402606905097
 Vale de Éguas,osm,7535425438,"Vale de Éguas, Serpa, Serpa, Beja, PT-02, Portugal",Serpa,Portugal,0.5,place,farm,37.9352216,-7.5063141,264.5057612654327
 Vale do Conde,osm,5329938109,"Vale do Conde, Friúmes e Paradela, Penacova, Coimbra, Portugal",Penacova,Portugal,0.55,place,hamlet,40.2633297,-8.2226872,18.38216585575685
 Vale do Corvo,osm,1925323282,"Vale de Colmeias, Semide e Rio Vide, Miranda do Corvo, Coimbra, Portugal",Miranda do Corvo,Portugal,0.55,place,hamlet,40.1756595,-8.340661,8.07789668718338
@@ -6973,6 +6973,9 @@ Vila Verde dos Tancos,osm,6519137,"Vila Verde dos Francos, Alenquer, Lisboa, Por
 Vilar de Maçadas,osm,4204536,"Vilar de Maçada, Vila Real, Portugal",Vilar de Maçada,Portugal,0.5995218989809716,boundary,administrative,41.3250359,-7.5588105,144.0963196482272
 Vilarinho da Castanheiro,osm,5716880,"Vilarinho da Castanheira, Carrazeda de Ansiães, Bragança, Portugal",Carrazeda de Ansiães,Portugal,0.6004701084431998,boundary,administrative,41.2043374,-7.213925,150.8201514970156
 Salvaterra de Extremo,osm,439767806,"Salvaterra do Extremo, Monfortinho e Salvaterra de Extremo, Idanha-a-Nova, Castelo Branco, Portugal",Monfortinho e Salvaterra de Extremo,Portugal,0.5750000000000001,place,village,39.8837702,-6.9143475,133.9103261844328
-Alvações de Tanha,osm,5163457819,"Alvações do Tanha, Vilarinho dos Freires, Peso da Régua, Vila Real, Portugal",Peso da Régua,Portugal,0.55,place,hamlet,41.1916376,-7.743516,123.58112688786409
+Alvações de Tanha,osm,5163457819,"Alvações do Tanha, Vilarinho dos Freires, Peso da Régua, Vila Real, Portugal",Peso da Régua,Portugal,0.55,place,hamlet,41.1916376,-7.743516,123.58112688786407
 Junqueiros,osm,5270443063,"Junqueiro, Parede, Carcavelos e Parede, Cascais, Lisboa, Portugal",Carcavelos e Parede,Portugal,0.36,place,neighbourhood,38.6848199,-9.3422068,186.53451945738965
 Salvaterra dos Magos,osm,5400572,"Salvaterra de Magos, Santarém, Portugal",Salvaterra de Magos,Portugal,0.7212025191455594,boundary,administrative,39.0249942,-8.7929278,135.0093588793179
+Fontes Barrocas,osm,1362719847,"Fontes Barrosas, Castro de Avelãs, Bragança, Bragança, PT-04, Portugal",Bragança,Portugal,0.13338528648813608,place,hamlet,41.8098126,-6.8435246,222.2270627782188
+"Lontolim ou Loutolim, Salcete, Goa, Índia",osm,4492463188,"Loutolim, Salcete, South Goa, Goa, India",,India,0.2362704262613719,place,village,15.3400173,73.9860024,8289.154055209978
+Paredinha,osm,10682969418,"Paredinhas, Paus, Resende, Viseu, PT-18, Portugal",Resende,Portugal,0.13337676890211336,place,hamlet,41.0728646,-7.9012005,105.86216140527958

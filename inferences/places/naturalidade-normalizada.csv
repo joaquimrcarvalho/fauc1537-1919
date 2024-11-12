@@ -1,4 +1,4 @@
-count,date_in,date_max,naturalidade,normalizada
+count,date_min,date_max,naturalidade,normalizada
 8784,1537-02-12,1916-07-19,Lisboa,Lisboa
 5526,1537-00-00,1915-10-12,Coimbra,Coimbra
 3391,1537-05-30,1917-10-22,Porto,Porto
@@ -6877,9 +6877,9 @@ count,date_in,date_max,naturalidade,normalizada
 1,1739-10-01,1739-10-01,Longroeira,Longroeira
 1,1718-12-09,1718-12-09,"Longroiva, São Comba","Longroiva, São Comba"
 1,1819-10-18,1819-10-18,"Longroiva, freg de Santa Maria, c Mêda","Longroiva, freg de Santa Maria, c Mêda"
-1,1840-10-16,1840-10-16,"Lontolim ou Loutolim, Salcete, Goa, Índia","Lontolim ou Loutolim, Salcete, Goa, Índia"
-1,1886-10-14,1886-10-14,Lontulim,Lontulim
-1,1839-10-15,1839-10-15,Lontulim ou Loutolim,Lontulim ou Loutolim
+1,1840-10-16,1840-10-16,"Lontolim ou Loutolim, Salcete, Goa, Índia","Loutolim, Salcete, Goa, Índia"
+1,1886-10-14,1886-10-14,Lontulim,"Lontolim, Salcete, Goa, Índia"
+1,1839-10-15,1839-10-15,Lontulim ou Loutolim,"Lontolim, Salcete, Goa, Índia"
 1,1759-10-01,1759-10-01,Lopa,Lopa
 1,1758-10-01,1758-10-01,Lopa do Lobo,Lopa do Lobo
 1,1742-01-16,1742-01-16,Lopo,Lopo

@@ -1,0 +1,594 @@
+name,name_normalized,pop,date_in,date_max,geonamesid,geonames_name,id_ine_inspire,wikidata_id,address,gazetteer,latitude,longitude
+Ilha da Madeira,"Funchal (Sé), Funchal (Sé), Funchal, Madeira",569,1537-01-16,1890-10-16,8014027,Funchal (Sé),,Q2190091,"Funchal (Sé), Funchal (Sé), Funchal, Madeira",geonames-pt,32.64685,-16.9123
+"Baía, Brasil","Salvador, Brasil",495,1593-10-01,1892-10-28,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+Viana,Viana do Castelo,494,1555-10-00,1844-10-19,2732773,Viana do Castelo,,Q49278394,"Viana do Castelo, Viana do Castelo (Monserrate), Viana do Castelo, Viana do Castelo",geonames-pt,41.69323,-8.83287
+Baía,"Salvador, Brasil",391,1570-10-01,1893-10-21,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+Rio de Janeiro,"Rio de Janeiro, Brasil",296,1558-10-01,1910-10-24,3451190,Rio de Janeiro,,*notfound*,"Rio de Janeiro, Rio de Janeiro, Rio de Janeiro, Brasil",geonames-br,-22.90642,-43.18223
+Arrifana de Sousa,Penafiel,202,1540-10-20,1770-10-01,2736469,Penafiel,,Q49287885,"Penafiel, Penafiel, Penafiel, Porto",geonames-pt,41.20835,-8.28285
+Ilha de São Miguel,Ponta Delgada,187,1538-00-00,1888-12-03,6941014,Ponta Delgada,INE-A26-02719,Q49278070,"Ponta Delgada, Ponta Delgada (São Sebastião), Ponta Delgada, Azores",geonames-pt,37.73952,-25.66874
+Pernambuco,"Recife, Pernambuco, Brasil",136,1611-02-09,1858-10-13,3390760,Recife,,Q22061296,"Recife, Recife, Pernambuco, Brasil",geonames-br,-8.05389,-34.88111
+Condeixa,Condeixa-a-Nova,135,1537-05-23,1838-10-23,2740593,Condeixa-a-Nova,,Q49282120,"Condeixa-a-Nova, Condeixa-a-Nova, Condeixa-a-Nova, Coimbra",geonames-pt,40.11283,-8.49804
+Olivença,"Olivenza, Espanha",134,1537-00-00,1829-06-30,9883562,Olivenza,,Q120170977,"Olivenza, Olivenza, Badajoz, Extremadura",geonames-es,38.68269,-7.10046
+Celorico,Celorico da Beira,124,1538-10-01,1820-11-24,2740886,Celorico da Beira,,*notfound*,"Celorico da Beira, Celorico (São Pedro), Celorico da Beira, Guarda",geonames-pt,40.63723,-7.39037
+Ilha Terceira,Angra do Heroísmo,113,1538-04-22,1858-06-26,8010691,Angra do Heroísmo,,Q193677,"Angra do Heroísmo, Terra Chã, Angra do Heroísmo, Azores",geonames-pt,38.69526,-27.24913
+"Punhete, hoje Constância",Constância,109,1551-02-12,1827-10-10,2269088,Constância,,*notfound*,"Constância, Constância, Constância, Santarém",geonames-pt,39.47796,-8.33636
+"Ilha de São Miguel, Açores",Ponta Delgada,108,1537-02-01,1910-08-05,6941014,Ponta Delgada,INE-A26-02719,Q49278070,"Ponta Delgada, Ponta Delgada (São Sebastião), Ponta Delgada, Azores",geonames-pt,37.73952,-25.66874
+Valença do Minho,Valença,103,1540-01-12,1916-10-09,2733018,Valença,,*notfound*,"Valença, Valença, Valença, Viana do Castelo",geonames-pt,42.03104,-8.64595
+Pedrogão Grande,Pedrógão Grande,99,1552-05-00,1901-10-14,2265000,Pedrógão Grande,,*notfound*,"Pedrógão Grande, Pedrógão Grande, Pedrógão Grande, Leiria",geonames-pt,39.91835,-8.1459
+Terra da Feira,Santa Maria da Feira,99,1585-10-02,1769-10-01,2739723,Santa Maria da Feira,,Q2015920,"Santa Maria da Feira, Feira, Santa Maria da Feira, Aveiro",geonames-pt,40.92535,-8.54277
+Arrancada,"Arrancada, Valongo do Vouga, Águeda, Aveiro",82,1591-10-01,1818-10-12,2742693,Arrancada,,*notfound*,"Arrancada, Valongo do Vouga, Águeda, Aveiro",geonames-pt,40.61771,-8.42388
+Formoselha,"Formoselha, Montemor-o-Velho",82,1585-10-03,1889-10-02,2739379,Formoselha,,*notfound*,"Formoselha, Santo Varão, Montemor-o-Velho, Coimbra",geonames-pt,40.17996,-8.61377
+Feira,Santa Maria da Feira,79,1568-10-26,1882-06-14,2739723,Santa Maria da Feira,,Q2015920,"Santa Maria da Feira, Feira, Santa Maria da Feira, Aveiro",geonames-pt,40.92535,-8.54277
+Vila Nova de Portimão,Portimão,77,1538-12-05,1910-10-14,8012023,Portimão,,Q33842244,"Portimão, Portimão, Portimão, Faro",geonames-pt,37.18004,-8.53528
+Vila da Feira,Santa Maria da Feira,77,1581-01-28,1909-10-02,2739723,Santa Maria da Feira,,Q2015920,"Santa Maria da Feira, Feira, Santa Maria da Feira, Aveiro",geonames-pt,40.92535,-8.54277
+Pedrogão,Pedrógão Grande,72,1540-10-13,1887-10-14,2265000,Pedrógão Grande,,*notfound*,"Pedrógão Grande, Pedrógão Grande, Pedrógão Grande, Leiria",geonames-pt,39.91835,-8.1459
+Penaguião,Santa Marta de Penaguião,68,1540-10-21,1770-10-01,2734667,Santa Marta de Penaguião,,Q1006372,"Santa Marta de Penaguião, Lobrigos (São Miguel), Santa Marta de Penaguião, Vila Real",geonames-pt,41.20991,-7.78386
+Irlanda,"Dublin, Irlanda",64,1581-12-11,1808-11-29,2964574,Dublin,,Q1761,"Dublin, Dublin, Dublin, Dublin",geonames-ie,53.33306,-6.24889
+Pombeiro,Pombeiro da Beira,63,1548-01-01,1905-10-03,8014875,Pombeiro da Beira,,Q3520,"Pombeiro da Beira, Pombeiro da Beira, Arganil, Coimbra",geonames-pt,40.22597,-8.13461
+São Martinho de Salreu,Salreu,63,1577-11-13,1835-10-13,8010775,Salreu,,Q2259873,"Salreu, Salreu, Estarreja, Aveiro",geonames-pt,40.74093,-8.5666
+Veiros,"Veiros, Veiros, Estarreja, Aveiro",63,1567-00-00,1902-10-25,8010776,Veiros,,Q2196358,"Veiros, Veiros, Estarreja, Aveiro",geonames-pt,40.75155,-8.60804
+Cabanas,Cabanas de Viriato,59,1601-11-06,1909-10-04,8014599,Cabanas de Viriato,,Q33791262,"Cabanas de Viriato, Cabanas de Viriato, Carregal do Sal, Viseu",geonames-pt,40.48021,-7.97205
+Cernache do Bonjardim,Cernache do Bomjardim,59,1559-10-15,1910-10-12,8014252,Cernache do Bonjardim,,Q1055347,"Cernache do Bonjardim, Cernache do Bonjardim, Sertã, Castelo Branco",geonames-pt,39.80454,-8.23068
+"Ponta Delgada, Açores",Ponta Delgada,57,1573-03-07,1908-10-02,6941014,Ponta Delgada,INE-A26-02719,Q49278070,"Ponta Delgada, Ponta Delgada (São Sebastião), Ponta Delgada, Azores",geonames-pt,37.73952,-25.66874
+Moncorvo,Torre de Moncorvo,55,1593-12-24,1906-10-02,2733488,Torre de Moncorvo,,*notfound*,"Torre de Moncorvo, Torre de Moncorvo, Torre de Moncorvo, Bragança",geonames-pt,41.17454,-7.05364
+"Ilha Terceira, Açores",Angra do Heroísmo,53,1552-10-00,1866-10-13,8010691,Angra do Heroísmo,,Q193677,"Angra do Heroísmo, Terra Chã, Angra do Heroísmo, Azores",geonames-pt,38.69526,-27.24913
+Leomil,"Leomil, Leomil, Moimenta da Beira, Viseu",53,1540-01-11,1910-10-11,8013828,Leomil,,Q74390,"Leomil, Leomil, Moimenta da Beira, Viseu",geonames-pt,40.98392,-7.65653
+Lobrigos,"Lobrigos, Lobrigos (São Miguel), Santa Marta de Penaguião, Vila Real",52,1587-10-22,1888-11-12,2738268,Lobrigos,PT.GN.95926,*notfound*,"Lobrigos, Lobrigos (São Miguel), Santa Marta de Penaguião, Vila Real",geonames-pt,41.2042,-7.77684
+Aldeia Galega,Montijo,49,1558-11-15,1903-10-06,2265788,Montijo,,Q49286912,"Montijo, Montijo, Montijo, Setúbal",geonames-pt,38.70675,-8.97388
+"Angra do Heroísmo, Açores",Angra do Heroísmo,45,1704-11-14,1909-10-07,8010691,Angra do Heroísmo,,Q193677,"Angra do Heroísmo, Terra Chã, Angra do Heroísmo, Azores",geonames-pt,38.69526,-27.24913
+Arrifana de Santa Maria,"Arrifana, Arrifana, Santa Maria da Feira, Aveiro",45,1562-12-31,1793-10-31,8010778,Arrifana,PT.GN.95006,Q4069891,"Arrifana, Arrifana, Santa Maria da Feira, Aveiro",geonames-pt,40.91114,-8.50596
+Arruda,Arruda dos Vinhos,44,1556-00-00,1892-10-27,2271438,Arruda dos Vinhos,,Q703854,"Arruda dos Vinhos, Arruda dos Vinhos, Arruda dos Vinhos, Lisboa",geonames-pt,38.98411,-9.07746
+Bobadela,"Bobadela, Bobadela, Oliveira do Hospital, Coimbra",43,1624-10-19,1859-10-08,8011863,Bobadela,,Q888363,"Bobadela, Bobadela, Oliveira do Hospital, Coimbra",geonames-pt,40.36313,-7.88817
+Canavezes,Marco de Canaveses,43,1540-10-17,1798-10-02,2737921,Marco de Canaveses,,*notfound*,"Marco de Canaveses, Tuias, Marco de Canaveses, Porto",geonames-pt,41.18389,-8.14864
+Maranhão,"São Luís, Maranhão, Brasil",43,1782-10-31,1898-10-14,3388368,São Luís,,Q22059837,"São Luís, São Luís, Maranhão, Brasil",geonames-br,-2.52972,-44.30278
+Azeitão,"Vila Nogueira, São Lourenço, Setúbal, Setúbal",42,1568-10-06,1835-10-12,2261633,Vila Nogueira,,*notfound*,"Vila Nogueira, São Lourenço, Setúbal, Setúbal",geonames-pt,38.51667,-9.01667
+Alverca,Alverca do Ribatejo,40,1587-11-16,1892-10-14,8014802,Alverca do Ribatejo,,Q431690,"Alverca do Ribatejo, Alverca do Ribatejo, Vila Franca de Xira, Lisboa",geonames-pt,38.90493,-9.04289
+Ilha do Faial,Horta (Angústias),40,1540-10-11,1835-06-17,8013523,Horta (Angústias),,Q1999060,"Horta (Angústias), Horta (Angústias), Horta, Azores",geonames-pt,38.52845,-28.63766
+Monsanto,"Monsanto, Monsanto, Idanha-a-Nova, Castelo Branco",40,1540-10-17,1904-10-03,8011710,Monsanto,,Q1637902,"Monsanto, Monsanto, Idanha-a-Nova, Castelo Branco",geonames-pt,40.04146,-7.11468
+Vieira,Vieira do Minho,40,1581-10-21,1876-06-06,2732748,Vieira do Minho,,*notfound*,"Vieira do Minho, Vieira do Minho, Vieira do Minho, Braga",geonames-pt,41.63292,-8.14252
+"Vila Cova de Sub-Avô, hoje Vila Cova de Alva",Vila Cova de Alva,40,1578-11-08,1906-10-02,8014288,Vila Cova de Alva,,Q3687,"Vila Cova de Alva, Vila Cova de Alva, Arganil, Coimbra",geonames-pt,40.27298,-7.93974
+Algarve,Faro,37,1537-02-07,1801-10-16,2268339,Faro,,Q159457,"Faro, Faro (Sé), Faro, Faro",geonames-pt,37.01869,-7.92716
+Belver,"Belver, Belver, Gavião, Portalegre",37,1586-10-01,1801-10-08,8012622,Belver,,Q2257845,"Belver, Belver, Gavião, Portalegre",geonames-pt,39.52124,-7.92817
+"Funchal, Ilha da Madeira","Funchal, Imaculado Coração de Maria, Funchal, Ilha da Madeira (Madeira)",37,1540-09-30,1909-10-02,2267827,Funchal,,Q25444,"Funchal, São Roque, Funchal, Madeira",geonames-pt,32.66568,-16.92547
+"Funchal, Madeira","Funchal, Imaculado Coração de Maria, Funchal, Ilha da Madeira (Madeira)",36,1711-01-18,1910-10-01,2267827,Funchal,,Q25444,"Funchal, São Roque, Funchal, Madeira",geonames-pt,32.66568,-16.92547
+Pederneira,"Pederneira, Nazaré, Nazaré, Leiria",35,1537-12-18,1899-10-02,2265067,Pederneira,,*notfound*,"Pederneira, Nazaré, Nazaré, Leiria",geonames-pt,39.59878,-9.06297
+Tortosendo,Tortozendo,35,1706-03-17,1908-10-07,2733465,Tortozendo,,*notfound*,"Tortozendo, Tortosendo, Covilhã, Castelo Branco",geonames-pt,40.23587,-7.52804
+Paiva,Castelo de Paiva,34,1609-10-10,1758-10-01,2741001,Castelo de Paiva,,*notfound*,"Castelo de Paiva, Fornos, Castelo de Paiva, Aveiro",geonames-pt,41.06301,-8.2647
+Cortiça,"Cortiça, São Martinho da Cortiça, Arganil, Coimbra",33,1621-10-13,1900-10-04,2740502,Cortiça,,*notfound*,"Cortiça, São Martinho da Cortiça, Arganil, Coimbra",geonames-pt,40.27632,-8.16094
+Mesquitela,"Mesquitela, Mesquitela, Celorico da Beira, Guarda",33,1585-10-14,1909-10-09,8012081,Mesquitela,,Q24201,"Mesquitela, Mesquitela, Celorico da Beira, Guarda",geonames-pt,40.58569,-7.47313
+Muxagata,"Muxagata, Muxagata, Fornos de Algodres, Guarda",33,1592-10-01,1877-10-02,8012109,Muxagata,,Q32700,"Muxagata, Muxagata, Fornos de Algodres, Guarda",geonames-pt,40.65351,-7.45648
+,,32,1540-00-00,1771-05-24,,,,,,,,
+Ilha,"Ilha, Ilha, Pombal, Leiria",32,1561-10-01,1695-10-01,8012416,Ilha,,Q1025541,"Ilha, Ilha, Pombal, Leiria",geonames-pt,39.91704,-8.76348
+Gafete,Gáfete,31,1607-02-13,1902-10-04,6930672,Gáfete,,Q1016627,"Gáfete, Gáfete, Crato, Portalegre",geonames-pt,39.39853,-7.69544
+"Minas Gerais, Brasil","Ouro Preto, Minas Gerais, Brasil",30,1732-10-01,1822-10-21,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Benviver,"Sande, Sande, Marco de Canaveses, Porto",29,1583-10-08,1840-10-03,8012769,Sande,,Q1027096,"Sande, Sande, Marco de Canaveses, Porto",geonames-pt,41.1116,-8.1653
+Caldas,Caldas da Rainha,29,1540-10-18,1782-10-30,2270437,Caldas da Rainha,,*notfound*,"Caldas da Rainha, Caldas da Rainha (Nossa Senhora, Caldas da Rainha, Leiria",geonames-pt,39.40326,-9.13839
+Angola,"Luanda, Angola",28,1666-10-01,1798-10-02,2240449,Luanda,,Q3897,"Luanda, Maianga, Maianga, Luanda",geonames-ao,-8.83682,13.23432
+"Ilha do Faial, Açores",Horta (Angústias),28,1578-10-03,1850-07-06,8013523,Horta (Angústias),,Q1999060,"Horta (Angústias), Horta (Angústias), Horta, Azores",geonames-pt,38.52845,-28.63766
+"Lavarrabos, hoje São João do Campo",São João do Campo,27,1625-10-14,1873-10-15,8014838,São João do Campo,,Q1307982,"São João do Campo, São João do Campo, Coimbra, Coimbra",geonames-pt,40.24042,-8.51735
+Meãs,Meãs do Campo,27,1593-10-01,1903-10-06,8014837,Meãs do Campo,,Q1024746,"Meãs do Campo, Meãs do Campo, Montemor-o-Velho, Coimbra",geonames-pt,40.22068,-8.62727
+Mondim,Mondim de Basto,27,1560-10-01,1826-10-30,2737515,Mondim de Basto,,*notfound*,"Mondim de Basto, Mondim de Basto, Mondim de Basto, Vila Real",geonames-pt,41.41157,-7.95441
+Regalados,Pico de Regalados,27,1587-10-18,1805-10-16,8014620,Pico de Regalados,,Q2092373,"Pico de Regalados, Pico de Regalados, Vila Verde, Braga",geonames-pt,41.68063,-8.43016
+Reveles,"Reveles, Abrunheira, Montemor-o-Velho, Coimbra",27,1675-10-01,1892-10-13,2735234,Reveles,,*notfound*,"Reveles, Abrunheira, Montemor-o-Velho, Coimbra",geonames-pt,40.1367,-8.73502
+Ribeira da Pena,Ribeira de Pena,27,1639-11-08,1889-10-15,2735172,Ribeira de Pena,,*notfound*,"Ribeira de Pena, Ribeira de Pena (Salvador), Ribeira de Pena, Vila Real",geonames-pt,41.52147,-7.80237
+Sebal Grande,Sebal,27,1693-10-01,1888-10-08,8011817,Sebal,,Q1024522,"Sebal, Sebal, Condeixa-a-Nova, Coimbra",geonames-pt,40.12784,-8.5261
+Goa,"Goa, Índia",26,1609-10-01,1890-10-02,,,,,,,,
+"Maranhão, Brasil","São Luís, Maranhão, Brasil",26,1731-01-15,1891-10-26,3388368,São Luís,,Q22059837,"São Luís, São Luís, Maranhão, Brasil",geonames-br,-2.52972,-44.30278
+Panascoso,Penhascoso,26,1656-10-16,1763-10-01,8013022,Penhascoso,,Q602229,"Penhascoso, Penhascoso, Mação, Santarém",geonames-pt,39.53996,-8.04498
+São Tiago de Besteiros,Santiago de Besteiros,26,1660-01-31,1881-10-12,8014323,Santiago de Besteiros,,Q154246,"Santiago de Besteiros, Santiago de Besteiros, Tondela, Viseu",geonames-pt,40.58934,-8.13107
+Vila Pouca,"Vila Pouca, Ameal",26,1554-00-00,1866-10-15,2732530,Vila Pouca,,*notfound*,"Vila Pouca, Ameal, Coimbra, Coimbra",geonames-pt,40.19119,-8.52393
+Bera,Torre de Bera,25,1615-11-13,1709-10-01,2733493,Torre de Bera,,*notfound*,"Torre de Bera, Almalaguês, Coimbra, Coimbra",geonames-pt,40.14445,-8.40305
+Arrifana do Sousa,Penafiel,24,1577-02-13,1765-10-01,2736469,Penafiel,,Q49287885,"Penafiel, Penafiel, Penafiel, Porto",geonames-pt,41.20835,-8.28285
+Idanha a Nova,Idanha-a-Nova,24,1577-10-23,1899-10-02,2267427,Idanha-a-Nova,,*notfound*,"Idanha-a-Nova, Idanha-a-Nova, Idanha-a-Nova, Castelo Branco",geonames-pt,39.92316,-7.24082
+São Tiago de Cacém,Santiago do Cacém,24,1562-10-01,1900-10-13,2263458,Santiago do Cacém,,Q49289225,"Santiago do Cacém, Santiago do Cacém, Santiago do Cacém, Setúbal",geonames-pt,38.01693,-8.69475
+Minas Gerais,"Ouro Preto, Minas Gerais, Brasil",23,1732-10-01,1883-06-11,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Vila Pouca do Campo,"Vila Pouca, Ameal, Coimbra, Coimbra",23,1640-11-10,1890-10-15,2732530,Vila Pouca,,*notfound*,"Vila Pouca, Ameal, Coimbra, Coimbra",geonames-pt,40.19119,-8.52393
+"Arrifana de Sousa, Penafiel",Penafiel,22,1573-10-07,1766-10-01,2736469,Penafiel,,Q49287885,"Penafiel, Penafiel, Penafiel, Porto",geonames-pt,41.20835,-8.28285
+Mourisca,Mata Mourisca,22,1651-10-19,1764-10-01,8012407,Mata Mourisca,,Q935244,"Mata Mourisca, Mata Mourisca, Pombal, Leiria",geonames-pt,39.9445,-8.73745
+"Pará, Brasil","Belém, Pará, Brasil",22,1688-10-01,1907-10-04,3405870,Belém,,Q22060306,"Belém, Belém, Pará, Brasil",geonames-br,-1.45583,-48.50444
+Tojal,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",22,1537-12-18,1838-10-20,8014144,Santo Antão do Tojal,,Q738803,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",geonames-pt,38.85682,-9.15534
+Amial,"Ameal, Ameal, Coimbra, Coimbra",21,1627-10-05,1809-11-15,8011789,Ameal,,Q460527,"Ameal, Ameal, Coimbra, Coimbra",geonames-pt,40.18318,-8.53247
+Fala,São Martinho do Bispo,21,1540-00-00,1796-10-05,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+Sever,Sever do Vouga,21,1595-10-24,1842-10-27,2734024,Sever do Vouga,,*notfound*,"Sever do Vouga, Sever do Vouga, Sever do Vouga, Aveiro",geonames-pt,40.73459,-8.36722
+Vilarinho da Lousã,"Vilarinho, Vilarinho, Lousã, Coimbra",21,1556-00-00,1885-06-20,8011842,Vilarinho,PT.GN.100096,Q155410,"Vilarinho, Vilarinho, Lousã, Coimbra",geonames-pt,40.12413,-8.20925
+Casais do Campo,São Martinho do Bispo,20,1697-10-01,1849-10-23,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+Sinfães,Cinfães,20,1598-10-20,1902-10-09,2733963,Cinfães,,*notfound*,"Cinfães, Cinfães, Cinfães, Viseu",geonames-pt,41.07197,-8.08999
+Vila Nova do Casal,Vila Nova de Tazem,20,1668-10-20,1836-10-22,8014098,Vila Nova de Tazem,,Q32561,"Vila Nova de Tazem, Vila Nova de Tazem, Gouveia, Guarda",geonames-pt,40.50722,-7.70791
+"Farinha Podre, hoje São Pedro de Alva",São Pedro de Alva,19,1642-10-15,1860-10-05,8014291,São Pedro de Alva,,Q1024859,"São Pedro de Alva, São Pedro de Alva, Penacova, Coimbra",geonames-pt,40.30928,-8.18209
+Vila Rica,"Ouro Preto, Brasil",19,1735-10-01,1816-10-19,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Brasil,"Rio de Janeiro, Brasil",18,1574-10-12,1664-10-01,3451190,Rio de Janeiro,,*notfound*,"Rio de Janeiro, Rio de Janeiro, Rio de Janeiro, Brasil",geonames-br,-22.90642,-43.18223
+"Cachoeira, Baía, Brasil","Cachoeira, Cachoeira, Bahia, Brasil",18,1745-10-01,1824-10-30,3468535,Cachoeira,,Q22063160,"Cachoeira, Cachoeira, Bahia, Brasil",geonames-br,-12.60139,-38.96576
+Landroal,Alandroal,18,1559-10-01,1764-10-01,2272242,Alandroal,,*notfound*,"Alandroal, Alandroal (Nossa Senhora da Conc, Alandroal, Évora",geonames-pt,38.702,-7.40309
+Lixa,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",18,1674-10-17,1869-10-16,2732659,Vila da Lixa,,*notfound*,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",geonames-pt,41.3228,-8.14735
+Maçãs de D Maria,Maçãs de Dona Maria,18,1660-01-21,1879-10-02,8014337,Maçãs de Dona Maria,,Q1669197,"Maçãs de Dona Maria, Maçãs de Dona Maria, Alvaiázere, Leiria",geonames-pt,39.87072,-8.33489
+Pedrogão Pequeno,Pedrógão Pequeno,18,1577-10-29,1907-10-12,8011749,Pedrógão Pequeno,,Q909970,"Pedrógão Pequeno, Pedrógão Pequeno, Sertã, Castelo Branco",geonames-pt,39.91286,-8.09582
+São João da Foz,Foz do Douro,18,1609-11-06,1892-10-03,8014128,Foz do Douro,,Q1397371,"Foz do Douro, Foz do Douro, Porto, Porto",geonames-pt,41.15127,-8.67053
+"Viana, Minho",Viana do Castelo,18,1779-10-20,1848-06-05,2732773,Viana do Castelo,,Q49278394,"Viana do Castelo, Viana do Castelo (Monserrate), Viana do Castelo, Viana do Castelo",geonames-pt,41.69323,-8.83287
+Aregos,São Romão de Aregos,17,1589-02-01,1780-10-27,8014640,São Romão de Aregos,,Q93889,"São Romão de Aregos, São Romão de Aregos, Resende, Viseu",geonames-pt,41.08353,-7.98381
+Cabeça de Vide,Cabeço de Vide,17,1537-12-18,1738-10-01,6930693,Cabeço de Vide,,Q2258653,"Cabeço de Vide, Cabeço de Vide, Fronteira, Portalegre",geonames-pt,39.10957,-7.58805
+Castendo,Penalva do Castelo,17,1559-10-01,1907-10-09,8010660,Penalva do Castelo,,Q780374,"Penalva do Castelo, Castelo de Penalva, Penalva do Castelo, Viseu",geonames-pt,40.66791,-7.66015
+Merciana,Merceana,17,1598-10-01,1769-04-13,2266445,Merceana,,*notfound*,"Merceana, Aldeia Galega da Merceana, Alenquer, Lisboa",geonames-pt,39.09398,-9.11172
+Penaverde,Pena Verde,17,1572-10-01,1907-10-04,8012047,Pena Verde,,Q2068574,"Pena Verde, Pena Verde, Aguiar da Beira, Guarda",geonames-pt,40.73232,-7.49664
+Reguengos,Reguengos de Monsaraz,17,1540-00-00,1910-10-11,2263974,Reguengos de Monsaraz,,Q990439,"Reguengos de Monsaraz, Reguengos de Monsaraz, Reguengos de Monsaraz, Évora",geonames-pt,38.42529,-7.53494
+Souzel,Sousel,17,1538-10-27,1907-10-03,8010576,Sousel,,Q7565244,"Sousel, Sousel, Sousel, Portalegre",geonames-pt,38.96685,-7.71788
+Ilgares,Ligares,16,1708-10-01,1860-10-09,8011472,Ligares,,Q1010920,"Ligares, Ligares, Freixo de Espada à Cinta, Bragança",geonames-pt,41.06765,-6.94363
+Pedrulha,"Pedrulha, Coimbra (Santa Cruz), Coimbra, Coimbra",16,1613-10-21,1873-10-14,2736519,Pedrulha,,*notfound*,"Pedrulha, Coimbra (Santa Cruz), Coimbra, Coimbra",geonames-pt,40.24259,-8.44569
+Ponte do Lima,Ponte de Lima,16,1592-02-16,1889-10-15,2736041,Ponte de Lima,,Q49288127,"Ponte de Lima, Ponte de Lima, Ponte de Lima, Viana do Castelo",geonames-pt,41.76719,-8.58393
+Rio de Vide,Rio Vide,16,1626-10-21,1842-10-31,8011848,Rio Vide,,Q1024471,"Rio Vide, Rio Vide, Miranda do Corvo, Coimbra",geonames-pt,40.13333,-8.32104
+Vila Cova de Sub Avô,Vila Cova de Alva,16,1586-10-02,1783-10-31,8014288,Vila Cova de Alva,,Q3687,"Vila Cova de Alva, Vila Cova de Alva, Arganil, Coimbra",geonames-pt,40.27298,-7.93974
+Arneiros,Arneirós,15,1583-10-01,1757-11-07,2742713,Arneirós,,*notfound*,"Arneirós, Vila Nova de Souto D' El-Rei, Lamego, Viseu",geonames-pt,41.08444,-7.81522
+Belém,"Belém, Santa Maria de Belém, Lisboa, Lisboa",15,1630-10-16,1885-10-13,2270978,Belém,,Q376866,"Belém, Santa Maria de Belém, Lisboa, Lisboa",geonames-pt,38.69875,-9.19289
+Bretiande,Britiande,15,1579-11-27,1765-10-01,8013796,Britiande,,Q64441,"Britiande, Britiande, Lamego, Viseu",geonames-pt,41.06157,-7.78597
+Luanda,"Luanda, Angola",15,1681-10-01,1904-10-03,2240449,Luanda,,Q3897,"Luanda, Maianga, Maianga, Luanda",geonames-ao,-8.83682,13.23432
+Póvoa do Varzim,Póvoa de Varzim,15,1701-10-01,1881-10-14,2735787,Póvoa de Varzim,,Q200459,"Póvoa de Varzim, Póvoa de Varzim, Póvoa de Varzim, Porto",geonames-pt,41.38344,-8.76364
+"Santos, Brasil","Santos, Santos, São Paulo, Brasil",15,1708-12-01,1898-10-14,3449433,Santos,,Q113301768,"Santos, Santos, São Paulo, Brasil",geonames-br,-23.96083,-46.33361
+"São Silvestre, Coimbra","São Silvestre, São Silvestre, Coimbra, Coimbra",15,1762-10-01,1903-10-06,8011805,São Silvestre,PT.GN.98217,Q729968,"São Silvestre, São Silvestre, Coimbra, Coimbra",geonames-pt,40.22841,-8.53118
+Taboaço,Tabuaço,15,1586-03-05,1873-10-15,2733716,Tabuaço,,*notfound*,"Tabuaço, Tabuaço, Tabuaço, Viseu",geonames-pt,41.11615,-7.56793
+Viana do Minho,Viana do Castelo,15,1726-10-01,1827-10-30,2732773,Viana do Castelo,,Q49278394,"Viana do Castelo, Viana do Castelo (Monserrate), Viana do Castelo, Viana do Castelo",geonames-pt,41.69323,-8.83287
+Vila Nova de Ourém,Ourém,15,1680-10-15,1907-10-01,2265388,Ourém,,Q49287774,"Ourém, Nossa Senhora das Misericórdias, Ourém, Santarém",geonames-pt,39.64167,-8.5919
+Abrunhosa,Abrunhosa-a-Velha,14,1673-10-19,1817-10-20,8013813,Abrunhosa-a-Velha,,Q74617,"Abrunhosa-a-Velha, Abrunhosa-a-Velha, Mangualde, Viseu",geonames-pt,40.57766,-7.62266
+Ilha de Santa Maria,Vila do Porto,14,1568-11-10,1721-01-01,8014150,Vila do Porto,,Q2454613,"Vila do Porto, Vila do Porto, Vila do Porto, Azores",geonames-pt,36.97409,-25.15419
+"Ilha de São Jorge, Açores",Velas (São Jorge),14,1695-07-20,1886-10-02,8013503,Velas (São Jorge),,Q2198185,"Velas (São Jorge), Velas (São Jorge), Velas, Azores",geonames-pt,38.69962,-28.1984
+Mariana,"Mariana, Brasil",14,1748-12-07,1778-11-02,6321545,Mariana,,Q984567,"Mariana, Mariana, Minas Gerais, Brasil",geonames-br,-20.32403,-43.30662
+São Tiago da Guarda,Santiago da Guarda,14,1577-10-01,1852-10-05,8014690,Santiago da Guarda,,Q2119115,"Santiago da Guarda, Santiago da Guarda, Ansião, Leiria",geonames-pt,39.93378,-8.49358
+"Viana, Alentejo",Viana do Alentejo,14,1556-00-00,1782-10-30,2261694,Viana do Alentejo,,*notfound*,"Viana do Alentejo, Viana do Alentejo, Viana do Alentejo, Évora",geonames-pt,38.33458,-8.0044
+Cós,Coz,13,1591-02-10,1740-10-01,8012312,Coz,,Q1018770,"Coz, Coz, Alcobaça, Leiria",geonames-pt,39.59842,-8.9557
+Pará,"Belém, Pará, Brasil",13,1754-10-01,1908-10-09,3405870,Belém,,Q22060306,"Belém, Belém, Pará, Brasil",geonames-br,-1.45583,-48.50444
+São Pedro de Rates,Rates,13,1677-10-01,1890-10-14,8012874,Rates,,Q33845122,"Rates, Rates, Póvoa de Varzim, Porto",geonames-pt,41.42834,-8.67925
+Abiúl,Abiul,12,1630-10-26,1860-10-03,8012401,Abiul,,Q321758,"Abiul, Abiul, Pombal, Leiria",geonames-pt,39.87328,-8.51256
+Margaride,Felgueiras,12,1764-10-01,1912-07-03,2739693,Felgueiras,,*notfound*,"Felgueiras, Margaride (Santa Eulália), Felgueiras, Porto",geonames-pt,41.36806,-8.19396
+Póvoa de Santa Cristina,"Póvoa de Santa Catarina, Tentúgal",12,1626-11-02,1805-10-21,2735793,Póvoa de Santa Cristina,,*notfound*,"Póvoa de Santa Cristina, Tentúgal, Montemor-o-Velho, Coimbra",geonames-pt,40.23333,-8.6
+"Santo Amaro, Baía, Brasil","Santo Amaro, Santo Amaro, Bahia, Brasil",12,1716-10-30,1836-10-22,6321037,Santo Amaro,,Q739789,"Santo Amaro, Santo Amaro, Bahia, Brasil",geonames-br,-12.61369,-38.77427
+São João de El-Rei,"São João del Rei, São João del Rei, Minas Gerais, Brasil",12,1700-10-01,1820-10-16,6321805,São João del Rei,,Q740965,"São João del Rei, São João del Rei, Minas Gerais, Brasil",geonames-br,-21.25033,-44.24481
+"Valongo, Porto",Valongo,12,1757-10-01,1907-10-14,2732978,Valongo,,Q49292234,"Valongo, Valongo, Valongo, Porto",geonames-pt,41.18883,-8.49857
+Vila Nova da Cerveira,Vila Nova de Cerveira,12,1619-11-08,1826-01-05,2732555,Vila Nova de Cerveira,,*notfound*,"Vila Nova de Cerveira, Vila Nova de Cerveira, Vila Nova de Cerveira, Viana do Castelo",geonames-pt,41.94118,-8.7423
+Angra do Heroismo,Angra do Heroísmo,11,1705-01-18,1886-10-12,8010691,Angra do Heroísmo,,Q193677,"Angra do Heroísmo, Terra Chã, Angra do Heroísmo, Azores",geonames-pt,38.69526,-27.24913
+"Baia, Brasil","Salvador, Brasil",11,1729-10-01,1830-07-02,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+Cedavim,Cedovim,11,1601-10-01,1817-10-31,8012293,Cedovim,,Q1030123,"Cedovim, Cedovim, Vila Nova de Foz Côa, Guarda",geonames-pt,41.04051,-7.28842
+Chão do Bispo,Santo António dos Olivais,11,1724-10-01,1813-10-31,8011803,Santo António dos Olivais,,Q367493,"Santo António dos Olivais, Santo António dos Olivais, Coimbra, Coimbra",geonames-pt,40.20822,-8.40099
+Correlos,Currelos,11,1589-10-31,1868-10-17,8013756,Currelos,,Q64377,"Currelos, Currelos, Carregal do Sal, Viseu",geonames-pt,40.42263,-8.00089
+Ilha de São Jorge,Velas (São Jorge),11,1634-10-01,1868-10-02,8013503,Velas (São Jorge),,Q2198185,"Velas (São Jorge), Velas (São Jorge), Velas, Azores",geonames-pt,38.69962,-28.1984
+"Paraíba, Brasil","Cabedelo, Cabedelo, Paraíba, Brasil",11,1724-10-01,1801-10-14,6320294,Cabedelo,,Q986350,"Cabedelo, Cabedelo, Paraíba, Brasil",geonames-br,-7.0272,-34.85044
+Ribeira de Fragoas,Ribeira de Fráguas,11,1597-10-16,1869-10-16,8014218,Ribeira de Fráguas,,Q1021401,"Ribeira de Fráguas, Ribeira de Fráguas, Albergaria-a-Velha, Aveiro",geonames-pt,40.74768,-8.43787
+Santa Olaia,"Santa Ovaia, Santa Ovaia, Oliveira do Hospital, Coimbra",11,1623-10-05,1739-10-01,8011869,Santa Ovaia,,Q1024562,"Santa Ovaia, Santa Ovaia, Oliveira do Hospital, Coimbra",geonames-pt,40.31411,-7.88651
+Tabosa,"Tabosa, Carregal, Sernancelhe, Viseu",11,1664-10-24,1753-10-01,2733722,Tabosa,,*notfound*,"Tabosa, Carregal, Sernancelhe, Viseu",geonames-pt,40.91016,-7.59009
+Treixomil,Trouxemil,11,1586-10-10,1745-10-01,8011809,Trouxemil,,Q2119158,"Trouxemil, Trouxemil, Coimbra, Coimbra",geonames-pt,40.26444,-8.45635
+Vila da Barca,Vila Nova da Barca,11,1665-10-19,1883-10-05,8014269,Vila Nova da Barca,,Q1024444,"Vila Nova da Barca, Vila Nova da Barca, Montemor-o-Velho, Coimbra",geonames-pt,40.13111,-8.67538
+Várzea de Góis,Vila Nova do Ceira,11,1723-11-02,1908-10-10,8014154,Vila Nova do Ceira,,Q383887,"Vila Nova do Ceira, Vila Nova do Ceira, Góis, Coimbra",geonames-pt,40.18421,-8.14533
+Cernache dos Alhos,Cernache,10,1572-10-01,1759-01-15,8011798,Cernache,,Q1055349,"Cernache, Cernache, Coimbra, Coimbra",geonames-pt,40.13581,-8.46187
+"Lagoa, Algarve","Lagoa, Portugal",10,1579-10-12,1909-10-07,2267254,Lagoa,,Q49285310,"Lagoa, Lagoa, Lagoa, Faro",geonames-pt,37.13535,-8.45319
+Londres,"London, Inglaterra",10,1617-10-19,1881-10-03,,,,,,,,
+Minas,"Ouro Preto, Minas Gerais, Brasil",10,1734-10-01,1777-10-00,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Penamacôr,Penamacor,10,1736-10-01,1873-10-09,2736461,Penamacor,,*notfound*,"Penamacor, Penamacor, Penamacor, Castelo Branco",geonames-pt,40.16895,-7.16987
+Sabará,"Sabará, Minas Gerais, Brasil",10,1756-12-11,1827-10-31,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"São Miguel, Açores",Ponta Delgada,10,1590-10-13,1863-10-12,6941014,Ponta Delgada,,Q49278070,"Ponta Delgada, Ponta Delgada (São Sebastião), Ponta Delgada, Azores",geonames-pt,37.73952,-25.66874
+Tibães,Mire de Tibães,10,1593-10-01,1820-11-23,8014672,Mire de Tibães,,Q1804783,"Mire de Tibães, Mire de Tibães, Braga, Braga",geonames-pt,41.56631,-8.47816
+"Vila Rica, Minas Gerais, Brasil","Ouro Preto, Brasil",10,1731-01-15,1813-10-09,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Ilha da Graciosa,"Santa Cruz da Graciosa, Guadalupe, Santa Cruz da Graciosa, Açores",9,1576-11-26,1875-10-15,8010693,Santa Cruz da Graciosa,,Q1010463,"Santa Cruz da Graciosa, Guadalupe, Santa Cruz da Graciosa, Azores",geonames-pt,39.04946,-28.00432
+"Lagos, Algarve","Lagos, Portugal",9,1583-10-03,1796-10-31,8010518,Lagos,,Q732548,"Lagos, Lagos (Santa Maria), Lagos, Faro",geonames-pt,37.09567,-8.67661
+Passos de Silgueiros,Silgueiros,9,1634-10-24,1889-10-13,8013995,Silgueiros,,Q959731,"Silgueiros, Silgueiros, Viseu, Viseu",geonames-pt,40.56836,-7.95363
+Sandelgas,S. Martinho de Árvore,9,1671-03-20,1795-10-07,,,,,,,,
+Santo António do Tojal,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",9,1573-10-02,1743-10-01,8014144,Santo Antão do Tojal,,Q738803,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",geonames-pt,38.85682,-9.15534
+São Miguel de Lobrigos,"Lobrigos, Lobrigos (São Miguel), Santa Marta de Penaguião, Vila Real",9,1729-11-28,1774-11-26,2738268,Lobrigos,,*notfound*,"Lobrigos, Lobrigos (São Miguel), Santa Marta de Penaguião, Vila Real",geonames-pt,41.2042,-7.77684
+São Tiago de Custóias,"Custóias, Matosinhos",9,1718-10-01,1900-10-03,8012778,Custóias,,Q2117063,"Custóias, Custóias, Matosinhos, Porto",geonames-pt,41.20691,-8.64854
+Tanger,"Tangier, Espanha",9,1550-01-04,1682-10-01,,,,,,,,
+"Ponta Delgada, Ilha de São Miguel, Açores","Ponta Delgada, Açores",8,1779-12-09,1908-10-14,6941014,Ponta Delgada,,Q49278070,"Ponta Delgada, Ponta Delgada (São Sebastião), Ponta Delgada, Azores",geonames-pt,37.73952,-25.66874
+"Sabará, Brasil","Sabará, Minas Gerais, Brasil",8,1755-10-01,1820-11-15,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+Souzelas,Souselas,8,1590-10-08,1907-10-25,8011807,Souselas,,Q1703269,"Souselas, Souselas, Coimbra, Coimbra",geonames-pt,40.29645,-8.42601
+Troviscal,"Troviscal, Castanheira de Pera",8,1666-10-15,1903-10-07,2262487,Troviscal,,*notfound*,"Troviscal, Castanheira de Pêra, Castanheira de Pêra, Leiria",geonames-pt,39.98929,-8.21662
+"Vila Rica, Minas Gerais","Ouro Preto, Brasil",8,1757-01-30,1814-10-03,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Ardazubre,"Lamarosa, Coimbra",7,1722-10-01,1764-05-28,8011800,Lamarosa,,Q1801288,"Lamarosa, Lamarosa, Coimbra, Coimbra",geonames-pt,40.2539,-8.56933
+Chão do Couce,Chão de Couce,7,1603-10-24,1869-10-04,8014255,Chão de Couce,,Q1090903,"Chão de Couce, Chão de Couce, Ansião, Leiria",geonames-pt,39.9054,-8.39307
+São  Pedro do Sul,São Pedro do Sul,7,1602-10-11,1688-10-01,8014854,São Pedro do Sul,,Q2450382,"São Pedro do Sul, São Pedro do Sul, São Pedro do Sul, Viseu",geonames-pt,40.76131,-8.05308
+São João de Longos Vales,Longos Vales,7,1687-10-20,1897-10-12,8013251,Longos Vales,,Q1869593,"Longos Vales, Longos Vales, Monção, Viana do Castelo",geonames-pt,42.04383,-8.43342
+"Alcântara, Maranhão","Alcântara, Maranhão, Brasil",6,1798-10-03,1892-10-15,6319634,Alcântara,,Q939522,"Alcântara, Alcântara, Maranhão, Brasil",geonames-br,-2.32768,-44.50617
+Argozelo,Argoselo,6,1727-11-26,1827-10-02,,,,,,,,
+"Bretiande, Lamego",Britiande,6,1568-03-12,1761-10-01,8013796,Britiande,,Q64441,"Britiande, Britiande, Lamego, Viseu",geonames-pt,41.06157,-7.78597
+Facalamim,Ansião,6,1640-10-24,1729-11-03,2271650,Ansião,,*notfound*,"Ansião, Ansião, Ansião, Leiria",geonames-pt,39.91177,-8.43568
+"Ilha de São  Miguel, Açores","Ilha de São Miguel, Açores",6,1540-09-04,1871-07-05,3372598,Ilha de São Miguel,,Q209036,"Ilha de São Miguel, Ribeira Grande (Conceição), Ribeira Grande, Azores",geonames-pt,37.77614,-25.49515
+Portela de Besteiros,"Portela, Santiago de Besteiros, Tondela, Viseu",6,1679-10-01,1763-10-01,2735982,Portela,,*notfound*,"Portela, São Cristovão de Nogueira, Cinfães, Viseu",geonames-pt,41.08764,-8.10902
+"São Luís do Maranhão, Brasil","São Luís, Maranhão, Brasil",6,1726-10-01,1849-10-04,3388368,São Luís,,Q22059837,"São Luís, São Luís, Maranhão, Brasil",geonames-br,-2.52972,-44.30278
+Vila Cova da Lixa,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",6,1764-10-01,1893-10-16,2732659,Vila da Lixa,,*notfound*,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",geonames-pt,41.3228,-8.14735
+Alcangosta,Alcongosta,5,1618-10-08,1703-10-01,8011685,Alcongosta,,Q1024128,"Alcongosta, Alcongosta, Fundão, Castelo Branco",geonames-pt,40.11301,-7.49024
+Freixo de Espada á Cinta,Freixo de Espada à Cinta,5,1711-10-01,1897-10-12,2739222,Freixo de Espada à Cinta,,Q551684,"Freixo de Espada à Cinta, Freixo de Espada À Cinta, Freixo de Espada à Cinta, Bragança",geonames-pt,41.09033,-6.80648
+Ilha do Fogo,"Ilha do Fogo, Cabo Verde",5,1537-09-27,1896-10-13,3374613,Ilha do Fogo,,Q426555,"Ilha do Fogo, São Filipe",geonames-cv,14.94138,-24.39445
+Lourosa de Besteiros,"Lourosa, Santiago de Besteiros, Tondela, Viseu",5,1701-10-01,1717-10-01,2738161,Lourosa,,*notfound*,"Lourosa, Santiago de Besteiros, Tondela, Viseu",geonames-pt,40.5741,-8.12912
+"Minas do Sabará, Brasil","Sabará, Minas Gerais, Brasil",5,1736-10-01,1755-10-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Pederneira, Nazaré","Pederneira, Nazaré, Nazaré, Leiria",5,1722-10-01,1764-10-01,2265067,Pederneira,,*notfound*,"Pederneira, Nazaré, Nazaré, Leiria",geonames-pt,39.59878,-9.06297
+"Santo Amaro, Baía","Santo Amaro, Santo Amaro, Bahia, Brasil",5,1750-10-01,1827-10-15,6321037,Santo Amaro,,Q739789,"Santo Amaro, Santo Amaro, Bahia, Brasil",geonames-br,-12.61369,-38.77427
+Serro do Frio,"Serro, Serro, Minas Gerais, Brasil",5,1767-10-01,1789-07-06,6321864,Serro,,Q919904,"Serro, Serro, Minas Gerais, Brasil",geonames-br,-18.52041,-43.38075
+São  Martinho de Mouros,São Martinho de Mouros,5,1615-12-03,1762-12-15,8014642,São Martinho de Mouros,,Q301806,"São Martinho de Mouros, São Martinho de Mouros, Resende, Viseu",geonames-pt,41.09678,-7.88802
+São Pedro de Serracenos,São Pedro de Sarracenos,5,1722-10-01,1795-10-06,8014757,São Pedro de Sarracenos,,Q1415775,"São Pedro de Sarracenos, São Pedro de Sarracenos, Bragança, Bragança",geonames-pt,41.75419,-6.76394
+Baía Brasil,"Salvador, Brasil",4,1720-10-01,1744-01-18,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+Cabeceira de Basto,Cabeceiras de Basto,4,1641-10-17,1709-12-03,8014457,Cabeceiras de Basto,,Q1998324,"Cabeceiras de Basto, Cabeceiras de Basto, Cabeceiras de Basto, Braga",geonames-pt,41.56551,-8.02575
+Castanheira de Pedrogão,Castanheira de Pera,4,1717-10-01,1877-06-14,2269557,Castanheira de Pera,,Q1013140,"Castanheira de Pera, Castanheira de Pêra, Castanheira de Pêra, Leiria",geonames-pt,40.00717,-8.21048
+"Congonhas do Campo, Brasil","Congonhas, Minas Gerais, Brasil",4,1761-10-01,1783-10-16,6321292,Congonhas,,Q275654,"Congonhas, Congonhas, Minas Gerais, Brasil",geonames-br,-20.5316,-43.85905
+Ilha de São Tomé,"Ilha de São Tomé, São Tomé e Príncipe",4,1544-02-24,1855-07-02,,,,,,,,
+"Lagoa, Ilha de São Miguel, Açores","Lagoa, Açores",4,1728-10-01,1850-10-30,8010685,Lagoa,,Q564759,"Lagoa, Lagoa (Santa Cruz), Lagoa, Azores",geonames-pt,37.74821,-25.54028
+"Pedrogão, Crato","Pedrógão, Crato",4,1753-11-01,1799-10-30,,,,,,,,
+Ribeira de Litém,Santiago de Litém,4,1704-01-30,1750-10-31,8014335,Santiago de Litém,,Q1893806,"Santiago de Litém, Santiago de Litém, Pombal, Leiria",geonames-pt,39.84526,-8.60374
+Roma,"Roma, Itália",4,1726-10-01,1879-10-09,,,,,,,,
+Santa Eulália da Palmeira,"Palmeira, Santo Tirso",4,1704-10-01,1725-10-01,8012886,Palmeira,,Q1847515,"Palmeira, Palmeira, Santo Tirso, Porto",geonames-pt,41.36101,-8.5007
+Santa Eulália de Barrosas,"Santa Eulália, Vizela",4,1842-10-26,1910-11-16,8011394,Santa Eulália,,Q2030878,"Santa Eulália, Santa Eulália, Vizela, Braga",geonames-pt,41.35368,-8.2978
+Santa Maria de Fregim,"Fregim, Fregim, Amarante, Porto",4,1734-10-01,1848-10-28,8012640,Fregim,,Q1023224,"Fregim, Fregim, Amarante, Porto",geonames-pt,41.26685,-8.1148
+"Santos, São Paulo, Brasil","Santos, Santos, São Paulo, Brasil",4,1783-10-30,1805-10-23,3449433,Santos,,Q113301768,"Santos, Santos, São Paulo, Brasil",geonames-br,-23.96083,-46.33361
+São  Martinho de Salreu,São Martinho de Salreu,4,1609-10-27,1725-10-01,,,,,,,,
+"São João de El-Rei, Minas Gerais, Brasil","São João del Rei, São João del Rei, Minas Gerais, Brasil",4,1751-10-01,1792-10-12,6321805,São João del Rei,,Q740965,"São João del Rei, São João del Rei, Minas Gerais, Brasil",geonames-br,-21.25033,-44.24481
+"São Paio de Farinha Podre, hoje São Pedro de Alva",São Pedro de Alva,4,1706-10-01,1761-10-01,8014291,São Pedro de Alva,,Q1024859,"São Pedro de Alva, São Pedro de Alva, Penacova, Coimbra",geonames-pt,40.30928,-8.18209
+Vendas dos Moinhos,Venda dos Moinhos,4,1653-10-28,1693-10-01,2261758,Venda dos Moinhos,,*notfound*,"Venda dos Moinhos, Cumeeira, Penela, Coimbra",geonames-pt,39.96363,-8.36524
+Vila Rica do Ouro Preto,"Ouro Preto, Brasil",4,1745-10-01,1766-10-01,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+"Vila Rica do Ouro Preto, Brasil","Ouro Preto, Brasil",4,1748-10-01,1757-12-12,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+"Aldeia Galega, Ribatejo","Aldeia Galega, Aldeia Galega da Merceana, Alenquer, Lisboa",3,1669-10-01,1908-10-02,2272068,Aldeia Galega,,*notfound*,"Aldeia Galega, São João das Lampas, Sintra, Lisboa",geonames-pt,38.84225,-9.4064
+Baia,"Salvador, Brasil",3,1725-07-06,1765-07-09,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+"Belém, Pará","Belém, Pará, Brasil",3,1740-02-01,1778-11-14,3405870,Belém,,Q22060306,"Belém, Belém, Pará, Brasil",geonames-br,-1.45583,-48.50444
+"Brasil, Pernambuco","Recife, Pernambuco, Brasil",3,1610-10-19,1620-10-11,3390760,Recife,,Q22061296,"Recife, Recife, Pernambuco, Brasil",geonames-br,-8.05389,-34.88111
+"Campos de Goytacases, Brasil","Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",3,1823-10-04,1825-10-31,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+"Capitania do Espirito Santo, Brasil","Vila Velha, Vila Velha, Espírito Santo, Brasil",3,1755-10-01,1801-10-03,6321999,Vila Velha,,Q334197,"Vila Velha, Vila Velha, Espírito Santo, Brasil",geonames-br,-20.38479,-40.32262
+Congonhas do Sabará,"Congonhas, Brasil",3,1755-10-01,1757-10-01,6321292,Congonhas,,Q275654,"Congonhas, Congonhas, Minas Gerais, Brasil",geonames-br,-20.5316,-43.85905
+Corvaceira,Curvaceira,3,1761-10-29,1764-10-01,,,,,,,,
+"Hibérnia, Irlanda","Dublin, Irlanda",3,1597-03-15,1613-10-05,2964574,Dublin,,Q1761,"Dublin, Dublin, Dublin, Dublin",geonames-ie,53.33306,-6.24889
+"Minas de Ouro Preto, Brasil","Ouro Preto, Brasil",3,1743-10-01,1748-10-01,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+"Minas do Ouro Preto, Brasil","Ouro Preto, Brasil",3,1737-01-30,1760-06-06,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Minas do Sabará,"Sabará, Minas Gerais, Brasil",3,1747-10-01,1758-10-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Minas, Brasil","Ouro Preto, Minas Gerais, Brasil",3,1726-10-30,1868-10-15,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+"Paraíba do Norte, Brasil","Cabedelo, Cabedelo, Paraíba, Brasil",3,1752-02-16,1789-10-31,6320294,Cabedelo,,Q986350,"Cabedelo, Cabedelo, Paraíba, Brasil",geonames-br,-7.0272,-34.85044
+Santa Eulália de Besteiros,Campo de Besteiros,3,1713-10-01,1721-10-31,8014309,Campo de Besteiros,,Q154212,"Campo de Besteiros, Campo de Besteiros, Tondela, Viseu",geonames-pt,40.55886,-8.12466
+"Serro do Frio, Minas Gerais, Brasil","Serro, Serro, Minas Gerais, Brasil",3,1762-07-19,1802-10-07,6321864,Serro,,Q919904,"Serro, Serro, Minas Gerais, Brasil",geonames-br,-18.52041,-43.38075
+São  Cipriano,São Cipriano,3,1700-10-01,1796-10-05,8013893,São Cipriano,,Q93509,"São Cipriano, São Cipriano, Resende, Viseu",geonames-pt,41.06531,-7.98753
+São  Miguel do Outeiro,São Miguel do Outeiro,3,1696-10-01,1699-10-01,8014164,São Miguel do Outeiro,,Q154170,"São Miguel do Outeiro, São Miguel do Outeiro, Tondela, Viseu",geonames-pt,40.59923,-8.03533
+São  Romão,São Romão,3,1643-10-10,1671-10-01,8012259,São Romão,,Q1943011,"São Romão, São Romão, Seia, Guarda",geonames-pt,40.38636,-7.68734
+São Bartolomeu de Veiros,"Veiros, Veiros, Estarreja, Aveiro",3,1749-10-01,1762-10-01,8010776,Veiros,,Q2196358,"Veiros, Veiros, Estarreja, Aveiro",geonames-pt,40.75155,-8.60804
+"São Paulo, Angola","Luanda, Angola",3,1656-10-10,1734-10-01,2240449,Luanda,,Q3897,"Luanda, Maianga, Maianga, Luanda",geonames-ao,-8.83682,13.23432
+Vila Cova de Lixa,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",3,1735-10-01,1893-10-16,2732659,Vila da Lixa,,*notfound*,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",geonames-pt,41.3228,-8.14735
+Vila Cova de Sub-Avô,Vila Cova de Alva,3,1743-06-17,1907-10-05,8014288,Vila Cova de Alva,,Q3687,"Vila Cova de Alva, Vila Cova de Alva, Arganil, Coimbra",geonames-pt,40.27298,-7.93974
+Vila Fresca de Azeitão,"Vila Fresca, São Simão, Setúbal, Setúbal",3,1764-10-01,1783-10-07,2261637,Vila Fresca,,*notfound*,"Vila Fresca, São Simão, Setúbal, Setúbal",geonames-pt,38.52816,-8.99188
+Abravezes,Abraveses,2,1745-10-01,1765-10-01,8013982,Abraveses,,Q168332,"Abraveses, Abraveses, Viseu, Viseu",geonames-pt,40.6988,-7.89257
+"Algarve, Faro",Faro,2,1587-11-11,1685-03-13,2268339,Faro,,Q159457,"Faro, Faro (Sé), Faro, Faro",geonames-pt,37.01869,-7.92716
+"Algarve, Lagos","Lagos, Portugal",2,1585-10-02,1730-12-16,8010518,Lagos,,Q732548,"Lagos, Lagos (Santa Maria), Lagos, Faro",geonames-pt,37.09567,-8.67661
+"Algarve, Loulé",Loulé,2,1560-00-00,1599-10-08,2266988,Loulé,,Q49286086,"Loulé, Loulé (São Clemente), Loulé, Faro",geonames-pt,37.13772,-8.01968
+"Algarve, Silves",Silves,2,1561-10-06,1591-10-01,2262926,Silves,,Q49290226,"Silves, Silves, Silves, Faro",geonames-pt,37.18921,-8.43822
+Baía de Todos os Santos,"Salvador, Brasil",2,1658-02-12,1872-10-15,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+"Baía de Todos os Santos, Salvador, Brasil","Salvador, Brasil",2,1682-10-01,1695-10-01,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+"Besteiros, Paredes","Besteiros, Besteiros, Paredes, Porto",2,1898-10-13,1913-07-19,8012800,Besteiros,,Q830491,"Besteiros, Besteiros, Paredes, Porto",geonames-pt,41.22164,-8.35119
+"Campos de Goitacases, Brasil","Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",2,1840-10-12,1840-10-26,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+"Campos, Rio de Janeiro, Brasil","Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",2,1805-10-22,1823-10-10,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+"Castanheira, Pedrogão",Castanheira de Pera,2,1765-10-01,1782-10-26,2269557,Castanheira de Pera,,Q1013140,"Castanheira de Pera, Castanheira de Pêra, Castanheira de Pêra, Leiria",geonames-pt,40.00717,-8.21048
+"Castanheira, Pedrogão Grande",Castanheira de Pera,2,1758-10-01,1759-12-04,2269557,Castanheira de Pera,,Q1013140,"Castanheira de Pera, Castanheira de Pêra, Castanheira de Pêra, Leiria",geonames-pt,40.00717,-8.21048
+"Congonhas do Campo, Minas Gerais, Brasil","Congonhas, Minas Gerais, Brasil",2,1782-11-02,1820-10-21,6321292,Congonhas,,Q275654,"Congonhas, Congonhas, Minas Gerais, Brasil",geonames-br,-20.5316,-43.85905
+"Cuiabá, Brasil","Cuiabá, Cuiabá, Mato Grosso, Brasil",2,1779-11-13,1781-10-01,3465038,Cuiabá,,Q22067339,"Cuiabá, Cuiabá, Mato Grosso, Brasil",geonames-br,-15.59611,-56.09667
+Eiras de Quintal,"Eiras, Castelões, Tondela, Viseu",2,1762-10-01,1764-10-01,2740056,Eiras,,*notfound*,"Eiras, Castelões, Tondela, Viseu",geonames-pt,40.54983,-8.14562
+"Figueira, Pedrogão Grande","Figueira, Pedrógão Grande",2,1763-10-01,1764-10-01,2268215,Figueira,,*notfound*,"Figueira, Graça, Pedrógão Grande, Leiria",geonames-pt,39.92226,-8.23304
+Freixo de Espada a Cinta,Freixo de Espada à Cinta,2,1674-10-01,1845-10-10,2739222,Freixo de Espada à Cinta,,Q551684,"Freixo de Espada à Cinta, Freixo de Espada À Cinta, Freixo de Espada à Cinta, Bragança",geonames-pt,41.09033,-6.80648
+"Iguape, Baía, Brasil","Santiago do Iguape, Brasil",2,1820-10-30,1820-11-08,3449737,Santiago do Iguape,,*notfound*,"Santiago do Iguape, Cachoeira, Bahia, Brasil",geonames-br,-12.69125,-38.85697
+"Iguassú, Brasil","Foz do Iguaçu, Basil",2,1844-10-21,1852-10-28,,,,,,,,
+Ilha do Funchal,Funchal,2,1607-10-05,1767-10-01,2267827,Funchal,,Q25444,"Funchal, São Roque, Funchal, Madeira",geonames-pt,32.66568,-16.92547
+"Lisboa, Belém","Belém, Santa Maria de Belém, Lisboa, Lisboa",2,1686-10-01,1757-10-01,2270978,Belém,,Q376866,"Belém, Santa Maria de Belém, Lisboa, Lisboa",geonames-pt,38.69875,-9.19289
+"Maragogipi, Baía, Brasil","Maragogipe, Brasil",2,1793-10-18,1793-10-18,6320951,Maragogipe,,Q1761467,"Maragogipe, Maragogipe, Bahia, Brasil",geonames-br,-12.83511,-38.94024
+Marco de Canavezes,Marco de Canaveses,2,1695-10-01,1867-10-03,2737921,Marco de Canaveses,,*notfound*,"Marco de Canaveses, Tuias, Marco de Canaveses, Porto",geonames-pt,41.18389,-8.14864
+Muna de Besteiros,Muna,2,1729-11-23,1763-12-01,2737260,Muna,,*notfound*,"Muna, Santiago de Besteiros, Tondela, Viseu",geonames-pt,40.59305,-8.11869
+"Paraiba, Brasil","Cabedelo, Cabedelo, Paraíba, Brasil",2,1629-10-02,1783-10-29,6320294,Cabedelo,,Q986350,"Cabedelo, Cabedelo, Paraíba, Brasil",geonames-br,-7.0272,-34.85044
+"Paranhos, Besteiros","Paranho, Caparrosa, Tondela, Viseu",2,1762-10-01,1762-10-01,2736683,Paranho,,*notfound*,"Paranho, Caparrosa, Tondela, Viseu",geonames-pt,40.61277,-8.10004
+Pedrogão do Crato,"Pedrógão, Crato",2,1757-10-01,1758-10-01,,,,,,,,
+"Pedrogão, Penamacor","Pedrógão, Penamacor",2,1764-10-01,1765-10-01,2736530,Pedrógão,,*notfound*,"Pedrógão, Pedrógão de São Pedro, Penamacor, Castelo Branco",geonames-pt,40.08859,-7.23846
+"Pedrogão, Torres Novas","Pedrógão, Torres Novas",2,1760-10-01,1775-10-01,8013081,Pedrógão,,Q2066917,"Pedrógão, Pedrógão, Torres Novas, Santarém",geonames-pt,39.52192,-8.61187
+"Quinta da Graciosa, Aveiro",Alfeloas,2,1855-10-02,1860-06-16,,,,,,,,
+"Rio das Contas, Baía, Brasil","Rio de Contas, Rio de Contas, Bahia, Brasil",2,1816-10-31,1824-10-06,6321021,Rio de Contas,,Q1649466,"Rio de Contas, Rio de Contas, Bahia, Brasil",geonames-br,-13.62169,-41.68702
+"Sabugosa, Campos de Besteiros","Sabugosa, Sabugosa, Tondela, Viseu",2,1687-10-01,1687-10-01,8013971,Sabugosa,,Q154159,"Sabugosa, Sabugosa, Tondela, Viseu",geonames-pt,40.5662,-8.02643
+Salvaterra de Extremo,Salvaterra do Extremo,2,1888-10-05,1889-10-14,8014844,Salvaterra do Extremo,,Q928737,"Salvaterra do Extremo, Salvaterra do Extremo, Idanha-a-Nova, Castelo Branco",geonames-pt,39.90199,-6.9512
+Santiago de Cassurães,Santiago de Cassurrães,2,1684-10-01,1840-10-10,8014351,Santiago de Cassurrães,,Q74387,"Santiago de Cassurrães, Santiago de Cassurrães, Mangualde, Viseu",geonames-pt,40.57387,-7.70109
+São  Joaninho,São Joaninho,2,1683-12-01,1717-01-31,8013779,São Joaninho,,Q64746,"São Joaninho, São Joaninho, Castro Daire, Viseu",geonames-pt,40.91745,-7.85486
+São  João de Fontoura,São João de Fontoura,2,1729-10-01,1769-11-15,8014641,São João de Fontoura,,Q93519,"São João de Fontoura, São João de Fontoura, Resende, Viseu",geonames-pt,41.10401,-7.92054
+São  Martinho do Bispo,São Martinho do Bispo,2,1688-10-01,1845-10-13,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+"São  Martinho do Bispo, Coimbra",São Martinho do Bispo,2,1754-10-01,1757-10-01,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+São  Miguel de Acha,São Miguel de Acha,2,1658-11-09,1703-10-01,8014260,São Miguel de Acha,,Q1295030,"São Miguel de Acha, São Miguel de Acha, Idanha-a-Nova, Castelo Branco",geonames-pt,40.01409,-7.31276
+São  Pedro,São Pedro,2,1720-10-25,1746-10-01,8011832,São Pedro,,Q1024236,"São Pedro, São Pedro, Figueira da Foz, Coimbra",geonames-pt,40.12929,-8.85312
+São  Romão de Arões,São Romão de Arões,2,1899-10-13,1900-06-13,,,,,,,,
+"São João d'El Rei, Brasil","São João del Rei, São João del Rei, Minas Gerais, Brasil",2,1776-12-20,1818-11-04,6321805,São João del Rei,,Q740965,"São João del Rei, São João del Rei, Minas Gerais, Brasil",geonames-br,-21.25033,-44.24481
+São João da Pequeira,São João da Pesqueira,2,1740-07-07,1797-10-05,2734483,São João da Pesqueira,,Q1010466,"São João da Pesqueira, São João da Pesqueira, São João da Pesqueira, Viseu",geonames-pt,41.14805,-7.40489
+"São João de El Rei, Minas Gerais, Brasil","São João del Rei, São João del Rei, Minas Gerais, Brasil",2,1819-10-13,1849-10-31,6321805,São João del Rei,,Q740965,"São João del Rei, São João del Rei, Minas Gerais, Brasil",geonames-br,-21.25033,-44.24481
+São Martinho da Gandra,São Martinho da Gandâra,2,1757-10-01,1762-01-15,,,,,,,,
+"São Martinho do Bispo, Coimbra",São Martinho do Bispo,2,1557-02-01,1621-10-11,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+São Martinho do Lago,"Lago, Amares",2,1589-11-28,1590-11-09,8010939,Lago,,Q1022889,"Lago, Lago, Amares, Braga",geonames-pt,41.6157,-8.41912
+"São Miguel, Entre Ambos-os-Rios","Entre-os-Rios, Eja, Penafiel",2,1751-10-01,1753-10-01,2740018,Entre-os-Rios,,*notfound*,"Entre-os-Rios, Eja, Penafiel, Porto",geonames-pt,41.08901,-8.29227
+"São Salvador dos Campos de Goitacazes, Brasil","Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",2,1803-10-31,1819-10-16,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+SãoJorge,São Jorge,2,1733-10-01,1745-10-01,8013202,São Jorge,,Q1022072,"São Jorge, São Jorge, Arcos de Valdevez, Viana do Castelo",geonames-pt,41.82398,-8.34969
+"Tojal, Lisboa","Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",2,1586-10-20,1781-10-17,8014144,Santo Antão do Tojal,,Q738803,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",geonames-pt,38.85682,-9.15534
+"Veiros, Aveiro","Veiros, Veiros, Estarreja, Aveiro",2,1816-07-12,1819-11-09,8010776,Veiros,,Q2196358,"Veiros, Veiros, Estarreja, Aveiro",geonames-pt,40.75155,-8.60804
+"Vila Rica, Ouro Preto, Brasil","Ouro Preto, Brasil",2,1752-10-01,1763-10-01,6321620,Ouro Preto,,Q188905,"Ouro Preto, Ouro Preto, Minas Gerais, Brasil",geonames-br,-20.39304,-43.64191
+Abrunhosa Velha,Abrunhosa-a-Velha,1,1755-10-01,1755-10-01,8013813,Abrunhosa-a-Velha,,Q74617,"Abrunhosa-a-Velha, Abrunhosa-a-Velha, Mangualde, Viseu",geonames-pt,40.57766,-7.62266
+Abrunhosa do Ladário,"Abrunhosa, São Miguel de Vila Boa, Sátão, Viseu",1,1758-11-27,1758-11-27,2743422,Abrunhosa,,*notfound*,"Abrunhosa, São Miguel de Vila Boa, Sátão, Viseu",geonames-pt,40.70577,-7.73874
+Abrunhosa do Mato,"Abrunhosa, Cunha Baixa, Mangualde, Viseu",1,1899-10-09,1899-10-09,2743423,Abrunhosa,,*notfound*,"Abrunhosa, Cunha Baixa, Mangualde, Viseu",geonames-pt,40.54365,-7.74646
+Adémia de Baixo,Adémia,1,1868-10-13,1868-10-13,,,,,,,,
+"Alagoa, Brasil","Penedo, Alagoas, Brasil",1,1806-07-10,1806-07-10,3454224,Penedo,,Q1772658,"Penedo, Penedo, Alagoas, Brasil",geonames-br,-10.24448,-36.46992
+"Alagoa, Pernambuco, Brasil","Penedo, Alagoas, Brasil",1,1779-10-30,1779-10-30,3454224,Penedo,,Q1772658,"Penedo, Penedo, Alagoas, Brasil",geonames-br,-10.24448,-36.46992
+"Alagoas, Brasil","Penedo, Alagoas, Brasil",1,1802-10-02,1802-10-02,3454224,Penedo,,Q1772658,"Penedo, Penedo, Alagoas, Brasil",geonames-br,-10.24448,-36.46992
+"Alagôa, Brasil","Penedo, Alagoas, Brasil",1,1719-10-01,1719-10-01,3454224,Penedo,,Q1772658,"Penedo, Penedo, Alagoas, Brasil",geonames-br,-10.24448,-36.46992
+"Alconchel, Castela","Alconchel, Llanos de Olivenza, Espanha",1,1554-12-01,1554-12-01,,,,,,,,
+"Alcântara, São Luís do Maranhão, Brasil","Alcântara, Maranhão, Brasil",1,1818-12-23,1818-12-23,6319634,Alcântara,,Q939522,"Alcântara, Alcântara, Maranhão, Brasil",geonames-br,-2.32768,-44.50617
+"Aldeia Galega, Alenquer","Aldeia Galega, Aldeia Galega da Merceana, Alenquer, Lisboa",1,1689-10-01,1689-10-01,2272068,Aldeia Galega,,*notfound*,"Aldeia Galega, São João das Lampas, Sintra, Lisboa",geonames-pt,38.84225,-9.4064
+"Aldeia Galega, Marciana","Aldeia Galega, Aldeia Galega da Merceana, Alenquer, Lisboa",1,1578-10-30,1578-10-30,2272068,Aldeia Galega,,*notfound*,"Aldeia Galega, São João das Lampas, Sintra, Lisboa",geonames-pt,38.84225,-9.4064
+"Aldeia Galega, Merciana","Aldeia Galega, Aldeia Galega da Merceana, Alenquer, Lisboa",1,1583-00-00,1583-00-00,2272068,Aldeia Galega,,*notfound*,"Aldeia Galega, São João das Lampas, Sintra, Lisboa",geonames-pt,38.84225,-9.4064
+Alvações de Tanha,Alvações do Tanha,1,1574-10-08,1574-10-08,2743007,Alvações do Tanha,,*notfound*,"Alvações do Tanha, Vilarinho dos Freires, Peso da Régua, Vila Real",geonames-pt,41.19162,-7.74355
+"Amial, Vila Pouca do Campo","Vila Pouca, Ameal, Coimbra, Coimbra",1,1762-10-01,1762-10-01,2732530,Vila Pouca,,*notfound*,"Vila Pouca, Ameal, Coimbra, Coimbra",geonames-pt,40.19119,-8.52393
+"Angola, Castelo","Luanda, Angola",1,1804-10-04,1804-10-04,2240449,Luanda,,Q3897,"Luanda, Maianga, Maianga, Luanda",geonames-ao,-8.83682,13.23432
+"Angola, Luanda","Luanda, Angola",1,1693-10-01,1693-10-01,2240449,Luanda,,Q3897,"Luanda, Maianga, Maianga, Luanda",geonames-ao,-8.83682,13.23432
+Arcos de Valdevevez,Arcos de Valdevez,1,1663-03-13,1663-03-13,8010627,Arcos de Valdevez,,Q490302,"Arcos de Valdevez, Gondoriz, Arcos de Valdevez, Viana do Castelo",geonames-pt,41.87348,-8.42624
+"Arneiros, Lamego",Arneirós,1,1745-05-18,1745-05-18,2742713,Arneirós,,*notfound*,"Arneirós, Vila Nova de Souto D' El-Rei, Lamego, Viseu",geonames-pt,41.08444,-7.81522
+"Arraial de Santa Rita, Sabará","Arraial de Santa Rita, Sabará, Brasil",1,1755-10-01,1755-10-01,,,,,,,,
+"Arraial do Tejuco, Serro do Frio, Brasil","Diamantina, Brasil",1,1782-10-08,1782-10-08,3464728,Diamantina,,*notfound*,"Diamantina, Diamantina, Minas Gerais, Brasil",geonames-br,-18.24692,-43.60345
+"Arrancada, Aveiro","Arrancada, Valongo do Vouga, Águeda, Aveiro",1,1805-10-30,1805-10-30,2742693,Arrancada,,*notfound*,"Arrancada, Valongo do Vouga, Águeda, Aveiro",geonames-pt,40.61771,-8.42388
+"Arrancada, Águeda","Arrancada, Valongo do Vouga, Águeda, Aveiro",1,1908-10-02,1908-10-02,2742693,Arrancada,,*notfound*,"Arrancada, Valongo do Vouga, Águeda, Aveiro",geonames-pt,40.61771,-8.42388
+Arrifana de Besteiros,"Arrifana, Campo de Besteiros, Tondela, Viseu",1,1700-10-01,1700-10-01,2742680,Arrifana,,*notfound*,"Arrifana, Cabril, Castro Daire, Viseu",geonames-pt,40.95736,-8.09037
+"Arrifana, Poiares","Arrifana, Arrifana, Vila Nova de Poiares, Coimbra",1,1761-10-01,1761-10-01,8011907,Arrifana,,Q699845,"Arrifana, Arrifana, Vila Nova de Poiares, Coimbra",geonames-pt,40.22172,-8.29248
+"Azeitão, Setúbal","Vila Nogueira, São Lourenço, Setúbal, Setúbal",1,1738-10-01,1738-10-01,2261633,Vila Nogueira,,*notfound*,"Vila Nogueira, São Lourenço, Setúbal, Setúbal",geonames-pt,38.51667,-9.01667
+"Barcelos, Ruivães",Ruivães,1,1761-10-01,1761-10-01,8011290,Ruivães,,Q588076,"Ruivães, Ruivães, Vieira do Minho, Braga",geonames-pt,41.6641,-8.04529
+"Barreiro, Besteiros",Barreiro de Besteiros,1,1758-10-01,1758-10-01,8014161,Barreiro de Besteiros,,Q154147,"Barreiro de Besteiros, Barreiro de Besteiros, Tondela, Viseu",geonames-pt,40.50041,-8.16844
+"Baái, Brasil","Salvador, Bahia, Brasil",1,1738-11-15,1738-11-15,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+"Baía, , Brasil","Salvador, Bahia, Brasil",1,1894-10-23,1894-10-23,3450554,Salvador,,Q32148682,"Salvador, Salvador, Bahia, Brasil",geonames-br,-12.97111,-38.51083
+"Baía, Minas do Sabará, Brasil","Sabará, Minas Gerais, Brasil",1,1741-11-01,1741-11-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Belver, Torre de Moncorvo","Belver, Belver, Carrazeda de Ansiães, Bragança",1,1760-10-01,1760-10-01,8011458,Belver,,Q816270,"Belver, Belver, Carrazeda de Ansiães, Bragança",geonames-pt,41.24975,-7.26695
+Bem-Viver,"Sande, Sande, Marco de Canaveses, Porto",1,1806-10-04,1806-10-04,8012769,Sande,,Q1027096,"Sande, Sande, Marco de Canaveses, Porto",geonames-pt,41.1116,-8.1653
+"Besteiros, Braga","Besteiros, Besteiros, Amares, Braga",1,1882-10-02,1882-10-02,8010929,Besteiros,,Q830485,"Besteiros, Besteiros, Amares, Braga",geonames-pt,41.63874,-8.37134
+"Besteiros, Castelões","Castelões, Castelões, Tondela, Viseu",1,1759-10-01,1759-10-01,8013964,Castelões,,Q154152,"Castelões, Castelões, Tondela, Viseu",geonames-pt,40.54077,-8.14598
+"Besteiros, Santa Eulália",Campo de Besteiros,1,1727-10-01,1727-10-01,8014309,Campo de Besteiros,,Q154212,"Campo de Besteiros, Campo de Besteiros, Tondela, Viseu",geonames-pt,40.55886,-8.12466
+"Brasil, Paraíba","Cabedelo, Cabedelo, Paraíba, Brasil",1,1626-10-02,1626-10-02,6320294,Cabedelo,,Q986350,"Cabedelo, Cabedelo, Paraíba, Brasil",geonames-br,-7.0272,-34.85044
+"Cachoeira, Baia, Brasil","Cachoeira, Cachoeira, Bahia, Brasil",1,1815-10-17,1815-10-17,3468535,Cachoeira,,Q22063160,"Cachoeira, Cachoeira, Bahia, Brasil",geonames-br,-12.60139,-38.96576
+"Cachoeiro da Baía, Brasil","Cachoeira, Cachoeira, Bahia, Brasil",1,1726-10-01,1726-10-01,3468535,Cachoeira,,Q22063160,"Cachoeira, Cachoeira, Bahia, Brasil",geonames-br,-12.60139,-38.96576
+"Cal, Currelos",Vila da Cal,1,1812-10-29,1812-10-29,2732660,Vila da Cal,,*notfound*,"Vila da Cal, Currelos, Carregal do Sal, Viseu",geonames-pt,40.42293,-7.9974
+"Campos de Goitacazes, Brasil","Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",1,1847-10-25,1847-10-25,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+"Campos dos Goitacazes, Brasil","Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",1,1819-05-24,1819-05-24,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+"Campos, Brasil","Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",1,1858-10-08,1858-10-08,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+Canas  de Senhorim,Canas de Senhorim,1,1824-10-02,1824-10-02,8014160,Canas de Senhorim,,Q74854,"Canas de Senhorim, Canas de Senhorim, Nelas, Viseu",geonames-pt,40.50061,-7.90099
+Cantarinha,Cantarinhas,1,1747-06-09,1747-06-09,,,,,,,,
+"Capivari, Rio de Janeiro, Brasil","Capivari, Duque de Caxias, Rio de Janeiro, Brasil",1,1859-10-04,1859-10-04,3480637,Capivari,,*notfound*,"Capivari, Duque de Caxias, Rio de Janeiro, Brasil",geonames-br,-22.64499,-43.33203
+"Carvalhal, Besteiros","Carvalhal, Tondela, Tondela, Viseu",1,1550-12-20,1550-12-20,2741345,Carvalhal,,*notfound*,"Carvalhal, Tondela, Tondela, Viseu",geonames-pt,40.51028,-8.09157
+Casais de SãoMateus,Casais de São Mateus,1,1750-10-01,1750-10-01,,,,,,,,
+"Casais, São Martinho do Bispo",São Martinho do Bispo,1,1770-10-01,1770-10-01,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+"Casas Novas, São Martinho do Bispo",São Martinho do Bispo,1,1703-10-01,1703-10-01,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+Castelo  de Vide,Castelo de Vide,1,1655-10-22,1655-10-22,6930628,Castelo de Vide,,Q1000037,"Castelo de Vide, Santiago Maior, Castelo de Vide, Portalegre",geonames-pt,39.43336,-7.51465
+Castelo-Branco,Castelo Branco,1,1872-10-15,1872-10-15,2269514,Castelo Branco,,Q12899232,"Castelo Branco, Castelo Branco, Castelo Branco, Castelo Branco",geonames-pt,39.82219,-7.49087
+"Codeceira, Castela","La Condosera,Espanha",1,1782-10-29,1782-10-29,,,,,,,,
+"Coimbra, Cernache",Cernache,1,1799-10-04,1799-10-04,8011798,Cernache,,Q1055349,"Cernache, Cernache, Coimbra, Coimbra",geonames-pt,40.13581,-8.46187
+"Congonha do Sabara, Brasil","Congonhas, Brasil",1,1754-10-01,1754-10-01,6321292,Congonhas,,Q275654,"Congonhas, Congonhas, Minas Gerais, Brasil",geonames-br,-20.5316,-43.85905
+"Congonhas do Sabará, Brasil","Congonhas, Minas Gerais, Brasil",1,1816-10-16,1816-10-16,6321292,Congonhas,,Q275654,"Congonhas, Congonhas, Minas Gerais, Brasil",geonames-br,-20.5316,-43.85905
+"Congonhas, Sabará","Congonhas, Minas Gerais, Brasil",1,1787-10-30,1787-10-30,6321292,Congonhas,,Q275654,"Congonhas, Congonhas, Minas Gerais, Brasil",geonames-br,-20.5316,-43.85905
+"Correlos, Viseu",Currelos,1,1841-10-06,1841-10-06,8013756,Currelos,,Q64377,"Currelos, Currelos, Carregal do Sal, Viseu",geonames-pt,40.42263,-8.00089
+Covlhã,Covilhã,1,1659-01-16,1659-01-16,8010474,Covilhã,,Q849026,"Covilhã, Cantar-Galo, Covilhã, Castelo Branco",geonames-pt,40.29227,-7.50366
+"Crato, Pedrogão","Pedrógão, Crato",1,1757-10-01,1757-10-01,,,,,,,,
+Damão,"Damão, Índia",1,1842-10-12,1842-10-12,,,,,,,,
+"Dardavaz, Besteiros","Dardavaz, Dardavaz, Tondela, Viseu",1,1591-11-02,1591-11-02,8013965,Dardavaz,,Q154070,"Dardavaz, Dardavaz, Tondela, Viseu",geonames-pt,40.4755,-8.12236
+"Espírito Santo, Rio de Janeiro, Brasil","Vila Velha, Vila Velha, Espírito Santo, Brasil",1,1759-12-06,1759-12-06,6321999,Vila Velha,,Q334197,"Vila Velha, Vila Velha, Espírito Santo, Brasil",geonames-br,-20.38479,-40.32262
+"Fala, São Martinho do Bispo",São Martinho do Bispo,1,1721-10-27,1721-10-27,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+Figueiró da Lixa,"Figueiró, Figueiró (Santa Cristina), Amarante, Porto",1,1897-10-13,1897-10-13,2739566,Figueiró,,Q49350156,"Figueiró, Figueiró (Santa Cristina), Amarante, Porto",geonames-pt,41.29922,-8.16779
+Fontes Barrocas,Fontes Barrosas,1,1740-10-01,1740-10-01,,,,,,,,
+"Formoselha, Matrículas nº 84, fl 344","Formoselha, Montemor-o-Velho, Coimbra",1,1766-10-01,1766-10-01,2739379,Formoselha,,*notfound*,"Formoselha, Santo Varão, Montemor-o-Velho, Coimbra",geonames-pt,40.17996,-8.61377
+Fornos de Macieira Dão,Fornos de Maceira Dão,1,1819-11-12,1819-11-12,8014376,Fornos de Maceira Dão,,Q74475,"Fornos de Maceira Dão, Fornos de Maceira Dão, Mangualde, Viseu",geonames-pt,40.6137,-7.81274
+"Freigin, Santa Cruz","Fregim, Fregim, Amarante, Porto",1,1765-10-01,1765-10-01,8012640,Fregim,,Q1023224,"Fregim, Fregim, Amarante, Porto",geonames-pt,41.26685,-8.1148
+"Freixo, Tomar","Alviboeira, Tomar",1,1800-10-13,1800-10-13,8013060,Alviobeira,,Q449372,"Alviobeira, Alviobeira, Tomar, Santarém",geonames-pt,39.68286,-8.3537
+"Galveia, Irlanda","Gallway, Irlanda",1,1750-10-01,1750-10-01,,,,,,,,
+"Gran Pará, Brasil","Grão Pará, Brasil",1,1763-10-01,1763-10-01,6323131,Grão Pará,,Q1764998,"Grão Pará, Grão-Pará, Santa Catarina, Brasil",geonames-br,-28.1358,-49.31612
+"Grã Pará, Brasil","Grão Pará, Brasil",1,1791-10-31,1791-10-31,6323131,Grão Pará,,Q1764998,"Grão Pará, Grão-Pará, Santa Catarina, Brasil",geonames-br,-28.1358,-49.31612
+"Grão, Pará, Brasil","Grão Pará, Brasil",1,1817-11-05,1817-11-05,6323131,Grão Pará,,Q1764998,"Grão Pará, Grão-Pará, Santa Catarina, Brasil",geonames-br,-28.1358,-49.31612
+"Guaripiranga, Brasil","Piranga, Piranga, Minas Gerais, Brasil",1,1754-01-13,1754-01-13,6321675,Piranga,,Q1789518,"Piranga, Piranga, Minas Gerais, Brasil",geonames-br,-20.62892,-43.28354
+Guizandaria,Guizanderia,1,1809-12-16,1809-12-16,,,,,,,,
+"Hubernea, Irlanda","Dublin, Irlanda",1,1594-04-21,1594-04-21,2964574,Dublin,,Q1761,"Dublin, Dublin, Dublin, Dublin",geonames-ie,53.33306,-6.24889
+Ilha  Terceira,Ilha Terceira,1,1672-11-12,1672-11-12,3372530,Ilha Terceira,,Q215074,"Ilha Terceira, Porto Judeu, Angra do Heroísmo, Azores",geonames-pt,38.71667,-27.21667
+Ilha Brava,"Ilha Brava, Cabo Verde",1,1873-07-14,1873-07-14,3374831,Ilha Brava,,Q492528,"Ilha Brava, Brava",geonames-cv,14.84873,-24.70525
+Ilha Madeira,Funchal,1,1737-10-01,1737-10-01,2267827,Funchal,,Q25444,"Funchal, São Roque, Funchal, Madeira",geonames-pt,32.66568,-16.92547
+Ilha Santa Maria,"Ilha Santa Maria, Açores",1,1795-10-12,1795-10-12,3372641,Ilha de Santa Maria,,Q217262,"Ilha de Santa Maria, São Pedro, Vila do Porto, Azores",geonames-pt,36.97914,-25.10359
+"Ilha Terceira, Ilha de São Miguel",Angra do Heroísmo,1,1650-11-12,1650-11-12,8010691,Angra do Heroísmo,,Q193677,"Angra do Heroísmo, Terra Chã, Angra do Heroísmo, Azores",geonames-pt,38.69526,-27.24913
+Ilha da Irlanda,"Dublin, Irlanda",1,1692-10-01,1692-10-01,2964574,Dublin,,Q1761,"Dublin, Dublin, Dublin, Dublin",geonames-ie,53.33306,-6.24889
+Ilha da madeira,Funchal,1,1676-10-01,1676-10-01,2267827,Funchal,,Q25444,"Funchal, São Roque, Funchal, Madeira",geonames-pt,32.66568,-16.92547
+Ilha de Graciosa,"Santa Cruz da Graciosa, Guadalupe, Santa Cruz da Graciosa, Açores",1,1543-00-00,1543-00-00,8010693,Santa Cruz da Graciosa,,Q1010463,"Santa Cruz da Graciosa, Guadalupe, Santa Cruz da Graciosa, Azores",geonames-pt,39.04946,-28.00432
+Ilha de Madeira,Funchal,1,1894-10-15,1894-10-15,2267827,Funchal,,Q25444,"Funchal, São Roque, Funchal, Madeira",geonames-pt,32.66568,-16.92547
+"Ilha de São  Nicolau, Cabo Verde","Ilha de São Nicolau, Cabo Verde",1,1888-11-03,1888-11-03,3374202,Ilha de São Nicolau,,Q492509,"Ilha de São Nicolau, Ribeira Brava",geonames-cv,16.61103,-24.26047
+Ilha de São  Tomé,Ilha de São Tomé,1,1897-10-15,1897-10-15,,,,,,,,
+Junqueiros,Junqueiro,1,1853-10-19,1853-10-19,,,,,,,,
+Labrugeira,Labrujeira,1,1632-11-03,1632-11-03,,,,,,,,
+"Lafões, SãoVicente","Lafões, São Vicente",1,1665-10-01,1665-10-01,,,,,,,,
+Lageosa de Celorico,"Lajeosa, Lajeosa do Mondego, Celorico da Beira, Guarda",1,1822-10-26,1822-10-26,2738513,Lajeosa,,*notfound*,"Lajeosa, Lajeosa do Mondego, Celorico da Beira, Guarda",geonames-pt,40.63333,-7.33333
+Lageosa de Lagos,"Lageosa, Lagos da Beira",1,1852-10-27,1852-10-27,,,,,,,,
+"Lageosa, Lagos","Lageosa, Lagos da Beira",1,1753-10-01,1753-10-01,,,,,,,,
+"Lamego, Arneiros",Arneirós,1,1674-10-01,1674-10-01,2742713,Arneirós,,*notfound*,"Arneirós, Vila Nova de Souto D' El-Rei, Lamego, Viseu",geonames-pt,41.08444,-7.81522
+Lameira de São Giraldo,Lameira de São Geraldo,1,1746-10-01,1746-10-01,2738450,Lameira de São Geraldo,,*notfound*,"Lameira de São Geraldo, Vacariça, Mealhada, Aveiro",geonames-pt,40.3819,-8.39977
+"Longroiva, São Comba","Longroiva, Santa Comba",1,1718-12-09,1718-12-09,,,,,,,,
+Lourosa de São Tiago de Besteiros,"Lourosa, Santiago de Besteiros, Tondela, Viseu",1,1727-10-01,1727-10-01,2738161,Lourosa,,*notfound*,"Lourosa, Santiago de Besteiros, Tondela, Viseu",geonames-pt,40.5741,-8.12912
+"Lourosa, São Tiago de Besteiros","Lourosa, Santiago de Besteiros, Tondela, Viseu",1,1726-11-05,1726-11-05,2738161,Lourosa,,*notfound*,"Lourosa, Santiago de Besteiros, Tondela, Viseu",geonames-pt,40.5741,-8.12912
+Macieira de Alcoba,Macieira de Alcôba,1,1761-10-01,1761-10-01,,,,,,,,
+"Merceana, Aldeia Galega","Aldeia Galega, Aldeia Galega da Merceana, Alenquer, Lisboa",1,1550-02-06,1550-02-06,2272068,Aldeia Galega,,*notfound*,"Aldeia Galega, São João das Lampas, Sintra, Lisboa",geonames-pt,38.84225,-9.4064
+"Merciana, Aldeia Galega","Aldeia Galega, Aldeia Galega da Merceana, Alenquer, Lisboa",1,1765-10-01,1765-10-01,2272068,Aldeia Galega,,*notfound*,"Aldeia Galega, São João das Lampas, Sintra, Lisboa",geonames-pt,38.84225,-9.4064
+"Minas de Sabará, Brasil","Sabará, Minas Gerais, Brasil",1,1734-11-16,1734-11-16,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Minas do Sabará, Vila Real","Sabará, Minas Gerais, Brasil",1,1761-10-01,1761-10-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Minas, Congonhas do Sabará","Congonhas, Brasil",1,1740-10-01,1740-10-01,6321292,Congonhas,,Q275654,"Congonhas, Congonhas, Minas Gerais, Brasil",geonames-br,-20.5316,-43.85905
+"Minhas do Sabará, Brasil","Sabará, Minas Gerais, Brasil",1,1761-10-01,1761-10-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+Montemor-O-Velho,Montemor-o- Velho,1,1756-01-09,1756-01-09,,,,,,,,
+Mosteiro de Penaverde,"Mosteiro, Pena Verde, Aguiar da Beira, Guarda",1,1814-10-15,1814-10-15,2737347,Mosteiro,,*notfound*,"Mosteiro, Pena Verde, Aguiar da Beira, Guarda",geonames-pt,40.7247,-7.49458
+"Mosteiro, Besteiros","Mosteiro, Mosteiro de Fráguas, Tondela, Viseu",1,1761-10-01,1761-10-01,2737344,Mosteiro,,*notfound*,"Mosteiro, Castro Daire, Castro Daire, Viseu",geonames-pt,40.89337,-7.92419
+"Muna, São Tiago de Besteiros",Muna,1,1732-10-01,1732-10-01,2737260,Muna,,*notfound*,"Muna, Santiago de Besteiros, Tondela, Viseu",geonames-pt,40.59305,-8.11869
+"Niteroi, Brasil",Niterói: Brasil,1,1861-10-12,1861-10-12,,,,,,,,
+"Nogueiras, Vieira","Nogueiras e Sanfins, Cantelães, Vieira do Minho, Braga",1,1739-10-01,1739-10-01,,,,,,,,
+"Nossa Senhora de Belém, Pará, Brasil","Belém, Pará, Brasil",1,1814-10-24,1814-10-24,3405870,Belém,,Q22060306,"Belém, Belém, Pará, Brasil",geonames-br,-1.45583,-48.50444
+"Nossa Senhora de Populo, Benguela, Angola","Benguela, Angola",1,1899-10-02,1899-10-02,3351663,Benguela,,Q214248,"Benguela, Benguela, Benguela, Benguela",geonames-ao,-12.57626,13.40547
+"Olivença, Elvas","Olivenza, Espanha",1,1798-10-02,1798-10-02,9883562,Olivenza,,Q120170977,"Olivenza, Olivenza, Badajoz, Extremadura",geonames-es,38.68269,-7.10046
+"Olivença, Espanha","Olivenza, Espanha",1,1871-10-07,1871-10-07,9883562,Olivenza,,Q120170977,"Olivenza, Olivenza, Badajoz, Extremadura",geonames-es,38.68269,-7.10046
+"Olivença, Salamanca","Olivenza, Espanha",1,1672-11-29,1672-11-29,9883562,Olivenza,,Q120170977,"Olivenza, Olivenza, Badajoz, Extremadura",geonames-es,38.68269,-7.10046
+"Paiva, Sardoura","Sardoura, Castelo de Paiva",1,1764-10-01,1764-10-01,2734266,Sardoura,,*notfound*,"Sardoura, Santa Maria de Sardoura, Castelo de Paiva, Aveiro",geonames-pt,41.0583,-8.29653
+"Palheira, Pedrogão Grande","Palheira, Pedrógão Grande",1,1799-10-08,1799-10-08,,,,,,,,
+"Palomares de Campo, Castela","Palomares del Campo, Espanha",1,1585-01-01,1585-01-01,2512965,Palomares del Campo,,Q24011524,"Palomares del Campo, Palomares del Campo, Cuenca, Castilla-La Mancha",geonames-es,39.94664,-2.59776
+"Parada e Barbudo, Braga","Barbudo, Barbudo, Vila Verde, Braga",1,1898-10-12,1898-10-12,8011344,Barbudo,,Q807883,"Barbudo, Barbudo, Vila Verde, Braga",geonames-pt,41.64841,-8.44848
+"Paranho, Besteiros","Paranho, Caparrosa, Tondela, Viseu",1,1751-10-01,1751-10-01,2736683,Paranho,,*notfound*,"Paranho, Caparrosa, Tondela, Viseu",geonames-pt,40.61277,-8.10004
+Paredinha,Paredinhas,1,1712-10-01,1712-10-01,,,,,,,,
+"Pedrogão Grande, Crato","Pedrógão Grande, Crato",1,1804-10-04,1804-10-04,,,,,,,,
+"Pedrogão Grande, Gestosa","Pedrógão Grande, Gestosa",1,1764-10-01,1764-10-01,,,,,,,,
+"Pedrogão Grande, Leiria","Pedrógão Grande, Leiria",1,1868-10-02,1868-10-02,2265000,Pedrógão Grande,,*notfound*,"Pedrógão Grande, Pedrógão Grande, Pedrógão Grande, Leiria",geonames-pt,39.91835,-8.1459
+"Pedrogão, Beja","Pedrógão, Beja",1,1852-10-08,1852-10-08,8010924,Pedrógão,,Q923847,"Pedrógão, Pedrógão, Vidigueira, Beja",geonames-pt,38.15836,-7.62728
+"Pedrogão, Castelo Branco","Pedrógão, Castelo Branco",1,1860-10-02,1860-10-02,2736530,Pedrógão,,*notfound*,"Pedrógão, Pedrógão de São Pedro, Penamacor, Castelo Branco",geonames-pt,40.08859,-7.23846
+"Pedrogão, Castelo- Branco","Pedrógão, Castelo-Branco",1,1818-10-31,1818-10-31,2736530,Pedrógão,,*notfound*,"Pedrógão, Pedrógão de São Pedro, Penamacor, Castelo Branco",geonames-pt,40.08859,-7.23846
+"Pedrogão, Castelo-Branco","Pedrógão, Castelo-Branco",1,1807-10-05,1807-10-05,2736530,Pedrógão,,*notfound*,"Pedrógão, Pedrógão de São Pedro, Penamacor, Castelo Branco",geonames-pt,40.08859,-7.23846
+"Pedrogão, Guarda","Pedrógão, Guarda",1,1769-12-01,1769-12-01,,,,,,,,
+"Pedrogão, Marvão","Pedrógão, Marvão",1,1596-10-05,1596-10-05,,,,,,,,
+"Pedrogão, Penamacôr","Pedrógão, Penamacôr",1,1770-10-01,1770-10-01,2736530,Pedrógão,,*notfound*,"Pedrógão, Pedrógão de São Pedro, Penamacor, Castelo Branco",geonames-pt,40.08859,-7.23846
+"Pedrogão, Vinha da Rainha","Pedrógão, Vinha da Rainha",1,1726-10-01,1726-10-01,2736531,Pedrógão,,*notfound*,"Pedrógão, Vinha da Rainha, Soure, Coimbra",geonames-pt,40.0716,-8.7291
+Pedrulha do Monte,"Pedrulha, Coimbra (Santa Cruz), Coimbra, Coimbra",1,1583-10-18,1583-10-18,2736519,Pedrulha,,*notfound*,"Pedrulha, Coimbra (Santa Cruz), Coimbra, Coimbra",geonames-pt,40.24259,-8.44569
+"Piaguim, Maranhão","Piaguim, Maranhão, Brasil",1,1770-10-01,1770-10-01,,,,,,,,
+"Portela, São Tiago de Besteiros","Portela, Santiago de Besteiros, Tondela, Viseu",1,1747-11-10,1747-11-10,2735982,Portela,,*notfound*,"Portela, São Cristovão de Nogueira, Cinfães, Viseu",geonames-pt,41.08764,-8.10902
+"Póvoa, Vilar de Besteiros","Póvoa de Alagoa, Vilar de Besteiros, Tondela, Viseu",1,1815-10-11,1815-10-11,2735831,Póvoa da Alagoa,,*notfound*,"Póvoa da Alagoa, Vilar de Besteiros, Tondela, Viseu",geonames-pt,40.58996,-8.08146
+Pôrto de Mós,Porto de Mós,1,1573-10-07,1573-10-07,2264427,Porto de Mós,,Q1012710,"Porto de Mós, Porto de Mós (São João Baptista), Porto de Mós, Leiria",geonames-pt,39.60191,-8.81839
+"Quintal, Besteiros","Eiras, Castelões, Tondela, Viseu",1,1557-02-01,1557-02-01,2740056,Eiras,PT.GN.101434,*notfound*,"Eiras, Castelões, Tondela, Viseu",geonames-pt,40.54983,-8.14562
+"Quintela, Farinha Podre, hoje São Pedro de Alva",São Pedro de Alva,1,1736-11-16,1736-11-16,8014291,São Pedro de Alva,,Q1024859,"São Pedro de Alva, São Pedro de Alva, Penacova, Coimbra",geonames-pt,40.30928,-8.18209
+"Recife de Pernambuco, Brasil","Recife, Pernambuco, Brasil",1,1757-10-01,1757-10-01,3390760,Recife,,Q22061296,"Recife, Recife, Pernambuco, Brasil",geonames-br,-8.05389,-34.88111
+Reguengos de Monsarraz,Reguengos de Monsaraz,1,1890-10-13,1890-10-13,2263974,Reguengos de Monsaraz,,Q990439,"Reguengos de Monsaraz, Reguengos de Monsaraz, Reguengos de Monsaraz, Évora",geonames-pt,38.42529,-7.53494
+Ricardães,Recardães,1,1826-10-14,1826-10-14,8010710,Recardães,,Q1279738,"Recardães, Recardães, Águeda, Aveiro",geonames-pt,40.56445,-8.46484
+"Rossas, Vieira","Rossas, Rossas, Vieira do Minho, Braga",1,1886-10-02,1886-10-02,8011289,Rossas,,Q280067,"Rossas, Rossas, Vieira do Minho, Braga",geonames-pt,41.58919,-8.06531
+"Sabará, Mariana, Brasil","Sabará, Minas Gerais, Brasil",1,1772-10-00,1772-10-00,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Sabará, brasil","Sabará, Minas Gerais, Brasil",1,1759-11-28,1759-11-28,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Salamonde, Vieira","Salamonde, Salamonde, Vieira do Minho, Braga",1,1887-10-03,1887-10-03,8011291,Salamonde,,Q1168465,"Salamonde, Salamonde, Vieira do Minho, Braga",geonames-pt,41.67922,-8.08854
+Salvador de Parada e Barbuda,"Barbudo, Barbudo, Vila Verde, Braga",1,1872-10-05,1872-10-05,8011344,Barbudo,,Q807883,"Barbudo, Barbudo, Vila Verde, Braga",geonames-pt,41.64841,-8.44848
+Salvador de Parada e Barbudo,"Barbudo, Barbudo, Vila Verde, Braga",1,1873-06-13,1873-06-13,8011344,Barbudo,,Q807883,"Barbudo, Barbudo, Vila Verde, Braga",geonames-pt,41.64841,-8.44848
+Salvaterra do Estremo,Salvaterra do Extremo,1,1550-07-30,1550-07-30,8014844,Salvaterra do Extremo,,Q928737,"Salvaterra do Extremo, Salvaterra do Extremo, Idanha-a-Nova, Castelo Branco",geonames-pt,39.90199,-6.9512
+Salvaterra dos Magos,Salvaterra de Magos,1,1727-10-01,1727-10-01,2263596,Salvaterra de Magos,,Q49289034,"Salvaterra de Magos, Salvaterra de Magos, Salvaterra de Magos, Santarém",geonames-pt,39.02788,-8.7935
+"Santa Catarina, Pedrogão Grande","Santa Catarina, Pedrógão Grande",1,1761-10-01,1761-10-01,2263556,Santa Catarina,,*notfound*,,geonames-pt,32.68333,-16.78333
+"Santa Clara, Entre-os-Rios","Torrão, Torrão, Marco de Canaveses, Porto",1,1800-10-02,1800-10-02,8012775,Torrão,,Q1025004,"Torrão, Torrão, Marco de Canaveses, Porto",geonames-pt,41.08559,-8.28408
+Santa Comba de Vilhariça,Santa Comba de Vilariça,1,1743-10-01,1743-10-01,8014329,Santa Comba de Vilariça,,Q2119200,"Santa Comba de Vilariça, Santa Comba de Vilariça, Vila Flor, Bragança",geonames-pt,41.35622,-7.0673
+Santa Luzia do Sabará,"Sabará, Minas Gerais, Brasil",1,1767-10-01,1767-10-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Santa Maria de Sá, Ponte de Lima","Sá, Ponte de Lima",1,1781-10-01,1781-10-01,8013352,Sá,,Q1022105,"Sá, Sá, Ponte de Lima, Viana do Castelo",geonames-pt,41.77531,-8.61941
+"Santa Maria, Fregim","Fregim, Fregim, Amarante, Porto",1,1788-10-25,1788-10-25,8012640,Fregim,,Q1023224,"Fregim, Fregim, Amarante, Porto",geonames-pt,41.26685,-8.1148
+Santa Olaia de Besteiros,Campo de Besteiros,1,1637-10-25,1637-10-25,8014309,Campo de Besteiros,,Q154212,"Campo de Besteiros, Campo de Besteiros, Tondela, Viseu",geonames-pt,40.55886,-8.12466
+"Santiago, freg São  Bartolomeu, Coimbra","Santiago, freg São Bartolomeu, Coimbra",1,1852-10-12,1852-10-12,,,,,,,,
+"Santo Amaro da Purificação, Baí, Brasil","Santo Amaro, Santo Amaro, Bahia, Brasil",1,1748-12-04,1748-12-04,6321037,Santo Amaro,,Q739789,"Santo Amaro, Santo Amaro, Bahia, Brasil",geonames-br,-12.61369,-38.77427
+Santo Antrónio do Tojal,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",1,1681-10-01,1681-10-01,8014144,Santo Antão do Tojal,,Q738803,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",geonames-pt,38.85682,-9.15534
+Santo Antão do Tojal,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",1,1790-10-18,1790-10-18,8014144,Santo Antão do Tojal,,Q738803,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",geonames-pt,38.85682,-9.15534
+"Santo António do Tojal, Lisboa","Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",1,1691-03-21,1691-03-21,8014144,Santo Antão do Tojal,,Q738803,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",geonames-pt,38.85682,-9.15534
+"Santo António, Tojal","Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",1,1799-10-30,1799-10-30,8014144,Santo Antão do Tojal,,Q738803,"Santo Antão do Tojal, Santo Antão do Tojal, Loures, Lisboa",geonames-pt,38.85682,-9.15534
+Sebál,Sebal,1,1671-10-01,1671-10-01,8011817,Sebal,,Q1024522,"Sebal, Sebal, Condeixa-a-Nova, Coimbra",geonames-pt,40.12784,-8.5261
+"Sertã, Pedrogão","Pedrógão, Sertã",1,1645-12-12,1645-12-12,,,,,,,,
+"Silva Escura, Abergaria-a-Velha","Silva Escura, Silva Escura, Sever do Vouga, Aveiro",1,1896-10-12,1896-10-12,8010838,Silva Escura,PT.GN.97965,Q2257924,"Silva Escura, Silva Escura, Sever do Vouga, Aveiro",geonames-pt,40.76179,-8.38614
+"Silva Escura, Aveiro","Silva Escura, Silva Escura, Sever do Vouga, Aveiro",1,1869-10-02,1869-10-02,8010838,Silva Escura,PT.GN.97965,Q2257924,"Silva Escura, Silva Escura, Sever do Vouga, Aveiro",geonames-pt,40.76179,-8.38614
+"Silva Escura, Gandra","Silva Escura, Silva Escura, Maia, Porto",1,1749-10-01,1749-10-01,8012754,Silva Escura,PT.GN.97965,Q1021174,"Silva Escura, Silva Escura, Maia, Porto",geonames-pt,41.25383,-8.58252
+São  Bartolomeu,São Bartolomeu,1,1785-10-27,1785-10-27,,,,,,,,
+São  Cibrão,São Cibrão,1,1735-10-01,1735-10-01,2734548,São Cibrão,,*notfound*,"São Cibrão, Celas, Vinhais, Bragança",geonames-pt,41.72305,-6.90031
+"São  Cipriano, Lamego","São Cipriano, Lamego",1,1792-10-10,1792-10-10,,,,,,,,
+São  Cláudio de Curvos,São Cláudio de Curvos,1,1712-10-01,1712-10-01,,,,,,,,
+São  Cristóvão de Mafamude,São Cristóvão de Mafamude,1,1788-10-31,1788-10-31,,,,,,,,
+"São  Domingos, Torres Vedras","São Domingos, Torres Vedras",1,1812-11-11,1812-11-11,,,,,,,,
+São  Gonçalo de Amarante,São Gonçalo de Amarante,1,1554-10-00,1554-10-00,,,,,,,,
+São  José de Godim,São José de Godim,1,1765-10-01,1765-10-01,,,,,,,,
+São  José de Gondim,São José de Gondim,1,1774-12-23,1774-12-23,,,,,,,,
+"São  José, Godim","São José, Godim",1,1764-10-01,1764-10-01,,,,,,,,
+São  João da Foz do Douro,São João da Foz do Douro,1,1898-10-13,1898-10-13,,,,,,,,
+"São  João da Foz, Porto","São João da Foz, Porto",1,1607-03-06,1607-03-06,2739336,São João da Foz,,Q1397371,"São João da Foz, Foz do Douro, Porto, Porto",geonames-pt,41.15119,-8.67125
+São  João de Ver,São João de Ver,1,1701-02-10,1701-02-10,8014498,São João de Ver,,Q4407267,"São João de Ver, São João de Ver, Santa Maria da Feira, Aveiro",geonames-pt,40.95351,-8.55511
+"São  João do Souto, Braga","São João do Souto, Braga",1,1908-10-07,1908-10-07,,,,,,,,
+São  Mamede de Aldão,São Mamede de Aldão,1,1899-10-02,1899-10-02,,,,,,,,
+São  Mamede de Riba Tua,São Mamede de Riba Tua,1,1836-10-12,1836-10-12,2734432,São Mamede de Riba Tua,,*notfound*,"São Mamede de Riba Tua, São Mamede de Ribatua, Alijó, Vila Real",geonames-pt,41.25017,-7.43176
+São  Mamede de Ribatua,São Mamede de Ribatua,1,1765-10-01,1765-10-01,8014412,São Mamede de Ribatua,,Q168454,"São Mamede de Ribatua, São Mamede de Ribatua, Alijó, Vila Real",geonames-pt,41.24732,-7.42279
+"São  Mamede, Valença","São Mamede, Valença",1,1815-11-11,1815-11-11,,,,,,,,
+São  Marcos,São Marcos,1,1745-12-14,1745-12-14,8012559,São Marcos,,Q1021763,"São Marcos, São Marcos, Sintra, Lisboa",geonames-pt,38.75624,-9.29731
+São  Martinho da Gandra,São Martinho da Gandra,1,1704-10-27,1704-10-27,,,,,,,,
+São  Martinho de Arcozelo,São Martinho de Arcozelo,1,1761-01-30,1761-01-30,,,,,,,,
+São  Martinho de Cucujães,São Martinho de Cucujães,1,1868-10-10,1868-10-10,,,,,,,,
+São  Martinho de Dume,São Martinho de Dume,1,1844-10-12,1844-10-12,,,,,,,,
+São  Martinho de Ferreiros,São Martinho de Ferreiros,1,1712-10-01,1712-10-01,,,,,,,,
+São  Martinho de Recesinhos,São Martinho de Recesinhos,1,1646-12-09,1646-12-09,,,,,,,,
+"São  Martinho de Rio Mau, Braga","São Martinho de Rio Mau, Braga",1,1581-10-14,1581-10-14,,,,,,,,
+"São  Martinho do Bispo, Coiimbra",São Martinho do Bispo,1,1804-10-05,1804-10-05,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+São  Martinho do Campo,São Martinho do Campo,1,1746-10-01,1746-10-01,,,,,,,,
+São  Martinho do Porto,São Martinho do Porto,1,1870-07-20,1870-07-20,8014234,São Martinho do Porto,,*notfound*,"São Martinho do Porto, São Martinho do Porto, Alcobaça, Leiria",geonames-pt,39.51943,-9.12125
+"São  Martinho, Coimbra","São Martinho, Coimbra",1,1553-04-13,1553-04-13,,,,,,,,
+"São  Martinho, Seia","São Martinho, Seia",1,1729-10-01,1729-10-01,,,,,,,,
+"São  Martinho, Soalhães","São Martinho, Soalhães",1,1744-10-01,1744-10-01,,,,,,,,
+"São  Matias, Beja","São Matias, Beja",1,1756-01-14,1756-01-14,8010878,São Matias,,Q1019714,"São Matias, São Matias, Beja, Beja",geonames-pt,38.1063,-7.8738
+São  Miguel de Argirais,São Miguel de Argirais,1,1817-10-07,1817-10-07,,,,,,,,
+São  Miguel de Arriada,São Miguel de Arriada,1,1765-10-01,1765-10-01,,,,,,,,
+São  Miguel de Caparosa,São Miguel de Caparosa,1,1709-10-01,1709-10-01,,,,,,,,
+"São  Miguel, Barcelos","São Miguel, Barcelos",1,1792-10-12,1792-10-12,,,,,,,,
+São  Paio de,São Paio de,1,1701-01-21,1701-01-21,,,,,,,,
+"São  Paio, Gouveia","São Paio, Gouveia",1,1822-10-11,1822-10-11,8012125,São Paio,,Q32670,"São Paio, São Paio, Gouveia, Guarda",geonames-pt,40.50834,-7.5694
+São  Pedro Velho,São Pedro Velho,1,1741-10-01,1741-10-01,8011546,São Pedro Velho,,Q205831,"São Pedro Velho, São Pedro Velho, Mirandela, Bragança",geonames-pt,41.68728,-7.15946
+São  Pedro da Torre,São Pedro da Torre,1,1728-10-01,1728-10-01,8014665,São Pedro da Torre,,Q1444182,"São Pedro da Torre, São Pedro da Torre, Valença, Viana do Castelo",geonames-pt,41.98435,-8.66362
+São  Pedro das Aradas,São Pedro das Aradas,1,1892-10-08,1892-10-08,,,,,,,,
+São  Pedro de Caide,São Pedro de Caide,1,1679-10-15,1679-10-15,,,,,,,,
+São  Pedro de Paus,São Pedro de Paus,1,1752-10-01,1752-10-01,,,,,,,,
+São  Pedro de Rates,São Pedro de Rates,1,1719-10-01,1719-10-01,,,,,,,,
+São  Pedro de Sarracenos,São Pedro de Sarracenos,1,1772-10-00,1772-10-00,8014757,São Pedro de Sarracenos,,Q1415775,"São Pedro de Sarracenos, São Pedro de Sarracenos, Bragança, Bragança",geonames-pt,41.75419,-6.76394
+"São  Pedro, Funchal, Madeira","São Pedro, Funchal, Madeira",1,1588-10-01,1588-10-01,,,,,,,,
+"São  Pedro, Évora","São Pedro, Évora",1,1908-10-20,1908-10-20,,,,,,,,
+São  Romão do Côrgo,São Romão do Côrgo,1,1907-10-10,1907-10-10,,,,,,,,
+"São  Romão, Paredes","São Romão, Paredes",1,1763-10-01,1763-10-01,,,,,,,,
+São  Sebastião de Labruge,São Sebastião de Labruge,1,1763-10-01,1763-10-01,,,,,,,,
+São  Sebastião do Cobre,São Sebastião do Cobre,1,1865-10-14,1865-10-14,,,,,,,,
+São  Silvestre,São Silvestre,1,1720-10-01,1720-10-01,8011805,São Silvestre,,Q729968,"São Silvestre, São Silvestre, Coimbra, Coimbra",geonames-pt,40.22841,-8.53118
+São  Simão da Junqueira,São Simão da Junqueira,1,1682-10-01,1682-10-01,,,,,,,,
+São  Tiago da Guarda,São Tiago da Guarda,1,1808-11-29,1808-11-29,,,,,,,,
+São  Tiago de Cacém,São Tiago de Cacém,1,1758-10-01,1758-10-01,,,,,,,,
+São  Tomé de Canelas,São Tomé de Canelas,1,1743-10-01,1743-10-01,,,,,,,,
+São  Tomé de Mira,São Tomé de Mira,1,1716-10-27,1716-10-27,,,,,,,,
+São  Vicente,São Vicente,1,1770-10-01,1770-10-01,8014046,São Vicente,,Q2085813,"São Vicente, São Vicente, São Vicente, Madeira",geonames-pt,32.78096,-17.03171
+São  Vicente da Beira,São Vicente da Beira,1,1746-10-01,1746-10-01,8014263,São Vicente da Beira,,Q1024260,"São Vicente da Beira, São Vicente da Beira, Castelo Branco, Castelo Branco",geonames-pt,40.01632,-7.58604
+São  Vicente do Pinheiro,São Vicente do Pinheiro,1,1706-12-10,1706-12-10,,,,,,,,
+"São Bartolomeu de Veiros, Aveiro","Veiros, Veiros, Estarreja, Aveiro",1,1842-10-29,1842-10-29,8010776,Veiros,,Q2196358,"Veiros, Veiros, Estarreja, Aveiro",geonames-pt,40.75155,-8.60804
+"São Bartolomeu, Veiros","Veiros, Veiros, Estarreja, Aveiro",1,1753-10-01,1753-10-01,8010776,Veiros,,Q2196358,"Veiros, Veiros, Estarreja, Aveiro",geonames-pt,40.75155,-8.60804
+São Brás de Alportela,São Brás de Alportel,1,1728-11-04,1728-11-04,2263377,São Brás de Alportel,,Q49291018,"São Brás de Alportel, São Brás de Alportel, São Brás de Alportel, Faro",geonames-pt,37.1531,-7.88751
+"São João de Batista, Vieira","Mosteiro, Mosteiro, Vieira do Minho, Braga",1,1746-11-28,1746-11-28,8011287,Mosteiro,,Q1868635,"Mosteiro, Mosteiro, Vieira do Minho, Braga",geonames-pt,41.60492,-8.12949
+São João de El Rei,"São João del Rei, São João del Rei, Minas Gerais, Brasil",1,1800-06-17,1800-06-17,6321805,São João del Rei,,Q740965,"São João del Rei, São João del Rei, Minas Gerais, Brasil",geonames-br,-21.25033,-44.24481
+São João del-Rei,"São João del Rei, São João del Rei, Minas Gerais, Brasil",1,1786-10-03,1786-10-03,6321805,São João del Rei,,Q740965,"São João del Rei, São João del Rei, Minas Gerais, Brasil",geonames-br,-21.25033,-44.24481
+"São João del-Rei, Brasil","São João del Rei, São João del Rei, Minas Gerais, Brasil",1,1755-10-01,1755-10-01,6321805,São João del Rei,,Q740965,"São João del Rei, São João del Rei, Minas Gerais, Brasil",geonames-br,-21.25033,-44.24481
+São Lourenço de Regalados,Pico de Regalados,1,1715-10-01,1715-10-01,8014620,Pico de Regalados,,Q2092373,"Pico de Regalados, Pico de Regalados, Vila Verde, Braga",geonames-pt,41.68063,-8.43016
+"São Luís, Maranhão","São Luís, Maranhão, Brasil",1,1802-10-23,1802-10-23,3388368,São Luís,,Q22059837,"São Luís, São Luís, Maranhão, Brasil",geonames-br,-2.52972,-44.30278
+São Mamede de Riibatua,São Mamede de Ribatua,1,1764-10-01,1764-10-01,8014412,São Mamede de Ribatua,,Q168454,"São Mamede de Ribatua, São Mamede de Ribatua, Alijó, Vila Real",geonames-pt,41.24732,-7.42279
+"São Martinho do Bispo, Casas Novas",São Martinho do Bispo,1,1762-01-01,1762-01-01,8014792,São Martinho do Bispo,,Q2119234,"São Martinho do Bispo, São Martinho do Bispo, Coimbra, Coimbra",geonames-pt,40.20916,-8.47654
+São Martinho do Penso,São Martinho do Peso,1,1826-10-31,1826-10-31,8014303,São Martinho do Peso,,Q1024745,"São Martinho do Peso, São Martinho do Peso, Mogadouro, Bragança",geonames-pt,41.42812,-6.62178
+"São Miguel, Entre, os, Rios","Entre-os-Rios, Eja, Penafiel",1,1761-10-01,1761-10-01,2740018,Entre-os-Rios,,*notfound*,"Entre-os-Rios, Eja, Penafiel, Porto",geonames-pt,41.08901,-8.29227
+"São Miguel, Lobrigos","Lobrigos, Lobrigos (São Miguel), Santa Marta de Penaguião, Vila Real",1,1787-10-20,1787-10-20,2738268,Lobrigos,,*notfound*,"Lobrigos, Lobrigos (São Miguel), Santa Marta de Penaguião, Vila Real",geonames-pt,41.2042,-7.77684
+"São Paulo de Assunção, Luanda, Angola","Luanda, Angola",1,1900-10-03,1900-10-03,2240449,Luanda,,Q3897,"Luanda, Maianga, Maianga, Luanda",geonames-ao,-8.83682,13.23432
+São Pedro  do Sul,São Pedro do Sul,1,1614-11-23,1614-11-23,8014854,São Pedro do Sul,,Q2450382,"São Pedro do Sul, São Pedro do Sul, São Pedro do Sul, Viseu",geonames-pt,40.76131,-8.05308
+"São Tiago da Cachoeira, Baía, Brasil","Santiago do Iguape, Brasil",1,1782-11-02,1782-11-02,3449737,Santiago do Iguape,,*notfound*,"Santiago do Iguape, Cachoeira, Bahia, Brasil",geonames-br,-12.69125,-38.85697
+SãoFelix,São Felix,1,1820-11-10,1820-11-10,,,,,,,,
+SãoGonçalo,São Gonçalo,1,1883-10-15,1883-10-15,8014023,São Gonçalo,,Q2652513,"São Gonçalo, São Gonçalo, Funchal, Madeira",geonames-pt,32.66024,-16.87349
+"SãoMamede, Lisboa","São Mamede, Lisboa",1,1757-10-01,1757-10-01,8012495,São Mamede,,Q2035325,"São Mamede, São Mamede, Lisboa, Lisboa",geonames-pt,38.72023,-9.15298
+SãoSilvestre,São Silvestre,1,1739-10-01,1739-10-01,8011805,São Silvestre,,Q729968,"São Silvestre, São Silvestre, Coimbra, Coimbra",geonames-pt,40.22841,-8.53118
+SãoVicente,São Vicente,1,1665-03-21,1665-03-21,8014046,São Vicente,,Q2085813,"São Vicente, São Vicente, São Vicente, Madeira",geonames-pt,32.78096,-17.03171
+SãoVicente da Beira,São Vicente da Beira,1,1605-01-23,1605-01-23,8014263,São Vicente da Beira,,Q1024260,"São Vicente da Beira, São Vicente da Beira, Castelo Branco, Castelo Branco",geonames-pt,40.01632,-7.58604
+SãoVicente de Chã,São Vicente de Chã,1,1768-10-01,1768-10-01,,,,,,,,
+"Sóligo, São  Martinho de Pessegueiro","Sóligo, São Martinho de Pessegueiro",1,1728-11-19,1728-11-19,,,,,,,,
+"Tarouca, Lamego",Tarouca,1,1552-02-09,1552-02-09,2733669,Tarouca,,*notfound*,"Tarouca, Tarouca, Tarouca, Viseu",geonames-pt,41.01763,-7.77547
+"Taveiro, Reveles de","Reveles, Taveiro, Coimbra, Coimbra",1,1765-10-01,1765-10-01,2735233,Reveles,,*notfound*,"Reveles, Taveiro, Coimbra, Coimbra",geonames-pt,40.19003,-8.51786
+"Terras, Pedrogão Grande","Terras, Pedrógão Grande",1,1897-06-16,1897-06-16,,,,,,,,
+Torre  de Moncorvo,Torre de Moncorvo,1,1654-10-15,1654-10-15,2733488,Torre de Moncorvo,,*notfound*,"Torre de Moncorvo, Torre de Moncorvo, Torre de Moncorvo, Bragança",geonames-pt,41.17454,-7.05364
+Torres  Vedras,Torres Vedras,1,1767-10-01,1767-10-01,2262581,Torres Vedras,,Q49291720,"Torres Vedras, Torres Vedras (São Pedro e São T, Torres Vedras, Lisboa",geonames-pt,39.09109,-9.2586
+"Travanca de São  Tomé, Viseu","Travanca de São Tomé, Viseu",1,1764-10-01,1764-10-01,,,,,,,,
+Travassos de São  Martinho,Travassos de São Martinho,1,1761-10-01,1761-10-01,,,,,,,,
+"Troviscal, Castanheira, Pedrogão","Troviscal, Castanheira, Pedrógão",1,1757-10-01,1757-10-01,,,,,,,,
+"Valbom, Regalados",Valbom (São Pedro),1,1764-10-01,1764-10-01,8011386,Valbom (São Pedro),,Q1918816,"Valbom (São Pedro), Valbom (São Pedro), Vila Verde, Braga",geonames-pt,41.70467,-8.34966
+"Valença de Alcântara, Castela","Valencia de Alcántara, Espanha",1,1571-07-26,1571-07-26,2509950,Valencia de Alcántara,,Q24011972,"Valencia de Alcántara, Valencia de Alcántara, Cáceres, Extremadura",geonames-es,39.41148,-7.24435
+"Valença do Douro, Trancoso",Valença do Douro,1,1822-10-05,1822-10-05,8014821,Valença do Douro,,Q111474,"Valença do Douro, Valença do Douro, Tabuaço, Viseu",geonames-pt,41.15821,-7.55446
+"Valença, Minho",Valença,1,1845-10-27,1845-10-27,2733018,Valença,,*notfound*,"Valença, Valença, Valença, Viana do Castelo",geonames-pt,42.03104,-8.64595
+"Valença, Trancoso",Valença do Douro,1,1823-10-20,1823-10-20,8014821,Valença do Douro,,Q111474,"Valença do Douro, Valença do Douro, Tabuaço, Viseu",geonames-pt,41.15821,-7.55446
+"Valongo, Pedrogão Grande","Valongo, Pedrógão Grande",1,1893-10-25,1893-10-25,,,,,,,,
+"Valência, Espanha","Valencia, Espanha",1,1743-10-01,1743-10-01,2509954,Valencia,,Q24017120,"Valencia, Valencia, Valencia, Comunidad Valenciana",geonames-es,39.46975,-0.37739
+"Vidigal, São João da Pesqueira","Vilarouco, Vilarouco, São João da Pesqueira, Viseu",1,1694-10-01,1694-10-01,8013905,Vilarouco,,Q93537,"Vilarouco, Vilarouco, São João da Pesqueira, Viseu",geonames-pt,41.09233,-7.36701
+"Vieira, Braga",Vieira do Minho,1,1909-10-02,1909-10-02,2732748,Vieira do Minho,,*notfound*,"Vieira do Minho, Vieira do Minho, Vieira do Minho, Braga",geonames-pt,41.63292,-8.14252
+"Vieira, Catelães","Portela, Cantelães, Vieira do Minho, Braga",1,1738-11-03,1738-11-03,8010942,Portela,,Q1022690,"Portela, Portela, Amares, Braga",geonames-pt,41.65372,-8.36913
+"Vieira, São Paio","São Paio, Eira Vedra, Vieira do Minho, Braga",1,1641-10-30,1641-10-30,,,,,,,,
+Vila  Boa,Vila Boa,1,1819-10-30,1819-10-30,8011031,Vila Boa,,Q2095545,"Vila Boa, Vila Boa, Barcelos, Braga",geonames-pt,41.55051,-8.61693
+Vila  Nova de Portimão,Vila Nova de Portimão,1,1901-10-05,1901-10-05,2264456,Vila Nova de Portimão,,Q2652703,"Vila Nova de Portimão, Portimão, Portimão, Faro",geonames-pt,37.13856,-8.53775
+Vila Chã da Graciosa,Vila Chã da Braciosa,1,1741-10-01,1741-10-01,,,,,,,,
+"Vila Fresca, Azeitão","Vila Fresca, São Simão, Setúbal, Setúbal",1,1790-06-01,1790-06-01,2261637,Vila Fresca,,*notfound*,"Vila Fresca, São Simão, Setúbal, Setúbal",geonames-pt,38.52816,-8.99188
+Vila Nova da Lixa,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",1,1885-06-20,1885-06-20,2732659,Vila da Lixa,,*notfound*,"Vila da Lixa, Vila Cova da Lixa, Felgueiras, Porto",geonames-pt,41.3228,-8.14735
+"Vila Nova, Barca",Vila Nova da Barca,1,1753-10-10,1753-10-10,8014269,Vila Nova da Barca,,Q1024444,"Vila Nova da Barca, Vila Nova da Barca, Montemor-o-Velho, Coimbra",geonames-pt,40.13111,-8.67538
+Vila Pouca de Ameal,"Vila Pouca, Ameal, Coimbra, Coimbra",1,1907-10-01,1907-10-01,2732530,Vila Pouca,,*notfound*,"Vila Pouca, Ameal, Coimbra, Coimbra",geonames-pt,40.19119,-8.52393
+Vila Real de Sabará,"Sabará, Minas Gerais, Brasil",1,1772-10-00,1772-10-00,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Vila Real de Sabará, Brasil","Sabará, Minas Gerais, Brasil",1,1767-10-01,1767-10-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+Vila Real do Sabará,"Sabará, Minas Gerais, Brasil",1,1761-10-01,1761-10-01,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Vila Real do Sabará, Brasil","Sabará, Minas Gerais, Brasil",1,1756-12-29,1756-12-29,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Vila Real, Sabará","Sabará, Minas Gerais, Brasil",1,1792-10-03,1792-10-03,6321738,Sabará,,Q1451808,"Sabará, Sabará, Minas Gerais, Brasil",geonames-br,-19.85393,-43.78326
+"Vila Seca, Vieira","Vila Seca, Vieira do Minho, Vieira do Minho, Braga",1,1746-10-01,1746-10-01,2732342,Vila Seca,,*notfound*,"Vila Seca, Vieira do Minho, Vieira do Minho, Braga",geonames-pt,41.63217,-8.12816
+Vila da Batalha,Batalha,1,1854-10-12,1854-10-12,2271006,Batalha,,Q31912265,"Batalha, Batalha, Batalha, Leiria",geonames-pt,39.66025,-8.82475
+"Vila das Velas, Ilha de São Jorge","Velas, São Jorge",1,1882-10-09,1882-10-09,,,,,,,,
+"Vila das Velas, ilha de São  Jorge, Açores","Vila das Velas, ilha de São Jorge, Açores",1,1894-10-13,1894-10-13,,,,,,,,
+"Vila das Velhas, São Jorge","Velas, São Jorge",1,1840-10-30,1840-10-30,,,,,,,,
+"Vila de Campos, Rio de Janeiro, Brasil","Campos dos Goytacazes, Brasil",1,1807-10-31,1807-10-31,3467693,Campos dos Goytacazes,,Q22047120,"Campos dos Goytacazes, Campos dos Goytacazes, Rio de Janeiro, Brasil",geonames-br,-21.75227,-41.33044
+Vilar De Pinheiro,Vilar de Pinheiro,1,1738-10-01,1738-10-01,8014051,Vilar de Pinheiro,,Q615118,"Vilar de Pinheiro, Vilar de Pinheiro, Vila do Conde, Porto",geonames-pt,41.26661,-8.66533
+"Vilar, Castanheira do Pedrogão","Vilar, Castanheira de Pera",1,1850-10-12,1850-10-12,2732515,Vilar,,*notfound*,"Vilar, Castanheira de Pêra, Castanheira de Pêra, Leiria",geonames-pt,40.02691,-8.20115
+Vilarinho da Castanheiro,Vilarinho da Castanheira,1,1793-10-12,1793-10-12,8014733,Vilarinho da Castanheira,,Q1021369,"Vilarinho da Castanheira, Vilarinho da Castanheira, Carrazeda de Ansiães, Bragança",geonames-pt,41.18547,-7.21598
+"Vilarouco, São  João da Pesqueira","Vilarouco, São João da Pesqueira",1,1765-10-01,1765-10-01,8013905,Vilarouco,,Q93537,"Vilarouco, Vilarouco, São João da Pesqueira, Viseu",geonames-pt,41.09233,-7.36701
