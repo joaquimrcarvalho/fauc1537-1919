@@ -1,3 +1,4 @@
+# flake8: noqa: E501
 """
 (c) Joaquim Carvalho 2021.
 MIT License, no warranties.

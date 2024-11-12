@@ -1,3 +1,4 @@
+# flake8: noqa: E501
 # This contains global values and configurations
 from sqlalchemy.orm import Session, sessionmaker
 

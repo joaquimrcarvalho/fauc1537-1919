@@ -1,3 +1,4 @@
+# flake8: noqa: E501
 """
 :mod: `groups` -- Groups used for UC alumni processing
 ======================================================
