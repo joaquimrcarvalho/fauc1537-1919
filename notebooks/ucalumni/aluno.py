@@ -723,6 +723,207 @@ class Aluno:
 
         return r + "\n"
 
+    def __str__(self):
+        r = f"# {self.id} {self.nome}\n\n"
+        r = r + f"## Original\n```{self.obs}\n```\n"
+        if self.erratum_diff is not None and self.erratum_diff > "":
+            r = (
+                r
+                + f"\n### Erratum:\n.....................\n{self.erratum_diff}\n......................\n"
+            )
+
+        if len(self.extractors) == 0:
+            return r
+
+        r = r + "## Inferences:\n"
+        r = r + f"* id:{self.id}\n"
+        r = (
+            r
+            + f"* Nome: {self.nome}\n"
+            + f"* Data inicial:{str(self.unit_date_inicial)}\n"
+            + f"* Data final: {str(self.unit_date_final)}\n"
+            + f"* Codigo de referência: {self.codref}\n"
+        )
+
+        if self.vide is not None:
+            r = r + f"\n* Vide {self.vide}"
+            r = r + f"\n* Tipo de vide {self.vide_type}"
+            r = r + f"\n* Nome destino vide {self.vide_target}"
+        if self.colegio is not None:
+            r = f"{r}* Colégio {self.colegio}\n"
+
+        table_data: list = []
+
+        # Notas
+        table_data.clear()
+        nota: Nota
+        for nota in self.notas:
+            table_data.append(
+                {
+                    "N": nota.numero,
+                    "proc": nota.processed,
+                    "section": nota.seccao,
+                    "campo": nota.campo,
+                    "data": nota.data.value,
+                    "valor": nota.valor,
+                    "obs": nota.obs,
+                }
+            )
+        table = mktable(table_data)
+        r = r + "\n### Notes (sections and fields from the record):\n" + table
+        # Faculdade
+        if self.faculdade is not None:
+            for fac, data, obs in self.faculdade:
+                r = r + f"### Faculdade: {fac} {data} {obs}\n"
+            r = (
+                r
+                + f"* Faculdade problema: {self.faculdade_problem} ({self.faculdade_problem_obs})\n"
+            )
+            fac_org = self.faculdade_original
+            if fac_org is not None and fac_org > "":
+                r = r + f"* Faculdade original: {self.faculdade_original}\n"
+
+        if self.instituta is not None:
+            for inst in self.instituta:
+                r = r + f"### Instituta {inst.data} {inst.obs}\n"
+
+        # Matrículas
+        table_data.clear()
+        matricula: Matricula
+        for matricula in self.matriculas:
+            table_data.append(
+                {
+                    "âmbito": matricula.ambito,
+                    "tipo": matricula.tipo,
+                    "modalidade": matricula.modalidade,
+                    "data": matricula.data,
+                    "obs": matricula.obs,
+                }
+            )
+        table = mktable(table_data)
+        r = r + "\n### Matrículas:\n" + table
+
+        # Exames
+        table_data.clear()
+        exame: Exame
+        for exame in self.exames:
+            table_data.append(
+                {
+                    "âmbito": exame.ambito,
+                    "resumo": exame.resultado,
+                    "data": exame.data,
+                    "obs": exame.obs,
+                }
+            )
+        table = mktable(table_data)
+        r = r + "\n### Exames:\n" + table
+
+        # Graus
+        table_data.clear()
+        grau: Grau
+        for grau in self.graus:
+            table_data.append({"nome": grau.nome, "data": grau.data, "obs": grau.obs})
+        table = mktable(table_data)
+        r = r + "\n### Graus:\n" + table
+
+        return r + "\n"
+
+    def canonic(self, places_normalized: dict = None):
+        """ Return a canonic representation of the student"""
+
+        r = f"https://pesquisa.auc.uc.pt/details?id={self.id}"
+        r += "{self.nome}\n"
+        r += f"\nCodigo de referência\n{self.codref}\n"
+        r += f"\nTítulo\n{self.nome}\n"
+        r += "\nDatas de Produção\n"
+        r += f"{self.unit_date_inicial.value} a {self.unit_date_final}\n"
+        r += "\nHistória administrativa/biográfica/familiar\n"
+        if self.pai is not None:
+            r += f"Filiação: {self.pai}"
+        if self.mae is not None:
+            r += f" e {self.mae}"
+        if self.familia is not None:
+            r += f"Família: {self.familia}\n"
+
+        if self.naturalidade is not None:
+            r += f"\nNaturalidade: {self.naturalidade}\n"
+        if self.ordem is not None and len(self.ordem) > 0:
+            r += f"\nOrdem: {self.ordem}"
+        if hasattr(self, 'titulo') and self.titulo is not None:
+            r += f"\nTítulo: {self.titulo}"
+
+        r += "\n"
+        r += "\nÂmbito e conteúdo\n\n"
+
+        if self.faculdade is not None:
+            for fac, data, obs in self.faculdade:
+                r = r + f"Faculdade: {fac}, {data}, {obs}\n"
+            fac_org = self.faculdade_original
+            if fac_org is not None and fac_org > "":
+                r = r + f"Faculdade original: {self.faculdade_original}\n"
+            if self.faculdade_problem is not None:
+                r += f"{self.faculdade_problem} ({self.faculdade_problem_obs})\n"
+
+        if self.colegio is not None:
+            r += f"Colégio: {self.colegio}\n"
+
+        if self.matriculas is not None or self.instituta is not None:
+            r += "\nMatrícula(s):\n"
+            if self.instituta is not None:
+                for inst in self.instituta:
+                    r = r + f"Instituta: {inst.data}, {inst.obs}\n"
+
+            if self.matriculas is not None:
+                for matricula in sorted(self.matriculas, key=lambda x: x.data.value):
+                    if matricula.ambito is not None:
+                        ambito = f" {matricula.ambito}"
+                    else:
+                        ambito = ""
+                    if matricula.tipo is not None:
+                        tipo = f" [{matricula.tipo}]"
+                    else:
+                        tipo = ""
+                    if matricula.modalidade is not None and len(matricula.modalidade) > 0:
+                        modalidade = f" ({matricula.modalidade})"
+                    else:
+                        modalidade = ""
+                    if matricula.obs is not None:
+                        obs = f"; {matricula.obs}"
+                    else:
+                        obs = ""
+                    r = r + f"{matricula.data}:{ambito}{modalidade}{tipo}{obs}\n"
+
+        if self.exames is not None and len(self.exames) > 0:
+            r += "\nExames:\n"
+            for exame in sorted(self.exames, key=lambda x: x.data.value):
+                if exame.resultado is not None:
+                    resultado = f", {exame.resultado}"
+                else:
+                    resultado = ""
+                r = r + f"{exame.data.value}: {exame.ambito.replace('Exames ', '')}{resultado}; {exame.obs}\n"
+
+        if self.provas is not None and len(self.provas) > 0:
+            r += "\nProvas:\n"
+            for prova in sorted(self.provas, key=lambda x: x.data.value):
+                r = r + f"{prova.data}: {prova.ambito}; {prova.obs}\n"
+
+        if self.graus is not None and len(self.graus) > 0:
+            r += "\nGraus:\n"
+            for grau in sorted(self.graus, key=lambda x: x.data.value):
+                r = r + f"{grau.data}: {grau.nome}{'; '+grau.obs if grau.obs else '' }\n"
+
+
+        r = r + f"\nOriginal\n----------\n{self.obs}\n-------\n"
+        if self.erratum_diff is not None and self.erratum_diff > "":
+            r = (
+                r
+                + f"\n### Erratum:\n.....................\n{self.erratum_diff}\n......................\n"
+            )
+
+
+        return r + "\n"
+
+
     def as_entry(self):
         """Format aluno as dictionnary entry"""
         r = f"[{self.id}] {self.nome}"
