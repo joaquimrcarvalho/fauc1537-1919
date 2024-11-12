@@ -25,8 +25,9 @@ ls,atr
 
 MIT License, no warranties.
 """
-from timelink.kleio.groups import KDate, KDay, KMonth,KYear, KType, KReplace, KName 
-from timelink.kleio.groups import  KKleio, KSource, KAct, \
+from timelink.kleio.groups import KDate, KDay, KMonth, KYear
+from timelink.kleio.groups import KType, KReplace, KName
+from timelink.kleio.groups import KKleio, KSource, KAct, \
     KAbstraction, KPerson, KSex
 from timelink.kleio.groups.kls import KLs
 from timelink.kleio.groups.krelation import KRelation
@@ -58,7 +59,7 @@ KSexo = KSex.extend('sexo')
 
 kleio = KKleio
 fonte = KSource.extend(
-    'fonte', also=['tipo', 'data', 'ano', 'substitui', 'loc', 
+    'fonte', also=['tipo', 'data', 'ano', 'substitui', 'loc',
                     'ref', 'obs','kleiofile'])
 lista = KAct.extend('lista', position=['id', 'dia', 'mes', 'ano'], guaranteed=[
     'id', 'ano', 'mes', 'dia'], also=['data', 'tipo', 'loc', 'obs'])
