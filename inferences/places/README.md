@@ -22,7 +22,7 @@ place of birth of the students.
 __naturalidade_original.csv__
 
 * Lista das expressões usadas na naturalidade
-dos estudantes, com número de ocorrências 
+dos estudantes, com número de ocorrências
 e datas extremas.
 
 ---
@@ -32,12 +32,12 @@ place of birth with number of cases, date interval.
 
 __naturalidade_normalizada.csv__
 
-* Acrescenta uma coluna com o topónimo normalizado, 
+* Acrescenta uma coluna com o topónimo normalizado,
     substituindo designações em desuso pelas atuais,
     atualizando ortografia e
     uniformizando pontuação, de forma
     a permitir a identificação dos topónimos na atualidade.
-    Ver tb _places_normalization.csv_
+    Ver tb _gngc_changes.csv_
 
     ---
 
@@ -45,9 +45,9 @@ __naturalidade_normalizada.csv__
   into account name changes, modern orthography and
   uniform punctuation in order to facilitate identifying
   the places nowadays.
-  
 
-__naturalidade_geo_status.csv__ 
+
+__naturalidade_geo_status.csv__
 
 * Estado atual do processo de georeferenciação. Acrescenta
     ao ficheiro anterior:
@@ -81,8 +81,8 @@ __naturalidade_geo_status.csv__
 __nomes_geograficos.csv__
 
 * Componentes das expressões usadas para naturalidade.
-Por exemplo a expressão "Ponta Delgada, S. Miguel, Açores" 
-tem três componentes. Esta lista tem mais linhas que 
+Por exemplo a expressão "Ponta Delgada, S. Miguel, Açores"
+tem três componentes. Esta lista tem mais linhas que
 _naturalidade_original.csv_ mas contém expressões mais
 ambíguas e genéricas.
 
@@ -98,4 +98,7 @@ __ine-inspire-clean.csv__
     * remoção de topónimos fora das fronteiras de Portugal continental
     * adição do contexto administrativo (freguesia,concelho, distrito)
     * adição de um índice de "importância" com base na função administrativa e população em 2011
+
+__gngc_changes.csv__
+* Lista de topónimos
 

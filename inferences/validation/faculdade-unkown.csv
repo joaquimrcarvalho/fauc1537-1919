@@ -1,5 +1,4 @@
 id,faculdade,name,faculdade.date
-192086,('),António Rodrigues,1626-10-29
 146645,(.),António Antunes,1656-10-20
 140542,(.),António de Abreu,1661-10-26
 165702,(.),Manuel Ribeiro,1604-10-17
@@ -13,9 +12,7 @@ id,faculdade,name,faculdade.date
 165775,(.),Manuel Ribeiro,1730-03-15
 166341,(.),Manuel Ribeiro,1732-11-10
 145856,(.),Pedro de Amorim,1676-01-01
-242803,(1630-10-02),João de Mesquita,1630-10-02
 243376,(1767-10-01),João de Morais de Mesquita,1767-10-01
-190636,(?),Afonso Rodrigues,1609-11-23
 190611,(?),Afonso Rodrigues,1661-10-01
 230452,(?),Agostinho Nunes Ruela,1758-10-01
 190700,(?),Agostinho Rodrigues,1625-10-20
@@ -25,7 +22,6 @@ id,faculdade,name,faculdade.date
 251563,(?),Alexandre Luís,1745-10-01
 235211,(?),Alexandre Tavares Morilhas,1724-10-01
 190797,(?),Amabrósio Rodrigues,1583-10-01
-190795,(?),Amador Rodrigues,1707-04-06
 190796,(?),Amaro Rodrigues,1663-10-26
 190805,(?),André Rodrigues,1641-05-02
 227626,(?),António Botelho da Rosa,1703-11-26
@@ -328,20 +324,8 @@ id,faculdade,name,faculdade.date
 251571,(?),Álvaro Luís,1638-01-05
 190419,(?),Álvaro Martins Rodrigão,1754-10-01
 190790,(?),Álvaro Rodrigues,1661-10-26
-225423,(Basto),António Teixeira da Silva,1738-10-01
-160143,(Canonês),Bernardo António Ribeiro,1743-10-01
-160142,(Canonês),Bernardo Álvares Ribeiro,1718-10-01
-276322,(Canônes),António Dias,1733-06-03
-206671,(Celas),Baltasar Rodrigues do Vale,0000-00-00
+190636,(Canônes),Afonso Rodrigues,1609-11-23
 163266,(Codigo),Diogo,1540-12-02
-234210,(Coimbra),Abel Augusto de Sousa,1848-10-03
-182307,(Coimbra),António de Araújo Madaíl,1724-10-01
-162940,(Coimbra),Pedro Francisco,1576-06-13
-161476,(Cânanes),João Dias,1721-10-01
-289988,(Cânoes),Bernardino de Abreu Castelo Branco,1765-06-01
-147552,(Cânone),António Pereira de Araújo,1761-10-29
-169198,(Cânone),António das Neves,1701-10-01
-147423,(Cânone),Pedro Aranha,1650-12-01
 152495,(Cânones),Camilo de Araújo da Fonseca,1868-10-10
 242848,(Cânones),Diogo de Soutomaior,1908-10-27
 278752,(Cânones),Henrique Hophe,1843-01-16
@@ -364,51 +348,16 @@ id,faculdade,name,faculdade.date
 316240,(Cânones),Pedro de Sousa,1852-03-21
 296843,(Cânones),Rafael Maria Sarmento,1830-07-13
 181636,(Cânones),Álvaro Manuel Santos e Silva Machado,1909-10-02
-171323,(Cãnones),Adriano Rodrigues de Matos,1689-10-01
-171324,(Cãnones),Afonso de Matos,1626-10-17
-170668,(Cãnones),António Mascarenhas,1626-10-20
-170667,(Cãnones),António Mascarenhas,1651-11-21
-279726,(Cãnones),António Veríssimo de Larre,1756-05-11
-170666,(Cãnones),António de Mascarenhas,1688-01-13
-164490,(Cãnones),Barnabé Delgado Freire,1681-11-11
-164493,(Cãnones),Bartolomeu Freire,1660-10-18
-169040,(Cãnones),Domingos Rodrigues Fronteira,1727-10-01
-133016,(Cãnones),Francisco José Quintanilha,1743-10-01
-310343,(Cãnones),Francisco José de Sousa,1769-05-16
-133017,(Cãnones),Francisco Quintanilha,1663-10-22
-172506,(Cãnones),Francisco Soares Galhardo,1670-10-13
-167325,(Cãnones),Gaspar de Freitas,1617-11-29
-133018,(Cãnones),Jerónimo do Rego Quintanilha,1694-10-01
-136847,(Cãnones),José Manuel Pereira de Figueiredo,1760-10-01
-130413,(Cãnones),Manuel Ferreira,1759-10-01
-133973,(Cãnones),Manuel José Pimenta Ramos,1762-12-15
-164003,(Cãnones),Manuel Rodrigues Franco,1703-10-01
-169044,(Cãnones),Pantaleão das Neves Fronteira,1725-10-01
-234998,(Cãnones),Pedro da Rocha Lobo,1700-11-20
 223999,(Dialética),André Pedroso,1540-10-15
 254161,(Dialética),Francisco Luís,1540-10-19
 190809,(Dialética),Henrique de Castro,1540-03-09
 138189,(Dialética),João Figueiró,1540-10-12
-198249,(Dieito),José Augusto de Madureira Leal,1868-10-15
-229381,(Dioreito),Francisco Batista Lisboa,1807-10-12
-188473,(Direio),Idelfonso António Henriques,1814-10-31
-132797,(Direiro),António Carlos das Neves Cardoso,1879-10-02
-290511,(Direiro),António Pacheco Ribeiro Nunes,1837-06-16
-240407,(Direiro),Sebastião da Silveira Magalhães e Menezes,1817-11-08
-171633,(Direita),Bernardo António da Silva Matos,1902-10-04
-138596,(Direto),António Alves Carneiro,1837-10-18
-271122,(Direto),Augusto Eduardo de Norornha Freire de Andrade,1907-07-13
-168784,(Dirieito),Francisco António de Sá e Fróis,1817-11-06
-211160,(Dirieito),Pedro de Carvalho Mendes Coutinho de Vasconcelos,1885-10-15
-206476,(Dreito),Ramiro Jacome da Costa Coutinho,1893-10-24
-206477,(Dreito),Rodrigo de Araújo Azevedo Sá Coutinho,1825-10-29
 134569,(Eclesiástico),António Ruivo de Figueiredo,1871-10-14
 171074,(Estado Eclesiástico),Afonso Bernardino de Ochôa Mata,1865-10-11
 229914,(Estado Eclesiástico),António Gomes Rosmaninho,1846-11-11
 162950,(Estado Eclesiástico),José António Dinis,1852-10-27
 148001,(Farmácia),Joaquim Alberto Areosa,1903-01-14
 145238,(Farmácia),Óscar Manuel Guedes Alvim,1904-10-12
-210311,(Filosfia),Fortunato Dias Leite,1838-10-15
 248777,(Granática),Amador Pires,1540-02-06
 162893,(Insituta),Jerónimo Dinis,1598-10-27
 162919,(Institua),João Dinis,1696-12-12
@@ -431,7 +380,6 @@ id,faculdade,name,faculdade.date
 172587,(Intituta),Manuel António de Bolhão Novais,1770-10-01
 138895,(Intituta),Pedro de Figueiredo,1682-10-30
 138995,(Intituta),Sebastião de  Figueiredo,1665-10-22
-138151,(Intituta),Veríssimo Aires de Figueiredo,1751-10-01
 180766,(Leis),António Joaquim Guerra,1884-10-02
 271758,(Leis),António Maria Carvalho e Araújo,1835-06-20
 296707,(Leis),Bento Lobão Morais Castro Sarmento,1830-07-12
@@ -455,66 +403,8 @@ id,faculdade,name,faculdade.date
 297055,(Leis),Manuel António da Costa Seixas,1836-06-16
 281898,(Leis),Manuel Francisco de Sousa Teixeira Brochado,1835-06-05
 206349,(Leis),Paulino Joaquim Couceiro Leitão,1906-10-02
-183377,(Lisboa),Joaquim Rodrigues da Maia,1741-10-01
-175954,(Lisboa),José Anastácio de Oliveira,1715-10-01
-241045,(Lisboa),Manuel de Araújo e Sousa,0000-00-00
-270344,(Lisboa),Pedro de Almeida,0000-00-00
-195338,(Mataematica),José Júlio Leite Lages,1893-10-14
-209363,(Mataematica),Satiro Mariano Leitão,1822-10-04
-232821,(Matecamtica),António Maria Botelho de Lacerda Lobo,1869-10-13
-221403,(Matemataica),João Bernardes de Lima,1796-10-05
-199696,(Matemtática),Augusto Xavier Teixeira,1872-10-15
-242803,(Matrículas12.10.1629),João de Mesquita,1629-10-12
-185199,(Medecina),António Manuel da Cunha Belém,1853-10-08
-241214,(Medecina),António de  Mesquita,1685-10-01
-241070,(Medecina),Domingos Gomes Merim,1661-06-25
-241122,(Medecina),Domingos Gomes Merim,1674-10-01
-175592,(Medecina),Francisco Martins de Oliveira,1691-10-01
-242599,(Medecina),Francisco de Mesquita,1654-10-15
-175643,(Medecina),Gonçalo Dias de Oliveira,1681-10-01
-175650,(Medecina),Henrique da Costa de Oliveira,1677-04-03
-251147,(Medecina),Jerónimo de Almeida Morais,1723-10-01
-175970,(Medecina),José António de Oliveira,1756-10-01
-176054,(Medecina),José Machado de Oliveira,1685-03-13
-186587,(Medecina),Júlio César de Sande Sacadura Bote,1858-10-12
-176313,(Medecina),Manuel Gomes de Oliveira,1691-10-01
-176299,(Medecina),Manuel da Fonseca de Oliveira,1738-04-16
-182143,(Medecina),Manuel de Oliveira Machado,1693-10-01
-241051,(Medecina),Pedro Mergulhão,1695-10-01
-246061,(Medecina),Pedro Miguel,1703-10-01
-176541,(Medecina),Salvador de Oliveira,1689-10-01
-204856,(Medicna),Domingos Cota,1590-10-08
-252579,(Medicna),Domingos Fernandes Monteiro,1633-10-21
-201357,(Medicna),Gabriel Rodrigues Ledesma,1705-10-23
-201361,(Medicna),Gaspar da Silva Ledesma,1730-10-01
-158903,(Medicna),Manuel de Carvalhosa,1629-10-15
-161636,(Medicína),José Dias,1731-10-01
-317111,(Mediicna),Francisco Teixeira Torres,1754-07-05
-250566,(Mediicna),Manuel de Proença,1690-10-01
-195934,(Monsanto),Sebastião Rodrigues Conde,1690-10-01
-244015,(Moura),Francisco Lopes,1732-12-01
-220076,(Porto),Roberto Guilherme Woodhonse,1878-10-02
-191527,(Porto),Serafim Garcia Dinis e Castro,0000-00-00
-213195,(Seia),Amândio Eduardo da Mota Veiga,1863-10-09
-271727,(Serpa),António de Araújo,1721-05-14
-169843,(Teaologia),Manuel Ferreira Domingues Martins,1847-10-08
-230302,(Telogia),António Augusto de Almeida Silvano,1877-10-16
-222536,(Telogia),Joaquim da Paixão,1824-10-06
-206007,(Telogia),José Coutinho,1690-10-01
-168762,(Telogia),Onofre Ribeiro,1703-10-01
-168987,(Tentativa),Luís José Lourenço da Silva Neto,1765-10-01
-181115,(Tentugal),António de Sequeira Gusmão,1749-10-01
-223019,(Teolgia),Joaquim Pedro Parente,1856-10-17
-167430,(Teolgia),João Martins de Freitas,1894-10-29
-137293,(Teolgia),Manuel de Figueiredo,1597-10-03
-144068,(Teologi),Paulo de Almeida,1700-11-01
 133424,(Teorico),Diogo Rodrigues Cardoso,1540-03-07
 179125,(Teorico),Gonçalo,1540-10-07
 196458,(Teórico),Luís Coronel,1540-02-20
 222412,(Teórico),Marcos de Paiva,1540-10-17
 176607,(Teóricos),Baltasar Olmedo,1540-10-06
-170402,(de),Simão Martins,1730-03-24
-136573,(´),Francisco Rego,1654-03-18
-177454,(Évora),Manuel Garcia,1754-10-01
-166108,(Évora),Matias Rodrigues Freire,1705-03-04
-242803,Leis,João de Mesquita,1629-10-12

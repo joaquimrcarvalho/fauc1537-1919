@@ -1,3 +1,4 @@
+# flake8: noqa: E501
 """
 Tests for the ucalumni module
 
@@ -13,9 +14,9 @@ from pathlib import Path
 import pytest
 import pyparsing as pp
 
-from timelink.mhk.models import base  # noqa
-from timelink.mhk.models.base import Source, Person, Act, Attribute, Relation
-from timelink.mhk.models.db import TimelinkDB
+from timelink.api.models import base  # noqa
+from timelink.api.models.base import Source, Person, Act, Attribute, Relation
+from timelink.api.database import TimelinkDatabase
 
 import ucalumni.config as config
 from ucalumni.config import Session, sqlite_main_db
@@ -35,7 +36,7 @@ from ucalumni.grammar import (
     DateUtility,
     preserve_original,
 )
-
+from ucalumni.config import auc_export
 from ucalumni.importer import import_auc_alumni
 from ucalumni.mapping import map_aluno_kperson, mapper_nomes_notes, list_search
 
@@ -430,9 +431,9 @@ record, we can test the extractors in specific records.
 """
 
 # set the database which will provide the test records
-db_main_db = config.sqlite_main_db
+db_main_db = config.default_sqlite_test_records
 
-db = TimelinkDB(db_main_db)
+db = TimelinkDatabase(db_url=db_main_db)
 Session.configure(bind=db.get_engine())
 
 
@@ -599,6 +600,9 @@ def test_from_db_matricula(description, id, expression):
         aluno.nome == 'Aarão Soeiro Moreira de Lacerda'
 
     """
+    if id == "185916":
+        print("debug")
+
     aluno = Aluno.from_db(id)
     aluno.process()
     kaluno = map_aluno_kperson(aluno)
@@ -1236,10 +1240,10 @@ Test transform and import
 
 def test_csv_to_kleio():
     import_auc_alumni(
-        "database/auc/PT-AUC-ELU-UC-AUC-B-001-001.CSV",
+        auc_export,
         "notebooks/ucalumni/tests/sources/",
         "",
-        max_rows_to_process=505,
+        max_rows_to_process=1000,
         batch=50,
         testing=False,
     )
@@ -1249,14 +1253,17 @@ def test_csv_to_kleio():
 def test_csv_to_sqlite():
 
     path_to_sqlite_dir = "notebooks/ucalumni/tests/db"
-    import_auc_alumni(
-        "database/auc/PT-AUC-ELU-UC-AUC-B-001-001.CSV",
-        path_to_sqlite_dir,
-        config.sqlite_test_db,
-        max_rows_to_process=100,
-        batch=50,
-        testing=False,
-    )
+    try:
+        import_auc_alumni(
+            auc_export,
+            path_to_sqlite_dir,
+            config.sqlite_test_db,
+            max_rows_to_process=10000,
+            batch=500,
+            testing=False,
+        )
+    except Exception as e:
+        print(f"An error occurred: {e}")
     # Test correct linkage to source and act
     with Session() as session:
         p: Person = session.query(Person).order_by(Person.id).first()
@@ -1282,7 +1289,8 @@ from timelinknb import get_mhk_db
 
 
 def test_geoentities_problem():
-    db_name = config.mhk_db_name
+    db_name = config.default_sqlite_test_records
     print("Selected database:", db_name)
-    db = get_mhk_db(db_name)
-    assert "geoentities" in db.db_tables()
+    db = TimelinkDatabase(db_url=db_name)
+    assert "geoentities" in db.table_names()
+

@@ -8,8 +8,8 @@
 181618,186611,Viseu,0000-00-00,0000-00-00,Afonso Botelho Machado,Botelho,Afonso Botelho,,cut,Leis,see-aka,False,
 186611,181618,Viseu,1609-10-01,1624-10-30,Afonso Botelho,Machado,Afonso Botelho Machado,António Machado,add,Cânones,aka-see,False,
 186611,181618,Viseu,1609-10-01,1624-10-30,Afonso Botelho,Machado,Afonso Botelho Machado,António Machado,add,Leis,aka-see,False,
-221796,164067,Elvas,0000-00-00,0000-00-00,Afonso Frausto Segurado,Frausto,Afonso Frausto,,cut,,see-aka,False,
-164067,221796,Elvas,1621-00-00,1627-02-12,Afonso Frausto,Segurado,Afonso Frausto Segurado,,add,Cânones,aka-see,False,
+221796,164067,Elvas,0000-00-00,0000-00-00,Afonso Frausto Segurado,Frausto,Afonso Frausto,,cut,,see-see,False,
+164067,221796,Elvas,0000-00-00,1627-02-12,Afonso Frausto,Segurado,Afonso Frausto Segurado,,add,Cânones,see-see,False,
 214147,,Lisboa,0000-00-00,0000-00-00,Afonso Furtado de Mendonça,Furtado,Afonso Furtado,,cut,,,True,E04-Ambiguity in match data
 169888,,Lisboa,1585-10-15,1594-07-30,Afonso Furtado,Mendonça,Afonso Furtado Mendonça,deJorge Furtado de Mendonça,add,Cânones,,True,E04-Ambiguity in match data
 169890,,Lisboa,1600-10-05,1611-06-05,Afonso Furtado,Mendonça,Afonso Furtado Mendonça,Martim de Castro Osório,add,Cânones,,True,E04-Ambiguity in match data
@@ -35,8 +35,8 @@
 164224,148698,Coimbra,0000-00-00,0000-00-00,Agostinho do Avelar Freire,do Avelar,Agostinho do Avelar,,cut,,see-aka,False,
 148698,164224,Coimbra,1647-10-15,1654-12-04,Agostinho do Avelar,Freire,Agostinho do Avelar Freire,,add,Cânones,aka-see,False,
 148698,164224,Coimbra,1647-10-15,1654-12-04,Agostinho do Avelar,Freire,Agostinho do Avelar Freire,,add,Leis,aka-see,False,
-244243,150572,Arrifana de Sousa,1666-01-07,1671-06-06,Agostinho Barbosa Ferreira,Barbosa,Agostinho Barbosa,Francisco Barbosa Ferreira,cut,Cânones,aka-aka,False,
 150572,244243,Arrifana de Sousa,1666-01-07,1671-06-06,Agostinho Barbosa,Ferreira,Agostinho Barbosa Ferreira,Francisco Barbosa Ferreira,add,Cânones,aka-aka,False,
+244243,150572,Arrifana de Sousa,1666-01-07,1671-06-06,Agostinho Barbosa Ferreira,Barbosa,Agostinho Barbosa,Francisco Barbosa Ferreira,cut,Cânones,aka-aka,False,
 150572,244243,Penafiel,1666-01-07,1671-06-06,Agostinho Barbosa,Ferreira,Agostinho Barbosa Ferreira,Francisco Barbosa Ferreira,add,Cânones,aka-aka,False,
 244233,134538,Lisboa,0000-00-00,0000-00-00,Agostinho Ferreira,Rebelo,Agostinho Ferreira Rebelo,,add,Cânones,see-aka,False,
 134538,244233,Lisboa,1658-10-01,1665-07-18,Agostinho Ferreira Rebelo,Ferreira,Agostinho Ferreira,Agostinho Francisco Ferreira,cut,Cânones,aka-see,False,
@@ -52,8 +52,8 @@
 181106,220849,Borba,1700-10-01,1707-10-01,Agostinho Pais de Gusmão,Pais,Agostinho Pais,,cut,Cânones,aka-see,False,
 242448,216647,Lisboa,0000-00-00,0000-00-00,Agostinho Vieira de Faria,Vieira,Agostinho Vieira,,cut,Cânones,see-aka,False,
 216647,242448,Lisboa,1675-10-01,1682-07-18,Agostinho Vieira,Faria,Agostinho Vieira Faria,Sebastião Soares,add,Cânones,aka-see,False,
-164227,248237,Lisboa,0000-00-00,0000-00-00,Aires Fernandes Freire,,Aires Fernandes Freire,,novid,,see-aka,False,W01-Single match (asymmetric) data
-248237,,Lisboa,1552-00-00,1556-05-10,Aires Fernandes,Freire,Aires Fernandes Freire,,add,Cânones,,False,W01-Single match (asymmetric) data
+164227,248237,Lisboa,0000-00-00,0000-00-00,Aires Fernandes Freire,,Aires Fernandes Freire,,novid,,see-see,False,W01-Single match (asymmetric) data
+248237,,Lisboa,0000-00-00,1556-05-10,Aires Fernandes,Freire,Aires Fernandes Freire,,add,Cânones,,False,W01-Single match (asymmetric) data
 211400,211401,Vouzela,0000-00-00,0000-00-00,Aires Gomes de Sá,Aires Mendes de Sá,Aires Mendes de Sá,,rep,,see-aka,False,
 211401,211400,Vouzela,1665-10-17,1673-06-16,Aires Mendes de Sá,Aires Gomes de Sá,Aires Gomes de Sá,,rep,Cânones,aka-see,False,
 178249,211389,Coimbra,0000-00-00,0000-00-00,Aires Gomes,Sá,Aires Gomes Sá,,add,,see-aka,False,
@@ -547,8 +547,8 @@
 233524,,Lisboa,1649-11-12,1657-04-14,António Sodré,Ferreira,António Sodré Ferreira,,add,Leis,,True,E04-Ambiguity in match data
 182659,233550,Lisboa,1578-02-04,1581-06-28,António Soeiro de Magalhães,Magalhães,António Soeiro de Magalhães,João Dias,cut,Leis,aka-see,False,W01-Single match (asymmetric) data
 233550,,Lisboa,0000-00-00,0000-00-00,António Soeiro,Magalhães,António Soeiro Magalhães,,add,,,False,W01-Single match (asymmetric) data
-235009,,Lisboa,0000-00-00,0000-00-00,António de Sousa,Macedo,António de Sousa Macedo,João,add,,,True,E04-Ambiguity in match data
 183306,,Lisboa,0000-00-00,0000-00-00,António de Sousa,António de Sousa Macedo,António de Sousa Macedo,Gonçalo de Sousa,rep,,,True,E04-Ambiguity in match data
+235009,,Lisboa,0000-00-00,0000-00-00,António de Sousa,Macedo,António de Sousa Macedo,João,add,,,True,E04-Ambiguity in match data
 183307,,Lisboa,1629-11-15,1632-06-06,António de Sousa de Macedo,Sousa,António de Sousa,Gonçalo de Sousa,cut,Leis,,True,E04-Ambiguity in match data
 232490,211453,Lisboa,0000-00-00,0000-00-00,António de Sá Pereira,Sá,António de Sá,,cut,,see-aka,False,
 211453,232490,Lisboa,1587-10-10,1599-11-22,António de Sá,Pereira,António de Sá Pereira,Jerónimo Pereira de Sá,add,Cânones,aka-see,False,
@@ -606,7 +606,6 @@
 144264,246792,Vila Real,0000-00-00,0000-00-00,António Álvares,Mourão,António Álvares Mourão,,add,,see-aka,False,
 246792,144264,Vila Real,1616-10-31,1617-10-21,António Álvares Mourão,Álvares,António Álvares,Domingos Álvares,cut,Cânones,aka-see,False,
 146869,132149,,0000-00-00,0000-00-00,António,Figueiredo,António Figueiredo,,add,,see-aka,False,
-132149,146869,,1573-10-01,1582-04-30,António de Figueiredo,António,António,,cut,(Telogia),aka-see,False,
 132149,146869,,1573-10-01,1582-04-30,António de Figueiredo,António,António,,cut,Teologia,aka-see,False,
 153620,153619,Viana do Alentejo,0000-00-00,0000-00-00,Ascenso Pires de Carvalho,Ascenso de Carvalho,Ascenso de Carvalho,,rep,,see-aka,False,
 153619,153620,Viana do Alentejo,1604-01-27,1612-02-18,Ascenso de Carvalho,Ascenso Pires de Carvalho,Ascenso Pires de Carvalho,Diogo Pires,rep,Medicina,aka-see,False,
@@ -631,7 +630,7 @@
 232590,174582,Pernambuco,1662-10-15,1669-06-06,Baltasar Pereira,Melo,Baltasar Pereira Melo,,add,Cânones,aka-aka,False,
 136523,215660,Ilha de São Miguel,0000-00-00,0000-00-00,Baltasar do Rego,Sanches,Baltasar do Rego Sanches,,add,,see-aka,False,
 215660,136523,Ilha de São Miguel,1570-10-01,1577-10-17,Baltasar do Rego Sanches,Rego,Baltasar do Rego,Manuel Pires de Almeida,cut,Leis,aka-see,False,
-206671,194662,Celas,0000-00-00,0000-00-00,Baltasar Rodrigues do Vale,Rodrigues,Baltasar Rodrigues,,cut,(Celas),see-aka,False,
+206671,194662,Celas,0000-00-00,0000-00-00,Baltasar Rodrigues do Vale,Rodrigues,Baltasar Rodrigues,,cut,Cânones,see-aka,False,
 194662,206671,Celas,1637-10-01,1646-10-24,Baltasar Rodrigues,Vale,Baltasar Rodrigues Vale,Baltasar Rodrigues,add,Cânones,aka-see,False,
 211936,240242,Viana do Castelo,0000-00-00,0000-00-00,Baltasar Vaz,Fagundes,Baltasar Vaz Fagundes,,add,,see-aka,False,
 240242,211936,Viana do Castelo,1578-11-27,1583-11-18,Baltasar Vaz Fagundes,Vaz,Baltasar Vaz,Francisco Pires Caminha,cut,Leis,aka-see,False,
@@ -658,8 +657,8 @@
 239040,235954,Barcelos,1619-11-04,1626-10-17,Belchior Lopes,Mota,Belchior Lopes Mota,Tomé Dias,add,Leis,aka-see,False,
 235953,140637,Viana,0000-00-00,0000-00-00,Belchior da Mota,e Abreu,Belchior da Mota e Abreu,,add,,see-aka,False,
 140637,235953,Viana,1674-11-02,1679-10-15,Belchior da Mota e Abreu,Mota,Belchior da Mota,,cut,Cânones,aka-see,False,
-128114,211581,Alfândega,0000-00-00,0000-00-00,Belchior de Sá Cabral,,Belchior de Sá Cabral,,novid,Cânones,see-aka,False,W01-Single match (asymmetric) data
-211581,,Alfândega,1652-10-29,1666-01-27,Belchior de Sá,Cabral,Belchior de Sá Cabral,António Cabral,add,Cânones,,False,W01-Single match (asymmetric) data
+128114,211581,Alfândega,0000-00-00,0000-00-00,Belchior de Sá Cabral,Sá,Belchior de Sá,,cut,Cânones,see-aka,False,
+211581,128114,Alfândega,1652-10-29,1666-01-27,Belchior de Sá,Cabral,Belchior de Sá Cabral,António Cabral,add,Cânones,aka-see,False,
 211957,196733,Vila da Feira,0000-00-00,0000-00-00,Belchior Vaz,Correia,Belchior Vaz Correia,,add,,see-aka,False,
 196733,211957,Vila da Feira,1599-03-03,1604-06-25,Belchior Vaz Correia,Vaz,Belchior Vaz,António Vaz,cut,Cânones,aka-see,False,
 146936,199937,Coimbra,0000-00-00,0000-00-00,Bento Antunes,da Costa,Bento Antunes da Costa,,add,,see-aka,False,
@@ -753,8 +752,8 @@
 250639,243000,Lisboa,0000-00-00,0000-00-00,Brás de Pina Moniz,Pina,Brás de Pina,,cut,,see-aka,False,
 243000,250639,Lisboa,1639-10-17,1646-05-30,Brás de Pina,Moniz,Brás de Pina Moniz,Vicente Ferreira,add,Cânones,aka-see,False,
 152482,,Nabainhos,0000-00-00,0000-00-00,Brás Ribeiro da Fonseca,Ribeiro,Brás Ribeiro,,cut,Leis,,True,E04-Ambiguity in match data
-160158,,Nabainhos,1640-10-09,1648-10-04,Brás Ribeiro,Fonseca,Brás Ribeiro Fonseca,Miguel Ribeiro,add,Leis,,True,E04-Ambiguity in match data
 160196,,Nabainhos,1640-10-09,1652-11-30,Brás Ribeiro,Fonseca,Brás Ribeiro Fonseca,Miguel Ribeiro,add,Leis,,True,E04-Ambiguity in match data
+160158,,Nabainhos,1640-10-09,1648-10-04,Brás Ribeiro,Fonseca,Brás Ribeiro Fonseca,Miguel Ribeiro,add,Leis,,True,E04-Ambiguity in match data
 216067,207160,Marmeleira,0000-00-00,0000-00-00,Caetano Craveiro de Sande,Craveiro,Caetano Craveiro,,cut,,see-aka,False,
 207160,216067,Marmeleira,1707-11-05,1707-11-05,Caetano Craveiro,de Sande,Caetano Craveiro de Sande,,add,Cursos jurídicos (Cânones ou Leis),aka-see,False,
 174714,211603,,0000-00-00,0000-00-00,Caetano Luís de Melo,Caetano Luís de Melo e Sá,Caetano Luís de Melo e Sá,,rep,,see-aka,False,
@@ -806,8 +805,8 @@
 142410,200118,Guimarães,0000-00-00,0000-00-00,Cristóvão da Costa de Almada,Costa,Cristóvão da Costa,,cut,,see-aka,False,
 200118,142410,Guimarães,1600-11-21,1602-11-27,Cristóvão da Costa,de Almada,Cristóvão da Costa de Almada,Inácio da Costa,add,Cânones,aka-see,False,
 200118,142410,Guimarães,1600-11-21,1602-11-27,Cristóvão da Costa,de Almada,Cristóvão da Costa de Almada,Inácio da Costa,add,Leis,aka-see,False,
-193534,186053,Lisboa,0000-00-00,0000-00-00,Cristóvão Jorge,Borges,Cristóvão Jorge Borges,,add,,see-aka,False,
-186053,193534,Lisboa,1551-00-00,1552-07-18,Cristóvão Jorge Borges,Jorge,Cristóvão Jorge,,cut,Cânones,aka-see,False,
+193534,186053,Lisboa,0000-00-00,0000-00-00,Cristóvão Jorge,Borges,Cristóvão Jorge Borges,,add,,see-see,False,
+186053,193534,Lisboa,0000-00-00,1552-07-18,Cristóvão Jorge Borges,Jorge,Cristóvão Jorge,,cut,Cânones,see-see,False,
 221897,246287,Travanca,0000-00-00,0000-00-00,Cristóvão Pinto de Seixas,Pinto,Cristóvão Pinto,António Domingues,cut,Cânones,see-aka,False,
 246287,221897,Travanca,1630-11-05,1639-07-19,Cristóvão Pinto,Seixas,Cristóvão Pinto Seixas,António Domingues,add,Cânones,aka-see,False,
 151045,196375,Lisboa,0000-00-00,0000-00-00,Cristóvão Rodrigues Barradas,Rodrigues,Cristóvão Rodrigues,Manuel Jorge Barradas,cut,Leis,see-aka,False,
@@ -829,10 +828,10 @@
 174828,190512,Lisboa,1591-10-01,1604-10-19,Dinis de Melo,Castro,Dinis de Melo Castro,Francisco de Melo,add,Cânones,aka-see,False,
 233143,140672,Ponte de Lima,0000-00-00,0000-00-00,Diogo de Abreu Pereira,Abreu,Diogo de Abreu,,cut,,see-aka,False,
 140672,233143,Ponte de Lima,1589-10-27,1597-07-13,Diogo de Abreu,Pereira,Diogo de Abreu Pereira,Jorge de Abreu,add,Leis,aka-see,False,
-265272,150364,Lisboa,1624-10-22,1633-05-21,Diogo Barbosa de Carvalho,Barbosa,Diogo Barbosa,Tristão Barbosa,cut,Cânones,aka-aka,False,
-265272,150364,Lisboa,1624-10-22,1633-05-21,Diogo Barbosa de Carvalho,Barbosa,Diogo Barbosa,Tristão Barbosa,cut,Leis,aka-aka,False,
 150364,265272,Lisboa,1624-10-22,1633-05-21,Diogo Barbosa,Carvalho,Diogo Barbosa Carvalho,Tristão Barbosa,add,Cânones,aka-aka,False,
 150364,265272,Lisboa,1624-10-22,1633-05-21,Diogo Barbosa,Carvalho,Diogo Barbosa Carvalho,Tristão Barbosa,add,Leis,aka-aka,False,
+265272,150364,Lisboa,1624-10-22,1633-05-21,Diogo Barbosa de Carvalho,Barbosa,Diogo Barbosa,Tristão Barbosa,cut,Cânones,aka-aka,False,
+265272,150364,Lisboa,1624-10-22,1633-05-21,Diogo Barbosa de Carvalho,Barbosa,Diogo Barbosa,Tristão Barbosa,cut,Leis,aka-aka,False,
 164618,187563,Alenquer,0000-00-00,0000-00-00,Diogo Brandão Freire,Brandão,Diogo Brandão,,cut,,see-aka,False,
 187563,164618,Alenquer,1658-10-13,1663-10-27,Diogo Brandão,Freire,Diogo Brandão Freire,,add,Cânones,aka-see,False,
 191265,200142,Barcelos,0000-00-00,0000-00-00,Diogo da Costa Homem,Costa,Diogo da Costa,,cut,Leis,see-aka,False,
@@ -1092,8 +1091,8 @@
 218267,208000,,1740-10-01,1749-10-01,Felix de Valois e Santo Elias,Valois,Felix de Valois,,cut,Teologia,aka-see,False,
 178586,171247,Cavaleiros,0000-00-00,0000-00-00,Fernando Gomes,Fernando Gomes Nogueira,Fernando Gomes Nogueira,,rep,,see-aka,False,
 171247,178586,Cavaleiros,1752-10-27,1754-10-01,Fernando Gomes Nogueira,Fernando Gomes,Fernando Gomes,,cut,Cânones,aka-see,False,
-134269,192257,Beja,0000-00-00,0000-00-00,Fernão Cerveira Raposo,Cerveira,Fernão Cerveira,,cut,,see-aka,False,
-192257,134269,Beja,1554-00-00,1556-05-26,Fernão Cerveira,Raposo,Fernão Cerveira Raposo,,add,Leis,aka-see,False,
+134269,192257,Beja,0000-00-00,0000-00-00,Fernão Cerveira Raposo,Cerveira,Fernão Cerveira,,cut,,see-see,False,
+192257,134269,Beja,0000-00-00,1556-05-26,Fernão Cerveira,Raposo,Fernão Cerveira Raposo,,add,Leis,see-see,False,
 196936,194397,Lisboa,0000-00-00,0000-00-00,Fernão Correia,Lacerda,Fernão Correia Lacerda,,add,,see-aka,False,
 194397,196936,Lisboa,1654-03-03,1654-07-05,Fernão Correia de Lacerda,Correia,Fernão Correia,,cut,Cânones,aka-see,False,
 243711,,Lisboa,0000-00-00,0000-00-00,Fernão Dias Pinheiro,Dias,Fernão Dias,,cut,,,True,E04-Ambiguity in match data
@@ -1115,8 +1114,8 @@
 233348,198380,Lisboa,1578-10-03,1585-03-28,Fernão Rodrigues Lobo,Rodrigues,Fernão Rodrigues,Manuel Álvares,cut,Leis,aka-see,False,
 248640,198460,Lisboa,0000-00-00,0000-00-00,Fernão Rodrigues de Miranda,Rodrigues,Fernão Rodrigues,Filipe Tomás,cut,Cânones,see-aka,False,
 198460,248640,Lisboa,1608-11-16,1613-05-06,Fernão Rodrigues,Miranda,Fernão Rodrigues Miranda,Filipe Tomás,add,Cânones,aka-see,False,
-212495,232073,Fronteira,1624-03-26,1624-03-27,Fernão Soares de Lemos,Soares,Fernão Soares,,cut,Medicina,aka-aka,False,
 232073,212495,Fronteira,1624-03-26,1624-03-26,Fernão Soares,Lemos,Fernão Soares Lemos,,add,Artes,aka-aka,False,
+212495,232073,Fronteira,1624-03-26,1624-03-27,Fernão Soares de Lemos,Soares,Fernão Soares,,cut,Medicina,aka-aka,False,
 152812,233664,Lisboa,0000-00-00,0000-00-00,Fernão Solis da Fonseca,Solis,Fernão Solis,,cut,,see-aka,False,
 233664,152812,Lisboa,1578-03-01,1584-06-16,Fernão Solis,Fonseca,Fernão Solis Fonseca,Duarte Solis,add,Medicina,aka-see,False,
 202622,144388, Constância,0000-00-00,0000-00-00,Fernão de Álvares Temudo,Álvares,Fernão de Álvares,,cut,,see-aka,False,
@@ -1199,9 +1198,9 @@
 200978,139173,Vila do Conde,0000-00-00,0000-00-00,Francisco Carneiro da Costa,Carneiro,Francisco Carneiro,,cut,,see-aka,False,
 139173,200978,Vila do Conde,1556-10-00,1559-03-31,Francisco Carneiro,da Costa,Francisco Carneiro da Costa,,add,Leis,aka-see,False,
 139146,,Porto,0000-00-00,0000-00-00,Francisco Carneiro,da Fonseca,Francisco Carneiro da Fonseca,,add,,,True,E04-Ambiguity in match data
+139166,,Porto,1652-10-19,1652-10-19,Francisco Carneiro,da Fonseca,Francisco Carneiro da Fonseca,,add,Cursos jurídicos (Cânones ou Leis),,True,E04-Ambiguity in match data
 153316,,Porto,1652-10-19,1668-10-01,Francisco Carneiro da Fonseca,Carneiro,Francisco Carneiro,,cut,Artes,,True,E04-Ambiguity in match data
 153316,,Porto,1652-10-19,1668-10-01,Francisco Carneiro da Fonseca,Carneiro,Francisco Carneiro,,cut,Cursos jurídicos (Cânones ou Leis),,True,E04-Ambiguity in match data
-139166,,Porto,1652-10-19,1652-10-19,Francisco Carneiro,da Fonseca,Francisco Carneiro da Fonseca,,add,Cursos jurídicos (Cânones ou Leis),,True,E04-Ambiguity in match data
 133845,154745,Gouveia,0000-00-00,0000-00-00,Francisco de Carvalho Cardoso,Carvalho,Francisco de Carvalho,,cut,,see-aka,False,
 154745,133845,Gouveia,1639-10-15,1652-10-21,Francisco de Carvalho,Cardoso,Francisco de Carvalho Cardoso,Manuel da Silva,add,Cânones,aka-see,False,
 133845,154745,São Paio,0000-00-00,0000-00-00,Francisco de Carvalho Cardoso,Carvalho,Francisco de Carvalho,,cut,,see-aka,False,
@@ -1272,8 +1271,8 @@
 180510,251992,Vila Real,1607-11-05,1614-05-17,Francisco Fernandes Guedes,Fernandes,Francisco Fernandes,João Lourenço,cut,Teologia,aka-aka,False,
 252100,175574,Lisboa,0000-00-00,0000-00-00,Francisco Fernandes,Oliveira,Francisco Fernandes Oliveira,,add,,see-aka,False,
 175574,252100,Lisboa,1582-10-20,1592-05-03,Francisco Fernandes de Oliveira,Fernandes,Francisco Fernandes,Rodrigo Fernandes,cut,Leis,aka-see,False,
-245531,,Porto,0000-00-00,0000-00-00,Francisco Ferreira,Andrade,Francisco Ferreira Andrade,Bartolomeu Ferreira,add,Cânones,,True,E04-Ambiguity in match data
 146206,,Porto,0000-00-00,0000-00-00,Francisco Ferreira de Andrade,Ferreira,Francisco Ferreira,,cut,Cânones,,True,E04-Ambiguity in match data
+245531,,Porto,0000-00-00,0000-00-00,Francisco Ferreira,Andrade,Francisco Ferreira Andrade,Bartolomeu Ferreira,add,Cânones,,True,E04-Ambiguity in match data
 245530,,Porto,1638-10-20,1651-02-25,Francisco Ferreira,Andrade,Francisco Ferreira Andrade,Baltasar Ferreira,add,Cânones,,True,E04-Ambiguity in match data
 165542,245519,Lisboa,0000-00-00,0000-00-00,Francisco Ferreira Encerrabodes,Ferreira,Francisco Ferreira,,cut,,see-aka,False,
 245519,165542,Lisboa,1636-10-19,1643-05-20,Francisco Ferreira,Encerrabodes,Francisco Ferreira Encerrabodes,Damião Rodrigues,add,Cânones,aka-see,False,
@@ -1651,7 +1650,7 @@
 219224,147810,Vila do Conde,0000-00-00,0000-00-00,Gonçalo de Araújo Vilas Boas,Araújo,Gonçalo de Araújo,,cut,Cânones,see-aka,False,
 147810,219224,Vila do Conde,1640-10-12,1649-01-20,Gonçalo de Araújo,Vilas Boas,Gonçalo de Araújo Vilas Boas,Manuel de Araújo,add,Cânones,aka-see,False,
 134108,153648,Longroiva,0000-00-00,0000-00-00,Gonçalo Cardoso,Fonseca,Gonçalo Cardoso Fonseca,,add,,see-aka,False,
-153648,134108,Longroiva,1567-10-08,1569-01-27,Gonçalo Cardoso da Fonseca,Cardoso,Gonçalo Cardoso,,cut,,aka-see,False,
+153648,134108,Longroiva,1567-10-08,1569-01-27,Gonçalo Cardoso da Fonseca,Cardoso,Gonçalo Cardoso,,cut,Teologia,aka-see,False,
 237889,197182,Ilha de São Miguel,0000-00-00,0000-00-00,Gonçalo Correia de Sousa,Correia,Gonçalo Correia,António Jorge Correia,cut,Cânones,see-aka,False,
 197182,237889,Ilha de São Miguel,1588-06-09,1610-11-29,Gonçalo Correia,Sousa,Gonçalo Correia Sousa,António Jorge Correia,add,Cânones,aka-see,False,
 209676,219226,Aveiro,0000-00-00,0000-00-00,Gonçalo da Cunha,Vilas Boas,Gonçalo da Cunha Vilas Boas,,add,Leis,see-aka,False,
@@ -1733,8 +1732,8 @@
 245816,203743,Fonte Arcada,1570-02-08,1583-06-22,Inácio Ferreira,Leitão,Inácio Ferreira Leitão,Pedro Simão,add,Leis,aka-see,False,
 176763,135500,Lobrigos,0000-00-00,0000-00-00,Inácio de Figueiredo Pinto Queirós Osório,Figueiredo,Inácio de Figueiredo,,cut,,see-aka,False,
 135500,176763,Lobrigos,1760-12-01,1761-10-01,Inácio de Figueiredo,Pinto Queirós Osório,Inácio de Figueiredo Pinto Queirós Osório,,add,Cânones,aka-see,False,
-147410,,Porto,0000-00-00,0000-00-00,Inácio de Moura Aranha,Moura,Inácio de Moura,,cut,,,True,E04-Ambiguity in match data
 240879,,Porto,0000-00-00,0000-00-00,Inácio de Moura,Aranha,Inácio de Moura Aranha,,add,,,True,E04-Ambiguity in match data
+147410,,Porto,0000-00-00,0000-00-00,Inácio de Moura Aranha,Moura,Inácio de Moura,,cut,,,True,E04-Ambiguity in match data
 240882,,Porto,1622-10-11,1630-10-22,Inácio de Moura,Aranha,Inácio de Moura Aranha,Domingos de Moura,add,Cânones,,True,E04-Ambiguity in match data
 237990,235269,Lisboa,0000-00-00,0000-00-00,Inácio Pereira de Sousa,Pereira,Inácio Pereira,António Pereira,cut,Leis,see-aka,False,
 235269,237990,Lisboa,1646-10-15,1652-05-04,Inácio Pereira,Sousa,Inácio Pereira Sousa,António Pereira,add,Leis,aka-see,False,
@@ -1759,7 +1758,7 @@
 141697,130075,Santarém,1608-11-08,1615-10-16,Jerónimo de Aguiar,da Câmara,Jerónimo de Aguiar da Câmara,António Coelho de Aguiar,add,Cânones,aka-see,False,
 141697,130075,Santarém,1608-11-08,1615-10-16,Jerónimo de Aguiar,da Câmara,Jerónimo de Aguiar da Câmara,António Coelho de Aguiar,add,Leis,aka-see,False,
 143242,251147,Lisboa,1723-10-01,1725-10-01,Jerónimo de Almeida,Morais,Jerónimo de Almeida Morais,,add,Medicina,aka-aka,False,
-251147,143242,Lisboa,1723-10-01,1731-11-24,Jerónimo de Almeida Morais,Almeida,Jerónimo de Almeida,,cut,(Medecina),aka-aka,False,
+251147,143242,Lisboa,1723-10-01,1731-11-24,Jerónimo de Almeida Morais,Almeida,Jerónimo de Almeida,,cut,Medicina,aka-aka,False,
 143239,163231,Ferreira,1553-10-00,1559-07-27,Jerónimo de Almeida,Ribeiro,Jerónimo de Almeida Ribeiro,,add,Leis,aka-aka,False,
 163231,143239,Ferreira,1560-01-24,1560-07-24,Jerónimo de Almeida Ribeiro,Almeida,Jerónimo de Almeida,,cut,Cânones,aka-aka,False,
 153998,145522,Vila Franca,0000-00-00,0000-00-00,Jerónimo do Amaral da Fonseca,Amaral,Jerónimo do Amaral,,cut,Cursos jurídicos (Cânones ou Leis),see-aka,False,
@@ -1800,8 +1799,8 @@
 128357,200583,Lamego,1577-02-17,1582-10-03,Jerónimo Teixeira Cabral,Teixeira,Jerónimo Teixeira,Francisco Teixeira,cut,Cânones,aka-see,False,
 247108,200585,Lamego,0000-00-00,0000-00-00,Jerónimo Teixeira Pinto,Teixeira,Jerónimo Teixeira,,cut,,see-aka,False,
 200585,247108,Lamego,1630-11-29,1632-11-17,Jerónimo Teixeira,Pinto,Jerónimo Teixeira Pinto,,add,Cânones,aka-see,False,
-212414,187675,Coimbra,0000-00-00,0000-00-00,Jerónimo Vaz,Brandão,Jerónimo Vaz Brandão,,add,,see-aka,False,
-187675,212414,Coimbra,1552-00-00,1561-07-26,Jerónimo de Vaz Brandão,Vaz,Jerónimo de Vaz,,cut,Cânones,aka-see,False,
+212414,187675,Coimbra,0000-00-00,0000-00-00,Jerónimo Vaz,Brandão,Jerónimo Vaz Brandão,,add,,see-see,False,
+187675,212414,Coimbra,0000-00-00,1561-07-26,Jerónimo de Vaz Brandão,Vaz,Jerónimo de Vaz,,cut,Cânones,see-see,False,
 217478,221188,Lisboa,0000-00-00,0000-00-00,Jerónimo Vieira,de Lima,Jerónimo Vieira de Lima,,add,,see-aka,False,
 221188,217478,Lisboa,1653-10-15,1657-11-14,Jerónimo Vieira de Lima,Vieira,Jerónimo Vieira,Francisco Vieira,cut,Leis,aka-see,False,
 227501,156191,Merciana,0000-00-00,0000-00-00,Joaquim José de Carvalho Pereira da Silva,Joaquim José de Carvalho,Joaquim José de Carvalho,,cut,,see-aka,False,
@@ -2445,8 +2444,8 @@
 149911,215911,Vila Viçosa,1595-11-06,1605-10-11,João Sanches de Baena,Sanches,João Sanches,Pedro Álvares Sanches,cut,Cânones,aka-see,False,
 200713,226997,Lisboa,1590-10-11,1596-07-20,João da Silva de Melo,Melo,João da Silva de Melo,António Lopes,cut,Cânones,aka-see,False,W01-Single match (asymmetric) data
 226997,,Lisboa,0000-00-00,0000-00-00,João da Silva,Melo,João da Silva Melo,António Lopes,add,,,False,W01-Single match (asymmetric) data
-238487,,Caldas,0000-00-00,0000-00-00,João da Silva e Sousa,Silva,João da Silva,,cut,,,True,E04-Ambiguity in match data
 226966,,Caldas,0000-00-00,0000-00-00,João da Silva,Sousa,João da Silva Sousa,,add,,,True,E04-Ambiguity in match data
+238487,,Caldas,0000-00-00,0000-00-00,João da Silva e Sousa,Silva,João da Silva,,cut,,,True,E04-Ambiguity in match data
 238488,,Caldas,1656-10-20,1665-07-22,João da Silva e Sousa,Silva,João da Silva,António da Silva e Sousa,cut,Cânones,,True,E04-Ambiguity in match data
 197935,227038,Santa Marinha de Vilar,0000-00-00,0000-00-00,João da Silva Tavares,Silva,João da Silva,,cut,,see-aka,False,
 227038,197935,Santa Marinha de Vilar,1723-10-01,1729-10-01,João da Silva,Tavares,João da Silva Tavares,,add,Leis,aka-see,False,
@@ -2632,8 +2631,8 @@
 220355,242651,Aldeia Galega,1715-10-01,1719-10-01,Luís Basílio Pacheco,Pimentel,Luís Basílio Pacheco Pimentel,,add,Cânones,aka-see,False,
 145582,266013,Castanheira,0000-00-00,0000-00-00,Luís Bernardo Aranda do Amaral,Aranda,Luís Bernardo Aranda,,cut,Cânones,see-aka,False,
 266013,145582,Castanheira,1753-10-01,1760-06-09,Luís Bernardo Aranda,do Amaral,Luís Bernardo Aranda do Amaral,Manuel de Aranda,add,Cânones,aka-see,False,
-129537,186950,Leiria,0000-00-00,0000-00-00,Luís Botelho Caldeira,Botelho,Luís Botelho,,cut,,see-aka,False,
-186950,129537,Leiria,1578-00-00,1583-00-00,Luís Botelho,Caldeira,Luís Botelho Caldeira,Diogo Botelho,add,Leis,aka-see,False,
+186950,129537,Leiria,0000-00-00,0000-00-00,Luís Botelho,Caldeira,Luís Botelho Caldeira,Diogo Botelho,add,Leis,see-see,False,
+129537,186950,Leiria,0000-00-00,0000-00-00,Luís Botelho Caldeira,Botelho,Luís Botelho,,cut,,see-see,False,
 179614,156524,Granjal,0000-00-00,0000-00-00,Luís Carlos da Fonseca Gonçalves,Fonseca,Luís Carlos da Fonseca,,cut,,see-aka,False,
 156524,179614,Granjal,1715-10-29,1726-07-06,Luís Carlos da Fonseca,Gonçalves,Luís Carlos da Fonseca Gonçalves,António da Fonseca,add,Cânones,aka-see,False,
 244535,139574,Ourém,0000-00-00,0000-00-00,Luís Carneiro de Faria,Carneiro,Luís Carneiro,,cut,,see-aka,False,
@@ -2653,8 +2652,8 @@
 202783,191207,Guimarães,0000-00-00,0000-00-00,Luís da Costa,Luís da Costa Macedo e Castro,Luís da Costa Macedo e Castro,,rep,,see-aka,False,
 191207,202783,Guimarães,1753-10-01,1759-12-01,Luís da Costa Macedo e Castro,Luís da Costa,Luís da Costa,,cut,Cânones,aka-see,False,
 191207,202783,Guimarães,1753-10-01,1759-12-01,Luís da Costa Macedo e Castro,Luís da Costa,Luís da Costa,,cut,Leis,aka-see,False,
-206918,163941,Lisboa,1657-10-22,1657-10-22,Luís do Couto,Franco,Luís do Couto Franco,,add,Cânones,aka-aka,False,
 163941,206918,Lisboa,1657-10-22,1662-07-09,Luís do Couto Franco,Couto,Luís do Couto,,cut,Leis,aka-aka,False,
+206918,163941,Lisboa,1657-10-22,1657-10-22,Luís do Couto,Franco,Luís do Couto Franco,,add,Cânones,aka-aka,False,
 203431,210381,Lisboa,0000-00-00,0000-00-00,Luís da Cunha Toar,Cunha,Luís da Cunha,,cut,Cânones,see-aka,False,
 210381,203431,Lisboa,1653-10-20,1660-12-04,Luís da Cunha,Toar,Luís da Cunha Toar,Luís da Cunha Tavarede,add,Cânones,aka-see,False,
 141039,133986,Porto,0000-00-00,0000-00-00,Luís Delgado de Abreu,Delgado,Luís Delgado,,cut,,see-aka,False,
@@ -2740,8 +2739,8 @@
 242944,222073,Torres Vedras,0000-00-00,0000-00-00,Luís de Seixas Soutomaior,Seixas,Luís de Seixas,,cut,Leis,see-aka,False,
 222073,242944,Torres Vedras,1650-10-22,1658-07-22,Luís de Seixas,Soutomaior,Luís de Seixas Soutomaior,,add,Cânones,aka-see,False,
 222073,242944,Torres Vedras,1650-10-22,1658-07-22,Luís de Seixas,Soutomaior,Luís de Seixas Soutomaior,,add,Leis,aka-see,False,
-223958,234383,Lisboa,0000-00-00,0000-00-00,Luís Serrão,Lobo,Luís Serrão Lobo,,add,,see-aka,False,
-234383,223958,Lisboa,1553-00-00,1562-06-30,Luís Serrão Lobo,Serrão,Luís Serrão,,cut,Cânones,aka-see,False,
+223958,234383,Lisboa,0000-00-00,0000-00-00,Luís Serrão,Lobo,Luís Serrão Lobo,,add,,see-see,False,
+234383,223958,Lisboa,0000-00-00,1562-06-30,Luís Serrão Lobo,Serrão,Luís Serrão,,cut,Cânones,see-see,False,
 199149,228511,Águeda,0000-00-00,0000-00-00,Luís da Silva e Azevedo de Távora,Silva,Luís da Silva,,cut,,see-aka,False,
 228511,199149,Águeda,1681-10-01,1683-10-01,Luís da Silva,Azevedo de Távora,Luís da Silva Azevedo de Távora,,add,Cânones,aka-see,False,
 215376,228552,Lisboa,0000-00-00,0000-00-00,Luís da Silva Sampaio,Silva,Luís da Silva,,cut,,see-aka,False,
@@ -2804,8 +2803,9 @@
 228996,202294,Elvas,1749-10-27,1753-10-01,Manuel António da Silva,Teles,Manuel António da Silva Teles,,add,Cânones,aka-see,False,
 146901,220285,Varzielas,0000-00-00,0000-00-00,Manuel António,Manuel António dos Santos,Manuel António dos Santos,,rep,,see-aka,False,
 220285,146901,Varzielas,1755-10-01,1769-12-15,Manuel António dos Santos,Manuel António,Manuel António,,cut,Cânones,aka-see,False,
-241043,148119,Ilha da Madeira,0000-00-00,0000-00-00,Manuel de Araújo e Sousa,Araújo,Manuel de Araújo,,cut,Cânones,see-aka,False,
-148119,241043,Ilha da Madeira,1651-01-08,1654-06-08,Manuel de Araújo,Sousa,Manuel de Araújo Sousa,António Fernandes,add,Cânones,aka-see,False,
+241045,,Ilha da Madeira,0000-00-00,0000-00-00,Manuel de Araújo e Sousa,Araújo,Manuel de Araújo,Pedro Rodrigues,cut,Cânones,,True,E04-Ambiguity in match data
+241043,,Ilha da Madeira,0000-00-00,0000-00-00,Manuel de Araújo e Sousa,Araújo,Manuel de Araújo,,cut,Cânones,,True,E04-Ambiguity in match data
+148119,,Ilha da Madeira,1651-01-08,1654-06-08,Manuel de Araújo,Sousa,Manuel de Araújo Sousa,António Fernandes,add,Cânones,,True,E04-Ambiguity in match data
 134411,148723,Atouguia,0000-00-00,0000-00-00,Manuel do Avelar Delgado,Avelar,Manuel do Avelar,,cut,,see-aka,False,
 148723,134411,Atouguia,1670-10-16,1671-10-01,Manuel do Avelar,Delgado,Manuel do Avelar Delgado,,add,Cânones,aka-see,False,
 163985,149545,Cadafaes,0000-00-00,0000-00-00,Manuel de Azevedo Franco,Azevedo,Manuel de Azevedo,,cut,,see-aka,False,
@@ -2876,8 +2876,8 @@
 157790,216607,Évora,1647-10-06,1654-07-22,Manuel Carvalho,Viegas,Manuel Carvalho Viegas,Francisco Carvalho,add,Leis,aka-see,False,
 158262,157828,Poiares,0000-00-00,0000-00-00,Manuel Luís de Carvalho,Manuel de Carvalho,Manuel de Carvalho,,rep,,see-aka,False,
 157828,158262,Poiares,1726-10-01,1732-10-01,Manuel de Carvalho,Manuel Luís de Carvalho,Manuel Luís de Carvalho,,rep,Cânones,aka-see,False,
-129553,191232,Abrantes,1601-10-14,1601-10-14,Manuel de Castro Caldeira,Castro,Manuel de Castro,Lopo Castro,cut,Cursos jurídicos (Cânones ou Leis),aka-aka,False,
 191232,129553,Abrantes,1601-10-14,1613-01-12,Manuel de Castro,Caldeira,Manuel de Castro Caldeira,Lopo de Castro,add,Medicina,aka-aka,False,
+129553,191232,Abrantes,1601-10-14,1601-10-14,Manuel de Castro Caldeira,Castro,Manuel de Castro,Lopo Castro,cut,Cursos jurídicos (Cânones ou Leis),aka-aka,False,
 210655,192307,Lisboa,0000-00-00,0000-00-00,Manuel de Cerveira da Cunha,Cerveira,Manuel de Cerveira,Miguel de Figueiredo,cut,,see-aka,False,
 192307,210655,Lisboa,1651-10-12,1675-06-08,Manuel Cerveira,Cunha,Manuel Cerveira Cunha,Manuel de Figueiredo,add,Cânones,aka-see,False,
 192805,244453,Montemor-o-Velho,0000-00-00,0000-00-00,Manuel Chichorro,Pinheiro,Manuel Chichorro Pinheiro,,add,,see-aka,False,
@@ -2999,8 +2999,8 @@
 187888,159005,Torrozelo,1723-10-01,1729-10-01,Manuel da Fonseca Brandão,Fonseca,Manuel da Fonseca,António da Fonseca Brandão,cut,Leis,aka-see,False,
 238029,157840,Celorico,0000-00-00,0000-00-00,Manuel da Fonseca Pereira,Fonseca,Manuel da Fonseca,,cut,,see-aka,False,
 157840,238029,Celorico,1624-10-08,1628-10-08,Manuel da Fonseca,Pereira,Manuel da Fonseca Pereira,Tomé Pereira,add,Cânones,aka-see,False,
-169757,,Ribolhos,0000-00-00,0000-00-00,Manuel Francisco de Ribolhos,Francisco,Manuel Francisco,,cut,,,True,E04-Ambiguity in match data
 136283,,Ribolhos,0000-00-00,0000-00-00,Manuel Francisco de Ribolhos,Manuel Francisco,Manuel Francisco,,cut,Cânones,,True,E04-Ambiguity in match data
+169757,,Ribolhos,0000-00-00,0000-00-00,Manuel Francisco de Ribolhos,Francisco,Manuel Francisco,,cut,,,True,E04-Ambiguity in match data
 162809,,Ribolhos,1756-10-01,1758-10-01,Manuel Francisco,Manuel Francisco de Ribolhos,Manuel Francisco de Ribolhos,,rep,Cânones,,True,E04-Ambiguity in match data
 163969,132438,Lisboa,0000-00-00,0000-00-00,Manuel Franco,Quaresma,Manuel Franco Quaresma,,add,,see-aka,False,
 132438,163969,Lisboa,1629-10-02,1634-02-22,Manuel Franco Quaresma,Franco,Manuel Franco,André Lopes,cut,Cânones,aka-see,False,
@@ -3016,8 +3016,8 @@
 186417,,Coimbra,0000-00-00,0000-00-00,Manuel Gomes,,Manuel Gomes,Simão Gomes Rebelo,novid,Cânones,,True,E04-Ambiguity in match data
 186437,203575,Ereira,0000-00-00,0000-00-00,Manuel Gomes,Costa,Manuel Gomes Costa,,add,,see-aka,False,
 203575,186437,Ereira,1741-12-01,1748-10-01,Manuel Gomes da Costa,Gomes,Manuel Gomes,,cut,Cânones,aka-see,False,
+186309,,Coimbra,0000-00-00,1558-07-23,Manuel Gomes,Pereira,Manuel Gomes Pereira,,add,Cânones,,True,E04-Ambiguity in match data
 238066,,Coimbra,0000-00-00,0000-00-00,Manuel Gomes Pereira,Gomes,Manuel Gomes,,cut,,,True,E04-Ambiguity in match data
-186309,,Coimbra,1553-00-00,1558-07-23,Manuel Gomes,Pereira,Manuel Gomes Pereira,,add,Cânones,,True,E04-Ambiguity in match data
 132440,,Coimbra,1714-04-24,1718-12-27,Manuel Gomes Quaresma,Gomes,Manuel Gomes,,cut,Artes,,True,E04-Ambiguity in match data
 186310,,Coimbra,1714-10-01,1717-07-28,Manuel Gomes,Quaresma,Manuel Gomes Quaresma,,add,Medicina,,True,E04-Ambiguity in match data
 167074,178944,Tomar,0000-00-00,0000-00-00,Manuel Gomes Ribeiro,Gomes,Manuel Gomes,,cut,,see-aka,False,
@@ -3197,8 +3197,8 @@
 176207,242788,Évora,0000-00-00,0000-00-00,Manuel de Oliveira,Souto,Manuel de Oliveira Souto,,add,,see-aka,False,
 242788,176207,Évora,1689-10-15,1690-03-16,Manuel de Oliveira Souto,Oliveira,Manuel de Oliveira,,cut,Medicina,aka-see,False,
 176853,145626,Almeida,0000-00-00,0000-00-00,Manuel Osório,Amaral,Manuel Osório Amaral,,add,Leis,see-aka,False,
-145626,176853,Almeidinha,1649-10-20,1657-02-13,Manuel Osório do Amaral,Osório,Manuel Osório,Simão do Amaral,cut,Cânones,aka-see,False,
-145626,176853,Almeidinha,1649-10-20,1657-02-13,Manuel Osório do Amaral,Osório,Manuel Osório,Simão do Amaral,cut,Leis,aka-see,False,
+145626,176853,Almeida,1649-10-20,1657-02-13,Manuel Osório do Amaral,Osório,Manuel Osório,Simão do Amaral,cut,Cânones,aka-see,False,
+145626,176853,Almeida,1649-10-20,1657-02-13,Manuel Osório do Amaral,Osório,Manuel Osório,Simão do Amaral,cut,Leis,aka-see,False,
 206318,176854,Arrifana de Sousa,0000-00-00,0000-00-00,Manuel Osório Coutinho,Osório,Manuel Osório,,cut,Cânones,see-aka,False,
 176854,206318,Arrifana de Sousa,1651-10-14,1658-07-23,Manuel Osório,Coutinho,Manuel Osório Coutinho,,add,Cânones,aka-see,False,
 220382,241466,Açores,1602-02-07,1610-03-24,Manuel Pacheco,Sousa,Manuel Pacheco Sousa,Miguel Pacheco,add,Leis,aka-see,False,
@@ -3291,9 +3291,9 @@
 216617,181145,Évora,1652-10-15,1658-05-08,Manuel Rodrigues,Gusmão,Manuel Rodrigues Gusmão,,add,Cânones,aka-see,False,
 216595,200805,Estremoz,0000-00-00,0000-00-00,Manuel Rodrigues,Leão,Manuel Rodrigues Leão,,add,(?),see-aka,False,
 200805,216595,Estremoz,1641-10-23,1646-06-05,Manuel Rodrigues Leão,Rodrigues,Manuel Rodrigues,Manuel Soares,cut,Leis,aka-see,False,
-215193,182145,Abrantes,1604-10-11,1609-10-14,Manuel Rodrigues,Machado,Manuel Rodrigues Machado,Manuel Machado,add,Leis,aka-aka,False,
 182145,215193,Abrantes,1604-10-11,1611-05-20,Manuel Rodrigues Machado,Rodrigues,Manuel Rodrigues,Manuel Machado,cut,Cânones,aka-aka,False,
 182145,215193,Abrantes,1604-10-11,1611-05-20,Manuel Rodrigues Machado,Rodrigues,Manuel Rodrigues,Manuel Machado,cut,Leis,aka-aka,False,
+215193,182145,Abrantes,1604-10-11,1609-10-14,Manuel Rodrigues,Machado,Manuel Rodrigues Machado,Manuel Machado,add,Leis,aka-aka,False,
 218465,168355,Moura,0000-00-00,0000-00-00,Manuel Rodrigues,Navarro,Manuel Rodrigues Navarro,Simão Rodrigues,add,Leis,see-aka,False,
 168355,218465,Moura,1580-04-24,1588-10-04,Manuel Rodrigues Navarro,Rodrigues,Manuel Rodrigues,Simão Rodrigues,cut,Leis,aka-see,False,
 216810,238410,Lisboa,0000-00-00,0000-00-00,Manuel Rodrigues,Pereira,Manuel Rodrigues Pereira,Afonso Rodrigues,add,Leis,see-aka,False,
@@ -3482,8 +3482,8 @@
 225065,225072,Pontével,1597-10-26,1604-10-30,Mateus Peixoto,Mateus Pires Peixoto,Mateus Pires Peixoto,Ambrósio Pires,rep,Teologia,aka-see,False,
 198096,248441,Elvas,0000-00-00,0000-00-00,Mateus Pinto Correia,Pinto,Mateus Pinto,,cut,Leis,see-aka,False,
 248441,198096,Elvas,1653-10-10,1662-10-23,Mateus Pinto,Correia,Mateus Pinto Correia,,add,Leis,aka-see,False,
-265903,142500,Figueiró dos Vinhos,1734-10-01,1741-10-01,Matias de Almeida,Pereira Preto de Almada,Matias de Almeida Pereira Preto de Almada,,add,Cânones,aka-aka,False,
 142500,265903,Figueiró dos Vinhos,1734-10-01,1741-10-01,Matias de Almeida Pereira Preto de Almada,Almeida,Matias de Almeida,,cut,Cânones,aka-aka,False,
+265903,142500,Figueiró dos Vinhos,1734-10-01,1741-10-01,Matias de Almeida,Pereira Preto de Almada,Matias de Almeida Pereira Preto de Almada,,add,Cânones,aka-aka,False,
 151481,185524,Besteiros,0000-00-00,0000-00-00,Matias Bernardes Barreto,Bernardes,Matias Bernardes,,cut,,see-aka,False,
 185524,151481,Besteiros,1669-10-17,1669-10-17,Matias Bernardes,Barreto,Matias Bernardes Barreto,,add,Cânones,aka-see,False,
 203154,227152,Arcos de Valdevez,0000-00-00,0000-00-00,Matias de Melo,e Lima,Matias de Melo e Lima,,add,,see-aka,False,
@@ -3517,8 +3517,8 @@
 171036,177133,Espinhal,1765-10-01,1770-10-01,Miguel José Leal da Gama Nobre,Gama,Miguel José Leal da Gama,,cut,Cânones,aka-see,False,
 201064,253616,Lamego,0000-00-00,0000-00-00,Miguel Lopes Leão,Lopes,Miguel Lopes,,cut,,see-aka,False,
 253616,201064,Lamego,1645-12-07,1655-06-28,Miguel Lopes,Leão,Miguel Lopes Leão,António Vaz,add,Medicina,aka-see,False,
-201728,,Lamego,0000-00-00,0000-00-00,Miguel Luís Teixeira,Miguel Luís,Miguel Luís,António Luís,cut,,,True,E04-Ambiguity in match data
 201733,,Lamego,0000-00-00,0000-00-00,Miguel Luís Teixeira,Luís,Miguel Luís,,cut,Cânones,,True,E04-Ambiguity in match data
+201728,,Lamego,0000-00-00,0000-00-00,Miguel Luís Teixeira,Miguel Luís,Miguel Luís,António Luís,cut,,,True,E04-Ambiguity in match data
 254410,,Lamego,1667-11-15,1675-05-29,Miguel Luís,Teixeira,Miguel Luís Teixeira,,add,Cânones,,True,E04-Ambiguity in match data
 253372,212920,Celas,0000-00-00,0000-00-00,Miguel Mendes Monteiro,Mendes,Miguel Mendes,,cut,,see-aka,False,
 212920,253372,Celas,1642-11-07,1658-11-01,Miguel Mendes,Monteiro,Miguel Mendes Monteiro,Manuel Mendes,add,Cânones,aka-see,False,
@@ -3664,8 +3664,8 @@
 152167,152164,Vila Real,1580-05-08,1586-05-11,Pedro Gonçalves de Barros,Pedro de Barros,Pedro de Barros,Pedro Gonçalves,rep,Medicina,aka-see,False,
 186441,191461,Lourosa da Beira,0000-00-00,0000-00-00,Pedro Borges,de Castro,Pedro Borges de Castro,,add,,see-aka,False,
 191461,186441,Lourosa da Beira,1650-11-12,1656-01-17,Pedro Borges de Castro,Borges,Pedro Borges,Pedro Borges de Castro,cut,Leis,aka-see,False,
-187950,187949,Tomar,0000-00-00,0000-00-00,Pedro Fernandes Brandão,Pedro Brandão,Pedro Brandão,,rep,,see-aka,False,
-187949,187950,Tomar,1580-00-00,1587-12-02,Pedro Brandão,Pedro Fernandes Brandão,Pedro Fernandes Brandão,António Nogueira,rep,Cânones,aka-see,False,
+187950,187949,Tomar,0000-00-00,0000-00-00,Pedro Fernandes Brandão,Pedro Brandão,Pedro Brandão,,rep,,see-see,False,
+187949,187950,Tomar,0000-00-00,1587-12-02,Pedro Brandão,Pedro Fernandes Brandão,Pedro Fernandes Brandão,António Nogueira,rep,Cânones,see-see,False,
 129792,148239,Vimieiro,0000-00-00,0000-00-00,Pedro Calado,de Araújo,Pedro Calado de Araújo,,add,,see-aka,False,
 148239,129792,Vimieiro,1646-10-01,1651-11-27,Pedro Calado de Araújo,Calado,Pedro Calado,João de Araújo,cut,Cânones,aka-see,False,
 148239,129792,Vimieiro,1646-10-01,1651-11-27,Pedro Calado de Araújo,Calado,Pedro Calado,João de Araújo,cut,Leis,aka-see,False,
@@ -3785,8 +3785,8 @@
 204182,144662,Chaves,1619-11-17,1625-02-13,Pedro Álvares da Costa,Álvares,Pedro Álvares,Baltasar da Costa,cut,Cânones,aka-aka,False,
 249528,144271,Lisboa,0000-00-00,0000-00-00,Pedro Álvares de Miranda,Álvares,Pedro Álvares,Jorge Gonçalves,cut,Cânones,see-aka,False,
 144271,249528,Lisboa,1582-11-03,1589-01-13,Pedro Álvares,Miranda,Pedro Álvares Miranda,Jorge Gonçalves,add,Cânones,aka-see,False,
-144661,171665,Coimbra,1573-10-02,1574-07-31,Pedro Álvares,Nogueira,Pedro Álvares Nogueira,,add,Cânones,aka-aka,False,
 171665,144661,Coimbra,1573-10-02,1595-10-10,Pedro Álvares Nogueira,Álvares,Pedro Álvares,Álvaro Annes Nogueira,cut,Cânones,aka-aka,False,
+144661,171665,Coimbra,1573-10-02,1574-07-31,Pedro Álvares,Nogueira,Pedro Álvares Nogueira,,add,Cânones,aka-aka,False,
 229939,251600,Lisboa,0000-00-00,0000-00-00,Plácido José de Morais e Silva,Plácido José de Morais,Plácido José de Morais,,cut,,see-aka,False,
 251600,229939,Lisboa,1755-10-01,1760-12-16,Plácido José de Morais,Plácido José de Morais e Silva,Plácido José de Morais e Silva,,rep,Leis,aka-see,False,
 266114,,Lisboa,0000-00-00,0000-00-00,Rafael dos Anjos de Andrade,dos Anjos,Rafael dos Anjos,Nicolau Ferreira,cut,,,True,E04-Ambiguity in match data
@@ -3805,8 +3805,8 @@
 246178,222586,Silves,1748-10-01,1752-10-01,Ricardo José de Faria,Palermo,Ricardo José de Faria Palermo,,add,Cânones,aka-see,False,
 183122,211204,Mesão Frio,0000-00-00,0000-00-00,Ricardo Luís Pinto de Magalhães e,Vasconcelos,Ricardo Luís Pinto de Magalhães e Vasconcelos,,add,,see-aka,False,
 211204,183122,Mesão Frio,1738-10-01,1745-11-11,Ricardo Luís Pinto de Magalhães e Vasconcelos,Magalhães,Ricardo Luís Pinto de Magalhães,,cut,Leis,aka-see,False,
-141895,253401,Lisboa,0000-00-00,0000-00-00,Rodrigo Aires,Monteiro,Rodrigo Aires Monteiro,,add,,see-aka,False,
-253401,141895,Lisboa,1557-00-00,1562-07-21,Rodrigo Aires Monteiro,Aires,Rodrigo Aires,,cut,Cânones,aka-see,False,
+141895,253401,Lisboa,0000-00-00,0000-00-00,Rodrigo Aires,Monteiro,Rodrigo Aires Monteiro,,add,,see-see,False,
+253401,141895,Lisboa,0000-00-00,1562-07-21,Rodrigo Aires Monteiro,Aires,Rodrigo Aires,,cut,Cânones,see-see,False,
 151026,265610,Arazede,1729-11-30,1734-10-01,Rodrigo Felix Mendes Barreto de Barbuda,Barreto,Rodrigo Felix Mendes Barreto,,cut,Cânones,aka-aka,False,
 265610,151026,Arazede,1729-11-30,1734-10-01,Rodrigo Felix Mendes Barreto,de Barbuda,Rodrigo Felix Mendes Barreto de Barbuda,,add,Cânones,aka-aka,False,
 249569,189947,Setúbal,0000-00-00,0000-00-00,Rodrigo de Miranda,Henriques,Rodrigo de Miranda Henriques,,add,Cânones,see-aka,False,
@@ -3965,9 +3965,9 @@
 131111,179097,Treixomil,1659-10-20,1667-10-22,Simão Ferreira,Gomes,Simão Ferreira Gomes,,add,Medicina,aka-see,False,
 250513,194939,Tancos,1648-10-31,1655-04-30,Simão Lourenço,Coelho,Simão Lourenço Coelho,Teodósio Lourenço,add,Leis,aka-aka,False,
 194939,250513,Tancos,1650-10-12,1655-04-30,Simão Lourenço Coelho,Lourenço,Simão Lourenço,Teodósio Lourenço,cut,Leis,aka-aka,False,
-249651,182217,Ilha da Madeira,1624-00-00,1626-10-02,Simão Machado de Miranda,Machado,Simão Machado,,cut,Cânones,aka-aka,False,
-182217,249651,Ilha da Madeira,1624-10-02,1629-07-08,Simão Machado,Miranda,Simão Machado Miranda,João Machado,add,Cânones,aka-aka,False,
-182217,249651,Ilha da Madeira,1624-10-02,1629-07-08,Simão Machado,Miranda,Simão Machado Miranda,João Machado,add,Leis,aka-aka,False,
+249651,182217,Ilha da Madeira,0000-00-00,1626-10-02,Simão Machado de Miranda,Machado,Simão Machado,,cut,Cânones,see-aka,False,
+182217,249651,Ilha da Madeira,1624-10-02,1629-07-08,Simão Machado,Miranda,Simão Machado Miranda,João Machado,add,Cânones,aka-see,False,
+182217,249651,Ilha da Madeira,1624-10-02,1629-07-08,Simão Machado,Miranda,Simão Machado Miranda,João Machado,add,Leis,aka-see,False,
 204492,182541,Avô,0000-00-00,0000-00-00,Simão Madureira da Costa,Madureira,Simão Madureira,,cut,,see-aka,False,
 182541,204492,Avô,1682-10-15,1682-10-15,Simão Madureira,da Costa,Simão Madureira da Costa,,add,Cânones,aka-see,False,
 201478,253422,Lisboa,0000-00-00,0000-00-00,Simão Monteiro de Leiria,Monteiro,Simão Monteiro,,cut,,see-aka,False,
@@ -3987,8 +3987,8 @@
 222844,198743,Ilha Terceira,1629-01-17,1632-11-03,Simão Pamplona,Corte Real,Simão Pamplona Corte Real,Gomes Pamplona,add,Cânones,aka-see,False,
 222981,190077,Lisboa,0000-00-00,0000-00-00,Simão Pardo,Castilho,Simão Pardo Castilho,,add,,see-aka,False,
 190077,222981,Lisboa,1603-11-21,1605-10-14,Simão Pardo de Castilho,Pardo,Simão Pardo,Jerónimo Pardo,cut,Cânones,aka-see,False,
-211073,240873,Ferreirim,1709-10-01,1719-10-01,Simão Pestana da Cunha,Pestana,Simão Pestana,,cut,Teologia,aka-aka,False,
 240873,211073,Ferreirim,1709-10-01,1720-05-18,Simão Pestana,Cunha,Simão Pestana Cunha,Manuel da Fonseca,add,Teologia,aka-aka,False,
+211073,240873,Ferreirim,1709-10-01,1719-10-01,Simão Pestana da Cunha,Pestana,Simão Pestana,,cut,Teologia,aka-aka,False,
 251790,244704,Covilhã,0000-00-00,0000-00-00,Simão Pinheiro Morão,Pinheiro,Simão Pinheiro,,cut,Medicina,see-aka,False,
 244704,251790,Covilhã,1638-03-06,1648-10-31,Simão Pinheiro,Morão,Simão Pinheiro Morão,Henrique Morão,add,Medicina,aka-see,False,
 251790,244704,Guarda,0000-00-00,0000-00-00,Simão Pinheiro Morão,Pinheiro,Simão Pinheiro,,cut,Medicina,see-aka,False,
