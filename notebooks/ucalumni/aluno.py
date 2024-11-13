@@ -423,7 +423,7 @@ class Aluno:
     # something strange like Direito changed to Teologia
     faculdade_problem_obs: str = field(init=False, compare=False, default=None)
     nome_final: str = field(
-        init=False, compare=False
+        init=False, compare=False, default=None
     )  # name after processing eventual annotations
     nota_nome: str = field(
         init=False, compare=False, default=None
@@ -441,7 +441,7 @@ class Aluno:
 
     naturalidade: str = field(init=False, compare=False, default=None)
     colegio: str = field(init=False, compare=False, default=None)
-    titulo: str = field(init=False, compare=False)  # dom, frei, padre
+    titulo: str = field(init=False, compare=False, default=None)  # dom, frei, padre
     universidade: str = field(
         init=False, compare=False, default=None
     )  # references to other universities
@@ -831,13 +831,24 @@ class Aluno:
     def canonic(self, places_normalized: dict = None):
         """ Return a canonic representation of the student"""
 
-        r = f"https://pesquisa.auc.uc.pt/details?id={self.id}"
-        r += "{self.nome}\n"
+        r = f"https://pesquisa.auc.uc.pt/details?id={self.id}\n"
+        r += f"\n\n# {self.nome}\n"
         r += f"\nCodigo de referência\n{self.codref}\n"
         r += f"\nTítulo\n{self.nome}\n"
         r += "\nDatas de Produção\n"
         r += f"{self.unit_date_inicial.value} a {self.unit_date_final}\n"
         r += "\nHistória administrativa/biográfica/familiar\n"
+        if self.notas_index is not None:
+            if self.notas_index.get("nome", None) is not None:
+                try:
+                    if self.notas_index["nome"]["nota"][0][0]:
+                        nota_nome = f'{self.notas_index["nome"]["nota"][0][0]}'
+                        r += f"Nota ao nome: {nota_nome}\n"
+                        nota_nome = f"; {nota_nome}"
+                    else:
+                        nota_nome = ""
+                except:
+                    pass
         if self.pai is not None:
             r += f"Filiação: {self.pai}"
         if self.mae is not None:
@@ -848,9 +859,9 @@ class Aluno:
         if self.naturalidade is not None:
             r += f"\nNaturalidade: {self.naturalidade}\n"
         if self.ordem is not None and len(self.ordem) > 0:
-            r += f"\nOrdem: {self.ordem}"
+            r += f"\nOrdem: {self.ordem[0]}{nota_nome}"
         if hasattr(self, 'titulo') and self.titulo is not None:
-            r += f"\nTítulo: {self.titulo}"
+            r += f"\nTítulo: {self.titulo}{nota_nome}"
 
         r += "\n"
         r += "\nÂmbito e conteúdo\n\n"
@@ -865,18 +876,22 @@ class Aluno:
                 r += f"{self.faculdade_problem} ({self.faculdade_problem_obs})\n"
 
         if self.colegio is not None:
-            r += f"Colégio: {self.colegio}\n"
+            r += f"Colégio: {self.colegio}{nota_nome}\n"
 
         if self.matriculas is not None or self.instituta is not None:
             r += "\nMatrícula(s):\n"
             if self.instituta is not None:
                 for inst in self.instituta:
-                    r = r + f"Instituta: {inst.data}, {inst.obs}\n"
+                    if inst.obs is not None:
+                        obs = f"; {inst.obs}"
+                    else:
+                        obs = ""
+                    r = r + f"Instituta: {inst.data}{obs}\n"
 
             if self.matriculas is not None:
                 for matricula in sorted(self.matriculas, key=lambda x: x.data.value):
                     if matricula.ambito is not None:
-                        ambito = f" {matricula.ambito}"
+                        ambito = f"{matricula.ambito}"
                     else:
                         ambito = ""
                     if matricula.tipo is not None:
@@ -891,26 +906,42 @@ class Aluno:
                         obs = f"; {matricula.obs}"
                     else:
                         obs = ""
-                    r = r + f"{matricula.data}:{ambito}{modalidade}{tipo}{obs}\n"
+                    r = r + f"{ambito}: {matricula.data}{modalidade}{obs}\n"
 
         if self.exames is not None and len(self.exames) > 0:
             r += "\nExames:\n"
             for exame in sorted(self.exames, key=lambda x: x.data.value):
+                if exame.ambito is not None:
+                    ambito = f" {exame.ambito.replace('Exames ', '')}"
+                else:
+                    ambito = ""
                 if exame.resultado is not None:
                     resultado = f", {exame.resultado}"
                 else:
                     resultado = ""
-                r = r + f"{exame.data.value}: {exame.ambito.replace('Exames ', '')}{resultado}; {exame.obs}\n"
+                if exame.obs is not None:
+                    obs = f"; {exame.obs}"
+                else:
+                    obs = ""
+                r = r + f"{exame.data.value}: {ambito}{resultado}{obs}\n"
 
         if self.provas is not None and len(self.provas) > 0:
             r += "\nProvas:\n"
             for prova in sorted(self.provas, key=lambda x: x.data.value):
-                r = r + f"{prova.data}: {prova.ambito}; {prova.obs}\n"
+                if prova.obs is not None:
+                    obs = f"; {prova.obs}"
+                else:
+                    obs = ""
+                r = r + f"{prova.ambito}:{prova.data}{obs}\n"
 
         if self.graus is not None and len(self.graus) > 0:
             r += "\nGraus:\n"
             for grau in sorted(self.graus, key=lambda x: x.data.value):
-                r = r + f"{grau.data}: {grau.nome}{'; '+grau.obs if grau.obs else '' }\n"
+                if grau.obs is not None:
+                    obs = f"; {grau.obs}"
+                else:
+                    obs = ""
+                r = r + f"{grau.nome}: {grau.data}{obs}\n"
 
 
         r = r + f"\nOriginal\n----------\n{self.obs}\n-------\n"
