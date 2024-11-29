@@ -34,11 +34,17 @@ from ucalumni.grammar import (
     FILIACAO,
     DATELINE,
     DateUtility,
+    DATE,
+    DATE1,
+    DATE2,
+    DATE3,
+    DATE4,
     preserve_original,
 )
 from ucalumni.config import auc_export
 from ucalumni.importer import import_auc_alumni
 from ucalumni.mapping import map_aluno_kperson, mapper_nomes_notes, list_search
+from ucalumni.places import load_place_name_info, get_place_info
 
 """
 Grammar tests
@@ -153,7 +159,7 @@ def test_date_utility_string():
         assert du.short == "19580524", "Could not parse date " + ds
 
 
-def test_date_utility2():
+def test_date_utility_range1():
     datestrings = [
         "24/5/1958 até 24/7/2021",
         "1958/5/24 até 2021/07/24",
@@ -174,7 +180,7 @@ def test_date_utility2():
             assert du.is_range, "Could not parse range date " + ds
 
 
-def test_date_utility2_string():
+def test_date_utility_range2():
     datestrings = [
         "24/5/1958 até 24/7/2021",
         "1958/5/24 até 2021/07/24",
@@ -193,6 +199,23 @@ def test_date_utility2_string():
         #  print(f'{du.short=}')
         assert du.is_range, "Could not parse range date " + ds
 
+def test_date_utility_range3():
+    datestrings = [
+        "1582 a 1586",
+        "1582-05 a 1586",
+        "1582.5 a 1586",
+        "1582.05.02 a 1586",
+    ]
+
+    for ds in datestrings:
+        # print(nl, ds)
+        du = DateUtility(ds)
+        #  print(f'{du.date1=}')
+        #  print(f'{du.date2=}')
+        #  print(f'{du.original=}')
+        #  print(f'{du.value=}')
+        #  print(f'{du.short=}')
+        assert du.is_range, "Could not parse range date " + ds
 
 def test_date_utility1():
     d = DateUtility("1-5-1582")
@@ -231,6 +254,16 @@ def test_date_utility_none():
     d = DateUtility(None)
     assert d.date == ("0000", "00", "00")
     assert d.short == "00000000"
+
+def test_date_year_only():
+    d = DateUtility("1582")
+    assert d.value == "1582-00-00"
+    assert d.short == "15820000"
+
+def test_date_year__month_only():
+    d = DateUtility("1582-05")
+    assert d.value == "1582-05-00"
+    assert d.short == "15820500"
 
 
 """
@@ -456,14 +489,42 @@ def ls_check_value(p: n, type_: str, value: str):
     """
     Check if a person has an attribute with a specific value
     """
-    return value in [ls.value for ls in p.dots.lss if ls.type == type_]
+    result_exact = value in [ls.value for ls in p.dots.lss if ls.type == type_]
+    result_partial = len([ls.value for ls in p.dots.lss
+                               if ls.type == type_
+                               and value in ls.value]) > 0
+    return result_exact
+
+
+def ls_check_value_contains(p: n, type_: str, value: str):
+    """
+    Check if a person has an attribute with a specific value
+    """
+    result_partial = len([ls.value for ls in p.dots.lss
+                               if ls.type == type_
+                               and value in ls.value]) > 0
+    return result_partial
 
 
 def atr_check_value(p: n, type_: str, value: str):
     """
     Check if a person has an attribute with a specific value
     """
-    return value in [atr.value for atr in p.dots.atrs if atr.type == type_]
+    result_exact = value in [atr.value for atr in p.dots.atrs if atr.type == type_]
+    result_partial = len([atr.value for atr in p.dots.atrs
+                                 if atr.type == type_
+                                    and value in atr.value]) > 0
+    return result_exact
+
+
+def atr_check_value_contains(p: n, type_: str, value: str):
+    """
+    Check if a person has an attribute with a specific value
+    """
+    result_partial = len([atr.value for atr in p.dots.atrs
+                                 if atr.type == type_
+                                    and value in atr.value]) > 0
+    return result_partial
 
 
 def ls_check_date(p: n, type_: str, value: str, date: str):
@@ -591,7 +652,7 @@ def test_from_db_matricula(description, id, expression):
 
     * ls_check_value(p: n, type_:str, value:str): test if `n` as an attribute
         (ls) with `type`and `value`.
-    * ls_check_type(p: n, type_:str): test if `n` as an attribute
+    * ls_check_type(p: n, type_:str): test if `n` has an attribute
         (ls) with `type` (value not relevant).
 
     Examples of expressions:
@@ -721,17 +782,17 @@ def test_from_db_graus(description, id, expression):
         (
             "Lente not title (Alentejo)",
             "216502",
-            "not ls_check_value(kaluno,'titulo','lente')",
+            "not ls_check_value(kaluno,'titulo','Lente')",
         ),
         (
             "Lente",
             "203081",
-            "ls_check_value(kaluno,'titulo','lente')",
+            "ls_check_value(kaluno,'titulo','Lente')",
         ),
         (
             "Lente not title",
             "232178",
-            "ls_check_value(kaluno,'titulo','lente')",
+            "ls_check_value(kaluno,'titulo','Lente')",
         ),
     ],
 )
@@ -1258,7 +1319,7 @@ def test_csv_to_sqlite():
             auc_export,
             path_to_sqlite_dir,
             config.sqlite_test_db,
-            max_rows_to_process=10000,
+            max_rows_to_process=502,
             batch=500,
             testing=False,
         )
@@ -1285,12 +1346,27 @@ def test_csv_to_sqlite():
     assert True, "Problemas in import directly to database test"
 
 
-from timelinknb import get_mhk_db
-
-
 def test_geoentities_problem():
     db_name = config.default_sqlite_test_records
     print("Selected database:", db_name)
     db = TimelinkDatabase(db_url=db_name)
     assert "geoentities" in db.table_names()
 
+
+def test_place_name_info():
+    """ test loading place"""
+    geoinfo = load_place_name_info()
+    assert len(geoinfo) > 0, "No place name info"
+    teste_name = "Lisboa"
+    info = get_place_info(teste_name, geoinfo)
+    assert "geonamesid" in info, "No geonamesid in place name info"
+    geonamesid = info["geonamesid"]
+    assert geonamesid == '2267057', "Wrong geonamesid for Lisboa"
+
+
+def test_place_name_info_default():
+    teste_name = "Lisboa"
+    info = get_place_info(teste_name)
+    assert "geonamesid" in info, "No geonamesid in place name info"
+    geonamesid = info["geonamesid"]
+    assert geonamesid == 2267057, "Wrong geonamesid for Lisboa"
