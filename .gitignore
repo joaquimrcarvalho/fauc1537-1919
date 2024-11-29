@@ -24,3 +24,7 @@ extras/toponimia/*
 database/other_exports/ficheiro-alunos-auc/PT-AUC-ELU-UC-AUC-B-001-001.CSV
 sources/
 timelink.sqlite
+database/quality_assurance/.obsidian/app.json
+database/quality_assurance/.obsidian/appearance.json
+database/quality_assurance/.obsidian/core-plugins.json
+database/quality_assurance/.obsidian/workspace.json
