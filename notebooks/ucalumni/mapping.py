@@ -26,11 +26,23 @@ def list_search(lista: List, texto: str):
 
     >> re.findall('(frei|padre|abade)',"o frei abade de sinfães, padre João")
     >> ['frei', 'abade', 'padre']
+
+    Note that regex are allowed in the list
+    so that texto might not be a literal member of the list
+    but a match of a regex in the list
     """
     # we ensure that longer matches come first
     lista_sorted = reversed(sorted(lista, key=len))
     regex = "(" + "|".join(lista_sorted) + ")"
     return re.findall(regex, texto)
+
+
+def list_search_match(lista: List, texto: str):
+    """ Returns the first match of a member of list in text """
+    for regex in  lista:
+        r = re.findall(regex, texto)
+        if len(r) > 0: return regex
+    return None
 
 
 def map_aluno_kperson(aluno: Aluno) -> n:
@@ -100,68 +112,57 @@ def map_aluno_kperson(aluno: Aluno) -> n:
 
 
 def mapper_nomes_notes(aluno: Aluno, p: n):
-    ano = aluno.unit_date_inicial.date.year
     ## check information that was appended to the name between parentesis
-    if getattr(aluno, "nota", None) is not None:
-        nota_ao_nome = aluno.nota
-        lsn = ls("nome-nota", nota_ao_nome.strip(), aluno.unit_date_inicial.value)
-        p.include(lsn)
-        titulos = (
-            "d\\.,frei,padre,abade,arcediago,barão,"
-            "beneficiado,bispo,capelão,chantre,cónego,"
-            "lente , lente,marquês,monge,porcionista,presbítero,"
-            "visconde"
+    if (
+        hasattr(aluno, "nota_ao_nome")
+        and getattr(aluno, "nota_ao_nome", None) is not None
+    ):
+        nota_ao_nome = aluno.nota_ao_nome
+    else:
+        nota_ao_nome = ""
+
+    ## this assumes titulo extractor was run
+    if hasattr(aluno, "titulos") and getattr(aluno, "titulos", None) is not None:
+        for titulo in aluno.titulos:
+            p.include(
+                ls(
+                    "titulo",
+                    titulo,
+                    aluno.unit_date_inicial.value,
+                    obs=nota_ao_nome,
+                )
+            )
+
+    ## this assumes colegio extractor was run
+    if hasattr(aluno, "colegio") and getattr(aluno, "colegio", None) is not None:
+        p.include(
+            ls(
+                "colegio",
+                aluno.colegio,
+                aluno.unit_date_inicial.value,
+                obs=nota_ao_nome,
+            )
         )
-        titulos_lista = titulos.split(",")
-        hits = list_search(titulos_lista, nota_ao_nome.lower())
-        for titulo in hits:
-            if "D." in titulo:
-                p.include(
-                    ls("titulo", "dom", aluno.unit_date_inicial.value),
-                )
-            elif titulo == "padre":
-                p.include(
-                    ls("padre", "sim", aluno.unit_date_inicial.value, obs=nota_ao_nome)
-                )
-            else:
-                p.include(
-                    ls(
-                        "titulo",
-                        titulo.strip(),
-                        aluno.unit_date_inicial.value,
-                        obs=nota_ao_nome,
-                    )
-                )
-        ## this assumes colegio extractor was run
-        if hasattr(aluno, "colegio") and getattr(aluno, "colegio", None) is not None:
+    if hasattr(aluno, "colegial") and getattr(aluno, "colegial", None) is not None:
+        p.include(
+            ls(
+                "colegial",
+                aluno.colegial,
+                aluno.unit_date_inicial.value,
+                obs=nota_ao_nome,
+            )
+        )
+    ## this assume ordem extractor was run
+    if hasattr(aluno, "ordem") and getattr(aluno, "ordem", None) is not None:
+        for ordem in aluno.ordem:
             p.include(
                 ls(
-                    "colegio",
-                    aluno.colegio,
+                    "ordem-religiosa",
+                    ordem,
                     aluno.unit_date_inicial.value,
                     obs=nota_ao_nome,
                 )
             )
-        if hasattr(aluno, "colegial") and getattr(aluno, "colegial", None) is not None:
-            p.include(
-                ls(
-                    "colegial",
-                    aluno.colegial,
-                    aluno.unit_date_inicial.value,
-                    obs=nota_ao_nome,
-                )
-            )
-        ## this assume ordem extractor was run
-        if hasattr(aluno, "ordem") and getattr(aluno, "ordem", None) is not None:
-            for ordem in aluno.ordem:
-                p.include(
-                    ls(
-                        "ordem-religiosa",
-                        ordem,
-                        aluno.unit_date_inicial.value,
-                        obs=nota_ao_nome,
-                    )
-                )
 
     if getattr(aluno, "vide", None) is not None:
         p.include(ls("nome-vide", aluno.vide, aluno.unit_date_inicial.value))
