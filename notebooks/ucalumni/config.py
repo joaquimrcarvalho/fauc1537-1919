@@ -4,9 +4,14 @@ from sqlalchemy.orm import Session, sessionmaker
 
 # Various shared information
 #
-# Connection strings for SQLite databases DEPRECATED
-sqlite_main_db = "sqlite:///../database/sqlite3/fauc2.db?check_same_thread=False"
+# Connection strings for SQLite databases
+sqlite_main_db = "sqlite:///../database/sqlite3/fauc3.db?check_same_thread=False"
 sqlite_test_db = "sqlite:///notebooks/ucalumni/tests/db/ucalumni.db?check_same_thread=False"
+
+
+
+default_db_url = sqlite_main_db
+
 
 # Main db name in Mysql
 mysql_main_db = 'ucalumni'
@@ -16,12 +21,11 @@ mysql_test_db = 'ucalumni_test'
 default_sqlite_dir = '../database/sqlite3'
 default_sqlite_db = 'fauc.db'
 
-# this is where ucalumni_test.py will come for sample records
-default_sqlite_test_records = "sqlite:///database/sqlite3/fauc.db?check_same_thread=False"
+# this is where ucalumni_test.py will come for sample records (will not be changed)
+default_sqlite_test_records = "sqlite:///database/sqlite3/fauc3.db?check_same_thread=False"
 
 default_db = ('sqlite', 'fauc.db.sqlite')  # DEPRECATED
 
-default_db_url = sqlite_main_db  # DEPRECATED
 
 # To share a Session do, in each module:
 # from ucalumni.config import Session
