@@ -16,6 +16,7 @@ pyparsing>=2.4.7
 pytest>=6.2.4
 python-box
 python-dotenv>=0.18.0
+ratelimit
 SQLAlchemy
 sqlalchemy-utils
 timelink
