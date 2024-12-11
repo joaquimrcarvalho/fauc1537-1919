@@ -10,9 +10,9 @@ from os.path import commonprefix
 import re
 from unittest import TextTestResult
 
-from ucalumni.mapping import list_search
+from ucalumni.mapping import list_search, list_search_match
 from ucalumni.grammar import NAME_ANY, DateUtility
-from ucalumni.aluno import Aluno, Matricula, Grau, Exame, Instituta, Nota
+from ucalumni.aluno import Aluno, Matricula, Grau, Exame, Instituta, Nota, Prova
 
 faculdades_todas = {
     "cânones": "Cânones",
@@ -74,6 +74,58 @@ requisitos_pre_1772 = [cursos_juridicos_comuns, artes]
 requisitos_1772_1836 = ["Filosofia", "Matemática", cursos_juridicos_comuns]
 requisitos_post_1836 = ["Filosofia", "Matemática"]
 
+def match_with_study_plan(aluno, use_initial_date=None):
+    """ Examine the student dates and
+    determine which list of Faculdades is relevant for this student,
+    also if the student is affected by a transition of plans,
+
+    :param aluno: Aluno object
+    :param use_initial_date: boolean, if True uses the initial date
+    :return: tuple
+
+    returns: transition, faculdades, requisitos
+             where transition is a boolean
+                faculdades is a dictionary of faculdades
+                requisitos is a list of requisitos
+            when the student is in a transition period
+            the function returns the post-transition plan
+    """
+    if use_initial_date is None:
+        if hasattr(aluno, "use_initial_date"):
+            use_initial_date = aluno.use_initial_date
+        else:
+            use_initial_date = False
+
+    plan = "undertermined"
+    transition = False
+    faculdades = {}
+    requisitos = []
+    if use_initial_date:
+        reference_date = aluno.unit_date_inicial.value
+    else:
+        reference_date = aluno.unit_date_final.value
+
+    if reference_date < "1772-00-00":
+        faculdades = faculdades_pre_1772
+        requisitos = requisitos_pre_1772
+        plan = "pre-1772"
+    elif reference_date < "1836-00-00":  # check correct date
+        faculdades = faculdades_1772_1836
+        requisitos = requisitos_1772_1836
+        plan = "1772-1836"
+    else:
+        faculdades = faculdades_post_1836
+        requisitos = requisitos_post_1836
+        plan = "post-1836"
+    if aluno.unit_date_inicial.value < "1772-00-00" and aluno.unit_date_final.value > "1772-00-00":
+        transition = True
+        plan = "pre-1772:1772-1836"
+    elif aluno.unit_date_inicial.value < "1836-00-00" and aluno.unit_date_final.value > "1836-00-00":
+        transition = True
+        plan = "1772-1836:post-1836"
+    return plan, faculdades,requisitos, transition # This is a strange override by the algoritm
+
+
 ordens = {
     "cristo": "Ordem de Cristo",
     "bernardo": "Ordem de São Bernardo",
@@ -129,6 +181,7 @@ ordens = {
     "ordem de s. pedro": "Ordem de São Pedro",
     "pedro": "Ordem de São Pedro",
     "companhia de jesus": "Companhia de Jesus",
+    "companhia": "Companhia de Jesus",
     "colegial do colégio de jesus": "Companhia de Jesus",
     "militar": "Ordens militares",
 }
@@ -623,6 +676,34 @@ def extract_colegio(aluno: Aluno):
 
 Aluno.add_extractor(extract_colegio)
 
+def extract_titulo(aluno: Aluno):
+
+
+    # note the space after "lente" to avoid matching "Alentejo"
+    titulos = (
+            "d.,Dom,frei,padre,abade,arcediago,barão,"
+            "beneficiado,bispo,capelão,chantre,cónego,"
+            "lente ,"
+            "marquês,monge,porcionista,presbítero,"
+            "visconde"
+    )
+    if getattr(aluno, "nota", None) is not None:
+        nota_ao_nome = aluno.nota
+        aluno_titulo = None
+        for titulo in titulos.split(","):
+            if titulo in nota_ao_nome.lower():
+                if "D." in nota_ao_nome or "Dom" in nota_ao_nome or "dom" in nota_ao_nome:
+                    aluno_titulo = "Dom",
+
+                elif titulo == "padre":
+                    aluno_titulo = "Padre"
+                elif titulo == "lente":
+                    aluno_titulo = "Lente"
+                else:
+                    aluno_titulo = titulo.strip().capitalize()
+                aluno.titulos.append(aluno_titulo)
+
+Aluno.add_extractor(extract_titulo)
 
 def extract_ordem_religiosa(aluno: Aluno):
     if getattr(aluno, "nota", None) is not None:
@@ -633,8 +714,8 @@ def extract_ordem_religiosa(aluno: Aluno):
             or "religioso" in nota_ao_nome.lower()
             or "monge" in nota_ao_nome.lower()
             or "frei" in nota_ao_nome.lower()
-            or "companhia de jesus" in nota_ao_nome.lower()
-            # why only some colleges? There was a good reason
+            or "companhia" in nota_ao_nome.lower()
+            # why only some colleges? These are the ones that infer the ordem
             or "colégio de jesus" in nota_ao_nome.lower()
             or "colégio dos lóios" in nota_ao_nome.lower()
             or "cónego regular" in nota_ao_nome.lower()
@@ -709,15 +790,8 @@ def extract_faculdade(aluno: Aluno):
     check dictionnaries of terms at the top of this file
     """
     # Determine which list of Faculdades is relevant for this student
-    if aluno.unit_date_final.value < "1772-00-00":
-        faculdades = faculdades_pre_1772
-        requisitos = requisitos_pre_1772
-    elif aluno.unit_date_final.value < "1836-00-00":  # check correct date
-        faculdades = faculdades_1772_1836
-        requisitos = requisitos_1772_1836
-    else:
-        faculdades = faculdades_post_1836
-        requisitos = requisitos_post_1836
+    use_initial_date = False  # use initial or final date to determina study plan
+    plan, faculdades, requisitos, transition = match_with_study_plan(aluno, use_initial_date=use_initial_date)
 
     if getattr(aluno, "faculdade", None) is None:
         aluno.faculdade = []
@@ -727,6 +801,9 @@ def extract_faculdade(aluno: Aluno):
         aluno.faculdade_problem_obs = ""
     if aluno.faculdade_problem is None:
         aluno.faculdade_problem = ""
+
+    if transition:
+        aluno.faculdade_problem_obs = f"Reforma durante estudos: {aluno.unit_date_inicial} a {aluno.unit_date_final}. {aluno.faculdade_problem_obs}"
 
     for nota in aluno.notas:
         data = nota.data
@@ -740,22 +817,42 @@ def extract_faculdade(aluno: Aluno):
                 aluno.faculdade_original = fvalor
 
             aluno.has_faculdade = True
+            # check if value of faculdade is a faculdade in the relevant period
             hits = list_search(faculdades.keys(), fvalor.lower())
             if len(hits) > 0:
-                obs = fvalor + " " + obs
                 for fac in hits:  # add to list of aluno faculdade if not already there
                     if fac not in [fac.lower() for (fac, d, o) in aluno.faculdade]:
-                        aluno.faculdade.append((faculdades.get(fac, fac), data, obs))
-
-            else:
+                        match = list_search_match(faculdades.keys(), fac)
+                        aluno.faculdade.append((faculdades.get(match, fac), data, obs))
+            elif transition:  # student affected by study plan change
+                # use alternate plan instead
+                plan2, faculdades2, requisitos2, transition2 = match_with_study_plan(aluno, use_initial_date=not use_initial_date)
+                hits = list_search(faculdades2.keys(), fvalor.lower())
+                if len(hits) > 0:
+                    for fac in hits:
+                        if fac not in [fac.lower() for (fac, d, o) in aluno.faculdade]:
+                            match = list_search_match(faculdades2.keys(), fac)
+                            aluno.faculdade.append((faculdades2.get(match, fac), data, obs))
+                    # use alternate plan
+                    plan = plan2
+                    faculdades = faculdades2
+                    requisitos = requisitos2
+                    transition = transition2
+                    # we save the date used to determine the plan
+                    # so that other extractors that rely on plans
+                    # get the same one
+                    aluno.use_initial_date = not use_initial_date
+            if len(hits) == 0:
                 # the field faculdade contained something unexpected
                 # we save it anyway
-                aluno.faculdade.append((f"({fvalor})", data, obs))
+                aluno.faculdade.append((f"{fvalor}", data, obs))
                 aluno.faculdade_problem = (
-                    "Erro: valor não corresponde a Faculdade nesta data"
+                    "Erro: Valor não corresponde a faculdade neste período"
                 )
+                faculdade_problem_obs = f"'{fvalor}' não é faculdade em {aluno.unit_date_final}"
+                aluno.faculdade_problem_obs = aluno.faculdade_problem_obs.replace(faculdade_problem_obs,"")  # remove duplicates
                 aluno.faculdade_problem_obs = (
-                    f"{aluno.faculdade_problem_obs} {fvalor} em {aluno.unit_date_final}"
+                    f"{faculdade_problem_obs}. {aluno.faculdade_problem_obs} "
                 )
             nota.processed = True
         else:
@@ -775,11 +872,18 @@ def extract_faculdade(aluno: Aluno):
                 # is not coherent with the "matriculas"
                 # then we can use whatever we find
                 hits: list = list_search(faculdades.keys(), line.lower())
+                # some specific cases the search fails in the line but
+                # suceeds in the campo or valor fields
+                if len(hits) == 0:
+                    hits = list_search(faculdades.keys(), nota.campo.lower())
+                if len(hits) == 0:
+                    hits = list_search(faculdades.keys(), nota.valor.lower())
                 for fac in hits:
+                    match = list_search_match(faculdades.keys(), fac)
                     fac_value = faculdades.get(
-                        fac, fac
+                        match, fac
                     )  # get the normal name from the table
-                    if (
+                    if ( fac_value.lower() != match.lower() or
                         fac.lower() != fvalor.lower()
                         or fac.lower() != nota.campo.lower()
                     ):
@@ -818,7 +922,6 @@ def extract_faculdade(aluno: Aluno):
             and aluno.unit_date_inicial.value != "0000-00-00"
         ):
             aluno.faculdade_problem = "Erro: não foi possível determinar a faculdade"
-            aluno.faculdade_problem_obs = ""
     elif same_fac:  # catalog and inferred faculdade the same
         pass
     else:
@@ -828,14 +931,16 @@ def extract_faculdade(aluno: Aluno):
             fac_obs = ""
             if aluno.has_faculdade:
                 aluno.faculdade_problem = "Aviso: faculdade corrigida"
-                aluno.faculdade_problem_obs = (
-                    f'{aluno.faculdade_original} para {",".join(main_fac)}.'
+                faculdade_problem_obs = (
+                    f'Faculdade corrigida de "{aluno.faculdade_original}" para "{", ".join(main_fac)}"'
                 )
-                fac_obs = f"Faculdade corrigida"
+                aluno.faculdade_problem_obs = aluno.faculdade_problem_obs.replace(faculdade_problem_obs,"")  # remove duplicates
+                aluno.faculdade_problem_obs = f"{faculdade_problem_obs}. {aluno.faculdade_problem_obs}"
+                fac_obs = f'Ficha original: {aluno.faculdade_original}'
 
             else:
                 aluno.faculdade_problem = "Aviso: faculdade inferida"
-                aluno.faculdade_problem_obs = fac
+                aluno.faculdade_problem_obs = f"Faculdade inferida: '{fac}'. {aluno.faculdade_problem_obs}"
                 fac_obs = "Faculdade inferida"
             aluno.faculdade.append((fac, aluno.unit_date_inicial, fac_obs))
 
@@ -853,8 +958,7 @@ def extract_faculdade(aluno: Aluno):
         elif "Cânones" not in fac_names and "Leis" not in fac_names:
             aluno.faculdade_strange = (
                 aluno.faculdade_problem_obs
-            )  # This is a strange override by the algoritm
-
+            )
 
 Aluno.add_extractor(extract_faculdade)
 
@@ -874,15 +978,8 @@ def extract_graus(aluno: Aluno):
     }
     # Determine which list of Faculdades is relevant for this student
     # we will use this to determine the area of the degree
-    if aluno.unit_date_final.value < "1772-00-00":
-        faculdades = faculdades_pre_1772
-        requisitos = requisitos_pre_1772
-    elif aluno.unit_date_final.value < "1836-00-00":  # check correct date
-        faculdades = faculdades_1772_1836
-        requisitos = requisitos_1772_1836
-    else:
-        faculdades = faculdades_post_1836
-        requisitos = requisitos_post_1836
+    plan, faculdades, requisitos, transition = match_with_study_plan(aluno)
+
     for nota in aluno.get_unprocessed_note():
         campo = nota.campo.lower()
         # case 1: the field name is the name of a degree:
@@ -951,7 +1048,8 @@ def extract_graus(aluno: Aluno):
                     hits = list_search(faculdades.keys(), nota.valor.lower())
                 ambito = None
                 for fac in hits:
-                    ambito = faculdades.get(fac, fac)  # get the fac name
+                    match = list_search_match(faculdades.keys(), fac)
+                    ambito = faculdades.get(match, fac)  # get the fac name
                 if (
                     ambito is None and len(aluno.faculdade) > 0
                 ):  # get the ambito from faculdade
@@ -1057,7 +1155,7 @@ def extract_matriculas(aluno: Aluno):
     :return: None
     """
     # set the list of Faculdades for this student
-    faculdades = faculdades_todas
+    plan, faculdades, requisitos, transition = match_with_study_plan(aluno)
     # other than Faculdades, we extract matrículas in
     cursos = {
         "gramática": "Gramática",
@@ -1125,7 +1223,7 @@ def extract_matriculas(aluno: Aluno):
         # if it was Filosofia or Matemática
         # this means that corrections to Direito are accepted
         # other changes (e.g. Direito corrected to Teologia) are
-        # marked as "stange"
+        # marked as "strange"
         fac_names = [f for (f, d, o) in aluno.faculdade]
         if aluno.faculdade_original in ["Filosofia", "Matemática"]:
             fac_from_aluno = [(aluno.faculdade_original, aluno.unit_date_inicial, "")]
@@ -1210,10 +1308,14 @@ def extract_matriculas(aluno: Aluno):
                 tipo = "faculdade"
                 previous_tipo = tipo
                 for ambito in facs:
+                    match = list_search_match(faculdades.keys(), ambito)
+                    fac_name = faculdades.get(match, ambito)
+                    if fac_name.lower() != ambito.lower():
+                        obs = f"original: {ambito} {obs}"
                     aluno.matriculas.append(
-                        Matricula(faculdades.get(ambito), tipo, modalidade, data, obs)
+                        Matricula(fac_name, tipo, modalidade, data, obs)
                     )
-                    previous_faculdade = faculdades[ambito]
+                    previous_faculdade = faculdades[match]
 
             # Cursos
             curs = curso_in_campo + curso_in_valor
@@ -1221,10 +1323,14 @@ def extract_matriculas(aluno: Aluno):
                 tipo = "curso"
                 previous_tipo = tipo
                 for ambito in curs:
+                    match = list_search_match(cursos.keys(), ambito)
+                    curso_name = cursos.get(match, ambito)
+                    if curso_name.lower() != ambito.lower():
+                        obs = f"original: {ambito} {obs}"
                     aluno.matriculas.append(
-                        Matricula(cursos.get(ambito), tipo, modalidade, data, obs)
+                        Matricula(curso_name, tipo, modalidade, data, obs)
                     )
-                    previous_curso = cursos[ambito]
+                    previous_curso = cursos[match]
 
             # Classes
             # Check if we are not confusing year of programme with other ordinal numbers
@@ -1351,7 +1457,7 @@ def extract_exames(aluno: Aluno):
                     # if we have only a date then the field name is used
                     ambito = nota.campo.strip()
                 else:
-                    if "exame" != nota.campo.lower():
+                    if "exame" != nota.campo.lower() and "exames" != nota.campo.lower():
                         # we have exame in the field name but something more
                         #   e.g. "exame privado"
                         ambito = nota.campo.strip()
@@ -1368,9 +1474,23 @@ def extract_exames(aluno: Aluno):
                     )  # whatever after the date
                     obs = nota.obs
                     aluno.exames.append(Exame(ambito, data, resultado, obs))
+                    nota.processed = True
             except:
                 nota.processed = False
     pass
 
 
 Aluno.add_extractor(extract_exames)
+
+
+def extract_provas(aluno: Aluno):
+    """Extract notes like "provou"""
+    for nota in aluno.notas:  # Other extractors might have used the same
+        if ("prova" in nota.campo.lower()
+            or "prova" in nota.seccao.lower()):
+
+            aluno.provas.append(Prova(nota.valor, nota.data, nota.obs))
+            nota.processed = True
+
+
+Aluno.add_extractor(extract_provas)

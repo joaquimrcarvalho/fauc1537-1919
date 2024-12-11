@@ -33,6 +33,7 @@ from timelink.kleio.groups import KKleio, KSource, KAct, \
 from timelink.kleio.groups.kls import KLs
 from timelink.kleio.groups.krelation import KRelation
 from timelink.kleio.groups.katr import KAtr
+from timelink.kleio.groups.kgroup import KGroup
 
 
 
@@ -45,6 +46,7 @@ KThetype = KType('the_type')
 KTipo = KThetype.extend('tipo')
 KNome = KName.extend('nome')
 KSexo = KSex.extend('sexo')
+KEnd = KGroup.extend('end')
 
 
 #/Users/jrc/develop/timelink-py/timelink/kleio/groups.py:1129: UserWarning: Created a KElement class for loc. Better to create explicit or provide  synonyms= in group creation.
@@ -79,3 +81,6 @@ rel = KRelation.extend('rel', position=['type', 'value','destname','destination'
             also=['origin','data'] )
 n.allow_as_part(referido)
 n.allow_as_part(referida)
+
+aluno_end = KGroup.extend('end', position=[], also=['id'])
+lista.allow_as_part(aluno_end)

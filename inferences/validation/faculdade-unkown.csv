@@ -1,410 +1,1066 @@
 id,faculdade,name,faculdade.date
-146645,(.),António Antunes,1656-10-20
-140542,(.),António de Abreu,1661-10-26
-165702,(.),Manuel Ribeiro,1604-10-17
-165556,(.),Manuel Ribeiro,1612-03-23
-165558,(.),Manuel Ribeiro,1617-04-09
-165781,(.),Manuel Ribeiro,1657-10-15
-165804,(.),Manuel Ribeiro,1659-12-12
-165730,(.),Manuel Ribeiro,1683-03-24
-165828,(.),Manuel Ribeiro,1689-11-24
-165699,(.),Manuel Ribeiro,1708-10-01
-165775,(.),Manuel Ribeiro,1730-03-15
-166341,(.),Manuel Ribeiro,1732-11-10
-145856,(.),Pedro de Amorim,1676-01-01
-243376,(1767-10-01),João de Morais de Mesquita,1767-10-01
-190611,(?),Afonso Rodrigues,1661-10-01
-230452,(?),Agostinho Nunes Ruela,1758-10-01
-190700,(?),Agostinho Rodrigues,1625-10-20
-190704,(?),Agostinho Rodrigues,1644-04-30
-235545,(?),Agostinho da Mota,1708-10-01
-190774,(?),Alberto Rodrigues,1651-11-09
-251563,(?),Alexandre Luís,1745-10-01
-235211,(?),Alexandre Tavares Morilhas,1724-10-01
-190797,(?),Amabrósio Rodrigues,1583-10-01
-190796,(?),Amaro Rodrigues,1663-10-26
-190805,(?),André Rodrigues,1641-05-02
-227626,(?),António Botelho da Rosa,1703-11-26
-194352,(?),António Carvalho Rodrigues,1730-10-01
-227649,(?),António Dias da Rosa,1730-11-23
-194365,(?),António Francisco Rodrigues,1735-11-01
-230757,(?),António José Moreira,1764-10-01
-194428,(?),António José Rodrigues,1735-11-04
-194434,(?),António José Rodrigues,1747-10-01
-229093,(?),António José Rosado,1761-10-01
-230684,(?),António Moreira,1610-10-01
-230679,(?),António Moreira,1649-10-26
-230696,(?),António Moreira,1652-10-21
-226578,(?),António Ribeiro Roliça,1704-11-15
-192118,(?),António Rodrigues,1596-10-16
-192131,(?),António Rodrigues,1598-12-07
-192378,(?),António Rodrigues,1601-03-22
-194092,(?),António Rodrigues,1605-12-10
-191401,(?),António Rodrigues,1607-10-30
-191478,(?),António Rodrigues,1613-10-05
-192937,(?),António Rodrigues,1613-10-12
-192380,(?),António Rodrigues,1636-02-15
-193524,(?),António Rodrigues,1636-10-03
-191394,(?),António Rodrigues,1639-10-14
-191278,(?),António Rodrigues,1643-11-24
-192922,(?),António Rodrigues,1696-10-01
-191353,(?),António Rodrigues,1701-10-31
-191332,(?),António Rodrigues,1706-10-01
-194099,(?),António Rodrigues,1708-10-01
-194096,(?),António Rodrigues,1715-12-15
-193210,(?),António Rodrigues,1733-10-01
-191539,(?),António Rodrigues,1734-10-01
-191318,(?),António Rodrigues,1765-12-01
-230844,(?),António Rodrigues Moreira,1756-10-01
-194358,(?),António da Costa Rodrigues,1757-10-01
-249877,(?),António da Murta,1674-11-26
-227609,(?),António da Rosa,1768-12-01
-230542,(?),António de Escobar Ruibão,1635-12-10
-194624,(?),Apolinário Rodrigues,1703-10-01
-194754,(?),Baltasar Rodrigues,1670-10-21
-194889,(?),Bartolomeu Rodrigues,1656-10-20
-194893,(?),Bartolomeu Rodrigues,1663-10-24
-194895,(?),Bartolomeu Rodrigues,1674-10-01
-194891,(?),Bartolomeu Rodrigues,1762-12-01
-226584,(?),Basílio Coelho Rolim,1745-10-01
-195140,(?),Belchior Rodrigues,1703-11-08
-229133,(?),Bernardo Francisco Rosado,1726-10-01
-240157,(?),Bernardo Luís de Moura,1736-10-01
-195645,(?),Bernardo Rodrigues,1709-10-19
-253611,(?),Crisóstomo Luís,1725-10-01
-196390,(?),Custódio Rodrigues,1710-10-01
-246981,(?),Diogo Alves Mourão,1692-10-01
-196955,(?),Diogo Rodrigues,1609-10-20
-196726,(?),Diogo Rodrigues,1621-10-25
-240328,(?),Diogo Rodrigues de Moura,1687-10-01
-227845,(?),Diogo da Rosa,1625-10-20
-230613,(?),Domingos Fernandes Runagem,1728-12-10
-253636,(?),Domingos Luís,1596-10-14
-253641,(?),Domingos Luís,1622-01-02
-253637,(?),Domingos Luís,1719-10-01
-246990,(?),Domingos Mourão,1720-10-21
-197404,(?),Domingos Rodrigues,1586-10-01
-197534,(?),Domingos Rodrigues,1589-10-30
-197097,(?),Domingos Rodrigues,1651-01-03
-197067,(?),Domingos Rodrigues,1651-10-16
-197511,(?),Domingos Rodrigues,1711-10-01
-197439,(?),Domingos Rodrigues,1719-11-04
-197431,(?),Domingos Rodrigues,1733-01-12
-236180,(?),Domingos da Mota,1726-10-01
-233130,(?),Fernando Álvares de Castro Moreira,1694-10-01
-198556,(?),Filipe Rodrigues,1625-10-07
-236280,(?),Filipe da Mota,1708-10-22
-236396,(?),Francisco Manuel da Mota,1771-01-01
-233135,(?),Francisco Moreira,1708-10-22
-203061,(?),Francisco Rodrigues,1583-10-01
-199583,(?),Francisco Rodrigues,1586-11-28
-203295,(?),Francisco Rodrigues,1591-11-13
-199596,(?),Francisco Rodrigues,1594-12-14
-203315,(?),Francisco Rodrigues,1613-10-12
-203064,(?),Francisco Rodrigues,1636-01-10
-198720,(?),Francisco Rodrigues,1641-10-15
-199594,(?),Francisco Rodrigues,1653-10-13
-198771,(?),Francisco Rodrigues,1698-10-01
-199649,(?),Francisco Rodrigues,1711-10-01
-203321,(?),Francisco Rodrigues,1717-04-05
-199587,(?),Francisco Rodrigues,1723-10-01
-199449,(?),Francisco Rodrigues,1724-10-01
-203397,(?),Francisco Rodrigues,1736-10-01
-203455,(?),Francisco Rodrigues,1760-10-01
-226920,(?),Francisco Xavier Romão,1730-01-19
-240806,(?),Francisco de Moura,1762-10-01
-240838,(?),Gaspar Fernandes de Moura,1656-11-26
-233325,(?),Gaspar Moreira,1589-11-21
-233327,(?),Gaspar Moreira,1619-10-07
-203928,(?),Gaspar Rodrigues,1592-10-06
-203853,(?),Gaspar Rodrigues,1640-10-26
-230592,(?),Gaspar do Ruivo,1642-10-13
-249684,(?),Gonçalo Munhós,0000-00-00
-247262,(?),Gonçalo Ribeiro Mourão,1642-01-10
-204895,(?),Gonçalo Rodrigues,1596-10-21
-204858,(?),Gonçalo Rodrigues,1640-10-30
-233686,(?),Jerónimo Moreira,1702-10-01
-228333,(?),Joaquim Borges da Rosa,1756-10-01
-190375,(?),Jorge Rodolfo,0000-00-00
-211972,(?),Jorge Rodrigues,1629-10-09
-212352,(?),Jorge Rodrigues,1661-01-29
-213567,(?),José Inácio Rodrigues,1750-10-01
-226631,(?),José Machado Rolim,1734-10-01
-248793,(?),José Madeira Mousinho,1723-10-21
-251317,(?),José Moniz de Lucena,1738-10-01
-212784,(?),José Rodrigues,1675-11-08
-212984,(?),José Rodrigues,1677-10-01
-212788,(?),José Rodrigues,1698-10-01
-213006,(?),José Rodrigues,1719-10-01
-212790,(?),José Rodrigues,1743-10-01
-213440,(?),José Rodrigues,1748-10-01
-213314,(?),José Rodrigues,1754-10-01
-213241,(?),José Rodrigues,1758-10-01
-247743,(?),José Rodrigues Mourão,1766-10-01
-236826,(?),José da Mota,1770-10-01
-236625,(?),João Antunes da Mota,1708-10-01
-209084,(?),João Batista Rodrigues,1729-10-01
-236626,(?),João Batista da Mota,1737-10-01
-228292,(?),João Francisco Rosa,1733-10-01
-249691,(?),João Martins Munhós,1752-10-01
-236707,(?),João Mendes da Mota,1703-02-18
-233736,(?),João Moreira,1762-12-15
-233732,(?),João Moreira,1763-12-01
-248448,(?),João Mouro,1745-10-01
-226515,(?),João Pires Rolão,1727-10-01
-229891,(?),João Ribeiro Roseimo,1678-11-18
-207206,(?),João Rodrigues,0000-00-00
-208862,(?),João Rodrigues,0000-00-00
-206182,(?),João Rodrigues,1585-11-14
-207133,(?),João Rodrigues,1586-10-18
-207829,(?),João Rodrigues,1600-10-01
-207598,(?),João Rodrigues,1617-10-06
-207209,(?),João Rodrigues,1621-10-16
-207103,(?),João Rodrigues,1625-11-24
-207809,(?),João Rodrigues,1638-11-04
-206185,(?),João Rodrigues,1672-10-19
-207486,(?),João Rodrigues,1675-10-17
-206968,(?),João Rodrigues,1678-10-01
-208908,(?),João Rodrigues,1708-10-20
-207765,(?),João Rodrigues,1727-10-01
-206361,(?),João Rodrigues,1744-10-01
-208910,(?),João Rodrigues,1752-10-30
-207761,(?),João Rodrigues,1754-10-01
-208869,(?),João Rodrigues,1762-10-01
-248771,(?),João Rodrigues Mousinho,1722-10-01
-226596,(?),João Rolim,1665-10-01
-236614,(?),João da Mota,1663-10-15
-228169,(?),João da Rosa,1597-11-27
-228242,(?),João de Almeida Rosa,1757-10-01
-229700,(?),João do Rosário,1748-01-13
-214645,(?),Leonardo Roberto Rodrigues,1741-10-01
-226806,(?),Lourenço Gonçalves Roma,1770-12-01
-235527,(?),Lourenço Mostino,1758-12-01
-214755,(?),Lourenço Rodrigues,1641-10-22
-251448,(?),Luís Luís,1537-12-20
-230617,(?),Luís Maria Russo,1717-10-01
-233952,(?),Luís Moreira,1624-11-06
-233950,(?),Luís Moreira,1716-10-01
-214876,(?),Luís Rodrigues,1605-10-05
-214925,(?),Luís Rodrigues,1751-10-01
-229943,(?),Luís Vaz Roubão,1624-10-11
-219554,(?),Manue Xavier Rodrigues,1748-01-21
-228626,(?),Manuel Barata Rosa,1752-10-01
-234337,(?),Manuel Bernardes Moreira,1729-01-30
-250725,(?),Manuel Dias Louro,1687-10-01
-234371,(?),Manuel Dias Moreira,1692-12-23
-242007,(?),Manuel Felix de Moura,1721-10-01
-251393,(?),Manuel Fernandes de Lucena,1636-11-12
-228646,(?),Manuel Ferreira da Rosa,1729-01-23
-234413,(?),Manuel Gonçalves Moreira,1765-10-01
-219542,(?),Manuel José Rodrigues,1764-10-01
-189510,(?),Manuel José da Rocha,1737-10-01
-189512,(?),Manuel José da Rocha,1754-10-01
-250728,(?),Manuel José de Azevedo Louro,1756-10-26
-219543,(?),Manuel Lopes Rodrigues,1677-06-02
-203695,(?),Manuel Lopes da Costa,1722-10-01
-189521,(?),Manuel Martins da Rocha,1631-10-01
-189531,(?),Manuel Mendes da Rocha,1699-04-01
-189524,(?),Manuel Mendes da Rocha,1727-04-02
-189544,(?),Manuel Monteiro da Rocha,1695-10-01
-234070,(?),Manuel Moreira,1587-10-18
-234045,(?),Manuel Moreira,1625-10-21
-234052,(?),Manuel Moreira,1657-10-22
-234083,(?),Manuel Moreira,1690-10-01
-234075,(?),Manuel Moreira,1750-10-01
-234606,(?),Manuel Pinto Moreira,1738-10-01
-215284,(?),Manuel Rodrigues,0000-00-00
-216595,(?),Manuel Rodrigues,0000-00-00
-215754,(?),Manuel Rodrigues,1602-12-02
-218521,(?),Manuel Rodrigues,1613-10-21
-216303,(?),Manuel Rodrigues,1619-10-08
-216541,(?),Manuel Rodrigues,1623-10-09
-216033,(?),Manuel Rodrigues,1623-12-11
-215559,(?),Manuel Rodrigues,1625-10-01
-215184,(?),Manuel Rodrigues,1627-10-19
-216423,(?),Manuel Rodrigues,1635-10-10
-219063,(?),Manuel Rodrigues,1640-11-05
-215190,(?),Manuel Rodrigues,1643-10-19
-215334,(?),Manuel Rodrigues,1645-11-04
-215567,(?),Manuel Rodrigues,1647-11-08
-218638,(?),Manuel Rodrigues,1654-11-09
-215992,(?),Manuel Rodrigues,1657-11-23
-218796,(?),Manuel Rodrigues,1663-02-19
-216044,(?),Manuel Rodrigues,1670-11-10
-216802,(?),Manuel Rodrigues,1675-10-29
-215307,(?),Manuel Rodrigues,1675-12-04
-215298,(?),Manuel Rodrigues,1677-10-01
-218836,(?),Manuel Rodrigues,1680-10-01
-219060,(?),Manuel Rodrigues,1683-04-11
-215568,(?),Manuel Rodrigues,1685-10-19
-218424,(?),Manuel Rodrigues,1686-10-01
-215943,(?),Manuel Rodrigues,1688-10-25
-218760,(?),Manuel Rodrigues,1689-11-03
-218741,(?),Manuel Rodrigues,1700-11-08
-215502,(?),Manuel Rodrigues,1701-11-28
-219197,(?),Manuel Rodrigues,1702-10-25
-216457,(?),Manuel Rodrigues,1702-11-15
-216604,(?),Manuel Rodrigues,1707-10-22
-216385,(?),Manuel Rodrigues,1709-10-01
-215331,(?),Manuel Rodrigues,1710-10-30
-219124,(?),Manuel Rodrigues,1722-10-30
-216799,(?),Manuel Rodrigues,1724-10-27
-218221,(?),Manuel Rodrigues,1733-10-01
-218645,(?),Manuel Rodrigues,1740-11-08
-215557,(?),Manuel Rodrigues,1748-10-01
-218136,(?),Manuel Rodrigues,1765-10-01
-239224,(?),Manuel Rodrigues da Mota,1749-12-29
-242023,(?),Manuel da Gama de Moura,1754-10-31
-239011,(?),Manuel da Mota,1657-10-15
-230277,(?),Manuel da Rua,1620-10-14
-234618,(?),Manuel da Silva Moreira,1735-10-01
-239099,(?),Manuel de Almeida Mota,1761-10-01
-247796,(?),Manuel de Barros Mourão,1715-10-26
-235338,(?),Manuel de Moris,1658-10-23
-226655,(?),Manuel de Moura Rolim,1618-10-01
-230323,(?),Manuel de Ruão,1588-10-01
-248027,(?),Manuel de Sá Mourão,1744-01-09
-234322,(?),Manuel Álvares Moreira,1628-10-17
-219664,(?),Marcos Rodrigues,0000-00-00
-251395,(?),Marcos de Lucena,1621-10-12
-219678,(?),Martim Rodrigues,1603-12-12
-189643,(?),Martinho Homem da Rocha,1725-10-01
-219730,(?),Matias Rodrigues,1693-10-01
-219846,(?),Matias Rodrigues,1695-10-01
-249644,(?),Miguel Carlos de Moxica,1736-12-11
-245157,(?),Miguel José Correia de Moura,1734-10-01
-234656,(?),Miguel Moreira,1707-10-21
-220001,(?),Miguel Rodrigues,1605-10-05
-220152,(?),Miguel Rodrigues,1632-11-22
-220005,(?),Miguel Rodrigues,1648-11-28
-220002,(?),Miguel Rodrigues,1698-10-01
-229637,(?),Paulo António de Abreu Rosado,1766-10-01
-235171,(?),Paulo Lopes Morgado,1761-10-01
-220584,(?),Paulo Rodrigues,1623-10-09
-248035,(?),Paulo Rodrigues Mourão,1657-10-26
-248121,(?),Pedro Gomes Mourão,1695-10-01
-234705,(?),Pedro Moreira,1623-12-09
-248063,(?),Pedro Mourão,1613-10-26
-220844,(?),Pedro Rodrigues,1651-11-12
-220872,(?),"Pedro Rodrigues, vide, Soeiro",1601-10-20
-239305,(?),Pedro da Mota,1650-10-05
-189736,(?),Pedro da Rocha,1691-11-21
-246257,(?),Pedro de Moura,1651-10-17
-246277,(?),Pedro Álvares de Moura,1600-11-20
-189768,(?),Rafael da Rocha,1625-10-01
-250378,(?),Rodrigo Lourenço,1722-10-26
-221204,(?),Salvador Rodrigues,1735-10-31
-234808,(?),Sebastião José Moreira,1751-10-01
-239331,(?),Sebastião José da Mota,1746-10-01
-234807,(?),Sebastião Moreira,1608-10-24
-221917,(?),Sebastião Rodrigues,1614-10-21
-221666,(?),Sebastião Rodrigues,1619-10-19
-221843,(?),Sebastião Rodrigues,1622-10-14
-234884,(?),Silvestre Moreira,1589-10-19
-221940,(?),Silvestre Rodrigues,1618-04-16
-221949,(?),Silvestre Rodrigues,1656-11-09
-223007,(?),Silvestre Rodrigues,1678-10-01
-223149,(?),Simão Rodrigues,1579-10-30
-223226,(?),Simão Rodrigues,1579-11-23
-223174,(?),Simão Rodrigues,1590-10-22
-224912,(?),Simão Rodrigues,1591-01-19
-223009,(?),Simão Rodrigues,1615-03-12
-224917,(?),Simão Rodrigues,1616-11-28
-223148,(?),Simão Rodrigues,1648-03-04
-223134,(?),Simão Rodrigues,1658-04-02
-239339,(?),Teodósio da Mota,1702-11-27
-225200,(?),Teotónio Rodrigues,1708-10-26
-246484,(?),Tomás Lopes de Moura,1654-10-19
-190266,(?),Tomás da Rocha,1723-10-01
-225289,(?),Tomé Rodrigues,1620-10-10
-225249,(?),Tomé Rodrigues,1663-01-07
-225251,(?),Tomé Rodrigues,1732-01-24
-225686,(?),Vicente Rodrigues,1608-11-08
-190296,(?),Vicente da Rocha,1604-01-14
-251571,(?),Álvaro Luís,1638-01-05
-190419,(?),Álvaro Martins Rodrigão,1754-10-01
-190790,(?),Álvaro Rodrigues,1661-10-26
-190636,(Canônes),Afonso Rodrigues,1609-11-23
-163266,(Codigo),Diogo,1540-12-02
-152495,(Cânones),Camilo de Araújo da Fonseca,1868-10-10
-242848,(Cânones),Diogo de Soutomaior,1908-10-27
-278752,(Cânones),Henrique Hophe,1843-01-16
-295708,(Cânones),Herculano Aprigio Alvares Araújo Santa Bárbara,1825-10-24
-226814,(Cânones),Inácio da Silva,1899-10-12
-276552,(Cânones),Jeronimo Estoquete,1862-03-31
-238738,(Cânones),Joaquim Pinheiro de Sousa,1886-10-15
-281600,(Cânones),Joaquim de Oliveira Branquinho,1858-06-26
-287046,(Cânones),José João Monteiro,1850-06-11
-272177,(Cânones),José Severino de Avelar Júnior,1835-06-17
-310916,(Cânones),João Inácio Barreto da Gama e Sousa,1831-07-08
-283528,(Cânones),Manuel Barata Lima,1853-05-24
-296406,(Cânones),Manuel Fernandes dos Santos,1835-06-20
-293702,(Cânones),Manuel Inácio de Matos Mexia da Costa,1888-07-09
-317873,(Cânones),Manuel José de Amorim Viana,1835-06-06
-288097,(Cânones),Manuel Justino Marques Murta,1835-06-30
-181556,(Cânones),Manuel Machado Macedo,1904-10-07
-268977,(Cânones),Manuel de Melo e Castro de Abreu,1835-06-13
-168971,(Cânones),Pedro Vaz Ribeiro,1853-10-08
-316240,(Cânones),Pedro de Sousa,1852-03-21
-296843,(Cânones),Rafael Maria Sarmento,1830-07-13
-181636,(Cânones),Álvaro Manuel Santos e Silva Machado,1909-10-02
-223999,(Dialética),André Pedroso,1540-10-15
-254161,(Dialética),Francisco Luís,1540-10-19
-190809,(Dialética),Henrique de Castro,1540-03-09
-138189,(Dialética),João Figueiró,1540-10-12
-134569,(Eclesiástico),António Ruivo de Figueiredo,1871-10-14
-171074,(Estado Eclesiástico),Afonso Bernardino de Ochôa Mata,1865-10-11
-229914,(Estado Eclesiástico),António Gomes Rosmaninho,1846-11-11
-162950,(Estado Eclesiástico),José António Dinis,1852-10-27
-148001,(Farmácia),Joaquim Alberto Areosa,1903-01-14
-145238,(Farmácia),Óscar Manuel Guedes Alvim,1904-10-12
-248777,(Granática),Amador Pires,1540-02-06
-162893,(Insituta),Jerónimo Dinis,1598-10-27
-162919,(Institua),João Dinis,1696-12-12
-191279,(Institua),Manuel Fernandes Castro,1728-10-01
-162284,(Institua),Mateus Dias,1642-10-28
-179073,(Institua),Pedro Luís Gomes,1733-10-01
-168028,(Instituto Eclesiástico),Frutuoso José Martins,1848-10-06
-153436,(Instituto),Francisco Osório da Fonseca,1726-10-01
-168030,(Instituto),Gabriel Martins,1818-10-24
-165081,(Instituto),José Godinho Freire,1724-10-01
-211035,(Instituto),José Pereira da Cunha Leite,1764-10-01
-214163,(Instituto),Lourenço de Lemos,1750-01-01
-157976,(Instituto),Manuel da Fonseca,1725-10-01
-159782,(Instituto),Pedro Correia da Fonseca,1694-12-15
-194914,(Instiuta),Luís Pereira Lacerda,1653-11-04
-202881,(Intituta),Domingos Rodrigues Leitão,1695-10-01
-189148,(Intituta),Gaspar Castanheira,1581-03-12
-176905,(Intituta),Jerónimo Luís Faisco Ortigão,1765-10-01
-155550,(Intituta),João  Rodrigues da Fonseca,1613-11-04
-172587,(Intituta),Manuel António de Bolhão Novais,1770-10-01
-138895,(Intituta),Pedro de Figueiredo,1682-10-30
-138995,(Intituta),Sebastião de  Figueiredo,1665-10-22
-180766,(Leis),António Joaquim Guerra,1884-10-02
-271758,(Leis),António Maria Carvalho e Araújo,1835-06-20
-296707,(Leis),Bento Lobão Morais Castro Sarmento,1830-07-12
-287268,(Leis),Bernardo José de Morais,1836-06-25
-317693,(Leis),Francisco Afonso Velho,1831-06-20
-308159,(Leis),Francisco António da Silva Pinto,1830-06-11
-290725,(Leis),Francisco Manuel da Fonseca e Castro,1836-06-04
-237942,(Leis),Heitor Pereira de Barbedo e Sousa,1827-10-13
-308506,(Leis),Inácio Fiel Gomes Ramalho,1836-06-20
-290909,(Leis),José António Dias de Castro,1835-06-15
-282485,(Leis),José Augusto Cameira de Gouveia,1835-06-20
-180684,(Leis),José Augusto Lobato Guerra,1892-10-12
-284700,(Leis),José Estevão Coelho de Magalhães,1835-06-22
-270519,(Leis),José Joaquim Gomes de Araújo Álvares,1840-06-11
-294763,(Leis),José Luís Gonçalves Ferreira da Cunha,1835-06-22
-297842,(Leis),José Pessoa da Silva Pinheiro,1850-07-05
-165216,(Leis),José das Neves Gomes Eliseu,1840-10-10
-292791,(Leis),João de Almeida de Morais Pessanha,1845-07-01
-295095,(Leis),João de Sande Magalhães Mexia Salema,1835-06-17
-286251,(Leis),Luís Adelino da Cunha Dantas e Mendonça,1837-06-30
-297055,(Leis),Manuel António da Costa Seixas,1836-06-16
-281898,(Leis),Manuel Francisco de Sousa Teixeira Brochado,1835-06-05
-206349,(Leis),Paulino Joaquim Couceiro Leitão,1906-10-02
-133424,(Teorico),Diogo Rodrigues Cardoso,1540-03-07
-179125,(Teorico),Gonçalo,1540-10-07
-196458,(Teórico),Luís Coronel,1540-02-20
-222412,(Teórico),Marcos de Paiva,1540-10-17
-176607,(Teóricos),Baltasar Olmedo,1540-10-06
+146645,.,António Antunes,1656-10-20
+140542,.,António de Abreu,1661-10-26
+165702,.,Manuel Ribeiro,1604-10-17
+165556,.,Manuel Ribeiro,1612-03-23
+165558,.,Manuel Ribeiro,1617-04-09
+165781,.,Manuel Ribeiro,1657-10-15
+165804,.,Manuel Ribeiro,1659-12-12
+165730,.,Manuel Ribeiro,1683-03-24
+165828,.,Manuel Ribeiro,1689-11-24
+165699,.,Manuel Ribeiro,1708-10-01
+165775,.,Manuel Ribeiro,1730-03-15
+166341,.,Manuel Ribeiro,1732-11-10
+145856,.,Pedro de Amorim,1676-01-01
+243376,1767-10-01,João de Morais de Mesquita,1767-10-01
+190611,?,Afonso Rodrigues,1661-10-01
+230452,?,Agostinho Nunes Ruela,1758-10-01
+190700,?,Agostinho Rodrigues,1625-10-20
+190704,?,Agostinho Rodrigues,1644-04-30
+235545,?,Agostinho da Mota,1708-10-01
+190774,?,Alberto Rodrigues,1651-11-09
+251563,?,Alexandre Luís,1745-10-01
+235211,?,Alexandre Tavares Morilhas,1724-10-01
+190797,?,Amabrósio Rodrigues,1583-10-01
+190796,?,Amaro Rodrigues,1663-10-26
+190805,?,André Rodrigues,1641-05-02
+227626,?,António Botelho da Rosa,1703-11-26
+194352,?,António Carvalho Rodrigues,1730-10-01
+227649,?,António Dias da Rosa,1730-11-23
+194365,?,António Francisco Rodrigues,1735-11-01
+230757,?,António José Moreira,1764-10-01
+194428,?,António José Rodrigues,1735-11-04
+194434,?,António José Rodrigues,1747-10-01
+229093,?,António José Rosado,1761-10-01
+230684,?,António Moreira,1610-10-01
+230679,?,António Moreira,1649-10-26
+230696,?,António Moreira,1652-10-21
+226578,?,António Ribeiro Roliça,1704-11-15
+192118,?,António Rodrigues,1596-10-16
+192131,?,António Rodrigues,1598-12-07
+192378,?,António Rodrigues,1601-03-22
+194092,?,António Rodrigues,1605-12-10
+191401,?,António Rodrigues,1607-10-30
+191478,?,António Rodrigues,1613-10-05
+192937,?,António Rodrigues,1613-10-12
+192380,?,António Rodrigues,1636-02-15
+193524,?,António Rodrigues,1636-10-03
+191394,?,António Rodrigues,1639-10-14
+191278,?,António Rodrigues,1643-11-24
+192922,?,António Rodrigues,1696-10-01
+191353,?,António Rodrigues,1701-10-31
+191332,?,António Rodrigues,1706-10-01
+194099,?,António Rodrigues,1708-10-01
+194096,?,António Rodrigues,1715-12-15
+193210,?,António Rodrigues,1733-10-01
+191539,?,António Rodrigues,1734-10-01
+191318,?,António Rodrigues,1765-12-01
+230844,?,António Rodrigues Moreira,1756-10-01
+194358,?,António da Costa Rodrigues,1757-10-01
+249877,?,António da Murta,1674-11-26
+227609,?,António da Rosa,1768-12-01
+230542,?,António de Escobar Ruibão,1635-12-10
+194624,?,Apolinário Rodrigues,1703-10-01
+194754,?,Baltasar Rodrigues,1670-10-21
+194889,?,Bartolomeu Rodrigues,1656-10-20
+194893,?,Bartolomeu Rodrigues,1663-10-24
+194895,?,Bartolomeu Rodrigues,1674-10-01
+194891,?,Bartolomeu Rodrigues,1762-12-01
+226584,?,Basílio Coelho Rolim,1745-10-01
+195140,?,Belchior Rodrigues,1703-11-08
+229133,?,Bernardo Francisco Rosado,1726-10-01
+240157,?,Bernardo Luís de Moura,1736-10-01
+195645,?,Bernardo Rodrigues,1709-10-19
+253611,?,Crisóstomo Luís,1725-10-01
+196390,?,Custódio Rodrigues,1710-10-01
+246981,?,Diogo Alves Mourão,1692-10-01
+196955,?,Diogo Rodrigues,1609-10-20
+196726,?,Diogo Rodrigues,1621-10-25
+240328,?,Diogo Rodrigues de Moura,1687-10-01
+227845,?,Diogo da Rosa,1625-10-20
+230613,?,Domingos Fernandes Runagem,1728-12-10
+253636,?,Domingos Luís,1596-10-14
+253641,?,Domingos Luís,1622-01-02
+253637,?,Domingos Luís,1719-10-01
+246990,?,Domingos Mourão,1720-10-21
+197404,?,Domingos Rodrigues,1586-10-01
+197534,?,Domingos Rodrigues,1589-10-30
+197097,?,Domingos Rodrigues,1651-01-03
+197067,?,Domingos Rodrigues,1651-10-16
+197511,?,Domingos Rodrigues,1711-10-01
+197439,?,Domingos Rodrigues,1719-11-04
+197431,?,Domingos Rodrigues,1733-01-12
+236180,?,Domingos da Mota,1726-10-01
+233130,?,Fernando Álvares de Castro Moreira,1694-10-01
+198556,?,Filipe Rodrigues,1625-10-07
+236280,?,Filipe da Mota,1708-10-22
+236396,?,Francisco Manuel da Mota,1771-01-01
+233135,?,Francisco Moreira,1708-10-22
+203061,?,Francisco Rodrigues,1583-10-01
+199583,?,Francisco Rodrigues,1586-11-28
+203295,?,Francisco Rodrigues,1591-11-13
+199596,?,Francisco Rodrigues,1594-12-14
+203315,?,Francisco Rodrigues,1613-10-12
+203064,?,Francisco Rodrigues,1636-01-10
+198720,?,Francisco Rodrigues,1641-10-15
+199594,?,Francisco Rodrigues,1653-10-13
+198771,?,Francisco Rodrigues,1698-10-01
+199649,?,Francisco Rodrigues,1711-10-01
+203321,?,Francisco Rodrigues,1717-04-05
+199587,?,Francisco Rodrigues,1723-10-01
+199449,?,Francisco Rodrigues,1724-10-01
+203397,?,Francisco Rodrigues,1736-10-01
+203455,?,Francisco Rodrigues,1760-10-01
+226920,?,Francisco Xavier Romão,1730-01-19
+240806,?,Francisco de Moura,1762-10-01
+240838,?,Gaspar Fernandes de Moura,1656-11-26
+233325,?,Gaspar Moreira,1589-11-21
+233327,?,Gaspar Moreira,1619-10-07
+203928,?,Gaspar Rodrigues,1592-10-06
+203853,?,Gaspar Rodrigues,1640-10-26
+230592,?,Gaspar do Ruivo,1642-10-13
+249684,?,Gonçalo Munhós,0000-00-00
+247262,?,Gonçalo Ribeiro Mourão,1642-01-10
+204895,?,Gonçalo Rodrigues,1596-10-21
+204858,?,Gonçalo Rodrigues,1640-10-30
+233686,?,Jerónimo Moreira,1702-10-01
+228333,?,Joaquim Borges da Rosa,1756-10-01
+190375,?,Jorge Rodolfo,0000-00-00
+211972,?,Jorge Rodrigues,1629-10-09
+212352,?,Jorge Rodrigues,1661-01-29
+213567,?,José Inácio Rodrigues,1750-10-01
+226631,?,José Machado Rolim,1734-10-01
+248793,?,José Madeira Mousinho,1723-10-21
+251317,?,José Moniz de Lucena,1738-10-01
+212784,?,José Rodrigues,1675-11-08
+212984,?,José Rodrigues,1677-10-01
+212788,?,José Rodrigues,1698-10-01
+213006,?,José Rodrigues,1719-10-01
+212790,?,José Rodrigues,1743-10-01
+213440,?,José Rodrigues,1748-10-01
+213314,?,José Rodrigues,1754-10-01
+213241,?,José Rodrigues,1758-10-01
+247743,?,José Rodrigues Mourão,1766-10-01
+236826,?,José da Mota,1770-10-01
+236625,?,João Antunes da Mota,1708-10-01
+209084,?,João Batista Rodrigues,1729-10-01
+236626,?,João Batista da Mota,1737-10-01
+228292,?,João Francisco Rosa,1733-10-01
+249691,?,João Martins Munhós,1752-10-01
+236707,?,João Mendes da Mota,1703-02-18
+233736,?,João Moreira,1762-12-15
+233732,?,João Moreira,1763-12-01
+248448,?,João Mouro,1745-10-01
+226515,?,João Pires Rolão,1727-10-01
+229891,?,João Ribeiro Roseimo,1678-11-18
+207206,?,João Rodrigues,0000-00-00
+208862,?,João Rodrigues,0000-00-00
+206182,?,João Rodrigues,1585-11-14
+207133,?,João Rodrigues,1586-10-18
+207829,?,João Rodrigues,1600-10-01
+207598,?,João Rodrigues,1617-10-06
+207209,?,João Rodrigues,1621-10-16
+207103,?,João Rodrigues,1625-11-24
+207809,?,João Rodrigues,1638-11-04
+206185,?,João Rodrigues,1672-10-19
+207486,?,João Rodrigues,1675-10-17
+206968,?,João Rodrigues,1678-10-01
+208908,?,João Rodrigues,1708-10-20
+207765,?,João Rodrigues,1727-10-01
+206361,?,João Rodrigues,1744-10-01
+208910,?,João Rodrigues,1752-10-30
+207761,?,João Rodrigues,1754-10-01
+208869,?,João Rodrigues,1762-10-01
+248771,?,João Rodrigues Mousinho,1722-10-01
+226596,?,João Rolim,1665-10-01
+236614,?,João da Mota,1663-10-15
+228169,?,João da Rosa,1597-11-27
+228242,?,João de Almeida Rosa,1757-10-01
+229700,?,João do Rosário,1748-01-13
+214645,?,Leonardo Roberto Rodrigues,1741-10-01
+226806,?,Lourenço Gonçalves Roma,1770-12-01
+235527,?,Lourenço Mostino,1758-12-01
+214755,?,Lourenço Rodrigues,1641-10-22
+251448,?,Luís Luís,1537-12-20
+230617,?,Luís Maria Russo,1717-10-01
+233952,?,Luís Moreira,1624-11-06
+233950,?,Luís Moreira,1716-10-01
+214876,?,Luís Rodrigues,1605-10-05
+214925,?,Luís Rodrigues,1751-10-01
+229943,?,Luís Vaz Roubão,1624-10-11
+219554,?,Manue Xavier Rodrigues,1748-01-21
+228626,?,Manuel Barata Rosa,1752-10-01
+234337,?,Manuel Bernardes Moreira,1729-01-30
+250725,?,Manuel Dias Louro,1687-10-01
+234371,?,Manuel Dias Moreira,1692-12-23
+242007,?,Manuel Felix de Moura,1721-10-01
+251393,?,Manuel Fernandes de Lucena,1636-11-12
+228646,?,Manuel Ferreira da Rosa,1729-01-23
+234413,?,Manuel Gonçalves Moreira,1765-10-01
+219542,?,Manuel José Rodrigues,1764-10-01
+189510,?,Manuel José da Rocha,1737-10-01
+189512,?,Manuel José da Rocha,1754-10-01
+250728,?,Manuel José de Azevedo Louro,1756-10-26
+219543,?,Manuel Lopes Rodrigues,1677-06-02
+203695,?,Manuel Lopes da Costa,1722-10-01
+189521,?,Manuel Martins da Rocha,1631-10-01
+189531,?,Manuel Mendes da Rocha,1699-04-01
+189524,?,Manuel Mendes da Rocha,1727-04-02
+189544,?,Manuel Monteiro da Rocha,1695-10-01
+234070,?,Manuel Moreira,1587-10-18
+234045,?,Manuel Moreira,1625-10-21
+234052,?,Manuel Moreira,1657-10-22
+234083,?,Manuel Moreira,1690-10-01
+234075,?,Manuel Moreira,1750-10-01
+234606,?,Manuel Pinto Moreira,1738-10-01
+215284,?,Manuel Rodrigues,0000-00-00
+216595,?,Manuel Rodrigues,0000-00-00
+215754,?,Manuel Rodrigues,1602-12-02
+218521,?,Manuel Rodrigues,1613-10-21
+216303,?,Manuel Rodrigues,1619-10-08
+216541,?,Manuel Rodrigues,1623-10-09
+216033,?,Manuel Rodrigues,1623-12-11
+215559,?,Manuel Rodrigues,1625-10-01
+215184,?,Manuel Rodrigues,1627-10-19
+216423,?,Manuel Rodrigues,1635-10-10
+219063,?,Manuel Rodrigues,1640-11-05
+215190,?,Manuel Rodrigues,1643-10-19
+215334,?,Manuel Rodrigues,1645-11-04
+215567,?,Manuel Rodrigues,1647-11-08
+218638,?,Manuel Rodrigues,1654-11-09
+215992,?,Manuel Rodrigues,1657-11-23
+218796,?,Manuel Rodrigues,1663-02-19
+216044,?,Manuel Rodrigues,1670-11-10
+216802,?,Manuel Rodrigues,1675-10-29
+215307,?,Manuel Rodrigues,1675-12-04
+215298,?,Manuel Rodrigues,1677-10-01
+218836,?,Manuel Rodrigues,1680-10-01
+219060,?,Manuel Rodrigues,1683-04-11
+215568,?,Manuel Rodrigues,1685-10-19
+218424,?,Manuel Rodrigues,1686-10-01
+215943,?,Manuel Rodrigues,1688-10-25
+218760,?,Manuel Rodrigues,1689-11-03
+218741,?,Manuel Rodrigues,1700-11-08
+215502,?,Manuel Rodrigues,1701-11-28
+219197,?,Manuel Rodrigues,1702-10-25
+216457,?,Manuel Rodrigues,1702-11-15
+216604,?,Manuel Rodrigues,1707-10-22
+216385,?,Manuel Rodrigues,1709-10-01
+215331,?,Manuel Rodrigues,1710-10-30
+219124,?,Manuel Rodrigues,1722-10-30
+216799,?,Manuel Rodrigues,1724-10-27
+218221,?,Manuel Rodrigues,1733-10-01
+218645,?,Manuel Rodrigues,1740-11-08
+215557,?,Manuel Rodrigues,1748-10-01
+218136,?,Manuel Rodrigues,1765-10-01
+239224,?,Manuel Rodrigues da Mota,1749-12-29
+242023,?,Manuel da Gama de Moura,1754-10-31
+239011,?,Manuel da Mota,1657-10-15
+230277,?,Manuel da Rua,1620-10-14
+234618,?,Manuel da Silva Moreira,1735-10-01
+239099,?,Manuel de Almeida Mota,1761-10-01
+247796,?,Manuel de Barros Mourão,1715-10-26
+235338,?,Manuel de Moris,1658-10-23
+226655,?,Manuel de Moura Rolim,1618-10-01
+230323,?,Manuel de Ruão,1588-10-01
+248027,?,Manuel de Sá Mourão,1744-01-09
+234322,?,Manuel Álvares Moreira,1628-10-17
+219664,?,Marcos Rodrigues,0000-00-00
+251395,?,Marcos de Lucena,1621-10-12
+219678,?,Martim Rodrigues,1603-12-12
+189643,?,Martinho Homem da Rocha,1725-10-01
+219730,?,Matias Rodrigues,1693-10-01
+219846,?,Matias Rodrigues,1695-10-01
+249644,?,Miguel Carlos de Moxica,1736-12-11
+245157,?,Miguel José Correia de Moura,1734-10-01
+234656,?,Miguel Moreira,1707-10-21
+220001,?,Miguel Rodrigues,1605-10-05
+220152,?,Miguel Rodrigues,1632-11-22
+220005,?,Miguel Rodrigues,1648-11-28
+220002,?,Miguel Rodrigues,1698-10-01
+229637,?,Paulo António de Abreu Rosado,1766-10-01
+235171,?,Paulo Lopes Morgado,1761-10-01
+220584,?,Paulo Rodrigues,1623-10-09
+248035,?,Paulo Rodrigues Mourão,1657-10-26
+248121,?,Pedro Gomes Mourão,1695-10-01
+234705,?,Pedro Moreira,1623-12-09
+248063,?,Pedro Mourão,1613-10-26
+220844,?,Pedro Rodrigues,1651-11-12
+220872,?,"Pedro Rodrigues, vide, Soeiro",1601-10-20
+239305,?,Pedro da Mota,1650-10-05
+189736,?,Pedro da Rocha,1691-11-21
+246257,?,Pedro de Moura,1651-10-17
+246277,?,Pedro Álvares de Moura,1600-11-20
+189768,?,Rafael da Rocha,1625-10-01
+250378,?,Rodrigo Lourenço,1722-10-26
+221204,?,Salvador Rodrigues,1735-10-31
+234808,?,Sebastião José Moreira,1751-10-01
+239331,?,Sebastião José da Mota,1746-10-01
+234807,?,Sebastião Moreira,1608-10-24
+221917,?,Sebastião Rodrigues,1614-10-21
+221666,?,Sebastião Rodrigues,1619-10-19
+221843,?,Sebastião Rodrigues,1622-10-14
+234884,?,Silvestre Moreira,1589-10-19
+221940,?,Silvestre Rodrigues,1618-04-16
+221949,?,Silvestre Rodrigues,1656-11-09
+223007,?,Silvestre Rodrigues,1678-10-01
+223149,?,Simão Rodrigues,1579-10-30
+223226,?,Simão Rodrigues,1579-11-23
+223174,?,Simão Rodrigues,1590-10-22
+224912,?,Simão Rodrigues,1591-01-19
+223009,?,Simão Rodrigues,1615-03-12
+224917,?,Simão Rodrigues,1616-11-28
+223148,?,Simão Rodrigues,1648-03-04
+223134,?,Simão Rodrigues,1658-04-02
+239339,?,Teodósio da Mota,1702-11-27
+225200,?,Teotónio Rodrigues,1708-10-26
+246484,?,Tomás Lopes de Moura,1654-10-19
+190266,?,Tomás da Rocha,1723-10-01
+225289,?,Tomé Rodrigues,1620-10-10
+225249,?,Tomé Rodrigues,1663-01-07
+225251,?,Tomé Rodrigues,1732-01-24
+225686,?,Vicente Rodrigues,1608-11-08
+190296,?,Vicente da Rocha,1604-01-14
+251571,?,Álvaro Luís,1638-01-05
+190419,?,Álvaro Martins Rodrigão,1754-10-01
+190790,?,Álvaro Rodrigues,1661-10-26
+190636,Canônes,Afonso Rodrigues,1609-11-23
+163266,Codigo,Diogo,1540-12-02
+152495,Cânones,Camilo de Araújo da Fonseca,1868-10-10
+242848,Cânones,Diogo de Soutomaior,1908-10-27
+278752,Cânones,Henrique Hophe,1843-01-16
+226814,Cânones,Inácio da Silva,1899-10-12
+276552,Cânones,Jeronimo Estoquete,1862-03-31
+238738,Cânones,Joaquim Pinheiro de Sousa,1886-10-15
+281600,Cânones,Joaquim de Oliveira Branquinho,1858-06-26
+287046,Cânones,José João Monteiro,1850-06-11
+283528,Cânones,Manuel Barata Lima,1853-05-24
+293702,Cânones,Manuel Inácio de Matos Mexia da Costa,1888-07-09
+181556,Cânones,Manuel Machado Macedo,1904-10-07
+168971,Cânones,Pedro Vaz Ribeiro,1853-10-08
+316240,Cânones,Pedro de Sousa,1852-03-21
+181636,Cânones,Álvaro Manuel Santos e Silva Machado,1909-10-02
+223999,Dialética,André Pedroso,1540-10-15
+254161,Dialética,Francisco Luís,1540-10-19
+190809,Dialética,Henrique de Castro,1540-03-09
+138189,Dialética,João Figueiró,1540-10-12
+134569,Eclesiástico,António Ruivo de Figueiredo,1871-10-14
+171074,Estado Eclesiástico,Afonso Bernardino de Ochôa Mata,1865-10-11
+229914,Estado Eclesiástico,António Gomes Rosmaninho,1846-11-11
+162950,Estado Eclesiástico,José António Dinis,1852-10-27
+148001,Farmácia,Joaquim Alberto Areosa,1903-01-14
+145238,Farmácia,Óscar Manuel Guedes Alvim,1904-10-12
+248777,Granática,Amador Pires,1540-02-06
+162893,Insituta,Jerónimo Dinis,1598-10-27
+162919,Institua,João Dinis,1696-12-12
+191279,Institua,Manuel Fernandes Castro,1728-10-01
+162284,Institua,Mateus Dias,1642-10-28
+179073,Institua,Pedro Luís Gomes,1733-10-01
+153436,Instituto,Francisco Osório da Fonseca,1726-10-01
+168030,Instituto,Gabriel Martins,1818-10-24
+165081,Instituto,José Godinho Freire,1724-10-01
+211035,Instituto,José Pereira da Cunha Leite,1764-10-01
+214163,Instituto,Lourenço de Lemos,1750-01-01
+157976,Instituto,Manuel da Fonseca,1725-10-01
+159782,Instituto,Pedro Correia da Fonseca,1694-12-15
+168028,Instituto Eclesiástico,Frutuoso José Martins,1848-10-06
+194914,Instiuta,Luís Pereira Lacerda,1653-11-04
+202881,Intituta,Domingos Rodrigues Leitão,1695-10-01
+189148,Intituta,Gaspar Castanheira,1581-03-12
+176905,Intituta,Jerónimo Luís Faisco Ortigão,1765-10-01
+155550,Intituta,João  Rodrigues da Fonseca,1613-11-04
+172587,Intituta,Manuel António de Bolhão Novais,1770-10-01
+138895,Intituta,Pedro de Figueiredo,1682-10-30
+138995,Intituta,Sebastião de  Figueiredo,1665-10-22
+180766,Leis,António Joaquim Guerra,1884-10-02
+287268,Leis,Bernardo José de Morais,1836-06-25
+290725,Leis,Francisco Manuel da Fonseca e Castro,1836-06-04
+308506,Leis,Inácio Fiel Gomes Ramalho,1836-06-20
+180684,Leis,José Augusto Lobato Guerra,1892-10-12
+270519,Leis,José Joaquim Gomes de Araújo Álvares,1840-06-11
+297842,Leis,José Pessoa da Silva Pinheiro,1850-07-05
+165216,Leis,José das Neves Gomes Eliseu,1840-10-10
+292791,Leis,João de Almeida de Morais Pessanha,1845-07-01
+286251,Leis,Luís Adelino da Cunha Dantas e Mendonça,1837-06-30
+297055,Leis,Manuel António da Costa Seixas,1836-06-16
+206349,Leis,Paulino Joaquim Couceiro Leitão,1906-10-02
+133424,Teorico,Diogo Rodrigues Cardoso,1540-03-07
+179125,Teorico,Gonçalo,1540-10-07
+196458,Teórico,Luís Coronel,1540-02-20
+222412,Teórico,Marcos de Paiva,1540-10-17
+176607,Teóricos,Baltasar Olmedo,1540-10-06
+198970,,Acácio José Palmeiro da Costa,
+219074,,Acácio Ortiz dos Santos,
+224112,,Adelino Augusto da Silva,
+191804,,Adriano José Jacob,
+172428,,Afonso Rodrigues da Rocha,
+209623,,Agostinho Bernardo Delgado Leitão,
+139371,,Aires Correia Fonseca,
+187993,,Aires da Costa Branquinho,
+207320,,Alberto Ferreira Jordão Crisóstomo?,
+171364,,Alexandre António de Matos,
+251024,,Alexandre José Monteiro,
+136891,,Alexandre Severo dos Reis,
+222504,,Alexandre de Figueiredo Paixão,
+241164,,Alexandre de Mesquita,
+244292,,Alexandre de Mesquita Ferreira,
+224285,,Alexandre de Oliveira Mata e Silva,
+217645,,Alexandre de Santo António,
+244306,,Alfredo Gomes Ferreira,
+217168,,Alfredo Teixeira Pinto Lião,
+189118,,Amadeu Francisco Castanheira,
+243024,,Amaral do Soveral,
+132096,,Amaro de Abranches Quaresma,
+164256,,André Bernardes Freire,
+136499,,André Dias,
+152639,,André Gomes Ribeiro,
+201768,,André Leitão,
+181642,,André Machado,
+172638,,André Xavier da Rocha,
+137774,,André de Resende,
+217826,,Antrónio da Cruz de São Bento,
+164441,,Antunes Freire,
+146870,,António,
+182487,,António Alberto de Madureira,
+186571,,António Augusto Sacadura Bote,
+172794,,António Bento de Araújo Rocha,
+208940,,António Bernardo da Cunha,
+172808,,António Caetano da Rocha,
+133418,,António Carneiro Delca,
+196528,,António Correia,
+207119,,António Craveiro,
+203844,,António Dias da Torre,
+163916,,António Duarte,
+153208,,António Emílio Alves Pereira de Carvalho,
+246343,,António Faro,
+235336,,António Felizardo de Sousa,
+161364,,António Fernandes Francisco,
+130014,,António Francisco de Campos,
+177908,,António Godinho,
+178295,,António Gomes,
+239988,,António Gonçalves de Moura,
+209004,,António Januário Correia da Cunha,
+209008,,António Joaquim da Cunha,
+224953,,António Joaquim da Silva,
+134061,,António Joaquim de Araújo Rangel,
+154497,,António José  Ribeiro,
+244923,,António José Ferreira,
+179251,,António José Gonçalves,
+173011,,António José Moreira da Rocha,
+172612,,António José Pimenta Galizes Júnior,
+235408,,António José de Sousa,
+225080,,António Leandro da Silva,
+163177,,António Lino Franco,
+236570,,António Lopes,
+154507,,António Lourenço Ribeiro,
+154508,,António Luís Ribeiro,
+251893,,António Maria Rodrigues Monteiro,
+134822,,António Marques Rebelo,
+226290,,António Martins Pereira,
+169949,,António Martins Rijo,
+174611,,António Martins de Oliveira,
+205271,,António Mendes,
+196778,,António Mendes Lane,
+134828,,António Pereira Rebelo,
+199707,,António Pimentel da Costa,
+130137,,António Pinto de Campos,
+136506,,António Pinto do Rego,
+198448,,António Pires Corte Real,
+133402,,António Ramalho,
+133712,,António Ramos,
+134230,,António Raposo,
+134699,,António Rebelo,
+134656,,António Rebelo,
+134644,,António Rebelo,
+136841,,António Reinoso,
+152656,,António Ribeiro,
+152838,,António Ribeiro,
+152987,,António Ribeiro,
+153664,,António Ribeiro,
+221810,,António Ribeiro Seiça,
+162753,,António Ribeiro de Paiva Soares Dinis,
+192049,,António Rodrigues,
+192086,,António Rodrigues,
+193148,,António Rodrigues,
+191871,,António Rodrigues Centeno,
+215078,,António Teixeira de Mendonça,
+173149,,António Vaz da Rocha,
+151294,,António Xavier Tavares Barreto,
+187606,,António Xavier de Miranda Henriques,
+153796,,António da Costa Ribeiro,
+139666,,António da Fonseca,
+153879,,António da Fonseca Ribeiro,
+235739,,António da Mota,
+224405,,António da Silva,
+224543,,António da Silva,
+145758,,António da Silva Amorim,
+174307,,António de Abreu de Melo,
+249337,,António de Jesus Pita,
+249339,,António de Jesus Pita,
+176688,,António de Mendonça Osório,
+174281,,António de Oliveira,
+176664,,António de Osório,
+176665,,António de Osório,
+137778,,António de Resende,
+235029,,António de Sousa,
+284269,,António de Sousa Machado,
+225384,,António de São Bento da Silva,
+136909,,António dos Reis,
+136908,,António dos Reis,
+136900,,António dos Reis,
+222190,,António dos Santos Seixo,
+128109,,Armando Lopes de Castro Cabral,
+221978,,Armando Martins de Paiva,
+240045,,Arnaldo Pereira de Moura,
+169341,,Arnaldo Vieira das Neves,
+187536,,Artur Augusto Brandão,
+153621,,Augusto Ferreira de Carvalho,
+138266,,Augusto Pereira Cardote,
+142709,,Augusto de Almeida,
+159877,,Baltasar Bernardes Ribeiro,
+250960,,Baltasar Luís do Monte Carmelo,
+132127,,Baltasar Quaresma,
+140108,,Baltasar da Fonseca,
+128113,,Baltasar de Almeida Cabral,
+244859,,Baltasar de Pinho,
+132662,,Baltasar de Queirós,
+145371,,Baltasar do Amaral,
+137010,,Baltasar dos Reis,
+232600,,Bartolomeu Dias Gomes Pereira,
+252040,,Bartolomeu Dias Monteiro,
+133362,,Bartolomeu Raimundo,
+178132,,Bartolomeu de Góis,
+240058,,Bartolomeu de Moura,
+160032,,Belchior Álvares Ribeiro,
+139159,,Bento Dias,
+140223,,Bento Homem da Fonseca,
+231436,,Bento Lobato,
+270614,,Bernardino Alves,
+160053,,Bernardino Leite Ribeiro,
+283808,,Bernardino Lopes,
+218001,,Bernardino de São Bernardo,
+193531,,Bernardo Alves Coelho,
+160148,,Bernardo José Ribeiro,
+239090,,Bernardo Lopes,
+133641,,Bernardo Ramires,
+173300,,Bruno Manuel Monteiro da Rocha,
+199801,,Brás Teixeira,
+218404,,Caetano de Lima,
+191570,,Carlos Cordeiro Idães,
+136286,,Carlos José Luseiro de Reboredo,
+134866,,Constantino Rebelo,
+205636,,Constantino de Gouveia Nobre Coutinho,
+133281,,Constantino de Sousa Cardoso,
+160217,,Cosme Ribeiro,
+183311,,Cristóvão Colombo Peixoto e Maia,
+206213,,Cristóvão Mendes,
+134869,,Cristóvão Rebelo,
+160264,,Cristóvão Ribeiro,
+160966,,Cristóvão Ribeiro,
+196368,,Cristóvão Rodrigues,
+174785,,Cristóvão de Melo,
+211308,,Custódio,
+248239,,César de Carvalho Miranda,
+133751,,Damião Ramos,
+139895,,Diogo Dias,
+252275,,Diogo Monteiro,
+134945,,Diogo Rebelo,
+161368,,Diogo Ribeiro,
+183172,,Diogo Vaz Magro,
+173418,,Dionísio Gomes da Rocha,
+141810,,Domingos Aires,
+133634,,Domingos António Ramalhosa,
+251925,,Domingos Fernandes,
+134959,,Domingos Fernandes Rebelo,
+137652,,Domingos João dos Reis Júnior,
+239726,,Domingos Lopes,
+172519,,Domingos Novais,
+134956,,Domingos Rebelo,
+161486,,Domingos Ribeiro,
+163729,,Duarte,
+207277,,Duarte Antunes Pacheco,
+137034,,Duarte Rebelo dos Reis,
+217566,,Duarte de Santo Agostinho,
+133500,,Eduardo Augusto Vasques Cardoso,
+257167,,Eduardo Martins Fonseca,
+205036,,Estevão Couceiro,
+194592,,Estevão José,
+286081,,Estevão da Silveira Mendes,
+154565,,Eugénio Ferreira da Silva Carvalho,
+177190,,Fabião de Gamboa,
+168899,,Fausto Augusto Soares Neto,
+161657,,Felix Gomes Ribeiro,
+161655,,Felix Ribeiro,
+217848,,Felix de São Bento,
+242617,,Fernando  Lopes,
+132986,,Fernando Danta,
+213377,,Fernando Nunes Garcia Mendes de Abreu,
+286353,,Fernando de Castro e Menezes,
+240954,,Fernão Mergulhão,
+140713,,Fernão de Abreu,
+135062,,Filipe Rebelo,
+248634,,Filipe Tomás de Miranda,
+170821,,Francisco  Robalo,
+170824,,Francisco  Robalo,
+143025,,Francisco Alves de Almeida,
+291346,,Francisco André Choa,
+180645,,Francisco António Gonçalves da Guerra,
+182760,,Francisco António Pereira de Magalhães,
+173435,,Francisco Augusto Leite Galvão,
+134874,,Francisco Berquó del Rio,
+132695,,Francisco Botelho de Queirós,
+128197,,Francisco Cabral,
+205223,,Francisco Caetano Couceiro Júnior,
+133658,,Francisco Cardoso,
+133832,,Francisco Cardoso,
+269969,,Francisco Carneiro Pinto de Almeida,
+152967,,Francisco Dias,
+163613,,Francisco Dourado,
+264819,,Francisco Fadiga,
+181847,,Francisco Feliz Machado,
+251998,,Francisco Fernandes,
+134273,,Francisco Ferreira Raposo,
+234735,,Francisco José Pereira,
+135139,,Francisco José Rebelo,
+173692,,Francisco José da Rocha,
+172254,,Francisco João Rocco,
+161903,,Francisco Lopes Ribeiro,
+132953,,Francisco Lopes da Quinta,
+197083,,Francisco Manuel Raposo Bicudo Correia,
+206914,,Francisco Mendes,
+161907,,Francisco Mendes Ribeiro,
+234391,,Francisco Pereira,
+135158,,Francisco Pinto Rebelo,
+135090,,Francisco Rebelo,
+226659,,Francisco Rebelo da Silva,
+226660,,Francisco Rebelo da Silva,
+161708,,Francisco Ribeiro,
+161731,,Francisco Ribeiro,
+161743,,Francisco Ribeiro,
+161781,,Francisco Ribeiro,
+297976,,Francisco Rodrigues Lameiro Pintado,
+201260,,Francisco Rodrigues dos Santos Costa,
+197471,,Francisco Tavares,
+215779,,Francisco Vicente,
+291549,,Francisco Xavier Coelho,
+132718,,Francisco Xavier Monteiro de Queirós,
+243851,,Francisco Xavier de Carvalho Almeida Pinheiro,
+173569,,Francisco da Rocha,
+173599,,Francisco da Rocha,
+173632,,Francisco da Rocha,
+173634,,Francisco da Rocha,
+226350,,Francisco da Silva,
+226378,,Francisco da Silva,
+190635,,Francisco de Castro,
+207369,,Francisco de Cristo,
+243302,,Francisco de Faria,
+133873,,Francisco de Faria Cardoso,
+168292,,Francisco de Frias,
+210324,,Francisco de Meireles Leite,
+132689,,Francisco de Queirós,
+206782,,Francisco do Vale,
+244766,,Gabriel Lopes,
+175622,,Gabriel de Oliveira,
+235071,,Galvão Pereira,
+204249,,Gaspar Lopes de Torres,
+132224,,Gaspar Martins Quaresma,
+252855,,Gaspar Monteiro,
+137121,,Gaspar Moreira dos Reis,
+135245,,Gaspar Rebelo,
+162151,,Gaspar Ribeiro,
+162271,,Gaspar Ribeiro,
+146107,,Gaspar Teixeira de Andrade,
+173770,,Gaspar da Rocha,
+173772,,Gaspar da Rocha,
+136618,,Gaspar do Rego,
+137098,,Gaspar dos Reis,
+137126,,Gil Teixeira dos Reis,
+212348,,Gomes Vaz,
+195539,,Gonçalo Luís Xavier,
+129455,,Gonçalo Pinto Caldeira,
+162427,,Gonçalo Ribeiro,
+149242,,Gonçalo de Azevedo,
+135288,,Gregório Rebelo,
+205786,,Henrique Coutinho,
+136620,,Henrique Lopes do Rego,
+252865,,Hipólito Monteiro,
+180596,,Ildefonso Tito Guedes Júnior,
+130280,,Inácio Camilo de Oliveira Campos,
+162493,,Inácio José Ribeiro,
+137850,,Inácio da Silveira Resende,
+190054,,Inácio de Castilho,
+235356,,Jacinto José Pereira,
+163183,,Jacinto Ribeiro,
+132769,,Jacinto de Queirós,
+215563,,Jaime Eugénio Ribeiro de Mendonça,
+148801,,Jaime Ferreira de Azambuja,
+171354,,Jaime Nogueiras,
+201606,,Jaime Redondo da Costa,
+278281,,Januário José Ferreira,
+174737,,Jerónimo Luís da Rocha,
+243809,,Jerónimo Manuel de Faria,
+212419,,Jerónimo Vaz,
+252889,,Jerónimo de Almeida Monteiro,
+171986,,Jerónimo de Matos,
+222703,,Jerónimo de Travassos de Sequeira,
+193126,,Joaquim Alves da Hora,
+137260,,Joaquim António de Almeida e Reis,
+223940,,Joaquim Coelho Serrão,
+194946,,Joaquim Gonçalves Junqueira,
+163899,,Joaquim José Ribeiro,
+200843,,Joaquim Pedroso de Lima e Melo,
+137268,,Joaquim Pereira Craveiro de Almeida Reis,
+241307,,Joaquim Quaresma de Moura,
+170466,,Joaquim Ribeiro Costa Nobre,
+197943,,Joaquim Tavares,
+238755,,Joaquim Vieira de Sousa,
+215841,,Joaquim de Mendonça,
+297149,,Joaquim de Sequeira,
+128297,,Jorge Cabreira,
+161621,,Jorge Dias,
+212542,,Jorge Saco,
+238758,,Jorge de Sousa,
+227676,,José Alberto Marques da Silva,
+172613,,José António Luís Galo,
+197596,,José António Marques Correia,
+133285,,José António Palmeiro Rabisco,
+210195,,José Augusto Simões da Cunha,
+173283,,José Augusto de Medeiros,
+163526,,José Augusto de Sousa Dores,
+149988,,José Batista,
+131977,,José Caetano de Quadros,
+164749,,José Car Ribeiro,
+137334,,José Cardoso dos Reis,
+239412,,José Coelho de Sousa,
+233406,,José Colaço Alves Sobral,
+198376,,José Correia Júnior,
+202520,,José Correia da Costa,
+161644,,José Dias,
+189057,,José Dias Henriques,
+137336,,José Duarte dos Reis,
+212586,,José Emílio Nunes Vaz,
+137337,,José Feliciano da Costa Reis,
+186328,,José Ferreira da Rocha,
+164851,,José Francisco Ribeiro,
+242563,,José Francisco de Faria Pimentel,
+285250,,José Joaquim Lopes Martins,
+292338,,José Joaquim de Gouveia Osório,
+234084,,José Lobo Soutomaior,
+217939,,José Lopes Vieira,
+135724,,José Luís Alves Rebelo,
+210268,,José Luís de Barros e Cunha,
+245903,,José Maria da Silva Porto Miguéis,
+184564,,José Marques,
+184572,,José Marques,
+204772,,José Mendes da Costa Júnior,
+244086,,José Pedro Celestino Henriques Pereira Metela,
+171905,,José Pedro Nolasco,
+228280,,José Pereira da Silva,
+248467,,José Pinto Tavares Ferrão,
+223706,,José Pinto de Figueiredo Serra,
+132288,,José Quaresma,
+133858,,José Ramos,
+135639,,José Rebelo,
+251832,,José Ribeiro Lopes,
+208327,,José Rodrigues da Cruz,
+178015,,José Simões Godinho,
+223822,,José Simões Serrano,
+202700,,José Simões da Costa,
+132331,,José Soares Quaresma,
+132766,,José Teixeira Rebelo de Queirós,
+220619,,José da Cruz dos Santos Viegas,
+202526,,José da Cruz e Costa,
+164838,,José da Fonseca Ribeiro,
+131849,,José da Guerra Quadrado,
+173936,,José da Silva de Meireles,
+143567,,José de Almeida,
+130499,,José de Campos,
+164766,,José de Castro Ribeiro,
+176060,,José de Matos e Oliveira,
+199738,,José de Paiva de Melo,
+183863,,José de Sequeira Teixeira Manso,
+287071,,José de Sousa Monteiro,
+294955,,José de Sá,
+197683,,José de Torres Correia,
+165184,,José de Vasconcelos Freire,
+170061,,José do Rio,
+155642,,João Alves Brandão de Carvalho,
+161545,,João Antunes Dias,
+137864,,João António Pinto de Resende,
+179490,,João António da Rocha,
+198885,,João Avelino Cortezão,
+221977,,João Batista de Seixas,
+236886,,João Bernardo de Menezes,
+250739,,João Caetano Moniz,
+250724,,João Caetano Vieira Moniz,
+197269,,João Correia,
+155745,,João Correia de Carvalho,
+133831,,João Crisóstomo de Lacerda Ramos,
+167157,,João Esteves,
+134148,,João Filipe de Sampaio Rangel,
+240367,,João Joaquim Pessoa,
+248867,,João Lopes,
+249438,,João Lopes,
+155878,,João Lopes de Carvalho,
+131354,,João Marcos de Abreu Camelo,
+163772,,João Marques Ribeiro,
+170605,,João Marrecos Roas,
+137243,,João Matias Caldeira dos Reis,
+245500,,João Mendes de Mexia,
+170038,,João Negrão Arnaut de Rino,
+155953,,João Nogueira de Carvalho,
+132737,,João Nogueira de Queirós,
+180670,,João Norberto Gonçalves Guerra,
+135558,,João Nunes Rebelo,
+317699,,João Nunes Velho,
+132257,,João Pedro Quaresma,
+227324,,João Pereira da Silva,
+137249,,João Pereira dos Reis,
+132240,,João Quaresma,
+132235,,João Quaresma,
+134140,,João Rangel,
+135449,,João Rebelo,
+135409,,João Rebelo,
+135407,,João Rebelo,
+163290,,João Ribeiro,
+163543,,João Ribeiro,
+163560,,João Ribeiro,
+241230,,João Rodrigues Moura,
+202186,,João Simões da Costa,
+196414,,João Sinal de Cordes,
+226974,,João da Silva,
+227050,,João da Silva,
+291147,,João da Silva Catarro,
+200786,,João de Andrade Teixeira,
+161546,,João de Araújo Dias,
+179493,,João de Araújo Gomes Rocha,
+136664,,João de Faria Rego,
+200598,,João de Freitas e Melo,
+163788,,João de Mendonça Ribeiro,
+241015,,João de Moura,
+137857,,João de Resende,
+180812,,João de Sousa Guerreiro,
+242907,,João de Soutomaior,
+218873,,João de São Pedro,
+137190,,João dos Reis,
+137185,,João dos Reis,
+164297,,João dos Santos Duarte,
+144495,,João Álvares,
+202734,,Júlio José Fernandes Costa,
+220063,,Leandro dos Santos,
+215737,,Leonardo,
+131851,,Leonardo José Quadrado,
+253202,,Leonardo Monteiro,
+218084,,Leonardo São Bernardo,
+194272,,Lino Martins Coelho,
+132960,,Lopo do Quintal,
+210340,,Lourenço da Cunha,
+288926,,Luís Alves de Carvalho,
+210431,,Luís Bernardo da Cunha,
+285955,,Luís Correia de Melo,
+165304,,Luís Freire,
+195178,,Luís Galvão Xaras,
+179604,,Luís Gonçalves,
+133520,,Luís José Ramalho,
+211161,,Luís Leite,
+132906,,Luís Lopes do Quental,
+136856,,Luís Reinoso,
+247971,,Luís Simão Pinto,
+132822,,Luís Tavares Cardona,
+141056,,Luís Vilela de Vasconcelos Abreu,
+247927,,Luís da Costa Pinto,
+230720,,Luís da Silveira,
+191196,,Luís de Castro,
+278690,,Luís de Melo Pita Osório Ferreira,
+241737,,Luís de Sousa Falcão,
+186968,,Luís do Quintal Botelho,
+137392,,Luís dos Reis,
+183918,,Manuel,
+183919,,Manuel,
+167026,,Manuel  Fernandes Ribeiro,
+167028,,Manuel  Fernandes Ribeiro,
+167043,,Manuel  Francisco Ribeiro,
+168504,,Manuel  Simões Ribeiro,
+168533,,Manuel  de Sousa Ribeiro,
+141403,,Manuel Afonso,
+200204,,Manuel Afonso de Melo,
+208490,,Manuel Alves da Cruz,
+135945,,Manuel Antunes Rebelo,
+130452,,Manuel António Dias,
+159133,,Manuel Augusto Pessoa da Silva e Fonseca,
+166470,,Manuel Batista Ribeiro,
+158004,,Manuel Bernardo de Carvalho,
+188156,,Manuel Brás,
+206281,,Manuel Cabral de Moura Coutinho,
+135878,,Manuel Cardoso,
+135883,,Manuel Cardoso,
+135884,,Manuel Cardoso,
+135960,,Manuel Cardoso,
+200499,,Manuel Carneiro de Melo,
+157713,,Manuel Carvalho,
+192128,,Manuel Cerqueira,
+166479,,Manuel Coelho Ribeiro,
+195146,,Manuel Coimbra,
+170057,,Manuel Correia Dias das Neves,
+166980,,Manuel Dias Ribeiro,
+191760,,Manuel Ferreira Cavaleiro,
+240514,,Manuel Ferreira Pessoa,
+229171,,Manuel Ferreira da Silva,
+130570,,Manuel Francisco Duarte Ferreira,
+132437,,Manuel Francisco Quaresma,
+141102,,Manuel Frois de Abreu,
+178882,,Manuel Gomes,
+178906,,Manuel Gomes,
+167056,,Manuel Gomes Ribeiro,
+169947,,Manuel Gomes Riço,
+244822,,Manuel Gomes de Faria,
+137520,,Manuel Gomes dos Reis,
+179624,,Manuel Gonçalves,
+179702,,Manuel Gonçalves,
+133084,,Manuel Gonçalves Quinteiro,
+134397,,Manuel Gonçalves Rasquinho,
+158156,,Manuel Guerreiro de Carvalho,
+189506,,Manuel Henriques da Rocha,
+193754,,Manuel Jorge,
+133963,,Manuel Jorge Ramos,
+279410,,Manuel José,
+165581,,Manuel José Erse,
+133970,,Manuel José Pereira Ramos,
+208575,,Manuel José Varela,
+130602,,Manuel José de Almeida,
+130461,,Manuel José de Almeida Ferreira,
+133976,,Manuel Lopes Ramos,
+168019,,Manuel Lopes Ribeiro,
+203692,,Manuel Lopes da Costa,
+169284,,Manuel Maria Frota,
+184684,,Manuel Marques,
+168022,,Manuel Marques Ribeiro,
+234640,,Manuel Martins Lobo,
+168284,,Manuel Nunes Ribeiro,
+173833,,Manuel Nunes da Costa,
+316303,,Manuel Nunes dos Reis,
+293722,,Manuel Pedro da Costa,
+237604,,Manuel Pereira,
+136108,,Manuel Pinto Rebelo,
+132844,,Manuel Pinto de Queirós,
+198698,,Manuel Pio de Oliveira Corte Real,
+135895,,Manuel Rebelo,
+135893,,Manuel Rebelo,
+135891,,Manuel Rebelo,
+135890,,Manuel Rebelo,
+135882,,Manuel Rebelo,
+135875,,Manuel Rebelo,
+135864,,Manuel Rebelo,
+135836,,Manuel Rebelo,
+166347,,Manuel Ribeiro,
+166374,,Manuel Ribeiro,
+222577,,Manuel Rodrigues Paixão,
+134350,,Manuel Rodrigues Raposo,
+137573,,Manuel Rodrigues dos Reis,
+232752,,Manuel Soares,
+212760,,Manuel Vaz,
+242769,,Manuel Veloso Pimentel,
+203048,,Manuel da Costa,
+205883,,Manuel da Costa Lemos e Tunes,
+135957,,Manuel da Costa Rebelo,
+255763,,Manuel da Cruz Aguiar,
+294795,,Manuel da Cunha,
+129581,,Manuel da Silva Caldeira,
+173956,,Manuel da Silva Meireles,
+143780,,Manuel de Almeida,
+166469,,Manuel de Araújo Ribeiro,
+149527,,Manuel de Azevedo,
+187864,,Manuel de Brito Brandão,
+157711,,Manuel de Carvalho,
+200501,,Manuel de Carvalho e Melo,
+170092,,Manuel de Castro do Rio,
+244606,,Manuel de Faria,
+132841,,Manuel de Loureiro e Queirós,
+200134,,Manuel de Melo,
+200138,,Manuel de Melo,
+200176,,Manuel de Melo,
+200192,,Manuel de Melo,
+137537,,Manuel de Melo Reis,
+136107,,Manuel de Pinho Rebelo,
+217228,,Manuel de Santa Teresa,
+295824,,Manuel de São Tiago,
+132982,,Manuel do Quintal,
+137496,,Manuel dos Reis,
+137486,,Manuel dos Reis,
+137467,,Manuel dos Reis,
+170230,,Manuel dos Rios,
+220163,,Manuel dos Santos,
+144608,,Manuel Álvares,
+166385,,Manuel Álvares Ribeiro,
+243657,,Martins  da Costa e Mesquita,
+185523,,Mateus Bernardes,
+216804,,Matias da Circuncisão de Santa Cruz,
+173082,,Mauro,
+247379,,Miguel Fernandes,
+136148,,Miguel Ferreira Rebelo,
+311093,,Miguel Pedro Soares,
+138408,,Miguel da Anunciação do Carmo,
+241688,,Miguel de Sousa,
+228886,,Mário de Oliveira Garcia da Rosa,
+138410,,Nicolau do Carmo,
+137614,,Pantaleão da Silva Reis,
+133999,,Pascoal de Ramos,
+234489,,Paulo José Correia de Mendonça,
+136169,,Paulo Rebelo,
+224051,,Paulo Rodrigues Pires Sertainho,
+168843,,Paulo Rodrigues Ribeiro,
+217938,,Paulo de São Bento,
+136186,,Pedro António Pereira Rebelo,
+162374,,Pedro Dias,
+229899,,Pedro Elias da Silva,
+134550,,Pedro Fernandes Delgado,
+141632,,Pedro Ferreira de Aguiar,
+162940,,Pedro Francisco,
+163072,,Pedro Francisco,
+179068,,Pedro Gomes,
+168944,,Pedro Henriques Ribeiro,
+173666,,Pedro Nunes,
+220921,,Pedro Rodrigues,
+160999,,Pedro Velho Fragoso,
+249510,,Pedro de Miranda,
+242112,,Pedro de Sousa,
+230839,,Pedro Álvares da Silveira,
+234777,,Pompeu Moreira,
+214662,,Rafael Gaspar de Lemos,
+218108,,Remígio de São Bernardo,
+180339,,Ricardo da Graça,
+137628,,Roberto Ribeiro Reis,
+192954,,Rodrigo Homem,
+148254,,Roque de Araújo,
+247639,,Rui Fernandes,
+136888,,Rui Lourenço Reinoso,
+189780,,Salvador da Rocha,
+147256,,Sebastião Antunes,
+134551,,Sebastião Delgado,
+134357,,Sebastião Dias Raposo,
+169069,,Sebastião José Ribeiro,
+170979,,Sebastião Maria de Nobrega Júnior,
+169051,,Sebastião Ribeiro,
+204424,,Serafim Francisco Alves da Costa,
+218435,,Simão Afonso de São João Batista,
+149148,,Simão Borges de Távora Azevedo,
+148267,,Simão Martins de Araújo,
+169108,,Simão Ribeiro,
+169114,,Simão Ribeiro,
+172176,,Simão Robalo,
+177162,,Simão da Gama,
+219954,,Simão da Visitação,
+169154,,Teodósio Ribeiro,
+216822,,Teotónio de Santa Cruz,
+195743,,Tomás de Xerez,
+136269,,Tomé Rebelo,
+137643,,Tomé dos Reis,
+132089,,Vasco Miguel de Quadros,
+134216,,Veríssimo Rodrigues Rangel,
+242407,,Vicente José de Sousa,
+172218,,Vicente Lopesl Robalo,
+136753,,Vicente Luís do Rego,
+247901,,Victor da Silva Feitor,
+150393,,Virgílio Pereira Barreto Barbosa,
+244750,,Virgílio da Silva Pinheiro,
+248773,,Álvaro Pires,

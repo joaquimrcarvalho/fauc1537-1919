@@ -25,7 +25,7 @@ from timelink.kleio.groups import KElement, KPerson, KSource, KAct
 from ucalumni import config
 from ucalumni.config import Session
 from ucalumni.fields import break_lines_with_repetitions, process_bioreg, process_field
-from ucalumni.groups import atr, fonte, lista, n, kleio
+from ucalumni.groups import atr, fonte, lista, n, kleio, aluno_end
 from ucalumni.grammar import BIOLINE, preserve_original, DateUtility, scan_date
 from ucalumni.aluno import Aluno
 from ucalumni import extractors  # noqa this is necessary to map the extractors
@@ -411,6 +411,7 @@ def row_to_n(row, atrs=False, direct_import=False) -> n:
         for a, v in row.items():
             if v > " " and a not in exclude_from_atrs:
                 p.include(atr("xauc-" + a, v))
+
     return p
 
 
@@ -602,6 +603,8 @@ def import_auc_alumni(
                         mae.rel("function-in-act", "mae", "", l.id, "")
 
                 l.include(aluno)
+                l.include(aluno_end())
+
 
                 ncount = ncount + 1
                 if ncount > batch:

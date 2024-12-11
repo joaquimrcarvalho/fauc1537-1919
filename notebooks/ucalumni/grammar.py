@@ -1,3 +1,4 @@
+# flake8: noqa: E501
 """
 (c) Joaquim Carvalho 2021.
 MIT License, no warranties.
@@ -232,7 +233,12 @@ DATE4 = (
     + pp.Optional("de")
     + YYYY("year*")
 ).setResultsName("noday-nomonth")
-DATE = DATE1 | DATE2 | DATE3 | DATE4
+
+# incomplete
+
+DATE5 = (YYYY("year*") + pp.Optional(DSEP) + MONTH_OPTIONAL("month*")) + pp.Optional(DSEP) + DAY_OPTIONAL("day*")
+DATE6 = (YYYY("year*")) + DSEP + MONTH_OPTIONAL("month*")
+DATE = DATE1 | DATE2 | DATE3 | DATE4 | DATE5 | DATE6
 
 # Date range
 DATE_RANGE1 = DATE("date1") + "até" + DATE("date2")
@@ -241,8 +247,7 @@ DATE_RANGE3 = pp.CaselessLiteral("desde") + DATE + "até" + DATE
 
 DATE_RANGE = DATE_RANGE1 | DATE_RANGE2 | DATE_RANGE3
 
-DATELINE = (DATE_RANGE("date_range") | DATE) + pp.SkipTo(pp.StringEnd()).setResultsName(
-    "obs"
+DATELINE = (DATE_RANGE("date_range") | DATE) + pp.SkipTo(pp.StringEnd()).setResultsName("obs"
 )
 
 # BLANK
@@ -304,7 +309,7 @@ class DateUtility:
     :param original: string that was parsed (can have more than one date)
     :param original_date: the date part of the original string
     :param value: date in kleio format: YYYY-MM-DD or range DATE1:DATE2
-    :param short: date in compact format, no separators YYYYMMDD or range with ":"
+    :param short: date in compact format, YYYYMMDD or range with ":"
     """
 
     def __init__(self, d: Type[Union[str, pp.ParseResults]], start=0, end=-1):
@@ -344,20 +349,36 @@ class DateUtility:
         else:
             raise TypeError("Argument of wrong type (str or ParseResults)")
 
+    def date_to_ymd(self, d, index=1):
+        """Return the date as a named tuple YMD"""
+        if "year" in d.keys() and len(d.year) >= index:
+            year=d.year[index-1]
+        else:
+            year = "0000"
+        if "month" in d.keys() and len(d.month) >= index:
+            month=d.month[index-1]
+        else:
+            month = "00"
+        if "day" in d.keys() and len(d.day) >= index:
+            day=d.day[index-1]
+        else:
+            day = "00"
+        return YMD(year, month, day)
+
     def from_scan_results(self, d, start=0, end=-1):
         """d is the result of DATELINE.scanString(S)[n]"""
         self.start = start
         self.end = end
-        if "date_range" in d.keys():
+        if "date_range" in d.keys():  # TODO: allow for rang of incomplete dates
             self.scan_results = d
             self.is_range = True
-            self.date1 = YMD(d.year[0], d.month[0], d.day[0])
-            self.date2 = YMD(d.year[1], d.month[1], d.day[1])
+            self.date1 = self.date_to_ymd(d,1)
+            self.date2 = self.date_to_ymd(d,2)
             self.date = self.date1 + self.date2
         else:
             self.scan_results = d
             self.is_range = False
-            self.date = YMD(d.year[0], d.month[0], d.day[0])
+            self.date = self.date_to_ymd(d)
             # print(f'{self.scan_results.dump()=}')
 
         self.original = d.get("original", " ".join(d)).strip()
