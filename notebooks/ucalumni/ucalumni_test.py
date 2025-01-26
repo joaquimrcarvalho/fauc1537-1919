@@ -15,7 +15,9 @@ import pytest
 import pyparsing as pp
 
 from timelink.api.models import base  # noqa
-from timelink.api.models.base import Source, Person, Act, Attribute, Relation
+from timelink.api.models.base import Source, Person, Attribute, Relation
+from timelink.api.models.act import Act
+
 from timelink.api.database import TimelinkDatabase
 
 import ucalumni.config as config
