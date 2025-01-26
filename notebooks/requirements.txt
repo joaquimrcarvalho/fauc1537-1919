@@ -1,8 +1,8 @@
 attrdict>=2.0.1
 click
 ipython-sql
-ipywidgets,
-jinja2,
+ipywidgets
+jinja2
 jsonrpcclient
 markdownTable
 matplotlib
